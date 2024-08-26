@@ -33,6 +33,7 @@ jobs:
         run: landscape2 validate games --games-file ./games.yml
 
   build:
+    environment: github-pages
     needs: validate
     runs-on:
       labels: ubuntu-latest
