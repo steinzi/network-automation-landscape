@@ -1,3 +1,5 @@
+# Documentation for this file can be found at:
+# https://raw.githubusercontent.com/cncf/landscape2/main/docs/config/settings.yml
 # Landscape2 settings
 #
 # This settings file allows customizing some aspects of the landscape.
@@ -20,7 +22,7 @@ colors:
   color7: "rgba(180, 219, 255, 1)"
 
 featured_items:
-  - field: project
+  - field: maturity
     options:
       - value: free-as-in-beer
         order: 1
@@ -46,7 +48,8 @@ footer:
     # wechat: "https://www.cncf.io/wechat/"
     # youtube: "https://www.youtube.com/c/cloudnativefdn"
   logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/white/cncf-white.svg"
-
+  text: |
+      Copyright © 2024 STEINZI. Some rights reserved...
 grid_items_size: large
 
 groups:

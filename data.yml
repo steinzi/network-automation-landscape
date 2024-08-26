@@ -10,7 +10,7 @@ categories:
       - name: Network Source of Truth
         items:
           - name: Netbox
-            project: community-version
+            maturity: community-version
             crunchbase: https://www.crunchbase.com/organization/netbox-labs
             description: NetBox is the leading solution for modeling and documenting modern networks.
             homepage_url: https://netboxlabs.com
@@ -34,7 +34,7 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/ip-fabric
             description: IP Fabric is a network infrastructure visibility and analytics solution helping enterprise network&security teams deliver network assurance and automation.
             homepage_url: https://ipfabric.io
-            project: pay-2-play
+            maturity: pay-2-play
             logo: ipfabric.svg
             twitter: https://x.com/IPFabric
             extra:
@@ -47,7 +47,7 @@ categories:
             description: Slurp’it is a powerful and easy-to-use network discovery solution that offers 100% accurate network inventory. No coding required.
             homepage_url: https://slurpit.io
             logo: slurpit.png
-            project: pay-2-play
+            maturity: pay-2-play
             extra:
               summary_integration: "Netbox"
               summary_use_case: "discovery and inventory with a focus on ease of use and accuracy. No coding required."
@@ -57,7 +57,7 @@ categories:
           - name: Netpicker
             description: Test the design, security and compliance of your network, A Python-based testing platform for your network
             homepage_url: https://netpicker.io
-            project: pay-2-play
+            maturity: pay-2-play
             logo: netpicker.png
             twitter: https://x.com/IPFabric
             extra:

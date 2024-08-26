@@ -1,3 +1,4 @@
 dev.env.sh
 build/
 .DS_Store
+.vscode/
