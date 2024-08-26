@@ -6,7 +6,7 @@
 
 foundation: STEINZI-APROVED
 
-url: http://127.0.0.1:8000
+url: https://steinzi.com/network-automation-landscape/
 
 base_path: /network-automation-landscape/
 
@@ -34,17 +34,17 @@ featured_items:
 
 footer:
   links:
-    facebook: "https://www.facebook.com/CloudNativeComputingFoundation/"
-    flickr: "https://www.flickr.com/photos/143247548@N03/albums"
-    github: "https://github.com/cncf"
-    homepage: "https://cncf.io"
-    instagram: "https://www.instagram.com/humans.of.cloudnative/"
-    linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation/"
-    slack: "https://slack.cncf.io/"
-    twitch: "https://www.twitch.tv/cloudnativefdn"
-    twitter: "https://twitter.com/cloudnativefdn"
-    wechat: "https://www.cncf.io/wechat/"
-    youtube: "https://www.youtube.com/c/cloudnativefdn"
+    # facebook: "https://www.facebook.com/CloudNativeComputingFoundation/"
+    # flickr: "https://www.flickr.com/photos/143247548@N03/albums"
+    github: "https://github.com/steinzi/network-automation-landscape/"
+    # homepage: "https://cncf.io"
+    # instagram: "https://www.instagram.com/humans.of.cloudnative/"
+    # linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation/"
+    # slack: "https://slack.cncf.io/"
+    # twitch: "https://www.twitch.tv/cloudnativefdn"
+    # twitter: "https://twitter.com/cloudnativefdn"
+    # wechat: "https://www.cncf.io/wechat/"
+    # youtube: "https://www.youtube.com/c/cloudnativefdn"
   logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/white/cncf-white.svg"
 
 grid_items_size: large
@@ -62,7 +62,8 @@ groups:
 
 header:
   links:
-    github: "https://github.com/cncf/landscape2"
+    github: "https://github.com/steinzi/network-automation-landscape/"
+  # TODO: put the logo in the logos folder or something.
   logo: "https://i.imgur.com/hdtER40.png"
 
 screenshot_width: 1500
