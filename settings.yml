@@ -8,6 +8,8 @@ foundation: STEINZI-APROVED
 
 url: http://127.0.0.1:8000
 
+base_path: /network-automation-landscape/
+
 colors:
   color1: "rgba(0, 107, 204, 1)"
   color2: "rgba(255, 0, 170, 1)"
