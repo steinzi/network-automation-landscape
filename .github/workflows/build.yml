@@ -56,7 +56,8 @@ jobs:
             --logos-path ./logos \
             --output-dir /tmp/landscape
         env:
-          GITHUB_TOKENS: ${{ secrets.SHHHH_GH_TOKENS }}
+        # Required by landscape to the build using github data, and I can't have env vars that start with GITHUB_....
+          GITHUB_TOKENS: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit built landscape to build branch
         run: |
