@@ -54,6 +54,8 @@ jobs:
             --data-file ./data.yml \
             --logos-path ./logos \
             --output-dir /tmp/landscape
+        env:
+          GITHUB_TOKENS: ${{ secrets.SHHHH_GH_TOKENS }}
 
       - name: Commit built landscape to build branch
         run: |
