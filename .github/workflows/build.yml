@@ -1,0 +1,46 @@
+name: Build
+# Based on https://github.com/tegioz/sample-landscape/blob/main/.github/workflows/build.yml
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on:
+      labels: ubuntu-latest
+    container:
+      image: public.ecr.aws/g6m3a0y9/landscape2
+      options: --user root
+    steps:
+      - name: Install git
+        run: apk add git
+
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Build landscape
+        run: |
+          landscape2 build \
+            --settings-file ./settings.yml \
+            --guide-file ./guide.yml \
+            --data-file ./data.yml \
+            --logos-path ./logos \
+            --output-dir /tmp/landscape
+
+      - name: Commit built landscape to build branch
+        run: |
+          git config --global safe.directory `pwd`
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "no-reply@sample-domain.io"
+          git fetch origin build:build
+          git checkout build
+          git branch --set-upstream-to=origin/build build
+          git pull
+          rm -rf *
+          cp -R /tmp/landscape/* .
+          cp index.html 404.html
+          git add .
+          git commit -m "Build landscape"
+          git push origin build

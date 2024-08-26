@@ -1,0 +1,122 @@
+# Landscape2 data
+#
+# This file contains the data that will be used to generate the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
+
+categories:
+  - name: Network state
+    subcategories:
+      - name: Network Source of Truth
+        items:
+          - name: Netbox
+            project: community-version
+            crunchbase: https://www.crunchbase.com/organization/netbox-labs
+            description: NetBox is the leading solution for modeling and documenting modern networks.
+            homepage_url: https://netboxlabs.com
+            logo: netbox_logo.svg
+            repo_url: https://github.com/netbox-community/netbox
+            twitter: https://twitter.com/NetBoxOfficial
+            extra:
+              slack_url: https://netdev.chat
+              summary_intro_url: https://youtu.be/jr9Pxx0NkTc
+              summary_integration: "IP Fabric, Slurpit"
+              youtube_url: https://www.youtube.com/channel/UCs5FgE5p03tP-8InKVIojdw
+              documentation_url: https://netboxlabs.com/docs/netbox/en/stable/
+              tag: nsot
+              summary_tags: "ipam, dcim, nsot, database"
+              blog_url: https://netboxlabs.com/blog/
+              docker_url: https://hub.docker.com/r/netboxcommunity/netbox/
+              summary_business_use_case: "Provides centralized network intended state and documentation as well as IPAM and DCIM and scripting functionality."
+      - name: Network Discovery
+        items:
+          - name: IP Fabric
+            crunchbase: https://www.crunchbase.com/organization/ip-fabric
+            description: IP Fabric is a network infrastructure visibility and analytics solution helping enterprise network&security teams deliver network assurance and automation.
+            homepage_url: https://ipfabric.io
+            project: pay-2-play
+            logo: ipfabric.svg
+            twitter: https://x.com/IPFabric
+            extra:
+              summary_use_case: "Discovery and modeling and assurance of network infrastructure with multivendor support allowing you to view the high level network design and drill down to the device or technology level."
+              summary_integration: "Netbox"
+              summary_business_use_case: "Visibility for brownfield network assurance by discovering and modeling the network infrastructure by collecting data from the devices using credentials and APIs."
+              summary_tags: "network assurance, network visibility, network analytics, network discovery, network modeling"
+          - name: Slurpit
+            crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
+            description: Slurp’it is a powerful and easy-to-use network discovery solution that offers 100% accurate network inventory. No coding required.
+            homepage_url: https://slurpit.io
+            logo: slurpit.png
+            project: pay-2-play
+            extra:
+              summary_integration: "Netbox"
+              summary_use_case: "discovery and inventory with a focus on ease of use and accuracy. No coding required."
+              summary_business_use_case: "[10 free licence shenanigans] Provides a network inventory and discovery solution that is easy to use and accurate."
+      - name: Testing & Compliance
+        items:
+          - name: Netpicker
+            description: Test the design, security and compliance of your network, A Python-based testing platform for your network
+            homepage_url: https://netpicker.io
+            project: pay-2-play
+            logo: netpicker.png
+            twitter: https://x.com/IPFabric
+            extra:
+              summary_tags: "network testing, device_backup, change-validation, compliance, configuration security"
+              summary_use_case: "[free 10 device Shenanigans licence] Network configuration testing,Configuration backups and compliance with a hardening config and security angle. Needs 3rd party discovery tool or manual add devices"
+              summary_integration: "Netbox, Slurpit"
+  - name: Telemetry and observability
+    subcategories:
+      - name: Monitoring & Alerting
+        items:
+          - name: Icinga
+            description: Monitoring system which checks the availability of your network resources, notifies users of outages, and generates performance data for reporting.
+            homepage_url: https://icinga.com
+            logo: icinga.png
+            repo_url: https://github.com/Icinga/icinga2
+          - name: LibreNMS
+            description: A fully featured network monitoring system that provides a wealth of features and device support.
+            homepage_url: https://www.librenms.org
+            logo: librenms.png
+            repo_url: https://github.com/librenms/librenms
+          - name: Zabbix
+            description: The all-in-one, open-source solution that lets you monitor anything
+            homepage_url: https://www.zabbix.com
+            logo: zabbix.png
+            repo_url: https://github.com/zabbix/zabbix
+  - name: Virtualization
+    subcategories:
+      - name: Network virtualization platforms
+        items:
+          - name: eve-ng
+            description: EVE-NG is a network emulator that supports virtualized network environments.
+            homepage_url: https://www.eve-ng.net
+            logo: eve-ng.png
+          - name: GNS3
+            description: GNS3 is a network software emulator that allows the combination of virtual and real devices.
+            homepage_url: https://www.gns3.com
+            repo_url: https://github.com/GNS3/gns3-gui
+            logo: gns3.png
+          - name: Containerlab
+            description: Nokia Containerlab is a container-based network emulation tool that allows you to define and deploy complex network topologies.
+            homepage_url: https://containerlab.srlinux.dev
+            repo_url: https://github.com/srl-labs/containerlab
+            logo: containerlab.png
+          - name: Cisco Modeling Labs
+            description: Cisco Modeling Labs is a network simulation platform that allows you to design, build, and test network topologies.
+            homepage_url: https://www.cisco.com/c/en/us/products/cloud-systems-management/modeling-labs/index.html
+            logo: cisco-modeling-labs.png
+  - name: Automation Tooling
+    subcategories:
+      - name: Continuous configuration automation (CCA)
+        items:
+          - name: Ansible
+            description: Ansible is a simple, agentless IT automation platform that makes your applications and systems easier to deploy.
+            homepage_url: https://www.ansible.com
+            logo: ansible.png
+            repo_url: https://github.com/ansible/ansible
+          - name: Terraform
+            description: Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services.
+            homepage_url: https://www.terraform.io
+            logo: terraform.png
+            repo_url: https://github.com/hashicorp/terraform
+

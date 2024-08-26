@@ -1,0 +1,66 @@
+# Landscape2 settings
+#
+# This settings file allows customizing some aspects of the landscape.
+#
+# Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/settings.yml
+
+foundation: STEINZI-APROVED
+
+url: http://127.0.0.1:8000
+
+colors:
+  color1: "rgba(0, 107, 204, 1)"
+  color2: "rgba(255, 0, 170, 1)"
+  color3: "rgba(96, 149, 214, 1)"
+  color4: "rgba(0, 42, 81, 0.7)"
+  color5: "rgba(1, 107, 204, 0.7)"
+  color6: "rgba(0, 42, 81, 0.7)"
+  color7: "rgba(180, 219, 255, 1)"
+
+featured_items:
+  - field: project
+    options:
+      - value: free-as-in-beer
+        order: 1
+        label: free-as-in-beer
+      - value: community-version
+        order: 2
+        label: community-version
+      - value: pay-2-play
+        order: 3
+        label: pay-2-play
+
+footer:
+  links:
+    facebook: "https://www.facebook.com/CloudNativeComputingFoundation/"
+    flickr: "https://www.flickr.com/photos/143247548@N03/albums"
+    github: "https://github.com/cncf"
+    homepage: "https://cncf.io"
+    instagram: "https://www.instagram.com/humans.of.cloudnative/"
+    linkedin: "https://www.linkedin.com/company/cloud-native-computing-foundation/"
+    slack: "https://slack.cncf.io/"
+    twitch: "https://www.twitch.tv/cloudnativefdn"
+    twitter: "https://twitter.com/cloudnativefdn"
+    wechat: "https://www.cncf.io/wechat/"
+    youtube: "https://www.youtube.com/c/cloudnativefdn"
+  logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/white/cncf-white.svg"
+
+grid_items_size: large
+
+groups:
+  - name: Projects and products
+    categories:
+      - Network state
+      - Telemetry and observability
+      - Automation Tooling
+      - Virtualization
+  - name: Cloud Only
+    categories:
+      - Telemetry and observability
+
+header:
+  links:
+    github: "https://github.com/cncf/landscape2"
+  logo: "https://i.imgur.com/hdtER40.png"
+
+screenshot_width: 1500
