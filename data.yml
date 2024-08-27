@@ -132,6 +132,40 @@ categories:
               summary_tags: "network analysis, configuration validation, security policy checking, troubleshooting"
               summary_business_use_case: "Reduces network outages and security vulnerabilities by catching misconfigurations before deployment"
               summary_integration: "Ansible, Terraform, CI/CD pipelines"
+  
+          - name: anta
+            project: full-open-source
+            description: Arista Network Test Automation (ANTA) Framework is a Python framework that automates tests for Arista devices.
+            homepage_url: https://anta.arista.com/stable/
+            logo: anta.png
+            repo_url: https://github.com/aristanetworks/anta
+
+          - name: Ondatra
+            project: full-open-source
+            description: "Ondatra (Open Network Device Automated Test Runner and API) is a framework for writing and running tests against both real and containerized network devices."
+            homepage_url: https://github.com/openconfig/ondatra
+            logo: ondatra.png
+            repo_url: https://github.com/openconfig/ondatra
+            extra:
+              key_features: "GoLang Framework, OpenConfig"
+
+          - name: pyATS
+            project: freemium
+            description: "Cisco pyATS is a Network Test and Automation Solution that was developed for internal Cisco engineering use, and it is now freely available."
+            homepage_url: https://developer.cisco.com/pyats/
+            logo: pyats.png
+            repo_url: https://github.com/CiscoTestAutomation/pyats
+
+          - name: NUTS
+            project: full-open-source
+            description: "NUTS (Network Unit Testing System) is a Pytest plugin enabling network testing using YAML files."
+            homepage_url: https://nuts.readthedocs.io/
+            logo: nuts.png
+            repo_url: https://github.com/network-unit-testing-system/nuts
+            extra:
+              key_features: "PyTest Plugin, vendor-neutral"
+              integration: "PyTest"
+  
   - name: Telemetry and observability
     subcategories:
       - name: Monitoring & Alerting
@@ -440,3 +474,15 @@ categories:
             logo: itential.png
             extra:
               key_features: "Low-code automation, network workflow builder, API-first design"
+          
+          - name: StackStorm
+            project: full-open-source
+            description: StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs
+            homepage_url: https://stackstorm.com/
+            logo: stackstorm.jpg
+            repo_url: https://github.com/StackStorm/st2
+            extra:
+              key_features: "Actions, Worfklow, Trigger, Sensor, Rules"
+              use_cases: "Self-hosted workflow engine, event-driven automation"
+              integration: "160 integration packs with 6000+ actions (see https://exchange.stackstorm.org), ChatOps"
+              community: "Linux Foundation Project"
