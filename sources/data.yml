@@ -369,20 +369,22 @@ categories:
             homepage_url: https://www.cisco.com/c/en/us/products/cloud-systems-management/modeling-labs/index.html
             logo: cisco-modeling-labs.png
           - name: netlab
-            project: commercial-only
-            description: "netlab is a comprehensive network lab management solution that provides a virtual environment for designing, configuring, and testing complex network topologies."
-            homepage_url: https://www.netdevgroup.com/online/
-            logo: netlab.png
+            project: full-open-source
+            description: "netlab is a network lab builder and CLI tool that creates virtual network labs using libvirt, Docker, or Podman containers. It supports multiple virtualization providers and network operating systems."
+            homepage_url: https://netlab.tools/
+            logo: ipspace-netlab.png
+            repo_url: https://github.com/ipspace/netlab
             extra:
-              documentation_url: https://www.netdevgroup.com/online/documentation/
-              summary_use_case: "Enables educators and students to create, manage, and access virtual network labs for hands-on learning and certification preparation"
-              summary_tags: "network virtualization, lab management, education, certification training, remote access"
-              summary_business_use_case: "Enhances network education and training programs by providing a scalable, accessible virtual lab environment for practical learning experiences"
-              summary_integration: "Supports various network vendor equipment and technologies, including Cisco, Juniper, Palo Alto, and more"
-              summary_personas: "Network Educators, IT Training Institutions, Students, Certification Candidates"
-              summary_release_rate: "Regular updates with new features and device support"
-              twitter: https://twitter.com/netdevgroup
-              youtube_url: https://www.youtube.com/user/netdevgroup
+              documentation_url: https://netlab.tools/docs/
+              github_discussions_url: https://github.com/ipspace/netlab/discussions
+              summary_use_case: "Enables network engineers and developers to quickly create and manage virtual network topologies for testing, development, and learning purposes"
+              summary_tags: "network virtualization, lab automation, multi-vendor, containerization, network simulation"
+              summary_business_use_case: "Accelerates network testing and development processes by providing an easy-to-use platform for creating realistic network environments without the need for physical hardware"
+              summary_integration: "Supports various virtualization providers (libvirt, Docker, Podman) and multiple network operating systems"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Architects, Network Security Professionals"
+              summary_release_rate: "Regularly updated with new features and device support"
+              blog_url: https://blog.ipspace.net/
+              twitter: https://twitter.com/ioshints
 
   - name: Automation Tooling
     subcategories:
