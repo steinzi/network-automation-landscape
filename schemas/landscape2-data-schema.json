@@ -53,25 +53,70 @@
                           }
                         },
                         "project": {
-                          "type": "string",
-                          "description": "Maturity of the project (optional). This field is used to describe the software business model and/or license.",
-                          "enum": [
-                            "sandbox",
-                            "incubating",
-                            "graduated",
-                            "full-open-source",
-                            "oss-with-paid-support",
-                            "freemium",
-                            "commercial-with-trial",
-                            "commercial-only",
-                            "enterprise",
-                            "saas",
-                            "hybrid",
-                            "inactive",
-                            "deprecated",
-                            "end-of-life",
-                            "archived"
-                          ]
+                        "type": "string",
+                        "description": "Maturity of the project (optional). This field is used to describe the software business model and/or license.",
+                        "enum": [
+                            {
+                            "value": "sandbox",
+                            "description": "Early stage project with minimal features."
+                            },
+                            {
+                            "value": "incubating",
+                            "description": "Project under development with active contributions."
+                            },
+                            {
+                            "value": "graduated",
+                            "description": "Mature project with a stable release."
+                            },
+                            {
+                            "value": "full-open-source",
+                            "description": "Project is fully open source."
+                            },
+                            {
+                            "value": "oss-with-paid-support",
+                            "description": "Open source project with paid support options."
+                            },
+                            {
+                            "value": "freemium",
+                            "description": "Project offers both free and premium features."
+                            },
+                            {
+                            "value": "commercial-with-trial",
+                            "description": "Commercial project with a trial period."
+                            },
+                            {
+                            "value": "commercial-only",
+                            "description": "Project is only available commercially."
+                            },
+                            {
+                            "value": "enterprise",
+                            "description": "Project targeted at enterprise users."
+                            },
+                            {
+                            "value": "saas",
+                            "description": "Software as a Service model."
+                            },
+                            {
+                            "value": "hybrid",
+                            "description": "Combination of open source and commercial elements."
+                            },
+                            {
+                            "value": "inactive",
+                            "description": "Project is no longer actively maintained."
+                            },
+                            {
+                            "value": "deprecated",
+                            "description": "Project is deprecated and should not be used."
+                            },
+                            {
+                            "value": "end-of-life",
+                            "description": "Project has reached end of life and is no longer supported."
+                            },
+                            {
+                            "value": "archived",
+                            "description": "Project is archived and no longer actively developed."
+                            }
+                        ]
                         },
                         "joined": {
                           "type": "string",

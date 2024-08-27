@@ -39,6 +39,7 @@ categories:
       - name: Network Discovery
         items:
           - name: IP Fabric
+            project: enterprise
             crunchbase: https://www.crunchbase.com/organization/ip-fabric
             description: IP Fabric is a network infrastructure visibility and analytics solution helping enterprise network&security teams deliver network assurance and automation.
             homepage_url: https://ipfabric.io
@@ -51,6 +52,7 @@ categories:
               summary_business_use_case: "Visibility for brownfield network assurance by discovering and modeling the network infrastructure by collecting data from the devices using credentials and APIs."
               summary_tags: "network assurance, network visibility, network analytics, network discovery, network modeling"
           - name: Slurpit
+            project: freemium
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
             description: Slurp’it is a powerful and easy-to-use network discovery solution that offers 100% accurate network inventory. No coding required.
             homepage_url: https://slurpit.io
