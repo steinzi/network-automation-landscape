@@ -35,6 +35,7 @@ categories:
               blog_url: https://netboxlabs.com/blog/
               docker_url: https://hub.docker.com/r/netboxcommunity/netbox/
               summary_business_use_case: "Provides centralized network intended state and documentation as well as IPAM and DCIM and scripting functionality."
+
           - name: InfraHub
             project: full-open-source
             description: Infrahub from OpsMill is taking a new approach to Infrastructure Management by providing a new generation of datastore to organize and control all the data that defines how an infrastructure should run. Infrahub offers a central hub to manage the data, templates and playbooks that powers your infrastructure by combining the version control and branch management capabilities of Git with the flexible data model and UI of a graph database.
@@ -44,6 +45,7 @@ categories:
             extra:
               key_features: "Infrastructure modeling, version control, API-first design"
               summary_use_case: "Network infrastructure modeling, automation integration"
+
           - name: Nautobot
             project: full-open-source
             description: Nautobot is a Network Source of Truth and Network Automation Platform.
@@ -51,10 +53,17 @@ categories:
             logo: nautobot.png
             repo_url: https://github.com/nautobot/nautobot
             extra:
-              key_features: "Data model extensibility, Git-based version control, API-first design"
-              summary_use_case: "Network inventory management, configuration management, automation platform"
-              integration: "Integrates with various automation tools and supports custom plugins"
-              community: "Active open-source community, backed by Network to Code"
+              documentation_url: https://docs.nautobot.com/
+              github_discussions_url: https://github.com/nautobot/nautobot/discussions
+              summary_use_case: "Provides a centralized network inventory management and automation platform with extensible data models and Git-based version control"
+              summary_tags: "network inventory, configuration management, automation platform, API-first, extensible"
+              summary_business_use_case: "Improves network operations efficiency and reduces errors through centralized network management and automation"
+              summary_integration: "Integrates with various automation tools and supports custom plugins"
+              blog_url: https://blog.networktocode.com
+              summary_personas: "Network Engineers, DevOps Engineers, Network Architects"
+              summary_release_rate: "Regular releases with long-term support versions"
+              youtube_url: https://www.youtube.com/@networktocode6721
+
       - name: Network Discovery/Assurance
         items:
           - name: Forward Networks
@@ -67,6 +76,7 @@ categories:
               summary_integration: "Netbox"
               summary_business_use_case: "Network verification and troubleshooting for brownfield networks"
               summary_tags: "network assurance, network verification, network troubleshooting"
+
           - name: IP Fabric
             project: enterprise
             crunchbase: https://www.crunchbase.com/organization/ip-fabric
@@ -79,6 +89,7 @@ categories:
               summary_integration: "Netbox"
               summary_business_use_case: "Visibility for brownfield network assurance by discovering and modeling the network infrastructure by collecting data from the devices using credentials and APIs."
               summary_tags: "network assurance, network visibility, network analytics, network discovery, network modeling"
+
           - name: Slurpit
             project: freemium
             crunchbase: https://www.crunchbase.com/organization/cloud-native-computing-foundation
@@ -89,6 +100,7 @@ categories:
               summary_integration: "Netbox"
               summary_use_case: "discovery and inventory with a focus on ease of use and accuracy. No coding required."
               summary_business_use_case: "[10 free licence shenanigans] Provides a network inventory and discovery solution that is easy to use and accurate."
+
       - name: Testing, Compliance & Querying
         items:
           # TODO add the enterprise version
@@ -99,11 +111,14 @@ categories:
             logo: suzieq.png
             repo_url: https://github.com/netenglabs/suzieq
             extra:
-              key_features: "Multivendor support, agentless, API-first design, powerful query language"
-              summary_use_case: "Network state analysis, troubleshooting, change validation, intent verification"
-              integration: "Supports various network operating systems and cloud platforms"
-              community: "Growing open-source community, backed by Network to Code"
-              unique_aspects: "Combines network state analysis, testing, and querying in a single platform"
+              documentation_url: https://suzieq.readthedocs.io/en/latest/
+              summary_use_case: "Provides comprehensive network state analysis, troubleshooting, change validation, and intent verification for multivendor networks"
+              summary_tags: "network observability, multivendor, agentless, cloud-first, network state analysis"
+              summary_business_use_case: "Improves network reliability and reduces downtime by providing deep insights into network state and behavior"
+              summary_integration: "Supports various network operating systems and cloud platforms"
+              blog_url: https://www.stardustsystems.net/blog
+              summary_personas: "Network Engineers, Cloud Architects, DevOps Engineers"
+              summary_release_rate: "yearly updates"
 
           - name: Netpicker
             project: freemium
@@ -132,13 +147,21 @@ categories:
               summary_tags: "network analysis, configuration validation, security policy checking, troubleshooting"
               summary_business_use_case: "Reduces network outages and security vulnerabilities by catching misconfigurations before deployment"
               summary_integration: "Ansible, Terraform, CI/CD pipelines"
-  
+
           - name: anta
             project: full-open-source
-            description: Arista Network Test Automation (ANTA) Framework is a Python framework that automates tests for Arista devices.
+            description: "Arista Network Test Automation (ANTA) Framework is a Python framework that automates tests for Arista devices."
             homepage_url: https://anta.arista.com/stable/
             logo: anta.png
             repo_url: https://github.com/aristanetworks/anta
+            extra:
+              documentation_url: https://anta.arista.com/stable/
+              summary_use_case: "Provides a Python-based framework for automating tests on Arista network devices, enabling efficient validation of network configurations and operations"
+              summary_tags: "network automation, testing, Arista, Python, network validation"
+              summary_business_use_case: "Improves network reliability and reduces operational costs by automating the testing and validation of Arista network infrastructures"
+              summary_integration: "Integrates with Arista EOS (Extensible Operating System) and supports various testing scenarios"
+              summary_personas: "Network Engineers, DevOps Engineers, Test Engineers, Arista Network Administrators"
+              summary_release_rate: "Regularly updated with new features and improvements"
 
           - name: Ondatra
             project: full-open-source
@@ -147,14 +170,29 @@ categories:
             logo: ondatra.png
             repo_url: https://github.com/openconfig/ondatra
             extra:
-              key_features: "GoLang Framework, OpenConfig"
+              documentation_url: https://pkg.go.dev/github.com/openconfig/ondatra
+              summary_use_case: "Enables writing and running automated tests for network devices, supporting both physical and containerized environments"
+              summary_tags: "network testing, automation, GoLang, OpenConfig, containerized testing"
+              summary_business_use_case: "Improves network reliability and reduces time-to-market for network changes by facilitating comprehensive automated testing"
+              summary_integration: "Compatible with OpenConfig data models and various network device platforms"
+              summary_personas: "Network Engineers, DevOps Engineers, Test Engineers"
+              summary_release_rate: "Actively maintained and updated"
 
           - name: pyATS
-            project: freemium
+            project: full-open-source
             description: "Cisco pyATS is a Network Test and Automation Solution that was developed for internal Cisco engineering use, and it is now freely available."
             homepage_url: https://developer.cisco.com/pyats/
             logo: pyats.png
             repo_url: https://github.com/CiscoTestAutomation/pyats
+            extra:
+              documentation_url: https://developer.cisco.com/docs/pyats/
+              summary_use_case: "Provides a powerful framework for network automation, testing, and validation, originally developed for Cisco's internal use"
+              summary_tags: "network automation, testing, validation, Cisco, Python"
+              summary_business_use_case: "Accelerates network testing and validation processes, reducing time-to-market for network changes and improving overall network reliability"
+              summary_integration: "Integrates with various Cisco platforms and supports multi-vendor environments"
+              summary_personas: "Network Engineers, DevOps Engineers, Test Engineers"
+              summary_release_rate: "Regularly updated with new features and bug fixes"
+              blog_url: https://blogs.cisco.com/tag/pyats
 
           - name: NUTS
             project: full-open-source
@@ -163,9 +201,15 @@ categories:
             logo: nuts.png
             repo_url: https://github.com/network-unit-testing-system/nuts
             extra:
-              key_features: "PyTest Plugin, vendor-neutral"
-              integration: "PyTest"
-  
+              documentation_url: https://nuts.readthedocs.io/en/latest/
+              github_discussions_url: https://github.com/network-unit-testing-system/nuts/discussions
+              summary_use_case: "Simplifies network testing by allowing engineers to write tests in YAML format using a PyTest plugin"
+              summary_tags: "network testing, pytest plugin, yaml, vendor-neutral"
+              summary_business_use_case: "Improves network reliability and reduces downtime by enabling comprehensive and easy-to-write network tests"
+              summary_integration: "PyTest"
+              summary_personas: "Network Engineers, DevOps Engineers, QA Engineers"
+              summary_release_rate: "Regularly updated"
+
   - name: Telemetry and observability
     subcategories:
       - name: Monitoring & Alerting
@@ -183,6 +227,7 @@ categories:
               summary_tags: "monitoring, alerting, network, infrastructure"
               summary_business_use_case: "Ensures high availability and performance of IT infrastructure"
               docker_url: https://hub.docker.com/u/icinga
+
           - name: LibreNMS
             project: full-open-source
             description: A fully featured network monitoring system that provides a wealth of features and device support.
@@ -200,6 +245,22 @@ categories:
               blog_url: https://community.librenms.org/c/blog/8
               twitter: https://twitter.com/librenms
               discord_url: https://discord.gg/librenms
+
+          - name: Observium
+            project: hybrid
+            description: "Observium is a low-maintenance auto-discovering network monitoring platform supporting a wide range of device types, platforms and operating systems."
+            homepage_url: https://www.observium.org/
+            logo: observium.png
+            repo_url: https://github.com/observium/docker-observium
+            extra:
+              documentation_url: https://docs.observium.org/
+              summary_use_case: "Provides comprehensive network monitoring and management with auto-discovery capabilities, supporting a wide range of devices and platforms"
+              summary_tags: "network monitoring, auto-discovery, multi-vendor, SNMP, Syslog, alerting"
+              summary_business_use_case: "Enhances network visibility and reduces downtime by providing real-time monitoring, alerting, and historical data analysis for network infrastructure"
+              summary_integration: "Supports various network devices, servers, and applications through SNMP, Syslog, and other protocols"
+              summary_personas: "Network Administrators, System Administrators, IT Operations Teams"
+              summary_release_rate: "Regular releases with community and professional editions"
+              twitter: https://twitter.com/observium
 
           - name: Prometheus
             project: full-open-source
@@ -223,6 +284,25 @@ categories:
               clomonitor_name: "prometheus"
               dev_stats_url: https://prometheus.devstats.cncf.io/
 
+          - name: Telegraf
+            project: full-open-source
+            description: "Telegraf is a plugin-driven server agent for collecting and reporting metrics. It has integrations to source a variety of metrics, events, and logs directly from containers and systems it's running on, as well as pulling metrics from third-party APIs."
+            homepage_url: https://www.influxdata.com/time-series-platform/telegraf/
+            logo: telegraf.png
+            repo_url: https://github.com/influxdata/telegraf
+            extra:
+              documentation_url: https://docs.influxdata.com/telegraf/
+              github_discussions_url: https://github.com/influxdata/telegraf/discussions
+              summary_use_case: "Collects metrics from a wide variety of sources and writes them to various destinations, enabling comprehensive monitoring and observability of systems and applications"
+              summary_tags: "metrics collection, monitoring, time series data, plugin-driven, multi-platform"
+              summary_business_use_case: "Enhances system and application observability by providing a flexible, extensible solution for collecting and forwarding metrics, enabling better decision-making and faster problem resolution"
+              summary_integration: "Integrates with numerous input sources (e.g., systems, containers, APIs) and output destinations (e.g., InfluxDB, Prometheus, Kafka)"
+              summary_personas: "DevOps Engineers, System Administrators, Site Reliability Engineers, Data Engineers"
+              summary_release_rate: "Regular releases with new features, plugins, and bug fixes"
+              twitter: https://twitter.com/influxdb
+              blog_url: https://www.influxdata.com/blog/
+              youtube_url: https://www.youtube.com/influxdata
+
           - name: Grafana
             project: hybrid
             description: The open source graphical analytics & monitoring solution default. Often used in conjunction with Prometheus for network monitoring visualization.
@@ -240,6 +320,7 @@ categories:
               blog_url: https://grafana.com/blog/
               twitter: https://twitter.com/grafana
               linkedin_url: https://www.linkedin.com/company/grafana-labs/
+
           - name: Zabbix
             project: full-open-source
             description: An enterprise-class open source distributed monitoring solution for networks and applications.
@@ -260,6 +341,7 @@ categories:
               youtube_url: https://www.youtube.com/user/ZabbixSIA
               slack_url: https://zabbix.com/community
               mailing_list_url: https://lists.sourceforge.net/lists/listinfo/zabbix-users
+
   - name: Virtualization
     subcategories:
       - name: Network virtualization platforms
@@ -286,6 +368,21 @@ categories:
             description: Cisco Modeling Labs is a network simulation platform that allows you to design, build, and test network topologies.
             homepage_url: https://www.cisco.com/c/en/us/products/cloud-systems-management/modeling-labs/index.html
             logo: cisco-modeling-labs.png
+          - name: netlab
+            project: commercial-only
+            description: "netlab is a comprehensive network lab management solution that provides a virtual environment for designing, configuring, and testing complex network topologies."
+            homepage_url: https://www.netdevgroup.com/online/
+            logo: netlab.png
+            extra:
+              documentation_url: https://www.netdevgroup.com/online/documentation/
+              summary_use_case: "Enables educators and students to create, manage, and access virtual network labs for hands-on learning and certification preparation"
+              summary_tags: "network virtualization, lab management, education, certification training, remote access"
+              summary_business_use_case: "Enhances network education and training programs by providing a scalable, accessible virtual lab environment for practical learning experiences"
+              summary_integration: "Supports various network vendor equipment and technologies, including Cisco, Juniper, Palo Alto, and more"
+              summary_personas: "Network Educators, IT Training Institutions, Students, Certification Candidates"
+              summary_release_rate: "Regular updates with new features and device support"
+              twitter: https://twitter.com/netdevgroup
+              youtube_url: https://www.youtube.com/user/netdevgroup
 
   - name: Automation Tooling
     subcategories:
@@ -323,6 +420,7 @@ categories:
               summary_release_rate: "Major releases approximately every 3-4 months, with minor releases more frequently"
               blog_url: https://www.hashicorp.com/blog/products/terraform
               youtube_url: https://www.youtube.com/hashicorp
+
           - name: Salt
             project: full-open-source
             description: Salt is a powerful and flexible open-source software for remote execution, configuration management, and infrastructure orchestration. It's gaining popularity in network automation for its speed and scalability.
@@ -466,7 +564,7 @@ categories:
               summary_use_case: "I don't know... Launch python and ansible playbooks.... and have a gun to your head for 'free'?"
               # Claimed
               summary_release_rate: "Every 3 months"
-          
+
           - name: itential
             project: enterprise
             description: Itential is a enterprise network automation platform that enables network engineers to design, build, and execute network automation workflows.
@@ -474,7 +572,7 @@ categories:
             logo: itential.png
             extra:
               key_features: "Low-code automation, network workflow builder, API-first design"
-          
+
           - name: StackStorm
             project: full-open-source
             description: StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs
