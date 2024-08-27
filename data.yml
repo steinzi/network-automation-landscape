@@ -322,7 +322,7 @@ categories:
               youtube_url: https://www.youtube.com/user/ZabbixSIA
               slack_url: https://zabbix.com/community
               mailing_list_url: https://lists.sourceforge.net/lists/listinfo/zabbix-users
-      - name: Telemetry & Dat Collection
+      - name: Telemetry & Data Collection
         items:
           - name: Telegraf
             project: full-open-source
