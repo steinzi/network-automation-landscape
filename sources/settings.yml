@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/steinzi/network-automation-landscape/main/schemas/landscape2-settings-schema.json
 # Documentation for this file can be found at:
 # https://raw.githubusercontent.com/cncf/landscape2/main/docs/config/settings.yml
 # Landscape2 settings
