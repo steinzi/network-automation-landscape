@@ -69,8 +69,8 @@
                             "hybrid",
                             "inactive",
                             "deprecated",
-                            "end-of-life",
-                            "archived"
+                            "archived",
+                            "end-of-life"
                           ]
                         },
                         "joined": {
