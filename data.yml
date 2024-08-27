@@ -284,25 +284,6 @@ categories:
               clomonitor_name: "prometheus"
               dev_stats_url: https://prometheus.devstats.cncf.io/
 
-          - name: Telegraf
-            project: full-open-source
-            description: "Telegraf is a plugin-driven server agent for collecting and reporting metrics. It has integrations to source a variety of metrics, events, and logs directly from containers and systems it's running on, as well as pulling metrics from third-party APIs."
-            homepage_url: https://www.influxdata.com/time-series-platform/telegraf/
-            logo: telegraf.png
-            repo_url: https://github.com/influxdata/telegraf
-            extra:
-              documentation_url: https://docs.influxdata.com/telegraf/
-              github_discussions_url: https://github.com/influxdata/telegraf/discussions
-              summary_use_case: "Collects metrics from a wide variety of sources and writes them to various destinations, enabling comprehensive monitoring and observability of systems and applications"
-              summary_tags: "metrics collection, monitoring, time series data, plugin-driven, multi-platform"
-              summary_business_use_case: "Enhances system and application observability by providing a flexible, extensible solution for collecting and forwarding metrics, enabling better decision-making and faster problem resolution"
-              summary_integration: "Integrates with numerous input sources (e.g., systems, containers, APIs) and output destinations (e.g., InfluxDB, Prometheus, Kafka)"
-              summary_personas: "DevOps Engineers, System Administrators, Site Reliability Engineers, Data Engineers"
-              summary_release_rate: "Regular releases with new features, plugins, and bug fixes"
-              twitter: https://twitter.com/influxdb
-              blog_url: https://www.influxdata.com/blog/
-              youtube_url: https://www.youtube.com/influxdata
-
           - name: Grafana
             project: hybrid
             description: The open source graphical analytics & monitoring solution default. Often used in conjunction with Prometheus for network monitoring visualization.
@@ -341,6 +322,36 @@ categories:
               youtube_url: https://www.youtube.com/user/ZabbixSIA
               slack_url: https://zabbix.com/community
               mailing_list_url: https://lists.sourceforge.net/lists/listinfo/zabbix-users
+      - name: Telemetry & Dat Collection
+        items:
+          - name: Telegraf
+            project: full-open-source
+            description: "Telegraf is a plugin-driven server agent for collecting and reporting metrics. It has integrations to source a variety of metrics, events, and logs directly from containers and systems it's running on, as well as pulling metrics from third-party APIs."
+            homepage_url: https://www.influxdata.com/time-series-platform/telegraf/
+            logo: telegraf.png
+            repo_url: https://github.com/influxdata/telegraf
+            extra:
+              documentation_url: https://docs.influxdata.com/telegraf/
+              github_discussions_url: https://github.com/influxdata/telegraf/discussions
+              summary_use_case: "Collects metrics from a wide variety of sources and writes them to various destinations, enabling comprehensive monitoring and observability of systems and applications"
+              summary_tags: "metrics collection, monitoring, time series data, plugin-driven, multi-platform"
+              summary_business_use_case: "Enhances system and application observability by providing a flexible, extensible solution for collecting and forwarding metrics, enabling better decision-making and faster problem resolution"
+              summary_integration: "Integrates with numerous input sources (e.g., systems, containers, APIs) and output destinations (e.g., InfluxDB, Prometheus, Kafka)"
+              summary_personas: "DevOps Engineers, System Administrators, Site Reliability Engineers, Data Engineers"
+              summary_release_rate: "Regular releases with new features, plugins, and bug fixes"
+              twitter: https://twitter.com/influxdb
+              blog_url: https://www.influxdata.com/blog/
+              youtube_url: https://www.youtube.com/influxdata
+
+          - name: gNMIc
+            project: full-open-source
+            description: gNMI client tat provides full support for Capabilities Get, Set and Subscribe RPCs with collector capabilities.
+            homepage_url: https://gnmic.openconfig.net/
+            logo: gnmic.svg
+            repo_url: https://github.com/openconfig/gnmic
+            extra:
+              summary_use_case: "Subscribing and collecting streming telemetry with gNMI, get ans set gNMI RPCs"
+              summary_tags: "telemetry, collecter, subscribe, RPCs"
 
   - name: Virtualization
     subcategories:
