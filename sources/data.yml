@@ -18,7 +18,6 @@ categories:
             # project: This maps to the settings.yml featured_items maturity options.
             # To describe the software business model and or licence.
             project: full-open-source
-            maturity: community-version
             crunchbase: https://www.crunchbase.com/organization/netbox-labs
             description: NetBox is the leading solution for modeling and documenting modern networks.
             homepage_url: https://netboxlabs.com
@@ -26,16 +25,36 @@ categories:
             repo_url: https://github.com/netbox-community/netbox
             twitter: https://twitter.com/NetBoxOfficial
             extra:
-                accepted: "2024-05-14"
-                summary_intro_url: https://youtu.be/jr9Pxx0NkTc
-                summary_integration: "IP Fabric, Slurpit"
-                youtube_url: https://www.youtube.com/channel/UCs5FgE5p03tP-8InKVIojdw
-                documentation_url: https://netboxlabs.com/docs/netbox/en/stable/
-                tag: nsot
-                summary_tags: "ipam, dcim, nsot, database"
-                blog_url: https://netboxlabs.com/blog/
-                docker_url: https://hub.docker.com/r/netboxcommunity/netbox/
-                summary_business_use_case: "Provides centralized network intended state and documentation as well as IPAM and DCIM and scripting functionality."
+              accepted: "2024-05-14"
+              summary_intro_url: https://youtu.be/jr9Pxx0NkTc
+              summary_integration: "IP Fabric, Slurpit"
+              youtube_url: https://www.youtube.com/channel/UCs5FgE5p03tP-8InKVIojdw
+              documentation_url: https://netboxlabs.com/docs/netbox/en/stable/
+              tag: nsot
+              summary_tags: "ipam, dcim, nsot, database"
+              blog_url: https://netboxlabs.com/blog/
+              docker_url: https://hub.docker.com/r/netboxcommunity/netbox/
+              summary_business_use_case: "Provides centralized network intended state and documentation as well as IPAM and DCIM and scripting functionality."
+          - name: InfraHub
+            project: full-open-source
+            description: Infrahub from OpsMill is taking a new approach to Infrastructure Management by providing a new generation of datastore to organize and control all the data that defines how an infrastructure should run. Infrahub offers a central hub to manage the data, templates and playbooks that powers your infrastructure by combining the version control and branch management capabilities of Git with the flexible data model and UI of a graph database.
+            homepage_url: https://www.opsmill.com
+            logo: infrahub.svg
+            repo_url: https://github.com/opsmill/infrahub
+            extra:
+              key_features: "Infrastructure modeling, version control, API-first design"
+              use_cases: "Network infrastructure modeling, automation integration"
+          - name: Nautobot
+            project: full-open-source
+            description: Nautobot is a Network Source of Truth and Network Automation Platform.
+            homepage_url: https://nautobot.com/
+            logo: nautobot.png
+            repo_url: https://github.com/nautobot/nautobot
+            extra:
+              key_features: "Data model extensibility, Git-based version control, API-first design"
+              use_cases: "Network inventory management, configuration management, automation platform"
+              integration: "Integrates with various automation tools and supports custom plugins"
+              community: "Active open-source community, backed by Network to Code"
       - name: Network Discovery
         items:
           - name: IP Fabric
@@ -43,7 +62,6 @@ categories:
             crunchbase: https://www.crunchbase.com/organization/ip-fabric
             description: IP Fabric is a network infrastructure visibility and analytics solution helping enterprise network&security teams deliver network assurance and automation.
             homepage_url: https://ipfabric.io
-            maturity: pay-2-play
             logo: ipfabric.svg
             twitter: https://x.com/IPFabric
             extra:
@@ -57,76 +75,264 @@ categories:
             description: Slurp’it is a powerful and easy-to-use network discovery solution that offers 100% accurate network inventory. No coding required.
             homepage_url: https://slurpit.io
             logo: slurpit.png
-            maturity: pay-2-play
             extra:
               summary_integration: "Netbox"
               summary_use_case: "discovery and inventory with a focus on ease of use and accuracy. No coding required."
               summary_business_use_case: "[10 free licence shenanigans] Provides a network inventory and discovery solution that is easy to use and accurate."
-      - name: Testing & Compliance
+      - name: Testing, Compliance & Querying
         items:
+          - name: SuzieQ
+            project: full-open-source
+            description: An open-source, multivendor network observability platform for cloud-first networks.
+            homepage_url: https://www.suzieq.io/
+            logo: suzieq.png
+            repo_url: https://github.com/netenglabs/suzieq
+            extra:
+              key_features: "Multivendor support, agentless, API-first design, powerful query language"
+              use_cases: "Network state analysis, troubleshooting, change validation, intent verification"
+              integration: "Supports various network operating systems and cloud platforms"
+              community: "Growing open-source community, backed by Network to Code"
+              unique_aspects: "Combines network state analysis, testing, and querying in a single platform"
+
           - name: Netpicker
             project: freemium
             description: Test the design, security and compliance of your network, A Python-based testing platform for your network
             homepage_url: https://netpicker.io
-            maturity: pay-2-play
             logo: netpicker.png
             twitter: https://x.com/IPFabric
             extra:
               summary_tags: "network testing, device_backup, change-validation, compliance, configuration security"
-              summary_use_case: "[free 10 device Shenanigans licence] Network configuration testing,Configuration backups and compliance with a hardening config and security angle. Needs 3rd party discovery tool or manual add devices"
+              summary_use_case: "[free 10 device Shenanigans licence] Network configuration testing, Configuration backups and compliance with a hardening config and security angle. Needs 3rd party discovery tool or manual add devices"
               summary_integration: "Netbox, Slurpit"
+
+          - name: Batfish
+            project: hybrid
+            description: A network configuration analysis tool that builds a mathematical model of network behavior, allowing for advanced querying and validation.
+            homepage_url: https://www.batfish.org/
+            logo: batfish.png
+            repo_url: https://github.com/batfish/batfish
+            extra:
+              key_features: "Vendor-neutral, predictive analysis, comprehensive query language"
+              use_cases: "Configuration validation, security policy checking, troubleshooting"
+              integration: "Can be integrated with various automation workflows and CI/CD pipelines"
+              community: "Open-source core with commercial offerings"
   - name: Telemetry and observability
     subcategories:
       - name: Monitoring & Alerting
         items:
           - name: Icinga
+            project: full-open-source
             description: Monitoring system which checks the availability of your network resources, notifies users of outages, and generates performance data for reporting.
             homepage_url: https://icinga.com
             logo: icinga.png
             repo_url: https://github.com/Icinga/icinga2
           - name: LibreNMS
+            project: full-open-source
             description: A fully featured network monitoring system that provides a wealth of features and device support.
             homepage_url: https://www.librenms.org
             logo: librenms.png
             repo_url: https://github.com/librenms/librenms
+
+          - name: Prometheus
+            project: full-open-source
+            description: An open-source systems monitoring and alerting toolkit, popular in cloud-native environments but also very applicable to network monitoring.
+            homepage_url: https://prometheus.io/
+            logo: prometheus.png
+            repo_url: https://github.com/prometheus/prometheus
+            extra:
+              key_features: "Multi-dimensional data model, flexible query language (PromQL), efficient time series database"
+              use_cases: "Network performance monitoring, alerting, service level indicator (SLI) tracking"
+              integration: "Wide ecosystem of exporters for various network devices and services"
+              community: "Very active open-source community, part of CNCF"
+
+          - name: Grafana
+            project: hybrid
+            description: The open source graphical analytics & monitoring solution default. Often used in conjunction with Prometheus for network monitoring visualization.
+            homepage_url: https://grafana.com/
+            logo: grafana.png
+            repo_url: https://github.com/grafana/grafana
+            extra:
+              key_features: "Customizable dashboards, alerting, wide range of data source support"
+              use_cases: "Network performance visualization, capacity planning, troubleshooting"
+              integration: "Supports numerous data sources including Prometheus, InfluxDB, and many others"
+              community: "Large open-source community with enterprise offering"
+              summary_integration: "Prometheus, InfluxDB, Loki"
+
           - name: Zabbix
-            description: The all-in-one, open-source solution that lets you monitor anything
-            homepage_url: https://www.zabbix.com
+            project: full-open-source
+            description: An enterprise-class open source distributed monitoring solution for networks and applications.
+            homepage_url: https://www.zabbix.com/
             logo: zabbix.png
             repo_url: https://github.com/zabbix/zabbix
+            extra:
+              key_features: "Agentless monitoring, auto-discovery, predictive functions"
+              use_cases: "Network device monitoring, performance tracking, capacity planning"
+              integration: "Supports SNMP, IPMI, JMX, and has extensive API"
+              community: "Active open-source community with commercial support options"
   - name: Virtualization
     subcategories:
       - name: Network virtualization platforms
         items:
           - name: eve-ng
+            project: freemium
             description: EVE-NG is a network emulator that supports virtualized network environments.
             homepage_url: https://www.eve-ng.net
             logo: eve-ng.png
           - name: GNS3
+            project: full-open-source
             description: GNS3 is a network software emulator that allows the combination of virtual and real devices.
             homepage_url: https://www.gns3.com
             repo_url: https://github.com/GNS3/gns3-gui
             logo: gns3.png
           - name: Containerlab
+            project: full-open-source
             description: Nokia Containerlab is a container-based network emulation tool that allows you to define and deploy complex network topologies.
             homepage_url: https://containerlab.srlinux.dev
             repo_url: https://github.com/srl-labs/containerlab
             logo: containerlab.png
           - name: Cisco Modeling Labs
+            project: commercial-only
             description: Cisco Modeling Labs is a network simulation platform that allows you to design, build, and test network topologies.
             homepage_url: https://www.cisco.com/c/en/us/products/cloud-systems-management/modeling-labs/index.html
             logo: cisco-modeling-labs.png
+
   - name: Automation Tooling
     subcategories:
-      - name: Continuous configuration automation (CCA)
+      - name: Continuous Configuration Automation (CCA)
         items:
           - name: Ansible
-            description: Ansible is a simple, agentless IT automation platform that makes your applications and systems easier to deploy.
+            project: full-open-source
+            description: Ansible is a simple, agentless IT automation platform that makes your applications and systems easier to deploy. It's particularly popular in network automation for its ease of use and extensive module library.
             homepage_url: https://www.ansible.com
             logo: ansible.png
             repo_url: https://github.com/ansible/ansible
+            extra:
+              key_features: "Agentless, YAML-based playbooks, extensive module library"
+              use_cases: "Network configuration management, compliance automation, bulk changes"
+              integration: "Integrates with most network devices and many other IT tools"
+              community: "Very large and active community with extensive documentation"
+
           - name: Terraform
-            description: Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services.
+            project: hybrid
+            description: Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. While primarily focused on cloud infrastructure, it's increasingly used for network automation, especially in cloud-native environments.
             homepage_url: https://www.terraform.io
             logo: terraform.png
             repo_url: https://github.com/hashicorp/terraform
+            extra:
+              key_features: "Infrastructure as Code, state management, provider ecosystem"
+              use_cases: "Cloud network provisioning, multi-cloud networking, SDN configuration"
+              integration: "Extensive provider ecosystem including major cloud and network vendors"
+              community: "Large community with strong enterprise adoption"
+
+          - name: Salt
+            project: full-open-source
+            description: Salt is a powerful and flexible open-source software for remote execution, configuration management, and infrastructure orchestration. It's gaining popularity in network automation for its speed and scalability.
+            homepage_url: https://saltproject.io
+            logo: salt.png
+            repo_url: https://github.com/saltstack/salt
+            extra:
+              key_features: "Event-driven automation, high scalability, multi-master architecture"
+              use_cases: "Large-scale network configuration management, real-time system monitoring"
+              integration: "Supports various network devices through proxy minions"
+              community: "Active community with growing adoption in network automation"
+
+      - name: Network Programmability Frameworks
+        items:
+          - name: NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support)
+            project: full-open-source
+            description: NAPALM is a Python library that implements a set of functions to interact with different network device Operating Systems using a unified API.
+            homepage_url: https://napalm.readthedocs.io
+            logo: napalm.png
+            repo_url: https://github.com/napalm-automation/napalm
+            extra:
+              key_features: "Multi-vendor support, unified API, configuration validation"
+              use_cases: "Network device configuration, state retrieval, configuration compliance"
+              integration: "Can be used with Ansible, Salt, and other automation tools"
+              community: "Active community in network automation circles"
+
+          - name: Nornir
+            project: full-open-source
+            description: Nornir is a pure Python automation framework that can be used for network automation tasks. It's designed to be fast, flexible, and easy to extend.
+            homepage_url: https://nornir.readthedocs.io
+            logo: nornir.jpg
+            repo_url: https://github.com/nornir-automation/nornir
+            extra:
+              key_features: "Multi-threaded execution, inventory management, plugin system"
+              use_cases: "Rapid network data collection, configuration deployment, custom automation workflows"
+              integration: "Can leverage other Python libraries like NAPALM, Netmiko, requests"
+              community: "Growing community, popular among Python-savvy network engineers"
+
+      - name: Automation Platforms and Management
+        items:
+          - name: AWX
+            project: full-open-source
+            description: AWX is the open source upstream project for Red Hat Ansible Automation Platform. It provides a web-based user interface, REST API, and task engine for Ansible.
+            homepage_url: https://github.com/ansible/awx
+            logo: awx.svg
+            repo_url: https://github.com/ansible/awx
+            extra:
+              key_features: "Web UI, REST API, role-based access control, job scheduling"
+              use_cases: "Centralized automation management, team collaboration, audit trails"
+              integration: "Built on Ansible, integrates with various source control and cloud platforms"
+              community: "Active open-source community"
+
+          - name: Red Hat Ansible Automation Platform
+            project: enterprise
+            description: Red Hat Ansible Automation Platform is a foundation for building and operating automation at scale. It includes all the tools needed to implement enterprise-wide automation.
+            homepage_url: https://www.redhat.com/en/technologies/management/ansible
+            logo: redhat-ansible.png
+            extra:
+              key_features: "Automation controller (formerly Tower), private automation hub, analytics"
+              use_cases: "Enterprise-wide automation, compliance and governance, self-service IT"
+              integration: "Extensive integration with Red Hat and partner ecosystems"
+              community: "Enterprise support and certified content"
+
+          - name: Spacelift
+            project: commercial-with-trial
+            description: Spacelift is a sophisticated SaaS-delivered infrastructure management platform that enables infrastructure automation through software development practices.
+            homepage_url: https://spacelift.io/
+            logo: spacelift.png
+            extra:
+              key_features: "CI/CD for infrastructure, policy as code, drift detection"
+              use_cases: "GitOps workflows, collaborative infrastructure management, compliance enforcement"
+              integration: "Supports Terraform, CloudFormation, Pulumi, Ansible, and custom integrations"
+              community: "Commercial product with growing user base"
+
+          - name: Rundeck
+            project: hybrid
+            description: Rundeck is an open source automation service with a web console, command line tools, and API. It lets you easily run automation tasks across a set of nodes.
+            homepage_url: https://www.rundeck.com/
+            logo: rundeck.svg
+            repo_url: https://github.com/rundeck/rundeck
+            extra:
+              key_features: "Job scheduling, workflow management, access control, audit trail"
+              use_cases: "Self-service operations, incident management automation, routine task automation"
+              integration: "Plugins for various tools and services, including Ansible and Terraform"
+              community: "Active open source community with enterprise offering"
+
+          - name: Puppet Enterprise
+            project: enterprise
+            description: Puppet Enterprise is a configuration management platform that allows you to deliver and operate consistently secure infrastructure at scale.
+            homepage_url: https://puppet.com/products/puppet-enterprise/
+            logo: puppet-enterprise.svg
+            extra:
+              key_features: "Model-driven approach, compliance reporting, node management"
+              use_cases: "Infrastructure as code, compliance automation, patch management"
+              integration: "Large module ecosystem, integrations with common enterprise tools"
+              community: "Enterprise product with extensive professional services and support"
+
+          - name: torero.dev
+            project: free-restrictive
+            description: Closed source with restrictive EULA, proprietary network automation tool to launch python and ansible playbooks, I have no idea who would want this.
+            homepage_url: https://torero.io
+            logo: torero.png
+            extra:
+              use_cases: "I don't know... Launch python and ansible playbooks.... and have a gun to your head for 'free'?"
+          
+          - name: itential
+            project: enterprise
+            description: Itential is a enterprise network automation platform that enables network engineers to design, build, and execute network automation workflows.
+            homepage_url: https://www.itential.com/
+            logo: itential.png
+            extra:
+              key_features: "Low-code automation, network workflow builder, API-first design"
