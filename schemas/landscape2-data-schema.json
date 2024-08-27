@@ -1,0 +1,348 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "categories": {
+        "type": "array",
+        "description": "List of categories in the landscape (required). This field can also be named `landscape`.",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "description": "Name of the category (required)."
+            },
+            "subcategories": {
+              "type": "array",
+              "description": "List of subcategories in this category (required).",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "Name of the subcategory (required)."
+                  },
+                  "items": {
+                    "type": "array",
+                    "description": "List of items in this subcategory (required).",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "name": {
+                          "type": "string",
+                          "description": "Name of the item (required)."
+                        },
+                        "homepage_url": {
+                          "type": "string",
+                          "format": "uri",
+                          "description": "Homepage URL (required)."
+                        },
+                        "logo": {
+                          "type": "string",
+                          "description": "File name of the logo (required). The provided logo file is expected to be located in the landscape logos path (i.e. `hosted-logos`). URLs are not supported, it must be a file name. The logo file must be an SVG file."
+                        },
+                        "description": {
+                          "type": "string",
+                          "description": "Description of the item (optional). When the description is not provided, the primary repository's description or the organization's description from Crunchbase will be used (in that order). This description will be indexed to power the search feature."
+                        },
+                        "second_path": {
+                          "type": "array",
+                          "description": "Alternative `category / subcategory` where this item should be listed in (optional). Sometimes we may want to list an item in multiple categories or subcategories. This field allows specifying additional locations for an item without having to duplicate it.",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "project": {
+                          "type": "string",
+                          "description": "Maturity of the project (optional). This field is used to describe the software business model and/or license.",
+                          "enum": [
+                            "sandbox",
+                            "incubating",
+                            "graduated",
+                            "full-open-source",
+                            "oss-with-paid-support",
+                            "freemium",
+                            "commercial-with-trial",
+                            "commercial-only",
+                            "enterprise",
+                            "saas",
+                            "hybrid",
+                            "inactive",
+                            "deprecated",
+                            "end-of-life",
+                            "archived"
+                          ]
+                        },
+                        "joined": {
+                          "type": "string",
+                          "format": "date",
+                          "description": "Date at which the member joined the foundation (optional). This field is only expected on items that represent a foundation's member. The date should be a string using the format 'YYYY-MM-DD'."
+                        },
+                        "repo_url": {
+                          "type": "string",
+                          "format": "uri",
+                          "description": "URL of the primary repository (optional). Some extra information will be collected for repositories hosted in GitHub."
+                        },
+                        "branch": {
+                          "type": "string",
+                          "description": "Branch to use when collecting information for the primary repository (optional)."
+                        },
+                        "additional_repos": {
+                          "type": "array",
+                          "description": "List of additional repositories (optional).",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "repo_url": {
+                                "type": "string",
+                                "format": "uri",
+                                "description": "URL of the repository (required)."
+                              },
+                              "branch": {
+                                "type": "string",
+                                "description": "Branch to use when collecting information for the repository (optional)."
+                              }
+                            },
+                            "required": ["repo_url"]
+                          }
+                        },
+                        "crunchbase": {
+                          "type": "string",
+                          "format": "uri",
+                          "description": "Crunchbase URL of the organization this item belongs to (optional)."
+                        },
+                        "twitter": {
+                          "type": "string",
+                          "format": "uri",
+                          "description": "Twitter URL (optional)."
+                        },
+                        "url_for_bestpractices": {
+                          "type": "string",
+                          "format": "uri",
+                          "description": "OpenSSF best practices URL (optional)."
+                        },
+                        "enduser": {
+                          "type": "boolean",
+                          "description": "Indicate if the item corresponds to an end user (optional)."
+                        },
+                        "extra": {
+                          "type": "object",
+                          "description": "Extra information about the item (optional).",
+                          "properties": {
+                            "accepted": {
+                              "type": "string",
+                              "format": "date",
+                              "description": "Date at which the project was accepted in the foundation (optional). This field is only expected on items that represent a foundation's project. Format: 'YYYY-MM-DD'."
+                            },
+                            "archived": {
+                              "type": "string",
+                              "format": "date",
+                              "description": "Date at which the project was archived (optional). This field is only expected on items that represent a foundation's project. Format: 'YYYY-MM-DD'."
+                            },
+                            "audits": {
+                              "type": "array",
+                              "description": "List of security audits the projet has undergone (optional).",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "date": {
+                                    "type": "string",
+                                    "format": "date",
+                                    "description": "Date of the audit (required). Format: 'YYYY-MM-DD'."
+                                  },
+                                  "type": {
+                                    "type": "string",
+                                    "description": "Audit type (required)."
+                                  },
+                                  "url": {
+                                    "type": "string",
+                                    "format": "uri",
+                                    "description": "URL of the audit report (required)."
+                                  },
+                                  "vendor": {
+                                    "type": "string",
+                                    "description": "Name of the vendor who did the audit (required)."
+                                  }
+                                },
+                                "required": ["date", "type", "url", "vendor"]
+                              }
+                            },
+                            "annual_review_date": {
+                              "type": "string",
+                              "format": "date",
+                              "description": "Date of the last annual review presented by this project (optional). This field is only expected on items that represent a foundation's project. Format: 'YYYY-MM-DD'."
+                            },
+                            "annual_review_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "URL of the last annual review presented by this project (optional). This field is only expected on items that represent a foundation's project."
+                            },
+                            "artwork_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Artwork URL (optional)."
+                            },
+                            "blog_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Blog URL (optional)."
+                            },
+                            "chat_channel": {
+                              "type": "string",
+                              "description": "Channel to discuss topics related to this item (optional)."
+                            },
+                            "clomonitor_name": {
+                              "type": "string",
+                              "description": "The name of a project listed in CLOMonitor that matches this item (optional). This reference is used to pull the CLOMonitor report for this item and display it in the item's details view. CLOMonitor is only enabled for a small number of foundations, so this field won't be used in most cases."
+                            },
+                            "dev_stats_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Dev stats URL (optional)."
+                            },
+                            "discord_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Discord URL (optional)."
+                            },
+                            "docker_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Docker URL (optional)."
+                            },
+                            "documentation_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Documentation URL (optional)."
+                            },
+                            "github_discussions_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "GitHub discussions URL (optional)."
+                            },
+                            "gitter_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Gitter URL (optional)."
+                            },
+                            "graduated": {
+                              "type": "string",
+                              "format": "date",
+                              "description": "Date at which the project moved to graduated (optional). Format: 'YYYY-MM-DD'. This field is only expected on items that represent a foundation's project, and should only be used when adhering to the graduated/incubating/sandbox maturities."
+                            },
+                            "incubating": {
+                              "type": "string",
+                              "format": "date",
+                              "description": "Date at which the project moved to incubating (optional). Format: 'YYYY-MM-DD'. This field is only expected on items that represent a foundation's project, and should only be used when adhering to the graduated/incubating/sandbox maturities."
+                            },
+                            "linkedin_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "LinkedIn URL (optional)."
+                            },
+                            "mailing_list_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Mailing list URL (optional)."
+                            },
+                            "other_links": {
+                              "type": "array",
+                              "description": "List of links to feature in the item's details view (optional).",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "name": {
+                                    "type": "string",
+                                    "description": "Name of the link (required)."
+                                  },
+                                  "url": {
+                                    "type": "string",
+                                    "format": "uri",
+                                    "description": "URL of the link (required)."
+                                  }
+                                },
+                                "required": ["name", "url"]
+                              }
+                            },
+                            "package_manager_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Package manager URL (optional). Link to the package manager where the item is available."
+                            },
+                            "parent_project": {
+                              "type": "string",
+                              "description": "Name of the parent project (optional). The parent of a project will be highlighted in the item's details view. The parent project must be listed in the landscape and the name must match exactly."
+                            },
+                            "slack_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Slack URL (optional)."
+                            },
+                            "specification": {
+                              "type": "boolean",
+                              "description": "Indicate whether this item is a specification (optional)."
+                            },
+                            "stack_overflow_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Stack Overflow URL (optional)."
+                            },
+                            "summary_business_use_case": {
+                              "type": "string",
+                              "description": "Description of the business use case (optional)."
+                            },
+                            "summary_integration": {
+                              "type": "string",
+                              "description": "Comma separated list of other projects this item integrates with (optional)."
+                            },
+                            "summary_integrations": {
+                              "type": "string",
+                              "description": "Alternative field for `summary_integration` (optional)."
+                            },
+                            "summary_intro_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "Video URL of the item's pitch (optional)."
+                            },
+                            "summary_personas": {
+                              "type": "string",
+                              "description": "List of target users this item is intended for (optional). Entries must be separated by commas."
+                            },
+                            "summary_release_rate": {
+                              "type": "string",
+                              "description": "Describes how often a new version of the item is released (optional)."
+                            },
+                            "summary_tags": {
+                              "type": "string",
+                              "description": "Keywords that describe the item (optional). The keywords must be separated by commas. These keywords will be indexed to power the search feature."
+                            },
+                            "summary_use_case": {
+                              "type": "string",
+                              "description": "Description of the technical problem this item solves (optional)."
+                            },
+                            "tag": {
+                              "type": "string",
+                              "description": "Technical Advisory Group (TAG) this item belongs to (optional). When the automatic TAG mapping feature is enabled in the landscape settings, the TAG name used here must match exactly one of the TAGs listed in the landscape settings (provided it refers to the same TAG)."
+                            },
+                            "youtube_url": {
+                              "type": "string",
+                              "format": "uri",
+                              "description": "YouTube URL (optional)."
+                            }
+                          }
+                        }
+                      },
+                      "required": ["name", "homepage_url", "logo"]
+                    }
+                  }
+                },
+                "required": ["name", "items"]
+              }
+            }
+          },
+          "required": ["name", "subcategories"]
+        }
+      }
+    },
+    "required": ["categories"]
+  }

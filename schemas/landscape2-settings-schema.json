@@ -1,0 +1,331 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "foundation": {
+        "type": "string",
+        "description": "Name of the foundation. Used in some labels, keep it short."
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "description": "URL where the landscape will be hosted."
+      },
+      "analytics": {
+        "type": "object",
+        "properties": {
+          "gtm": {
+            "type": "object",
+            "properties": {
+              "container_id": {
+                "type": "string",
+                "description": "Google Tag Manager container ID"
+              }
+            }
+          }
+        }
+      },
+      "base_path": {
+        "type": "string",
+        "description": "Base path where the landscape will be hosted. Set if hosted in a subpath."
+      },
+      "categories": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "subcategories": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": ["name", "subcategories"]
+        }
+      },
+      "colors": {
+        "type": "object",
+        "properties": {
+          "color1": {
+            "type": "string",
+            "pattern": "^rgba\\(\\d+,\\s*\\d+,\\s*\\d+,\\s*\\d+(\\.\\d+)?\\)$"
+          },
+          "color2": {
+            "type": "string",
+            "pattern": "^rgba\\(\\d+,\\s*\\d+,\\s*\\d+,\\s*\\d+(\\.\\d+)?\\)$"
+          },
+          "color3": {
+            "type": "string",
+            "pattern": "^rgba\\(\\d+,\\s*\\d+,\\s*\\d+,\\s*\\d+(\\.\\d+)?\\)$"
+          },
+          "color4": {
+            "type": "string",
+            "pattern": "^rgba\\(\\d+,\\s*\\d+,\\s*\\d+,\\s*\\d+(\\.\\d+)?\\)$"
+          },
+          "color5": {
+            "type": "string",
+            "pattern": "^rgba\\(\\d+,\\s*\\d+,\\s*\\d+,\\s*\\d+(\\.\\d+)?\\)$"
+          },
+          "color6": {
+            "type": "string",
+            "pattern": "^rgba\\(\\d+,\\s*\\d+,\\s*\\d+,\\s*\\d+(\\.\\d+)?\\)$"
+          },
+          "color7": {
+            "type": "string",
+            "pattern": "^rgba\\(\\d+,\\s*\\d+,\\s*\\d+,\\s*\\d+(\\.\\d+)?\\)$"
+          }
+        },
+        "required": ["color1", "color2", "color3", "color4", "color5", "color6", "color7"]
+      },
+      "enduser": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "category": {
+              "type": "string"
+            },
+            "subcategories": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": ["category"]
+        }
+      },
+      "featured_items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "field": {
+              "type": "string",
+              "enum": ["maturity", "subcategory"]
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  },
+                  "order": {
+                    "type": "integer"
+                  },
+                  "label": {
+                    "type": "string"
+                  }
+                },
+                "required": ["value"]
+              }
+            }
+          },
+          "required": ["field", "options"]
+        }
+      },
+      "footer": {
+        "type": "object",
+        "properties": {
+          "links": {
+            "type": "object",
+            "properties": {
+              "facebook": {
+                "type": "string",
+                "format": "uri"
+              },
+              "flickr": {
+                "type": "string",
+                "format": "uri"
+              },
+              "github": {
+                "type": "string",
+                "format": "uri"
+              },
+              "homepage": {
+                "type": "string",
+                "format": "uri"
+              },
+              "instagram": {
+                "type": "string",
+                "format": "uri"
+              },
+              "linkedin": {
+                "type": "string",
+                "format": "uri"
+              },
+              "slack": {
+                "type": "string",
+                "format": "uri"
+              },
+              "twitch": {
+                "type": "string",
+                "format": "uri"
+              },
+              "twitter": {
+                "type": "string",
+                "format": "uri"
+              },
+              "wechat": {
+                "type": "string",
+                "format": "uri"
+              },
+              "youtube": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "logo": {
+            "type": "string",
+            "format": "uri"
+          },
+          "text": {
+            "type": "string"
+          }
+        }
+      },
+      "grid_items_size": {
+        "type": "string",
+        "enum": ["small", "medium", "large"]
+      },
+      "groups": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "categories": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": ["name", "categories"]
+        }
+      },
+      "header": {
+        "type": "object",
+        "properties": {
+          "links": {
+            "type": "object",
+            "properties": {
+              "github": {
+                "type": "string",
+                "format": "uri"
+              }
+            }
+          },
+          "logo": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "images": {
+        "type": "object",
+        "properties": {
+          "favicon": {
+            "type": "string",
+            "format": "uri"
+          },
+          "open_graph": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "logos_viewbox": {
+        "type": "object",
+        "properties": {
+          "adjust": {
+            "type": "boolean"
+          },
+          "exclude": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "members_category": {
+        "type": "string"
+      },
+      "osano": {
+        "type": "object",
+        "properties": {
+          "customer_id": {
+            "type": "string"
+          },
+          "customer_configuration_id": {
+            "type": "string"
+          }
+        },
+        "required": ["customer_id", "customer_configuration_id"]
+      },
+      "screenshot_width": {
+        "type": "integer"
+      },
+      "tags": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "category": {
+                "type": "string"
+              },
+              "subcategories": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": ["category"]
+          }
+        }
+      },
+      "upcoming_event": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string",
+            "format": "date"
+          },
+          "end": {
+            "type": "string",
+            "format": "date"
+          },
+          "banner_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "details_url": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "required": ["name", "start", "end", "banner_url", "details_url"]
+      },
+      "view_mode": {
+        "type": "string",
+        "enum": ["grid", "card"]
+      }
+    },
+    "required": ["foundation", "url"]
+  }

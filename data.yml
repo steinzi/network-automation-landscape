@@ -1,15 +1,23 @@
+---
+
 # Landscape2 data
 #
 # This file contains the data that will be used to generate the landscape.
 #
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/data.yml
 
+# Note: The strangest thing we are doing is using a item's maturity value to describe the software business model and or licence.
+# This is not the best way to do this but it is the way we are doing it for now.
+
 categories:
   - name: Network state
     subcategories:
       - name: Network Source of Truth
         items:
-          - name: Netbox
+          - name: Netbox Community
+            # project: This maps to the settings.yml featured_items maturity options.
+            # To describe the software business model and or licence.
+            project: full-open-source
             maturity: community-version
             crunchbase: https://www.crunchbase.com/organization/netbox-labs
             description: NetBox is the leading solution for modeling and documenting modern networks.
@@ -18,16 +26,16 @@ categories:
             repo_url: https://github.com/netbox-community/netbox
             twitter: https://twitter.com/NetBoxOfficial
             extra:
-              slack_url: https://netdev.chat
-              summary_intro_url: https://youtu.be/jr9Pxx0NkTc
-              summary_integration: "IP Fabric, Slurpit"
-              youtube_url: https://www.youtube.com/channel/UCs5FgE5p03tP-8InKVIojdw
-              documentation_url: https://netboxlabs.com/docs/netbox/en/stable/
-              tag: nsot
-              summary_tags: "ipam, dcim, nsot, database"
-              blog_url: https://netboxlabs.com/blog/
-              docker_url: https://hub.docker.com/r/netboxcommunity/netbox/
-              summary_business_use_case: "Provides centralized network intended state and documentation as well as IPAM and DCIM and scripting functionality."
+                accepted: "2024-05-14"
+                summary_intro_url: https://youtu.be/jr9Pxx0NkTc
+                summary_integration: "IP Fabric, Slurpit"
+                youtube_url: https://www.youtube.com/channel/UCs5FgE5p03tP-8InKVIojdw
+                documentation_url: https://netboxlabs.com/docs/netbox/en/stable/
+                tag: nsot
+                summary_tags: "ipam, dcim, nsot, database"
+                blog_url: https://netboxlabs.com/blog/
+                docker_url: https://hub.docker.com/r/netboxcommunity/netbox/
+                summary_business_use_case: "Provides centralized network intended state and documentation as well as IPAM and DCIM and scripting functionality."
       - name: Network Discovery
         items:
           - name: IP Fabric
@@ -55,6 +63,7 @@ categories:
       - name: Testing & Compliance
         items:
           - name: Netpicker
+            project: freemium
             description: Test the design, security and compliance of your network, A Python-based testing platform for your network
             homepage_url: https://netpicker.io
             maturity: pay-2-play
@@ -119,4 +128,3 @@ categories:
             homepage_url: https://www.terraform.io
             logo: terraform.png
             repo_url: https://github.com/hashicorp/terraform
-
