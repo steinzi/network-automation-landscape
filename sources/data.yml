@@ -336,3 +336,15 @@ categories:
             logo: itential.png
             extra:
               key_features: "Low-code automation, network workflow builder, API-first design"
+          
+          - name: StackStorm
+            project: full-open-source
+            description: StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs
+            homepage_url: https://stackstorm.com/
+            logo: stackstorm.jpg
+            repo_url: https://github.com/StackStorm/st2
+            extra:
+              key_features: "Actions, Worfklow, Trigger, Sensor, Rules"
+              use_cases: "Self-hosted workflow engine, event-driven automation"
+              integration: "160 integration packs with 6000+ actions (see https://exchange.stackstorm.org), ChatOps"
+              community: "Linux Foundation Project"
