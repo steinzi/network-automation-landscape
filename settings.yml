@@ -1,3 +1,4 @@
+---
 # yaml-language-server: $schema=https://raw.githubusercontent.com/steinzi/network-automation-landscape/main/schemas/landscape2-settings-schema.json
 # Documentation for this file can be found at:
 # https://raw.githubusercontent.com/cncf/landscape2/main/docs/config/settings.yml
@@ -8,7 +9,7 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/settings.yml
 
 
-foundation: STEINZI-APROVED
+foundation: Network Automation Landscape
 
 url: https://steinzi.com/network-automation-landscape/
 
@@ -100,6 +101,12 @@ featured_items:
       - value: archived
         order: 12
         label: Archived
+      
+      # The project is closed source, and very restrictive in terms of use, modification, or distribution.
+      # Often uses licenses like EULA. (Made just for http://torero.dev)
+      - value: free-restrictive
+        order: 13
+        label: Free restrictive Software
 
 footer:
   links:
@@ -126,7 +133,8 @@ groups:
       - Telemetry and observability
       - Automation Tooling
       - Virtualization
-  - name: Cloud Only
+  # TODO: make this happen so we can make some groups and be cool like the CNCF landscape.
+  - name: Open Source only
     categories:
       - Telemetry and observability
 

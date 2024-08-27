@@ -70,7 +70,8 @@
                             "inactive",
                             "deprecated",
                             "archived",
-                            "end-of-life"
+                            "end-of-life",
+                            "free-restrictive"
                           ]
                         },
                         "joined": {
