@@ -43,7 +43,7 @@ categories:
             repo_url: https://github.com/opsmill/infrahub
             extra:
               key_features: "Infrastructure modeling, version control, API-first design"
-              use_cases: "Network infrastructure modeling, automation integration"
+              summary_use_case: "Network infrastructure modeling, automation integration"
           - name: Nautobot
             project: full-open-source
             description: Nautobot is a Network Source of Truth and Network Automation Platform.
@@ -52,11 +52,21 @@ categories:
             repo_url: https://github.com/nautobot/nautobot
             extra:
               key_features: "Data model extensibility, Git-based version control, API-first design"
-              use_cases: "Network inventory management, configuration management, automation platform"
+              summary_use_case: "Network inventory management, configuration management, automation platform"
               integration: "Integrates with various automation tools and supports custom plugins"
               community: "Active open-source community, backed by Network to Code"
-      - name: Network Discovery
+      - name: Network Discovery/Assurance
         items:
+          - name: Forward Networks
+            project: enterprise
+            description: Forward Networks' flagship software, Forward Enterprise, delivers the best digital twin technology to the world's largest networks.
+            homepage_url: https://forwardnetworks.com
+            logo: forwardnetworks.png
+            extra:
+              summary_use_case: "Network assurance, verification, troubleshooting"
+              summary_integration: "Netbox"
+              summary_business_use_case: "Network verification and troubleshooting for brownfield networks"
+              summary_tags: "network assurance, network verification, network troubleshooting"
           - name: IP Fabric
             project: enterprise
             crunchbase: https://www.crunchbase.com/organization/ip-fabric
@@ -81,15 +91,16 @@ categories:
               summary_business_use_case: "[10 free licence shenanigans] Provides a network inventory and discovery solution that is easy to use and accurate."
       - name: Testing, Compliance & Querying
         items:
+          # TODO add the enterprise version
           - name: SuzieQ
-            project: full-open-source
+            project: freemium
             description: An open-source, multivendor network observability platform for cloud-first networks.
             homepage_url: https://www.suzieq.io/
             logo: suzieq.png
             repo_url: https://github.com/netenglabs/suzieq
             extra:
               key_features: "Multivendor support, agentless, API-first design, powerful query language"
-              use_cases: "Network state analysis, troubleshooting, change validation, intent verification"
+              summary_use_case: "Network state analysis, troubleshooting, change validation, intent verification"
               integration: "Supports various network operating systems and cloud platforms"
               community: "Growing open-source community, backed by Network to Code"
               unique_aspects: "Combines network state analysis, testing, and querying in a single platform"
@@ -99,23 +110,28 @@ categories:
             description: Test the design, security and compliance of your network, A Python-based testing platform for your network
             homepage_url: https://netpicker.io
             logo: netpicker.png
-            twitter: https://x.com/IPFabric
             extra:
               summary_tags: "network testing, device_backup, change-validation, compliance, configuration security"
               summary_use_case: "[free 10 device Shenanigans licence] Network configuration testing, Configuration backups and compliance with a hardening config and security angle. Needs 3rd party discovery tool or manual add devices"
               summary_integration: "Netbox, Slurpit"
+              summary_business_use_case: "Enhances network security and compliance while reducing manual configuration errors"
+              # bad url on site
+              documentation_url: https://netpicker.io/documentation/
+              summary_release_rate: "Regularly updated"
+              summary_personas: "Network Engineers, Security Analysts, Compliance Officers"
 
           - name: Batfish
-            project: hybrid
+            project: full-open-source
             description: A network configuration analysis tool that builds a mathematical model of network behavior, allowing for advanced querying and validation.
             homepage_url: https://www.batfish.org/
             logo: batfish.png
             repo_url: https://github.com/batfish/batfish
             extra:
-              key_features: "Vendor-neutral, predictive analysis, comprehensive query language"
-              use_cases: "Configuration validation, security policy checking, troubleshooting"
-              integration: "Can be integrated with various automation workflows and CI/CD pipelines"
-              community: "Open-source core with commercial offerings"
+              documentation_url: https://pybatfish.readthedocs.io/en/latest/
+              summary_use_case: "Performs network configuration analysis, validation, and troubleshooting without the need for live network access"
+              summary_tags: "network analysis, configuration validation, security policy checking, troubleshooting"
+              summary_business_use_case: "Reduces network outages and security vulnerabilities by catching misconfigurations before deployment"
+              summary_integration: "Ansible, Terraform, CI/CD pipelines"
   - name: Telemetry and observability
     subcategories:
       - name: Monitoring & Alerting
@@ -126,12 +142,30 @@ categories:
             homepage_url: https://icinga.com
             logo: icinga.png
             repo_url: https://github.com/Icinga/icinga2
+            extra:
+              documentation_url: https://icinga.com/docs/
+              blog_url: https://icinga.com/blog/
+              summary_use_case: "Provides comprehensive monitoring for network resources, services, and applications"
+              summary_tags: "monitoring, alerting, network, infrastructure"
+              summary_business_use_case: "Ensures high availability and performance of IT infrastructure"
+              docker_url: https://hub.docker.com/u/icinga
           - name: LibreNMS
             project: full-open-source
             description: A fully featured network monitoring system that provides a wealth of features and device support.
             homepage_url: https://www.librenms.org
             logo: librenms.png
             repo_url: https://github.com/librenms/librenms
+            extra:
+              documentation_url: https://docs.librenms.org/
+              summary_use_case: "Network device monitoring, performance tracking, alerting, and reporting"
+              summary_business_use_case: "Provides comprehensive network visibility and monitoring, enabling organizations to proactively manage their network infrastructure and quickly identify and resolve issues"
+              summary_integration: "Oxidized, Smokeping, NFSen, Weathermap"
+              summary_tags: "network monitoring, SNMP, syslog, autodiscovery, alerting, reporting"
+              summary_personas: "Network Engineers, System Administrators, IT Operations Teams"
+              summary_release_rate: "Monthly releases with frequent updates"
+              blog_url: https://community.librenms.org/c/blog/8
+              twitter: https://twitter.com/librenms
+              discord_url: https://discord.gg/librenms
 
           - name: Prometheus
             project: full-open-source
@@ -140,10 +174,20 @@ categories:
             logo: prometheus.png
             repo_url: https://github.com/prometheus/prometheus
             extra:
-              key_features: "Multi-dimensional data model, flexible query language (PromQL), efficient time series database"
-              use_cases: "Network performance monitoring, alerting, service level indicator (SLI) tracking"
-              integration: "Wide ecosystem of exporters for various network devices and services"
-              community: "Very active open-source community, part of CNCF"
+              documentation_url: https://prometheus.io/docs/introduction/overview/
+              github_discussions_url: https://github.com/prometheus/prometheus/discussions
+              summary_use_case: "Network performance monitoring, alerting, service level indicator (SLI) tracking"
+              summary_business_use_case: "Enables organizations to gain real-time insights into system performance, detect anomalies quickly, and maintain high service reliability"
+              summary_integration: "Grafana, Alertmanager, various exporters for different systems and services"
+              summary_tags: "monitoring, metrics, alerting, time series database, cloud-native"
+              summary_personas: "Site Reliability Engineers, DevOps Engineers, System Administrators, Network Engineers"
+              summary_release_rate: "Major releases approximately every 6-8 weeks"
+              blog_url: https://prometheus.io/blog/
+              twitter: https://twitter.com/PrometheusIO
+              youtube_url: https://www.youtube.com/channel/UC4pLFely0-Odea4B2NL1nWA
+              slack_url: https://slack.cncf.io/
+              clomonitor_name: "prometheus"
+              dev_stats_url: https://prometheus.devstats.cncf.io/
 
           - name: Grafana
             project: hybrid
@@ -152,12 +196,16 @@ categories:
             logo: grafana.png
             repo_url: https://github.com/grafana/grafana
             extra:
-              key_features: "Customizable dashboards, alerting, wide range of data source support"
-              use_cases: "Network performance visualization, capacity planning, troubleshooting"
-              integration: "Supports numerous data sources including Prometheus, InfluxDB, and many others"
-              community: "Large open-source community with enterprise offering"
-              summary_integration: "Prometheus, InfluxDB, Loki"
-
+              documentation_url: https://grafana.com/docs/grafana/latest/
+              summary_use_case: "Network performance visualization, capacity planning, troubleshooting"
+              summary_business_use_case: "Provides intuitive, customizable dashboards for real-time data visualization, enabling better decision-making and faster problem resolution across various IT domains"
+              summary_integration: "Prometheus, InfluxDB, Loki, Elasticsearch, MySQL, PostgreSQL"
+              summary_tags: "data visualization, monitoring, analytics, dashboards, observability"
+              summary_personas: "DevOps Engineers, Site Reliability Engineers, Network Engineers, Data Analysts"
+              summary_release_rate: "Major releases approximately every 2-3 months, with minor releases more frequently"
+              blog_url: https://grafana.com/blog/
+              twitter: https://twitter.com/grafana
+              linkedin_url: https://www.linkedin.com/company/grafana-labs/
           - name: Zabbix
             project: full-open-source
             description: An enterprise-class open source distributed monitoring solution for networks and applications.
@@ -165,10 +213,19 @@ categories:
             logo: zabbix.png
             repo_url: https://github.com/zabbix/zabbix
             extra:
-              key_features: "Agentless monitoring, auto-discovery, predictive functions"
-              use_cases: "Network device monitoring, performance tracking, capacity planning"
-              integration: "Supports SNMP, IPMI, JMX, and has extensive API"
-              community: "Active open-source community with commercial support options"
+              documentation_url: https://www.zabbix.com/documentation/current/en/manual
+              summary_use_case: "Network device monitoring, performance tracking, capacity planning"
+              summary_business_use_case: "Provides comprehensive infrastructure monitoring, helping organizations detect and resolve IT issues quickly, optimize performance, and plan for future growth"
+              summary_integration: "SNMP, IPMI, JMX, VMware monitoring"
+              summary_tags: "monitoring, alerting, trending, network monitoring, application monitoring, open-source"
+              summary_personas: "System Administrators, Network Engineers, DevOps Engineers, IT Operations"
+              summary_release_rate: "Major releases annually, with minor releases more frequently"
+              blog_url: https://blog.zabbix.com/
+              twitter: https://twitter.com/zabbix
+              linkedin_url: https://www.linkedin.com/company/zabbix/
+              youtube_url: https://www.youtube.com/user/ZabbixSIA
+              slack_url: https://zabbix.com/community
+              mailing_list_url: https://lists.sourceforge.net/lists/listinfo/zabbix-users
   - name: Virtualization
     subcategories:
       - name: Network virtualization platforms
@@ -207,10 +264,14 @@ categories:
             logo: ansible.png
             repo_url: https://github.com/ansible/ansible
             extra:
-              key_features: "Agentless, YAML-based playbooks, extensive module library"
-              use_cases: "Network configuration management, compliance automation, bulk changes"
-              integration: "Integrates with most network devices and many other IT tools"
-              community: "Very large and active community with extensive documentation"
+              documentation_url: https://docs.ansible.com/
+              summary_use_case: "Network configuration management, compliance automation, bulk changes"
+              summary_business_use_case: "Simplifies complex IT workflows, reduces manual errors, and improves operational efficiency across diverse IT environments"
+              summary_integration: "AWS, Azure, Google Cloud, VMware, Cisco, Juniper, F5, Arista"
+              summary_tags: "automation, configuration management, orchestration, agentless, YAML-based"
+              summary_personas: "System Administrators, Network Engineers, DevOps Engineers, Cloud Architects"
+              summary_release_rate: "Major releases approximately every 6 months, with minor releases more frequently"
+              blog_url: https://www.ansible.com/blog
 
           - name: Terraform
             project: hybrid
@@ -219,11 +280,15 @@ categories:
             logo: terraform.png
             repo_url: https://github.com/hashicorp/terraform
             extra:
-              key_features: "Infrastructure as Code, state management, provider ecosystem"
-              use_cases: "Cloud network provisioning, multi-cloud networking, SDN configuration"
-              integration: "Extensive provider ecosystem including major cloud and network vendors"
-              community: "Large community with strong enterprise adoption"
-
+              documentation_url: https://www.terraform.io/docs
+              summary_use_case: "Cloud network provisioning, multi-cloud networking, SDN configuration"
+              summary_business_use_case: "Enables infrastructure as code, improving consistency, reducing errors, and speeding up deployment across multiple cloud providers and on-premises infrastructure"
+              summary_integration: "AWS, Azure, Google Cloud, VMware, Cisco ACI, F5, Palo Alto Networks"
+              summary_tags: "infrastructure as code, cloud provisioning, network automation, multi-cloud, state management"
+              summary_personas: "DevOps Engineers, Cloud Architects, Network Engineers, Site Reliability Engineers"
+              summary_release_rate: "Major releases approximately every 3-4 months, with minor releases more frequently"
+              blog_url: https://www.hashicorp.com/blog/products/terraform
+              youtube_url: https://www.youtube.com/hashicorp
           - name: Salt
             project: full-open-source
             description: Salt is a powerful and flexible open-source software for remote execution, configuration management, and infrastructure orchestration. It's gaining popularity in network automation for its speed and scalability.
@@ -231,10 +296,15 @@ categories:
             logo: salt.png
             repo_url: https://github.com/saltstack/salt
             extra:
-              key_features: "Event-driven automation, high scalability, multi-master architecture"
-              use_cases: "Large-scale network configuration management, real-time system monitoring"
-              integration: "Supports various network devices through proxy minions"
-              community: "Active community with growing adoption in network automation"
+              github_discussions_url: https://github.com/saltstack/salt/discussions
+              documentation_url: https://docs.saltproject.io/
+              blog_url: https://saltproject.io/blog/
+              summary_business_use_case: "Provides scalable infrastructure automation and configuration management for large-scale network environments"
+              summary_use_case: "Large-scale network configuration management, real-time system monitoring, and infrastructure orchestration"
+              summary_tags: "configuration management, remote execution, infrastructure automation, network automation"
+              summary_release_rate: "Major releases approximately every 6 months"
+              summary_integration: "Ansible, Puppet, Docker, Kubernetes"
+              summary_personas: "System Administrators, DevOps Engineers, Network Engineers"
 
       - name: Network Programmability Frameworks
         items:
@@ -245,10 +315,13 @@ categories:
             logo: napalm.png
             repo_url: https://github.com/napalm-automation/napalm
             extra:
-              key_features: "Multi-vendor support, unified API, configuration validation"
-              use_cases: "Network device configuration, state retrieval, configuration compliance"
-              integration: "Can be used with Ansible, Salt, and other automation tools"
-              community: "Active community in network automation circles"
+              github_discussions_url: https://github.com/napalm-automation/napalm/discussions
+              summary_use_case: "Network device configuration, state retrieval, configuration compliance"
+              summary_business_use_case: "Simplifies multi-vendor network management, reduces complexity in network automation, and improves operational efficiency"
+              summary_integration: "Ansible, Salt, Nornir, Netbox"
+              summary_tags: "network automation, multi-vendor, configuration management, Python library, unified API"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
+              summary_release_rate: "Yearly releases"
 
           - name: Nornir
             project: full-open-source
@@ -257,10 +330,15 @@ categories:
             logo: nornir.jpg
             repo_url: https://github.com/nornir-automation/nornir
             extra:
-              key_features: "Multi-threaded execution, inventory management, plugin system"
-              use_cases: "Rapid network data collection, configuration deployment, custom automation workflows"
-              integration: "Can leverage other Python libraries like NAPALM, Netmiko, requests"
-              community: "Growing community, popular among Python-savvy network engineers"
+              documentation_url: https://nornir.readthedocs.io/en/latest/
+              github_discussions_url: https://github.com/nornir-automation/nornir/discussions
+              summary_use_case: "Rapid network data collection, configuration deployment, custom automation workflows"
+              summary_business_use_case: "Enables efficient and scalable network automation, reducing manual tasks and improving network management productivity"
+              summary_integration: "NAPALM, Netmiko, Scrapli, Paramiko"
+              summary_tags: "network automation, Python, multi-threading, inventory management, plugin system"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
+              summary_release_rate: "Yearly releases"
+              blog_url: https://nornir.tech/nornir/
 
       - name: Automation Platforms and Management
         items:
@@ -271,10 +349,14 @@ categories:
             logo: awx.svg
             repo_url: https://github.com/ansible/awx
             extra:
-              key_features: "Web UI, REST API, role-based access control, job scheduling"
-              use_cases: "Centralized automation management, team collaboration, audit trails"
-              integration: "Built on Ansible, integrates with various source control and cloud platforms"
-              community: "Active open-source community"
+              documentation_url: https://docs.ansible.com/automation-controller/latest/html/userguide/index.html
+              summary_use_case: "Centralized automation management, team collaboration, audit trails"
+              summary_business_use_case: "Provides a user-friendly interface for managing Ansible automation, enabling easier adoption and management of automation across organizations"
+              summary_integration: "Ansible, Git, various cloud platforms"
+              summary_tags: "automation, orchestration, open-source, web UI, REST API"
+              summary_personas: "DevOps Engineers, System Administrators, IT Operations Teams"
+              summary_release_rate: "Regular releases, typically every month"
+              blog_url: https://www.ansible.com/blog
 
           - name: Red Hat Ansible Automation Platform
             project: enterprise
@@ -282,21 +364,32 @@ categories:
             homepage_url: https://www.redhat.com/en/technologies/management/ansible
             logo: redhat-ansible.png
             extra:
-              key_features: "Automation controller (formerly Tower), private automation hub, analytics"
-              use_cases: "Enterprise-wide automation, compliance and governance, self-service IT"
-              integration: "Extensive integration with Red Hat and partner ecosystems"
-              community: "Enterprise support and certified content"
+              blog_url: https://www.ansible.com/blog
+              documentation_url: https://docs.ansible.com/ansible/latest/index.html
+              summary_use_case: "Enterprise-wide automation, compliance and governance, self-service IT"
+              summary_business_use_case: "Streamlines IT operations, reduces manual errors, and improves efficiency across complex environments"
+              summary_integration: "Red Hat OpenShift, VMware, AWS, Azure, Google Cloud"
+              summary_tags: "automation, orchestration, configuration management, enterprise, hybrid cloud"
+              summary_personas: "System Administrators, DevOps Engineers, Cloud Architects, Security Teams"
+              summary_release_rate: "Quarterly updates with long-term support versions"
+              twitter: https://twitter.com/ansible
+              youtube_url: https://www.youtube.com/ansibleautomation
 
           - name: Spacelift
-            project: commercial-with-trial
+            project: saas
             description: Spacelift is a sophisticated SaaS-delivered infrastructure management platform that enables infrastructure automation through software development practices.
             homepage_url: https://spacelift.io/
             logo: spacelift.png
             extra:
-              key_features: "CI/CD for infrastructure, policy as code, drift detection"
-              use_cases: "GitOps workflows, collaborative infrastructure management, compliance enforcement"
-              integration: "Supports Terraform, CloudFormation, Pulumi, Ansible, and custom integrations"
-              community: "Commercial product with growing user base"
+              blog_url: https://spacelift.io/blog
+              documentation_url: https://docs.spacelift.io/
+              summary_use_case: "GitOps workflows, collaborative infrastructure management, compliance enforcement"
+              summary_business_use_case: "Streamlines infrastructure provisioning, enhances collaboration, and ensures compliance in cloud environments"
+              summary_integration: "Terraform, CloudFormation, Pulumi, Ansible"
+              summary_tags: "infrastructure-as-code, CI/CD, GitOps, policy-as-code, compliance"
+              summary_personas: "DevOps Engineers, Cloud Architects, Site Reliability Engineers"
+              linkedin_url: https://www.linkedin.com/company/spacelift-io/
+              twitter: https://twitter.com/spaceliftio
 
           - name: Rundeck
             project: hybrid
@@ -305,10 +398,12 @@ categories:
             logo: rundeck.svg
             repo_url: https://github.com/rundeck/rundeck
             extra:
-              key_features: "Job scheduling, workflow management, access control, audit trail"
-              use_cases: "Self-service operations, incident management automation, routine task automation"
-              integration: "Plugins for various tools and services, including Ansible and Terraform"
-              community: "Active open source community with enterprise offering"
+              blog_url: https://www.rundeck.com/blog
+              documentation_url: https://docs.rundeck.com/
+              summary_use_case: "Self-service operations, incident management automation, routine task automation"
+              summary_business_use_case: "Simplifies and automates routine IT tasks, reduces manual errors, and improves operational efficiency"
+              summary_integration: "Ansible, Terraform"
+              summary_tags: "automation, orchestration, job scheduling, workflow management"
 
           - name: Puppet Enterprise
             project: enterprise
@@ -316,10 +411,17 @@ categories:
             homepage_url: https://puppet.com/products/puppet-enterprise/
             logo: puppet-enterprise.svg
             extra:
-              key_features: "Model-driven approach, compliance reporting, node management"
-              use_cases: "Infrastructure as code, compliance automation, patch management"
-              integration: "Large module ecosystem, integrations with common enterprise tools"
-              community: "Enterprise product with extensive professional services and support"
+              documentation_url: https://puppet.com/docs/pe/latest/pe_user_guide.html
+              blog_url: https://puppet.com/blog/
+              summary_business_use_case: "Provides scalable, automated infrastructure management and compliance for enterprise environments"
+              summary_use_case: "Infrastructure as code, compliance automation, patch management, and configuration management across diverse IT environments"
+              summary_tags: "configuration management, infrastructure as code, compliance automation, enterprise IT"
+              summary_release_rate: "Major releases approximately every 6 months"
+              summary_integration: "Git, Jenkins, Docker, AWS, Azure, Google Cloud"
+              summary_personas: "System Administrators, DevOps Engineers, IT Operations Managers, Security Compliance Officers"
+              youtube_url: https://www.youtube.com/user/PuppetLabsInc
+              linkedin_url: https://www.linkedin.com/company/puppet/
+              twitter: https://twitter.com/puppetize
 
           - name: torero.dev
             project: free-restrictive
@@ -327,7 +429,9 @@ categories:
             homepage_url: https://torero.io
             logo: torero.png
             extra:
-              use_cases: "I don't know... Launch python and ansible playbooks.... and have a gun to your head for 'free'?"
+              summary_use_case: "I don't know... Launch python and ansible playbooks.... and have a gun to your head for 'free'?"
+              # Claimed
+              summary_release_rate: "Every 3 months"
           
           - name: itential
             project: enterprise
