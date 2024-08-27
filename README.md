@@ -1,5 +1,5 @@
 # The Network Automation LANDSCAPE
-![Network Automation Landscape](https://raw.githubusercontent.com/steinzi/network-automation-landscape/main/docs/screenshots/logo.png)
+![Network Automation Landscape Temp Logo](https://raw.githubusercontent.com/steinzi/network-automation-landscape/main/docs/screenshots/logo-white.png)
 ![Network Automation Landscape](https://raw.githubusercontent.com/steinzi/network-automation-landscape/main/docs/screenshots/landscape1.png)
 Live at: [https://steinzi.com/network-automation-landscape/](https://steinzi.com/network-automation-landscape/)
 

@@ -145,6 +145,6 @@ header:
   links:
     github: "https://github.com/steinzi/network-automation-landscape/"
   # TODO: put the logo in the logos folder or something.
-  logo: "https://raw.githubusercontent.com/steinzi/network-automation-landscape/main/docs/screenshots/logo.png"
+  logo: "https://raw.githubusercontent.com/steinzi/network-automation-landscape/main/docs/screenshots/logo-black.png"
 
 screenshot_width: 1500
