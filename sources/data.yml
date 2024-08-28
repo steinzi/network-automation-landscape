@@ -464,16 +464,6 @@ categories:
               blog_url: https://www.influxdata.com/blog/
               youtube_url: https://www.youtube.com/influxdata
 
-          - name: gNMIc
-            project: full-open-source
-            description: gNMI client tat provides full support for Capabilities Get, Set and Subscribe RPCs with collector capabilities.
-            homepage_url: https://gnmic.openconfig.net/
-            logo: gnmic.svg
-            repo_url: https://github.com/openconfig/gnmic
-            extra:
-              summary_use_case: "Subscribing and collecting streming telemetry with gNMI, get ans set gNMI RPCs"
-              summary_tags: "telemetry, collecter, subscribe, RPCs"
-
 
   - name: Virtualization
     subcategories:
@@ -802,3 +792,57 @@ categories:
               use_cases: "Self-hosted workflow engine, event-driven automation"
               integration: "160 integration packs with 6000+ actions (see https://exchange.stackstorm.org), ChatOps"
               community: "Linux Foundation Project"
+
+      - name: Software Libraries
+        items:
+          - name: Scrapli
+            project: full-open-source
+            description: Scrapli is a Python library focused on connecting to network devices (routers/switches/firewalls/etc.) via Telnet or SSH. It aims to be fast, flexible, and easy to use for both synchronous and asynchronous operations.
+            homepage_url: https://github.com/carlmontanari/scrapli
+            logo: scrapli.svg
+            repo_url: https://github.com/carlmontanari/scrapli
+            extra:
+              documentation_url: https://carlmontanari.github.io/scrapli/
+              summary_use_case: "Network device automation, configuration management, data retrieval from network devices"
+              summary_tags: "network automation, SSH, Telnet, async, Python"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
+              summary_features: "Sync and async support, structured data parsing, multiple transport options"
+
+          - name: Netmiko
+            project: full-open-source
+            description: Netmiko is a multi-vendor library to simplify Paramiko SSH connections to network devices. It provides a unified API to connect to various network devices.
+            homepage_url: https://github.com/ktbyers/netmiko
+            logo: netmiko.png
+            repo_url: https://github.com/ktbyers/netmiko
+            extra:
+              documentation_url: https://ktbyers.github.io/netmiko/
+              summary_use_case: "Network device connection and configuration, multi-vendor support"
+              summary_tags: "network automation, SSH, multi-vendor, Python"
+              summary_personas: "Network Engineers, Network Automation Engineers"
+              summary_features: "Multi-vendor support, simplified SSH connections, configuration management"
+
+          - name: gNMIc
+            project: full-open-source
+            description: gNMIc is a gNMI client that provides full support for Capabilities, Get, Set and Subscribe RPCs with collector capabilities.
+            homepage_url: https://gnmic.kmrd.dev/
+            logo: gnmic.svg
+            repo_url: https://github.com/openconfig/gnmic
+            extra:
+              documentation_url: https://gnmic.kmrd.dev/
+              summary_use_case: "gNMI-based network device management, telemetry collection"
+              summary_tags: "gNMI, network automation, telemetry, Go"
+              summary_personas: "Network Engineers, SREs, Network Automation Specialists"
+              summary_features: "gNMI client, telemetry collection, configuration management"
+
+          - name: PyEZ
+            project: full-open-source
+            description: Juniper PyEZ is a Python library for managing and automating Juniper devices. It provides a Pythonic interface to the NETCONF API and other management interfaces.
+            homepage_url: https://www.juniper.net/documentation/product/en_US/junos-pyez
+            logo: pyez.png
+            repo_url: https://github.com/Juniper/py-junos-eznc
+            extra:
+              documentation_url: https://www.juniper.net/documentation/product/en_US/junos-pyez
+              summary_use_case: "Juniper device automation, configuration management, operational state retrieval"
+              summary_tags: "Juniper, network automation, NETCONF, Python"
+              summary_personas: "Network Engineers, Juniper Specialists, Automation Engineers"
+              summary_features: "NETCONF support, Juniper-specific optimizations, configuration management"
