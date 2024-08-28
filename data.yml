@@ -642,6 +642,79 @@ categories:
               twitter: https://twitter.com/ansible
               youtube_url: https://www.youtube.com/ansibleautomation
 
+          - name: Gluware
+            project: enterprise
+            description: Gluware is an intelligent network automation platform that enables organizations to automate and orchestrate multi-vendor, multi-domain networks at scale, reducing complexity and accelerating time-to-value.
+            homepage_url: https://www.gluware.com/
+            logo: gluware.png
+            crunchbase: https://www.crunchbase.com/organization/gluware
+            extra:
+              summary_use_case: "Network automation, intent-based networking, configuration management, network discovery and inventory, and API-driven integrations"
+              summary_business_use_case: "Reduces network complexity, improves agility, enhances security posture, and accelerates digital transformation through intelligent network automation"
+              summary_integration: "Supports multi-vendor environments and integrates with various IT service management and security tools"
+              summary_tags: "network automation, intent-based networking, configuration management, multi-vendor, orchestration"
+              summary_personas: "Network Engineers, Network Architects, IT Operations, CIOs"
+              summary_release_rate: "Regular releases for both on-premises and cloud versions"
+              blog_url: https://www.gluware.com/blog/
+              youtube_url: https://www.youtube.com/user/gluware
+              summary_features: "Intent-Based Applications, Intelligent Model-Driven Orchestration, API-Driven Integrations, Pre-Built Automation, Network Discovery and Inventory"
+
+          - name: ZPE Systems
+            project: enterprise
+            description: ZPE Systems provides innovative network infrastructure solutions, including the Nodegrid platform for out-of-band management, NetOps automation, and edge computing. Their solutions enable organizations to automate, secure, and manage critical network infrastructure.
+            homepage_url: https://zpesystems.com/
+            logo: zpe-systems.png
+            extra:
+              summary_use_case: "Out-of-band management, NetOps automation, edge computing, network infrastructure automation and orchestration"
+              summary_business_use_case: "Enhances network resilience, improves operational efficiency, and enables secure remote management of distributed network infrastructure"
+              summary_integration: "Supports various network devices, cloud platforms, and IT management tools"
+              summary_tags: "out-of-band management, NetOps, edge computing, network automation, infrastructure orchestration"
+              summary_personas: "Network Engineers, IT Operations, Data Center Managers, DevOps Engineers"
+              summary_release_rate: "Regular releases for hardware and software components"
+              blog_url: https://zpesystems.com/blog/
+              documentation_url: https://support.zpesystems.com/
+              linkedin_url: https://www.linkedin.com/company/zpe-systems/
+              summary_features: "Nodegrid OS, Zero Touch Provisioning, Serial Console Server, NetOps Automation, Secure Access Service Edge (SASE)"
+
+          - name: Pliant
+            project: saas
+            description: Pliant [an IBM company] is a low-code automation platform that enables teams to quickly build, deploy, and scale workflows across IT operations, DevOps, and Site Reliability Engineering (SRE) functions. It provides a unified interface for automating complex processes across diverse technology stacks.
+            homepage_url: https://pliant.io/
+            logo: pliant.png
+            crunchbase: https://www.crunchbase.com/organization/pliant
+            extra:
+              twitter: https://twitter.com/pliant_io
+              summary_use_case: "Low-code IT automation, workflow orchestration, API integration, and process automation for IT operations, DevOps, and SRE teams"
+              summary_business_use_case: "Accelerates digital transformation by enabling rapid automation of complex IT processes, reducing manual errors, and improving operational efficiency"
+              summary_integration: "Supports integration with various IT systems, cloud platforms, and DevOps tools through pre-built actions and custom API integrations"
+              summary_tags: "low-code automation, IT operations, DevOps, SRE, workflow orchestration, API integration"
+              summary_personas: "IT Operations Managers, DevOps Engineers, Site Reliability Engineers, Automation Specialists"
+              summary_release_rate: "Continuous updates (SaaS model)"
+              blog_url: https://pliant.io/blog/
+              documentation_url: https://docs.pliant.io/
+              linkedin_url: https://www.linkedin.com/company/pliant-io/
+              summary_features: "Visual Workflow Builder, Pre-built Action Library, Custom API Integration, Role-Based Access Control, Audit Trails and Reporting"
+
+          - name: Itential
+            project: enterprise
+            description: Itential is an enterprise-grade network automation platform that enables network engineers and IT teams to automate complex network operations across multi-domain and multi-vendor environments. It provides low-code automation capabilities, pre-built network automations, and integrations with various network systems and IT tools.
+            homepage_url: https://www.itential.com/
+            logo: itential.png
+            crunchbase: https://www.crunchbase.com/organization/itential
+            extra:
+              twitter: https://twitter.com/Itential
+              summary_use_case: "Network automation, configuration management, network orchestration, and lifecycle management across multi-domain and multi-vendor environments"
+              summary_business_use_case: "Accelerates network automation initiatives, reduces operational complexity, and improves network agility and reliability through low-code automation and pre-built network automations"
+              summary_integration: "Integrates with various network controllers, orchestrators, SDN platforms, cloud services, and IT service management tools"
+              summary_tags: "network automation, low-code, multi-domain, multi-vendor, network orchestration, configuration management"
+              summary_personas: "Network Engineers, NetOps Teams, DevOps Engineers, Network Architects"
+              summary_release_rate: "Regular releases with enterprise support"
+              blog_url: https://www.itential.com/blog/
+              documentation_url: https://www.itential.com/resources/
+              linkedin_url: https://www.linkedin.com/company/itential/
+              youtube_url: https://www.youtube.com/c/Itential
+              summary_features: "Low-Code Automation Builder, Pre-Built Network Automations, Multi-Domain Orchestration, Configuration Management, Network Intelligence and Analytics"
+
           - name: Spacelift
             project: saas
             description: Spacelift is a sophisticated SaaS-delivered infrastructure management platform that enables infrastructure automation through software development practices.
