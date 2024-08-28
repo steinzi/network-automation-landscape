@@ -64,6 +64,22 @@ categories:
               summary_release_rate: "Regular releases with long-term support versions"
               youtube_url: https://www.youtube.com/@networktocode6721
 
+          - name: Peering Manager
+            project: full-open-source
+            description: Peering Manager is a BGP management tool
+            homepage_url: https://peering-manager.net/
+            logo: peering-manager.svg
+            repo_url: https://github.com/peering-manager/peering-manager
+            extra:
+              documentation_url: https://docs.peering-manager.net/
+              tag: nsot
+              docker_url: https://hub.docker.com/r/peeringmanager/peering-manager
+              github_discussions_url: https://github.com/peering-manager/peering-manager/discussions
+              summary_use_case: "Provides a source of truth and configuration management for external BGP sessions of all kind (transit, customers, peering, …)"
+              summary_tags: "BGP inventory, configuration management, API-first"
+              summary_business_use_case: "Improves BGP peering with other networks and reduces errors through automation"
+              summary_personas: "Network Engineers, Network Architects"
+
       - name: Network Discovery/Assurance
         items:
           - name: Forward Networks
