@@ -77,6 +77,22 @@ categories:
               summary_business_use_case: "Network verification and troubleshooting for brownfield networks"
               summary_tags: "network assurance, network verification, network troubleshooting"
 
+          - name: NetBrain
+            project: enterprise
+            description: NetBrain is a network automation and visibility platform that provides dynamic network mapping, automated network documentation, and intelligent troubleshooting capabilities for enterprise networks.
+            homepage_url: https://www.netbraintech.com/
+            logo: netbrain.png
+            crunchbase: https://www.crunchbase.com/organization/netbrain-technologies
+            extra:
+              summary_use_case: "Dynamic network mapping, automated network documentation, intelligent troubleshooting, and network automation"
+              summary_business_use_case: "Enhances network visibility, accelerates problem resolution, and improves operational efficiency through automation of network documentation and troubleshooting processes"
+              summary_integration: "Integrates with various IT service management (ITSM) tools, security information and event management (SIEM) systems, and network monitoring platforms"
+              summary_tags: "network automation, network visibility, dynamic mapping, troubleshooting, intent-based networking"
+              summary_personas: "Network Engineers, Network Architects, IT Operations, NOC Teams"
+              summary_release_rate: "Regular releases for both on-premises and cloud versions"
+              blog_url: https://www.netbraintech.com/blog/
+              summary_features: "Dynamic Network Mapping, Runbook Automation, Intent-Based Automation, Network Digital Twin, Adaptive Network Automation"
+
           - name: IP Fabric
             project: enterprise
             crunchbase: https://www.crunchbase.com/organization/ip-fabric
@@ -641,6 +657,24 @@ categories:
               summary_personas: "DevOps Engineers, Cloud Architects, Site Reliability Engineers"
               linkedin_url: https://www.linkedin.com/company/spacelift-io/
               twitter: https://twitter.com/spaceliftio
+
+          - name: BackBox
+            project: enterprise
+            description: BackBox is an intelligent automation platform that helps organizations manage complex networks by automating critical tasks such as configuration backup, compliance checks, and network inventory management.
+            homepage_url: https://backbox.com/
+            logo: backbox.jpg
+            crunchbase: https://www.crunchbase.com/organization/backbox
+            extra:
+              summary_use_case: "Network configuration backup, compliance and vulnerability management, inventory management, and network automation"
+              summary_business_use_case: "Improves network reliability, enhances security posture, and increases operational efficiency through automated network management and security tasks"
+              summary_integration: "Supports over 180 vendors and integrates with various security and network management tools"
+              summary_tags: "network automation, configuration management, compliance, security, multi-vendor"
+              summary_personas: "Network Engineers, Security Analysts, IT Operations, Compliance Officers"
+              summary_release_rate: "Regular releases for both on-premises and cloud versions"
+              blog_url: https://backbox.com/blog/
+              documentation_url: https://backbox.com/resources/
+              linkedin_url: https://www.linkedin.com/company/backbox/
+              summary_features: "Automated Configuration Backup, Compliance Management, Intelligent Network Automation, Dynamic Network Mapping, Custom Automation Builder"
 
           - name: Rundeck
             project: hybrid
