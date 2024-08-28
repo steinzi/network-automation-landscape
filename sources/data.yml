@@ -791,14 +791,6 @@ categories:
               # Claimed
               summary_release_rate: "Every 3 months"
 
-          - name: itential
-            project: enterprise
-            description: Itential is a enterprise network automation platform that enables network engineers to design, build, and execute network automation workflows.
-            homepage_url: https://www.itential.com/
-            logo: itential.png
-            extra:
-              key_features: "Low-code automation, network workflow builder, API-first design"
-
           - name: StackStorm
             project: full-open-source
             description: StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs
