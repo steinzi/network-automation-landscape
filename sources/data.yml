@@ -233,6 +233,27 @@ categories:
               youtube_url: https://www.youtube.com/channel/UCsTYhGUm81x6m6lQ-QUwfKA
               twitter: https://twitter.com/kentikinc
 
+      - name: Monitoring & Alerting
+        items:
+          # ... (previous items remain unchanged)
+
+          - name: Orb Community
+            project: full-open-source
+            description: Orb is an open-source observability platform that provides a unified view of metrics, logs, and traces. It aims to simplify the complexities of observability by offering an integrated solution for monitoring and troubleshooting distributed systems.
+            homepage_url: https://orb.community/
+            logo: orb-community.png
+            repo_url: https://github.com/orb-community/orb
+            extra:
+              summary_use_case: "Unified observability platform for metrics, logs, and traces in distributed systems"
+              summary_business_use_case: "Enables organizations to gain comprehensive insights into their systems' performance and behavior, reducing mean time to detection and resolution of issues"
+              summary_integration: "Supports various data sources and protocols including Prometheus, OpenTelemetry, and InfluxDB"
+              summary_tags: "observability, open-source, metrics, logs, traces, distributed systems"
+              summary_personas: "DevOps Engineers, Site Reliability Engineers, Software Developers, IT Operations"
+              summary_release_rate: "Ongoing development with community-driven updates"
+              documentation_url: https://orb.community/documentation/running_orb_agent/
+              github_discussions_url: https://github.com/orb-community/orb/discussions
+              summary_features: "Unified dashboard for metrics, logs, and traces; multi-tenancy support; plugin system for extensibility"
+
           - name: Elastic Stack (ELK)
             project: hybrid
             description: Elastic Stack, formerly known as ELK Stack, is a group of open source products from Elastic designed to help users take data from any type of source and in any format and search, analyze, and visualize it in real time.
