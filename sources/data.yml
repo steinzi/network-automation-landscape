@@ -212,8 +212,91 @@ categories:
 
   - name: Telemetry and observability
     subcategories:
-      - name: Monitoring & Alerting
+      # TODO: Figure out better names and layout for this section
+      - name: Observability
         items:
+          - name: Kentik
+            project: saas
+            description: Kentik is a network observability platform that uses big data and AI to provide real-time network analytics, DDoS protection, and traffic optimization.
+            homepage_url: https://www.kentik.com/
+            logo: kentik.png
+            extra:
+              summary_use_case: "Network traffic analysis, DDoS detection and mitigation, capacity planning, and performance optimization"
+              summary_business_use_case: "Enhances network visibility, improves security posture, and optimizes network performance for better user experience and reduced operational costs"
+              summary_integration: "Cloud platforms (AWS, Azure, GCP), network devices, firewalls, and CDNs"
+              summary_tags: "network analytics, DDoS protection, traffic optimization, cloud networking, AI-driven insights"
+              summary_personas: "Network Engineers, Security Analysts, Cloud Architects, IT Operations"
+              summary_release_rate: "Continuous updates (SaaS model)"
+              blog_url: https://www.kentik.com/blog/
+              documentation_url: https://kb.kentik.com/
+              linkedin_url: https://www.linkedin.com/company/kentik/
+              youtube_url: https://www.youtube.com/channel/UCsTYhGUm81x6m6lQ-QUwfKA
+              twitter: https://twitter.com/kentikinc
+
+          - name: Elastic Stack (ELK)
+            project: hybrid
+            description: Elastic Stack, formerly known as ELK Stack, is a group of open source products from Elastic designed to help users take data from any type of source and in any format and search, analyze, and visualize it in real time.
+            homepage_url: https://www.elastic.co/elastic-stack/
+            logo: elastic-stack.png
+            crunchbase: https://www.crunchbase.com/organization/elastic
+            extra:
+              twitter: https://twitter.com/elastic
+              summary_use_case: "Log analysis, application performance monitoring, security information and event management (SIEM)"
+              summary_business_use_case: "Provides comprehensive data analysis and visualization capabilities, enabling organizations to gain insights from their data, improve operational efficiency, and enhance security posture"
+              summary_integration: "Various data sources, Logstash plugins, Beats data shippers, cloud platforms"
+              summary_tags: "log analysis, data visualization, full-text search, real-time analytics, observability"
+              summary_personas: "DevOps Engineers, Data Analysts, Security Analysts, IT Operations"
+              summary_release_rate: "Major releases approximately every quarter"
+              blog_url: https://www.elastic.co/blog/
+              documentation_url: https://www.elastic.co/guide/index.html
+              linkedin_url: https://www.linkedin.com/company/elastic-co/
+              youtube_url: https://www.youtube.com/user/elasticsearch
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/elasticsearch
+              summary_components: "Elasticsearch, Logstash, Kibana, Beats"
+
+          - name: Datadog
+            project: saas
+            description: Datadog is a monitoring and analytics platform for large-scale applications. It brings together data from servers, containers, databases, and third-party services to make your stack entirely observable.
+            homepage_url: https://www.datadoghq.com/
+            logo: datadog.png
+            crunchbase: https://www.crunchbase.com/organization/datadog
+            extra:
+              twitter: https://twitter.com/datadoghq
+              summary_use_case: "Infrastructure monitoring, application performance monitoring, log management, user experience monitoring, and security monitoring"
+              summary_business_use_case: "Provides end-to-end observability for cloud environments, helping organizations troubleshoot issues faster, optimize application performance, and make data-driven decisions"
+              summary_integration: "400+ built-in integrations including AWS, Azure, GCP, Kubernetes, databases, and various DevOps tools"
+              summary_tags: "cloud monitoring, APM, log management, real-time analytics, distributed tracing"
+              summary_personas: "DevOps Engineers, Site Reliability Engineers, Software Developers, IT Operations, Security Analysts"
+              summary_release_rate: "Continuous updates (SaaS model)"
+              blog_url: https://www.datadoghq.com/blog/
+              documentation_url: https://docs.datadoghq.com/
+              github_discussions_url: https://github.com/DataDog/datadog-agent/discussions
+              linkedin_url: https://www.linkedin.com/company/datadog/
+              youtube_url: https://www.youtube.com/user/DatadogHQ
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/datadog
+              summary_features: "Real-time dashboards, alerts, APM, log correlation, machine learning-based anomaly detection"
+
+          - name: Splunk
+            project: hybrid
+            description: Splunk [a Cisco company] is a software platform for searching, monitoring, and analyzing machine-generated big data, via a web-style interface. It captures, indexes, and correlates real-time data in a searchable repository, from which it can generate graphs, reports, alerts, dashboards, and visualizations.
+            homepage_url: https://www.splunk.com/
+            logo: splunk.svg
+            crunchbase: https://www.crunchbase.com/organization/splunk
+            extra:
+              twitter: https://twitter.com/splunk
+              summary_use_case: "Log management, security information and event management (SIEM), application performance monitoring, IT operations management, business analytics"
+              summary_business_use_case: "Enables organizations to search, monitor, analyze and visualize machine-generated big data, providing operational intelligence, proactive monitoring, and comprehensive security analytics"
+              summary_integration: "Extensive app ecosystem, cloud platforms (AWS, Azure, GCP), networking equipment, security tools, and custom data sources"
+              summary_tags: "log analysis, SIEM, real-time analytics, machine learning, predictive analytics, IT operations"
+              summary_personas: "IT Operations, Security Analysts, DevOps Engineers, Business Analysts, Data Scientists"
+              summary_release_rate: "Major releases typically twice a year, with frequent updates for cloud offerings"
+              blog_url: https://www.splunk.com/en_us/blog.html
+              documentation_url: https://docs.splunk.com/
+              linkedin_url: https://www.linkedin.com/company/splunk/
+              youtube_url: https://www.youtube.com/user/splunkvideos
+              stack_overflow_url: https://stackoverflow.com/questions/tagged/splunk
+              summary_features: "Real-time data indexing, powerful search processing language (SPL), machine learning capabilities, customizable dashboards and visualizations"
+
           - name: Icinga
             project: full-open-source
             description: Monitoring system which checks the availability of your network resources, notifies users of outages, and generates performance data for reporting.
@@ -322,6 +405,7 @@ categories:
               youtube_url: https://www.youtube.com/user/ZabbixSIA
               slack_url: https://zabbix.com/community
               mailing_list_url: https://lists.sourceforge.net/lists/listinfo/zabbix-users
+
       - name: Telemetry & Data Collection
         items:
           - name: Telegraf
@@ -352,6 +436,7 @@ categories:
             extra:
               summary_use_case: "Subscribing and collecting streming telemetry with gNMI, get ans set gNMI RPCs"
               summary_tags: "telemetry, collecter, subscribe, RPCs"
+
 
   - name: Virtualization
     subcategories:
