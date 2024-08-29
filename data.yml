@@ -382,6 +382,22 @@ categories:
               twitter: https://twitter.com/librenms
               discord_url: https://discord.gg/librenms
 
+          - name: eNMS
+            project: full-open-source
+            description: eNMS is a vendor-agnostic NMS designed for building workflow-based network automation solutions, with a focus on visualization, inventory management, and service scheduling.
+            homepage_url: https://github.com/eNMS-automation/eNMS
+            logo: enms.png
+            repo_url: https://github.com/eNMS-automation/eNMS
+            extra:
+              documentation_url: https://enms.readthedocs.io/en/latest/
+              summary_use_case: "Network automation, workflow management, network visualization, and inventory management"
+              summary_business_use_case: "Streamlines network operations by providing a centralized platform for network automation, visualization, and management, improving efficiency and reducing manual errors"
+              summary_integration: "Supports integration with various network devices and protocols, as well as external services like Ansible, Netmiko, and NAPALM"
+              summary_tags: "network automation, workflow management, inventory management, visualization, open-source"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
+              summary_release_rate: "Regular updates with new features and improvements"
+              github_discussions_url: https://github.com/eNMS-automation/eNMS/discussions
+
           - name: Observium
             project: hybrid
             description: "Observium is a low-maintenance auto-discovering network monitoring platform supporting a wide range of device types, platforms and operating systems."
@@ -607,7 +623,7 @@ categories:
               youtube_url: https://www.youtube.com/c/PulumiTV
               twitter: https://twitter.com/PulumiCorp
               linkedin_url: https://www.linkedin.com/company/pulumi
-              
+
           - name: Salt
             project: full-open-source
             description: Salt is a powerful and flexible open-source software for remote execution, configuration management, and infrastructure orchestration. It's gaining popularity in network automation for its speed and scalability.
