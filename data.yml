@@ -589,6 +589,25 @@ categories:
               summary_personas: "DevOps Engineers, Cloud Architects, Network Engineers, Site Reliability Engineers"
               blog_url: https://opentofu.org/blog/
 
+          - name: Pulumi
+            project: hybrid
+            description: Pulumi is an open-source infrastructure as code tool that allows you to use familiar programming languages like TypeScript, Python, Go, and .NET to define and manage cloud infrastructure across various providers.
+            homepage_url: https://www.pulumi.com
+            logo: pulumi.svg
+            repo_url: https://github.com/pulumi/pulumi
+            extra:
+              documentation_url: https://www.pulumi.com/docs/
+              summary_use_case: "Cloud infrastructure provisioning, multi-cloud resource management, serverless deployments"
+              summary_business_use_case: "Enables developers to use familiar programming languages for infrastructure as code, improving productivity and reducing the learning curve for infrastructure management"
+              summary_integration: "AWS, Azure, Google Cloud, Kubernetes, Docker, and 60+ cloud and SaaS providers"
+              summary_tags: "infrastructure as code, cloud provisioning, multi-cloud, programmable infrastructure, serverless"
+              summary_personas: "Software Developers, DevOps Engineers, Cloud Architects, Site Reliability Engineers"
+              summary_release_rate: "Major releases approximately every 3-4 months, with minor releases more frequently"
+              blog_url: https://www.pulumi.com/blog/
+              youtube_url: https://www.youtube.com/c/PulumiTV
+              twitter: https://twitter.com/PulumiCorp
+              linkedin_url: https://www.linkedin.com/company/pulumi
+              
           - name: Salt
             project: full-open-source
             description: Salt is a powerful and flexible open-source software for remote execution, configuration management, and infrastructure orchestration. It's gaining popularity in network automation for its speed and scalability.
