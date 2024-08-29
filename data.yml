@@ -877,3 +877,16 @@ categories:
               summary_tags: "Juniper, network automation, NETCONF, Python"
               summary_personas: "Network Engineers, Juniper Specialists, Automation Engineers"
               summary_features: "NETCONF support, Juniper-specific optimizations, configuration management"
+          
+          - name: NTC Templates
+            project: full-open-source
+            description: Repository of TextFSM Templates for Network Devices, and Python wrapper for TextFSM's CliTable. TextFSM is a tool to help make parsing cli commands more manageable.
+            homepage_url: https://github.com/networktocode/ntc-templates
+            logo: ntc_templates.png
+            repo_url: https://github.com/networktocode/ntc-templates
+            extra:
+              documentation_url: https://ntc-templates.readthedocs.io/en/latest/
+              summary_use_case: "Parsing outputs from network devices"
+              summary_tags: "TextFSM, multi-vendor, CLI, Python"
+              summary_personas: "Network Engineers, Automation Engineers"
+              summary_features: "Multi-vendor support, command output parsing"
