@@ -479,6 +479,18 @@ categories:
               twitter: https://twitter.com/influxdb
               blog_url: https://www.influxdata.com/blog/
               youtube_url: https://www.youtube.com/influxdata
+          - name: gNMIc
+            project: full-open-source
+            description: gNMIc is a full-featured gNMI-focused streaming telemetry collector with rich data processing capabilities and high-availability support.
+            homepage_url: https://gnmic.openconfig.net/
+            logo: gnmic.svg
+            repo_url: https://github.com/openconfig/gnmic
+            extra:
+              documentation_url: https://gnmic.openconfig.net/
+              summary_use_case: "gNMI-based network device management, telemetry collection"
+              summary_tags: "gNMI, network automation, telemetry, Go"
+              summary_personas: "Network Engineers, SREs, Network Automation Specialists"
+              summary_features: "gNMI client, telemetry collection, configuration management"
 
 
   - name: Virtualization
@@ -854,12 +866,12 @@ categories:
 
           - name: gNMIc
             project: full-open-source
-            description: gNMIc is a gNMI client that provides full support for Capabilities, Get, Set and Subscribe RPCs with collector capabilities.
-            homepage_url: https://gnmic.kmrd.dev/
+            description: gNMIc is a gNMI-focused software suite that provides a CLI client, a Go API for gNMI and a streaming telemetry collector implementation.
+            homepage_url: https://gnmic.openconfig.net/
             logo: gnmic.svg
             repo_url: https://github.com/openconfig/gnmic
             extra:
-              documentation_url: https://gnmic.kmrd.dev/
+              documentation_url: https://gnmic.openconfig.net/
               summary_use_case: "gNMI-based network device management, telemetry collection"
               summary_tags: "gNMI, network automation, telemetry, Go"
               summary_personas: "Network Engineers, SREs, Network Automation Specialists"
