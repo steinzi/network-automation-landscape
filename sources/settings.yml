@@ -126,6 +126,7 @@ footer:
   logo: "https://raw.githubusercontent.com/cncf/artwork/master/other/cncf/horizontal/white/cncf-white.svg"
   text: |
       Copyright © 2024 STEINZI. Some rights reserved...
+      Thanks for helping: Urs Baumann - Mateusz Frąk - Guillaume Mazoyer - Roman Dodin
 
 grid_items_size: small
 
@@ -137,9 +138,9 @@ groups:
       - Automation Tooling
       - Virtualization
   # TODO: make this happen so we can make some groups and be cool like the CNCF landscape.
-  - name: Open Source only
-    categories:
-      - Telemetry and observability
+  # - name: Open Source only
+  #   categories:
+  #     - Telemetry and observability
 
 header:
   links:
