@@ -561,6 +561,21 @@ categories:
               summary_release_rate: "Major releases approximately every 3-4 months, with minor releases more frequently"
               blog_url: https://www.hashicorp.com/blog/products/terraform
               youtube_url: https://www.youtube.com/hashicorp
+              
+          - name: OpenTofu
+            project: full-open-source
+            description: OpenTofu is an infrastructure as code tool that lets you define both cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share.
+            homepage_url: https://opentofu.org
+            logo: opentofu.png
+            repo_url: https://github.com/opentofu/opentofu
+            extra:
+              documentation_url: https://opentofu.org/docs
+              summary_use_case: "Cloud network provisioning, multi-cloud networking, SDN configuration"
+              summary_business_use_case: "Enables infrastructure as code, improving consistency, reducing errors, and speeding up deployment across multiple cloud providers and on-premises infrastructure"
+              summary_integration: "AWS, Azure, Google Cloud, VMware, Cisco ACI, F5, Palo Alto Networks"
+              summary_tags: "infrastructure as code, cloud provisioning, network automation, multi-cloud, state management"
+              summary_personas: "DevOps Engineers, Cloud Architects, Network Engineers, Site Reliability Engineers"
+              blog_url: https://opentofu.org/blog/
 
           - name: Salt
             project: full-open-source
