@@ -679,7 +679,7 @@ categories:
             project: enterprise
             description: Gluware is an intelligent network automation platform that enables organizations to automate and orchestrate multi-vendor, multi-domain networks at scale, reducing complexity and accelerating time-to-value.
             homepage_url: https://www.gluware.com/
-            logo: gluware.png
+            logo: glueware.jpg
             crunchbase: https://www.crunchbase.com/organization/gluware
             extra:
               summary_use_case: "Network automation, intent-based networking, configuration management, network discovery and inventory, and API-driven integrations"
