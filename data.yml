@@ -675,6 +675,20 @@ categories:
               twitter: https://twitter.com/ansible
               youtube_url: https://www.youtube.com/ansibleautomation
 
+          - name: rConfig
+            project: freemium
+            description: rConfig is a free, open source network device configuration management utility for network engineers to take frequent configuration snapshots of their network devices.
+            homepage_url: https://www.rconfig.com/
+            logo: rconfig.png
+            repo_url: https://github.com/rconfig/rconfig
+            extra:
+              summary_use_case: "Network device configuration backup, compliance monitoring, and change management"
+              summary_business_use_case: "Improves network reliability and reduces downtime by providing comprehensive configuration management and change tracking for network devices"
+              summary_integration: "Supports various network vendors including Cisco, Juniper, HP, and more"
+              summary_tags: "network configuration management, device backup, compliance, change tracking"
+              summary_personas: "Network Engineers, System Administrators, IT Operations Teams"
+              summary_release_rate: "Regular updates with both community and commercial editions"
+
           - name: Gluware
             project: enterprise
             description: Gluware is an intelligent network automation platform that enables organizations to automate and orchestrate multi-vendor, multi-domain networks at scale, reducing complexity and accelerating time-to-value.
