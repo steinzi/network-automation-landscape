@@ -951,3 +951,16 @@ categories:
               summary_tags: "TextFSM, multi-vendor, CLI, Python"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, command output parsing"
+          
+          - name: TTP
+            project: full-open-source
+            description: Template Text Parser is a Python library for semi-structured text parsing using templates.
+            homepage_url: https://github.com/dmulyalin/ttp
+            logo: ttp.png
+            repo_url: https://github.com/dmulyalin/ttp
+            extra:
+              documentation_url: https://ttp.readthedocs.io/en/latest/
+              summary_use_case: "Parsing outputs from semi-structured text"
+              summary_tags: "screen-scraping, parsing, Python, template"
+              summary_personas: "Network Engineers, Automation Engineers"
+              summary_features: "Multi-vendor support, command output parsing"
