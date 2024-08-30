@@ -118,7 +118,7 @@ categories:
             twitter: https://x.com/IPFabric
             extra:
               summary_use_case: "Discovery and modeling and assurance of network infrastructure with multivendor support allowing you to view the high level network design and drill down to the device or technology level."
-              summary_integration: "Netbox"
+              summary_integration: "Ansible, Itential, Nautobot, Netbox, Nornir, Splunk, Zabbix"
               summary_business_use_case: "Visibility for brownfield network assurance by discovering and modeling the network infrastructure by collecting data from the devices using credentials and APIs."
               summary_tags: "network assurance, network visibility, network analytics, network discovery, network modeling"
 
