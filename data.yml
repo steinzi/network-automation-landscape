@@ -915,19 +915,6 @@ categories:
               summary_personas: "Network Engineers, Network Automation Engineers"
               summary_features: "Multi-vendor support, simplified SSH connections, configuration management"
 
-          - name: gNMIc
-            project: full-open-source
-            description: gNMIc is a gNMI-focused software suite that provides a CLI client, a Go API for gNMI and a streaming telemetry collector implementation.
-            homepage_url: https://gnmic.openconfig.net/
-            logo: gnmic.svg
-            repo_url: https://github.com/openconfig/gnmic
-            extra:
-              documentation_url: https://gnmic.openconfig.net/
-              summary_use_case: "gNMI-based network device management, telemetry collection"
-              summary_tags: "gNMI, network automation, telemetry, Go"
-              summary_personas: "Network Engineers, SREs, Network Automation Specialists"
-              summary_features: "gNMI client, telemetry collection, configuration management"
-
           - name: PyEZ
             project: full-open-source
             description: Juniper PyEZ is a Python library for managing and automating Juniper devices. It provides a Pythonic interface to the NETCONF API and other management interfaces.
@@ -1001,3 +988,16 @@ categories:
               summary_use_case: "Network device automation, configuration management, data retrieval from network devices"
               summary_tags: "network automation, SSH, NETCONF"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
+
+          - name: gNMIc
+            project: full-open-source
+            description: gNMIc is a gNMI-focused software suite that provides a CLI client, a Go API for gNMI and a streaming telemetry collector implementation.
+            homepage_url: https://gnmic.openconfig.net/
+            logo: gnmic.svg
+            repo_url: https://github.com/openconfig/gnmic
+            extra:
+              documentation_url: https://gnmic.openconfig.net/
+              summary_use_case: "gNMI-based network device management, telemetry collection"
+              summary_tags: "gNMI, network automation, telemetry, Go"
+              summary_personas: "Network Engineers, SREs, Network Automation Specialists"
+              summary_features: "gNMI client, telemetry collection, configuration management"
