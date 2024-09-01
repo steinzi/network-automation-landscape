@@ -641,40 +641,6 @@ categories:
               summary_integration: "Ansible, Puppet, Docker, Kubernetes"
               summary_personas: "System Administrators, DevOps Engineers, Network Engineers"
 
-      - name: Network Programmability Frameworks
-        items:
-          - name: NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support)
-            project: full-open-source
-            description: NAPALM is a Python library that implements a set of functions to interact with different network device Operating Systems using a unified API.
-            homepage_url: https://napalm.readthedocs.io
-            logo: napalm.png
-            repo_url: https://github.com/napalm-automation/napalm
-            extra:
-              github_discussions_url: https://github.com/napalm-automation/napalm/discussions
-              summary_use_case: "Network device configuration, state retrieval, configuration compliance"
-              summary_business_use_case: "Simplifies multi-vendor network management, reduces complexity in network automation, and improves operational efficiency"
-              summary_integration: "Ansible, Salt, Nornir, Netbox"
-              summary_tags: "network automation, multi-vendor, configuration management, Python library, unified API"
-              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
-              summary_release_rate: "Yearly releases"
-
-          - name: Nornir
-            project: full-open-source
-            description: Nornir is a pure Python automation framework that can be used for network automation tasks. It's designed to be fast, flexible, and easy to extend.
-            homepage_url: https://nornir.readthedocs.io
-            logo: nornir.jpg
-            repo_url: https://github.com/nornir-automation/nornir
-            extra:
-              documentation_url: https://nornir.readthedocs.io/en/latest/
-              github_discussions_url: https://github.com/nornir-automation/nornir/discussions
-              summary_use_case: "Rapid network data collection, configuration deployment, custom automation workflows"
-              summary_business_use_case: "Enables efficient and scalable network automation, reducing manual tasks and improving network management productivity"
-              summary_integration: "NAPALM, Netmiko, Scrapli, Paramiko"
-              summary_tags: "network automation, Python, multi-threading, inventory management, plugin system"
-              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
-              summary_release_rate: "Yearly releases"
-              blog_url: https://nornir.tech/nornir/
-
       - name: Automation Platforms and Management
         items:
           - name: AWX
@@ -885,6 +851,42 @@ categories:
               integration: "160 integration packs with 6000+ actions (see https://exchange.stackstorm.org), ChatOps"
               community: "Linux Foundation Project"
 
+  - name: Python Eco-System
+    subcategories:
+      - name: Network Programmability Frameworks
+        items:
+          - name: NAPALM (Network Automation and Programmability Abstraction Layer with Multivendor support)
+            project: full-open-source
+            description: NAPALM is a Python library that implements a set of functions to interact with different network device Operating Systems using a unified API.
+            homepage_url: https://napalm.readthedocs.io
+            logo: napalm.png
+            repo_url: https://github.com/napalm-automation/napalm
+            extra:
+              github_discussions_url: https://github.com/napalm-automation/napalm/discussions
+              summary_use_case: "Network device configuration, state retrieval, configuration compliance"
+              summary_business_use_case: "Simplifies multi-vendor network management, reduces complexity in network automation, and improves operational efficiency"
+              summary_integration: "Ansible, Salt, Nornir, Netbox"
+              summary_tags: "network automation, multi-vendor, configuration management, Python library, unified API"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
+              summary_release_rate: "Yearly releases"
+
+          - name: Nornir
+            project: full-open-source
+            description: Nornir is a pure Python automation framework that can be used for network automation tasks. It's designed to be fast, flexible, and easy to extend.
+            homepage_url: https://nornir.readthedocs.io
+            logo: nornir.jpg
+            repo_url: https://github.com/nornir-automation/nornir
+            extra:
+              documentation_url: https://nornir.readthedocs.io/en/latest/
+              github_discussions_url: https://github.com/nornir-automation/nornir/discussions
+              summary_use_case: "Rapid network data collection, configuration deployment, custom automation workflows"
+              summary_business_use_case: "Enables efficient and scalable network automation, reducing manual tasks and improving network management productivity"
+              summary_integration: "NAPALM, Netmiko, Scrapli, Paramiko"
+              summary_tags: "network automation, Python, multi-threading, inventory management, plugin system"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
+              summary_release_rate: "Yearly releases"
+              blog_url: https://nornir.tech/nornir/
+
       - name: Software Libraries
         items:
           - name: Scrapli
@@ -964,3 +966,38 @@ categories:
               summary_tags: "screen-scraping, parsing, Python, template"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, command output parsing"
+
+
+  - name: GoLang Eco-System
+    subcategories:
+      - name: Network Programmability Frameworks
+        items:
+          - name: gornir
+            project: full-open-source
+            description: Gornir is a pluggable framework with inventory management to help operate collections of devices. It's similar to nornir but in golang.
+            homepage_url: https://github.com/nornir-automation/gornir
+            logo: nornir.jpg
+            repo_url: https://github.com/nornir-automation/gornir
+            extra:
+              documentation_url: https://pkg.go.dev/github.com/nornir-automation/gornir
+              github_discussions_url: https://github.com/nornir-automation/gornir/discussions
+              summary_use_case: "Rapid network data collection, configuration deployment, custom automation workflows"
+              summary_business_use_case: "Enables efficient and scalable network automation, reducing manual tasks and improving network management productivity"
+              summary_tags: "network automation, GoLang, multi-threading, inventory management, plugin system"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
+              summary_release_rate: "Yearly releases"
+              blog_url: https://nornir.tech/nornir/
+
+      - name: Software Libraries
+        items:
+          - name: ScrapliGo
+            project: full-open-source
+            description: Scrapligo is a Go library focused on connecting to devices, specifically network devices (routers/switches/firewalls/etc.) via SSH and NETCONF.
+            homepage_url: https://github.com/scrapli/scrapligo
+            logo: scrapligo.svg
+            repo_url: https://github.com/scrapli/scrapligo
+            extra:
+              documentation_url: https://pkg.go.dev/github.com/scrapli/scrapligo
+              summary_use_case: "Network device automation, configuration management, data retrieval from network devices"
+              summary_tags: "network automation, SSH, NETCONF"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
