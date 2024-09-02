@@ -507,6 +507,43 @@ categories:
               summary_tags: "gNMI, network automation, telemetry, Go"
               summary_personas: "Network Engineers, SREs, Network Automation Specialists"
               summary_features: "gNMI client, telemetry collection, configuration management"
+          - name: jalapeno
+            project: full-open-source
+            description: A cloud-native infrastructure platform to enable development of network services collecting telemetry with GoBMP and Telegraf.
+            homepage_url: https://cisco-open.github.io/jalapeno/
+            logo: jalapeno.png
+            repo_url: https://github.com/cisco-open/jalapeno
+            extra:
+              documentation_url: https://cisco-open.github.io/jalapeno/
+              summary_use_case: "Developing Cloud Native Network Services (CNNS) on top of common data collection and warehousing infrastructure."
+              summary_tags: "telemetry, bmp, GoBMP, k8s, graph"
+              summary_personas: "Network Engineers, SREs, Network Automation Specialists"
+              summary_features: "telemetry collection, graph database, warehousing, data aggregation, topology"
+          - name: jagw
+            project: full-open-source
+            description: The Jalapeño API Gateway offers you a simple and easy to use way to access the data provided by the Jalapeño application stack.
+            homepage_url: https://jalapeno-api-gateway.github.io/jagw/
+            logo: jagw.png
+            repo_url: https://github.com/jalapeno-api-gateway/jagw
+            extra:
+              documentation_url: https://jalapeno-api-gateway.github.io/jagw/
+              summary_use_case: "Developing Cloud Native Network Services (CNNS) to collect or subscribe Jalapeno data/events"
+              summary_tags: "jalapeno, api-gateway, gRPC, event-driven, network automation, telemetry"
+              summary_personas: "Network Engineers, SREs, Network Automation Specialists, Software Developers"
+              summary_features: "API Gateway, subscribe collections, subscribe counters, event based"
+          - name: goBMP
+            project: full-open-source
+            description: "goBMP is an implementation of Open BMP (RFC 7854) protocol's collector in go language. Collected BGP information can be published to kafka topics, stored in the file in JSON format or printed to stdout."
+            homepage_url: https://github.com/sbezverk/gobmp
+            logo: goBMP.png
+            repo_url: https://github.com/sbezverk/gobmp
+            extra:
+              documentation_url: https://netutils.readthedocs.io/en/latest/
+              summary_use_case: "Collecting BGP Monitoring metrics"
+              summary_tags: "BGP, BMP, RFC7854, collector"
+              summary_integration: "kafka"
+              summary_personas: "Network Engineers, SREs, Automation Engineers"
+              docker_url: https://hub.docker.com/r/sbezverk/gobmp
 
 
   - name: Virtualization
