@@ -132,6 +132,18 @@ categories:
               summary_integration: "Netbox"
               summary_use_case: "discovery and inventory with a focus on ease of use and accuracy. No coding required."
               summary_business_use_case: "[10 free licence shenanigans] Provides a network inventory and discovery solution that is easy to use and accurate."
+          
+          - name: Netdisco
+            project: full-open-source
+            description: Netdisco is a web-based network management tool suitable for small to very large networks. IP and MAC address data is collected into a PostgreSQL database using SNMP, CLI, or device APIs.
+            homepage_url: http://netdisco.org
+            logo: netbox.jpg
+            extra:
+              summary_use_case: "Discovery and inventory"
+              summary_business_use_case: "Network discovery and inventory of networks, with some historical data"
+              summary_tags: "network discovery, network verifcation"
+              docker_url: https://hub.docker.com/r/netdisco/netdisco
+              documentation_url: https://github.com/netdisco/netdisco/wiki
 
       - name: Testing, Compliance & Querying
         items:
