@@ -1165,3 +1165,16 @@ categories:
               summary_tags: "gNMI, network automation, Go, protobuf, yang"
               summary_personas: "Network Engineers, Network Automation Specialists"
               summary_features: "gNMI client, telemetry collection, configuration management"
+          
+          - name: netrasp
+            project: full-open-source
+            description: Netrasp is a package that communicates to network devices over SSH. It takes care of handling the pty terminal of network devices giving you an API with common actions such as executing commands and configuring devices.
+            homepage_url: https://github.com/networklore/netrasp
+            logo: netrasp.png
+            repo_url: https://github.com/networklore/netrasp
+            extra:
+              documentation_url: https://networklore.com/hello-netrasp/
+              summary_use_case: "Network device connection and configuration, multi-vendor support"
+              summary_tags: "network automation, SSH, multi-vendor, Go"
+              summary_personas: "Network Engineers, Network Automation Engineers"
+              summary_features: "Multi-vendor support, simplified SSH connections, configuration management"
