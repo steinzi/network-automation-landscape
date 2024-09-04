@@ -137,7 +137,7 @@ categories:
             project: full-open-source
             description: Netdisco is a web-based network management tool suitable for small to very large networks. IP and MAC address data is collected into a PostgreSQL database using SNMP, CLI, or device APIs.
             homepage_url: http://netdisco.org
-            logo: netbox.jpg
+            logo: netdisco.jpg
             extra:
               summary_use_case: "Discovery and inventory"
               summary_business_use_case: "Network discovery and inventory of networks, with some historical data"
