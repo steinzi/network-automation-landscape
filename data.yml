@@ -900,6 +900,21 @@ categories:
               integration: "160 integration packs with 6000+ actions (see https://exchange.stackstorm.org), ChatOps"
               community: "Linux Foundation Project"
 
+          - name: Crosswork NSO 
+            project: commercial-with-trial
+            description: Cisco® Network Services Orchestrator (NSO) enabled by Tail-f® is an industry-leading orchestration platform for hybrid networks. It provides comprehensive lifecycle service automation to enable you to design and deliver high-quality services faster and more easily.
+            homepage_url: https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html
+            logo: nso.png
+            extra:
+              documentation_url: https://developer.cisco.com/docs/nso/
+              summary_use_case: "Cisco NSO automates network services, streamlines configuration, ensures compliance, and enhances multi-vendor operations, enabling rapid and efficient service delivery across hybrid networks."
+              summary_business_use_case: "Cisco NSO accelerates service delivery, enhances customer satisfaction, reduces operational costs, and increases scalability, driving business growth in dynamic and competitive markets."
+              summary_integration: "Cisco, Juniper, Nokia, F5, Arista, Huawei, Ansible, VMware, Checkpoint, Fortinet, Palo Alto and more"
+              summary_tags: "orchestration, automation, configuration management, service abstraction, service management, infrastructure orchestration"
+              summary_personas: "Network Engineers, DevOps Engineers, Site Reliability Engineers"
+              summary_release_rate: "Minor releases 2-3 times a year"
+              youtube_url: https://www.youtube.com/@cisconsodeveloperhub492
+
   - name: Python Eco-System
     subcategories:
       - name: Network Programmability Frameworks
