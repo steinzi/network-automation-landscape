@@ -412,10 +412,10 @@ categories:
 
           - name: Observium
             project: hybrid
-            description: "Observium is a low-maintenance auto-discovering network monitoring platform supporting a wide range of device types, platforms and operating systems."
+            description: "Observium is a network monitoring platform supporting a wide range of device types, platforms and operating systems."
             homepage_url: https://www.observium.org/
             logo: observium.png
-            repo_url: https://github.com/observium/docker-observium
+            repo_url: https://github.com/DanielleHuisman/observium-community-edition
             extra:
               documentation_url: https://docs.observium.org/
               summary_use_case: "Provides comprehensive network monitoring and management with auto-discovery capabilities, supporting a wide range of devices and platforms"
