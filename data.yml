@@ -828,6 +828,25 @@ categories:
               linkedin_url: https://www.linkedin.com/company/spacelift-io/
               twitter: https://twitter.com/spaceliftio
 
+          - name: Temporal
+            project: hybrid
+            description: Temporal is a microservice orchestration platform that enables developers to build scalable and reliable applications using durable execution.
+            homepage_url: https://temporal.io/
+            logo: temporal.svg
+            repo_url: https://github.com/temporalio/temporal
+            extra:
+              documentation_url: https://docs.temporal.io/
+              summary_use_case: "Microservice orchestration, workflow automation, distributed systems coordination"
+              summary_business_use_case: "Simplifies building reliable distributed systems and applications, reducing development time and improving system resilience"
+              summary_integration: "Supports various programming languages (Go, Java, PHP, TypeScript)"
+              summary_tags: "workflow engine, microservices, distributed systems, durable execution, open-source"
+              summary_personas: "Software Developers, System Architects, DevOps Engineers"
+              summary_release_rate: "Regular releases with new features and improvements"
+              blog_url: https://temporal.io/blog
+              twitter: https://twitter.com/temporalio
+              youtube_url: https://www.youtube.com/temporalio
+              slack_url: https://temporal.io/slack
+
           - name: BackBox
             project: enterprise
             description: BackBox is an intelligent automation platform that helps organizations manage complex networks by automating critical tasks such as configuration backup, compliance checks, and network inventory management.
