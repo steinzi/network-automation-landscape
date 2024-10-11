@@ -145,6 +145,28 @@ categories:
               docker_url: https://hub.docker.com/r/netdisco/netdisco
               documentation_url: https://github.com/netdisco/netdisco/wiki
 
+          - name: Netos Fabric
+            project: enterprise
+            description: "Netos Fabric delivers network discovery and data normalization (ETL), all managed, orchestrated, and tracked in NetBox. It integrates seamlessly with any vendor using CLI, APIs, or other methods. Scalable and flexible, it scales to millions of tasks using Airflow for real-time job scheduling."
+            homepage_url: https://netos.io
+            logo: netos-fabric.svg
+            repo_url: https://github.com/netos-networks/netos-fabric
+            extra:
+              summary_use_case: "Network discovery and seeding NetBox. Initially developed to source data for Netos reporting plugins in NetBox."
+              summary_business_use_case: "Automatically populated Source of Truth, therefore reducing operational risks and compliance risk, and enhancing project modeling accuracy."
+              summary_integration: "Integrates with network management systems, APIs, Airflow DAGs, and NoSQL databases to provide a comprehensive view of network data and device status."
+              summary_tags: "network discovery, compliance, orchestration, Airflow, NetBox integration, device polling"
+              summary_personas: "Network Engineers, DevOps Engineers, IT Operations"
+              summary_features: "Real-time device polling, historical network snapshots, data modelling, and ETL."
+              blog_url: https://netos.io/articles-and-research
+              twitter: https://twitter.com/NetosNetworks
+              documentation_url: https://docs.netos.io
+              github_discussions_url: https://github.com/netos-networks/netos-fabric/discussions
+              linkedin_url: https://www.linkedin.com/company/netos-networks
+              youtube_url: https://www.youtube.com/@netos-networks
+              slack_url: https://netdev-community.slack.com/archives/C07RC7E803B
+
+
       - name: Testing, Compliance & Querying
         items:
           # TODO add the enterprise version
@@ -486,6 +508,68 @@ categories:
               youtube_url: https://www.youtube.com/user/ZabbixSIA
               slack_url: https://zabbix.com/community
               mailing_list_url: https://lists.sourceforge.net/lists/listinfo/zabbix-users
+
+          - name: Netos NetOps
+            project: full-open-source
+            description: "Built with Ansible Semaphore, the Netos NetOps project lays the foundation to install and manage NetBox, and other network tools."
+            homepage_url: https://docs.netos.io/books/1-semaphore-netops
+            logo: netos-netops.svg
+            repo_url: https://github.com/netos-networks/netos-netops
+            extra:
+              summary_use_case: "A framework that makes it simple and fast to deploy and manage open-source enterprise networking applications and tools."
+              summary_business_use_case: "Deliver consistent development, test, and production network automation tooling, through automation."
+              summary_integration: "Deploy Ansible, Python, and bash scripts to integrate with any computer system."
+              summary_tags: "platform engineering, infrastructure-as-code, DevOps, NetDevOps"
+              summary_personas: "Network Engineers, DevOps Engineers, IT Operations"
+              summary_features: "Deploy, upgrade, backup, restore, and manage NetBox and other networking tools."
+              blog_url: https://netos.io/articles-and-research
+              twitter: https://twitter.com/NetosNetworks
+              documentation_url: https://docs.netos.io/shelves/netos-netops
+              github_discussions_url: https://github.com/netos-networks/netos-fabric/discussions
+              linkedin_url: https://www.linkedin.com/company/netos-networks
+              youtube_url: https://www.youtube.com/@netos-networks
+              slack_url: https://netdev-community.slack.com/archives/C07RC7E803B
+
+          - name: Apache Airflow
+            project: full-open-source
+            description: "Apache Airflow is an open-source platform that allows for the programmatic creation, scheduling, and monitoring of workflows. It is widely used for orchestrating complex data pipelines and automating tasks across a wide range of industries."
+            homepage_url: https://airflow.apache.org
+            logo: airflow.png
+            repo_url: https://github.com/apache/airflow
+            extra:
+              summary_use_case: "Orchestrating and scheduling data pipelines, managing ETL processes, and automating complex workflows across diverse environments."
+              summary_business_use_case: "Airflow improves operational efficiency by automating tasks and ensuring seamless integration of data sources, enabling faster and more reliable delivery of insights."
+              summary_integration: "Supports integration with databases, APIs, cloud services, and external systems to create a unified workflow environment."
+              summary_tags: "workflow orchestration, data pipelines, automation, ETL, cloud integration, task scheduling"
+              summary_personas: "Data Engineers, Data Scientists, DevOps Engineers, IT Operations, Business Analysts"
+              summary_features: "Dynamic pipeline creation, real-time monitoring, DAG scheduling, task retries, scalability across cloud and on-premise infrastructure."
+              summary_release_rate: "Regular updates aligned with the latest advancements in data orchestration and cloud technologies."
+              blog_url: https://airflow.apache.org/blog
+              twitter: https://twitter.com/apacheairflow
+              documentation_url: https://airflow.apache.org/docs
+              github_discussions_url: https://github.com/apache/airflow/discussions
+              linkedin_url: https://www.linkedin.com/company/apache-airflow
+              slack_url: https://apache-airflow.slack.com/
+
+          - name: Semaphore UI
+            project: full-open-source
+            description: "Semaphore UI is a powerful and user-friendly interface designed to manage Ansible automation projects efficiently. It provides a graphical user interface to simplify running, scheduling, and managing Ansible playbooks, making automation accessible to teams of all sizes."
+            homepage_url: https://semaphoreui.com
+            logo: semaphore.png
+            repo_url: https://github.com/ansible-semaphore/semaphore
+            extra:
+              summary_use_case: "Managing and scheduling Ansible playbooks through a simple and intuitive interface, helping teams automate infrastructure management and application deployment."
+              summary_business_use_case: "Semaphore UI increases efficiency in automation by providing a centralized tool to control and monitor Ansible playbook executions, reducing human errors and streamlining operational workflows."
+              summary_integration: "Works seamlessly with Ansible playbooks, Git repositories for version control, and supports SSH-based connections to remote systems for task execution."
+              summary_tags: "Ansible, automation, playbook management, orchestration, SSH, infrastructure management"
+              summary_personas: "System Administrators, DevOps Engineers, IT Operations, Network Engineers"
+              summary_features: "Playbook scheduling, role-based access control, multi-user support, real-time playbook execution logs, Git integration, and job templates for reusable automation workflows."
+              summary_release_rate: "Regular updates to improve automation features and enhance user interface capabilities."
+              blog_url: https://semaphoreui.com/blog
+              twitter: https://twitter.com/semaphoreui
+              documentation_url: https://docs.semaphoreui.com
+              github_discussions_url: https://github.com/ansible-semaphore/semaphore/discussions
+              slack_url: https://semaphoreui.slack.com/
 
       - name: Telemetry & Data Collection
         items:
@@ -1212,3 +1296,25 @@ categories:
               summary_tags: "network automation, SSH, multi-vendor, Go"
               summary_personas: "Network Engineers, Network Automation Engineers"
               summary_features: "Multi-vendor support, simplified SSH connections, configuration management"
+
+  - name: Reporting & Insights
+    subcategories:
+      - name: Business Intelligence
+        items:
+          - name: Netos
+            project: enterprise
+            description: "Netos bridges Business, IT Networks, and Finance with best-in-class data and analytics to quickly deliver actionable financial insights from within NetBox."
+            homepage_url: https://netos.io
+            logo: netos.svg
+            extra:
+              summary_use_case: "Lifecycle (EoX) reporting, capacity planning, financial modeling, forward planning, and project forecasting."
+              summary_business_use_case: "Helps organizations reduce costs, extend asset life, and align IT projects with business objectives by providing accurate financial and operational insights."
+              summary_integration: "Seamless integration with existing network inventory, business and financial data, and external pricing and data feeds. Supports TBM for business categorization and alignment, and API integrations."
+              summary_tags: "financial modeling, TBM integration, project planning, budget forecasting, EoX reporting, capacity analysis"
+              summary_personas: "IT Architects, Financial Analyst, Project Manager, IT Director, CIO, CTO, CFO"
+              summary_release_rate: "Quarterly updates to support evolving business and IT requirements."
+              blog_url: https://netos.io/articles-and-research
+              twitter: https://twitter.com/NetosNetworks
+              documentation_url: https://docs.netos.io
+              linkedin_url: https://www.linkedin.com/company/netos-networks
+              youtube_url: https://www.youtube.com/@netos-networks
