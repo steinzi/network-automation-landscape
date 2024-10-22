@@ -1318,3 +1318,19 @@ categories:
               documentation_url: https://docs.netos.io
               linkedin_url: https://www.linkedin.com/company/netos-networks
               youtube_url: https://www.youtube.com/@netos-networks
+
+          - name: Nautobot Device Lifecycle Management
+            project: full-open-source
+            description: "An app for Nautobot to manage device lifecycles. This app works by making related associations to Devices, Device Types, and Inventory Items to help provide data about the hardware end of life notices, appropriate software versions to be running on the devices, and the maintenance contracts associated with devices. This will help with the various aspects of planning Lifecycle events, and provides quick access to ancillary data about the devices in Nautobot."
+            homepage_url: "https://docs.nautobot.com/projects/device-lifecycle/en/latest/"
+            logo: "https://raw.githubusercontent.com/nautobot/nautobot-app-device-lifecycle-mgmt/develop/docs/images/icon-DeviceLifecycle.png"
+            repo_url: "https://github.com/nautobot/nautobot-app-device-lifecycle-mgmt"
+            extra:
+              documentation_url: "https://docs.nautobot.com/projects/device-lifecycle/en/latest/"
+              github_discussions_url: "https://github.com/nautobot/nautobot-app-device-lifecycle-mgmt/discussions"
+              summary_use_case: "Provides Nautobot the capability to manage network lifecycle information, such as Hardware EoX, Software EoX/Management, CVE data, and related maintenance contracts."
+              summary_tags: "CVE, vendor-neutral, nautobot, Hardware Lifecycle, Software Lifecycle, Maintenance Contracts, reporting"
+              summary_business_use_case: "Provides models for hardware, software, contract related context to network devices."
+              summary_integration: "Nautobot"
+              summary_personas: "Network Engineers, DevOps Engineers, IT Leadership, CIO, CISO, CFO, CTO"
+              summary_release_rate: "Regularly updated"
