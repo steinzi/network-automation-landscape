@@ -1318,3 +1318,19 @@ categories:
               documentation_url: https://docs.netos.io
               linkedin_url: https://www.linkedin.com/company/netos-networks
               youtube_url: https://www.youtube.com/@netos-networks
+
+          - name: Nautobot Circuit Maintenance
+            project: full-open-source
+            description: "An app for Nautobot to easily handle Circuit Maintenances related to Nautobot Circuits."
+            homepage_url: "https://docs.nautobot.com/projects/circuit-maintenance/en/latest/"
+            logo: "https://raw.githubusercontent.com/nautobot/nautobot-app-circuit-maintenance/develop/docs/images/icon-nautobot-circuit-maintenance.png"
+            repo_url: "https://github.com/nautobot/nautobot-app-circuit-maintenance"
+            extra:
+              documentation_url: "https://docs.nautobot.com/projects/circuit-maintenance/en/latest/"
+              github_discussions_url: "https://github.com/nautobot/nautobot-app-circuit-maintenance/discussions"
+              summary_use_case: "Provides Nautobot the capability to manage circuit maintenance notifications."
+              summary_tags: "vendor-neutral, nautobot, Circuit Maintenances, reporting"
+              summary_business_use_case: "Provides circuit maintenance visibility."
+              summary_integration: "Nautobot"
+              summary_personas: "Network Engineers, DevOps Engineers, IT Leadership, CIO, CTO"
+              summary_release_rate: "Regularly updated"
