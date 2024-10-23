@@ -276,6 +276,22 @@ categories:
               summary_personas: "Network Engineers, DevOps Engineers, QA Engineers"
               summary_release_rate: "Regularly updated"
 
+          - name: Nautobot Golden Config
+            project: full-open-source
+            description: "The Golden Config App is a Nautobot App that provides a NetDevOps approach to golden configuration and configuration compliance."
+            homepage_url: "https://docs.nautobot.com/projects/golden-config/en/latest/"
+            logo: "https://raw.githubusercontent.com/nautobot/nautobot-app-golden-config/develop/docs/images/icon-NautobotGoldenConfig.png"
+            repo_url: "https://github.com/nautobot/nautobot-app-golden-config"
+            extra:
+              documentation_url: "https://docs.nautobot.com/projects/golden-config/en/latest/"
+              github_discussions_url: "https://github.com/nautobot/nautobot-app-golden-config/discussions"
+              summary_use_case: "Provides a NetDevOps approach to Golden Configuration and Configuration Compliance with generation/deployment capabilities to remediate config drift."
+              summary_tags: "network compliance, vendor-neutral, nautobot, config management, reporting"
+              summary_business_use_case: "Provides complete configuration management of network devices and more."
+              summary_integration: "Nautobot"
+              summary_personas: "Network Engineers, DevOps Engineers, IT Leadership, CIO, CISO, CFO, CTO"
+              summary_release_rate: "Regularly updated"
+
   - name: Telemetry and observability
     subcategories:
       # TODO: Figure out better names and layout for this section
@@ -1318,3 +1334,19 @@ categories:
               documentation_url: https://docs.netos.io
               linkedin_url: https://www.linkedin.com/company/netos-networks
               youtube_url: https://www.youtube.com/@netos-networks
+
+          - name: Nautobot Golden Config
+            project: full-open-source
+            description: "The Golden Config App is a Nautobot App that provides a NetDevOps approach to golden configuration and configuration compliance."
+            homepage_url: "https://docs.nautobot.com/projects/golden-config/en/latest/"
+            logo: "https://raw.githubusercontent.com/nautobot/nautobot-app-golden-config/develop/docs/images/icon-NautobotGoldenConfig.png"
+            repo_url: "https://github.com/nautobot/nautobot-app-golden-config"
+            extra:
+              documentation_url: "https://docs.nautobot.com/projects/golden-config/en/latest/"
+              github_discussions_url: "https://github.com/nautobot/nautobot-app-golden-config/discussions"
+              summary_use_case: "Provides a NetDevOps approach to Golden Configuration and Configuration Compliance with generation/deployment capabilities to remediate config drift."
+              summary_tags: "network compliance, vendor-neutral, nautobot, config management, reporting"
+              summary_business_use_case: "Provides complete configuration management of network devices and more."
+              summary_integration: "Nautobot"
+              summary_personas: "Network Engineers, DevOps Engineers, IT Leadership, CIO, CISO, CFO, CTO"
+              summary_release_rate: "Regularly updated"
