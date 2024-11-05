@@ -1225,6 +1225,19 @@ categories:
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, Python bindings, Pydantic"
 
+          - name: PySROS
+            projects: full-open-source
+            description: The pySROS libraries provide a model-driven management interface for Python developers to integrate with supported Nokia routers running the Service Router Operating System (SR OS).
+            homepage_url: https://network.developer.nokia.com/static/sr/learn/pysros/latest/index.html#
+            logo: nokia-logo-blue-2023.png
+            repo_url: https://network.developer.nokia.com/static/sr/learn/pysros/latest/introduction.html#installation
+            extra:
+              documentation_url: https://network.developer.nokia.com/static/sr/learn/pysros/latest/index.html#
+              summary_use_case: "Nokia device automation, configuration management, operational state retrieval"
+              summary_tags: "Nokia, network automation, NETCONF, Python"
+              summary_personas: "Network Engineers, Nokia Specialists, Automation Engineers"
+              summary_features: "NETCONF support, Nokia-specific optimizations, configuration management"
+
   - name: GoLang Eco-System
     subcategories:
       - name: Network Programmability Frameworks
