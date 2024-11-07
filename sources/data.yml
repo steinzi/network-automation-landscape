@@ -1018,6 +1018,23 @@ categories:
               summary_personas: "Network Engineers, DevOps Engineers, Site Reliability Engineers"
               summary_release_rate: "Minor releases 2-3 times a year"
               youtube_url: https://www.youtube.com/@cisconsodeveloperhub492
+          - name: Inmanta
+            project: hybrid
+            description: Inmanta Service Orchestrator is a carrier-grade service orchestration and network automation platform that enables network engineers and IT teams to automate and manage the full lifecycle of network and IT services across multi-domain and multi-vendor environments. 
+            homepage_url: https://inmanta.com
+            logo: inmanta.svg
+            repo_url: https://github.com/inmanta/inmanta-core
+            extra:
+              documentation_url: https://docs.inmanta.com
+              linkedin_url: https://www.linkedin.com/company/inmanta
+              youtube_url: https://www.youtube.com/@inmanta
+              twitter: https://x.com/inmanta_com
+              summary_use_case: "Network automation, configuration management, network service orchestration, and lifecycle management across multi-domain and multi-vendor environments"
+              summary_business_use_case: "Scale network and service operations, accelerate service delivery, increase agility and productivity, improve compliance and resilience"
+              summary_integration: "Checkpoint, Cisco, FNT Software, Fortinet, Juniper, Kubernetes, NetBox, Nokia, VMware and more https://docs.inmanta.com/inmanta-service-orchestrator/7/reference/modules.html"
+              summary_tags: "multi-domain orchestration, intent-based orchestration, configuration management, network automation, infrastructure as code, multi-vendor"
+              summary_personas: "Network Engineers, Network Architects, DevOps Engineers, Site Reliability Engineers"
+              summary_release_rate: "1 major release and several minor releases per year"
 
   - name: Python Eco-System
     subcategories:
