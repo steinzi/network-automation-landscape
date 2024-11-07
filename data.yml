@@ -1020,7 +1020,7 @@ categories:
               youtube_url: https://www.youtube.com/@cisconsodeveloperhub492
           - name: Inmanta
             project: hybrid
-            description: Inmanta Service Orchestrator is a carrier-grade service orchestraton and network automation platform that enables network engineers and IT teams to automate and manage the full lifecycle of network and IT services across multi-domain and multi-vendor environments. 
+            description: Inmanta Service Orchestrator is a carrier-grade service orchestration and network automation platform that enables network engineers and IT teams to automate and manage the full lifecycle of network and IT services across multi-domain and multi-vendor environments. 
             homepage_url: https://inmanta.com
             logo: inmanta.svg
             repo_url: https://github.com/inmanta/inmanta-core
