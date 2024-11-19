@@ -136,6 +136,7 @@ groups:
       - Network state
       - Telemetry and observability
       - Automation Tooling
+      - Security
       - Virtualization
       - Python Eco-System
       - GoLang Eco-System
