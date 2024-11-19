@@ -628,6 +628,8 @@ categories:
             homepage_url: https://knocknoc.io
             logo: knocknoc.png
             description: Knocknoc removes the attack surface of your existing infrastructure by providing access only to authorised users. It’s simple to implement and cost-effective at scale.
+            extra:
+              youtube_url: https://www.youtube.com/watch?v=yOK0Ro5kvfc
   - name: Virtualization
     subcategories:
       - name: Network virtualization platforms
