@@ -35,7 +35,6 @@ categories:
               blog_url: https://netboxlabs.com/blog/
               docker_url: https://hub.docker.com/r/netboxcommunity/netbox/
               summary_business_use_case: "Provides centralized network intended state and documentation as well as IPAM and DCIM and scripting functionality."
-
           - name: InfraHub
             project: full-open-source
             description: Infrahub from OpsMill is taking a new approach to Infrastructure Management by providing a new generation of datastore to organize and control all the data that defines how an infrastructure should run. Infrahub offers a central hub to manage the data, templates and playbooks that powers your infrastructure by combining the version control and branch management capabilities of Git with the flexible data model and UI of a graph database.
@@ -621,7 +620,14 @@ categories:
               summary_personas: "Network Engineers, SREs, Automation Engineers"
               docker_url: https://hub.docker.com/r/sbezverk/gobmp
 
-
+  - name: Security
+    subcategories:
+      - name: ZTNA
+        items:
+          - name: KnocKnoc
+            homepage_url: https://knocknoc.io
+            logo: knocknoc.png
+            description: Knocknoc removes the attack surface of your existing infrastructure by providing access only to authorised users. It’s simple to implement and cost-effective at scale.
   - name: Virtualization
     subcategories:
       - name: Network virtualization platforms
