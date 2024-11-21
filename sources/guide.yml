@@ -5,14 +5,18 @@
 # Reference documentation: https://github.com/cncf/landscape2/blob/main/docs/config/guide.yml
 
 categories:
-  - category: "Category 1"
+  - category: "Introduction"
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+       Welcome to the Network Automation Landscape, a place scared with battles between network engineers and developers, waging war over text files and apis. Join us fellow traveller on the Journey that is Network Automation, and please take care to dodge the land miens.
 
     subcategories:
-      - subcategory: "Subcategory 1-1"
+      - subcategory: "What is Network Automation"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          The debate rages, so a clear definition evades the community. Perhaps a clearer question to ask yourself is: What is Network Automation for me? You here because you probably meet some of the following criteria:
+          * You have some amount of scale/size that justifies the effort required to add tools to avoid manual work
+          * You are interested in learning about new tools to get more work done
+          * Softare development for network engineers doesn't scare you
+          * Steinzi harrsed you to visit this website
 
       - subcategory: "Subcategory 1-2"
         content: |
