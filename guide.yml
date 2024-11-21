@@ -18,19 +18,19 @@ categories:
           * Softare development for network engineers doesn't scare you
           * Steinzi harrsed you to visit this website
 
-      - subcategory: "Subcategory 1-2"
+      - subcategory: "Where do I start?"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          The Network Automation Landscape is a broad set of tools, and starting out can be daunting. Network Engineers are used to editing config and applying changes, and ultimately you need to start with a technology choice that lets you do just that. Many people start with ansible, if only to demonstrate a layer of abstraction and techniques. There are also many introductory courses and videos/talks online that you can use.
 
-  - category: "Category 2"
+  - category: "Source of Truth?"
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      One of the first things to grasp with automation is understanding what you have. There are many tools that populate a source of truth, interact with the source of truth and then read for the source of truth to apply your changes. This for many is the journey of getting started with network automation, and once you have finally read from a source of truth and applied the config, you have reached the end of the begining on your journey.
 
     subcategories:
-      - subcategory: "Subcategory 2-1"
+      - subcategory: "Discovery"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Discovery is the process of reading data or config from the network, to populate a source of truth. This can be used to reconcile, manage, monitor or boast about network devices. Tools can scan devices, use SNMP, SSH, or APIs to gather data and config. Higher maturity tools will let you stage changes, to avoid polluting your source of truth.
 
-      - subcategory: "Subcategory 2-2"
+      - subcategory: "SoT - actually kinda a Datasource"
         content: |
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Any organisation with a network also has physical locations, or people or names of things, that have outside authoritative sources. For example, sites come from the Faciities Dept, People are in the HR system. This means that inevitabily the core database in network automation needs to be useful for automation, but isn't as Truthy as its title might deserve. This is an integration problem, and the various datasources and databases in this Landscape handle this in a variety of ways. The more mature tools recognise that integration is key, and lower the barrier of entry to input and output of data, at a machine level.
