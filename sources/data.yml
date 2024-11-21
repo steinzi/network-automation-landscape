@@ -629,6 +629,12 @@ categories:
             logo: knocknoc.png
             description: Knocknoc removes the attack surface of your existing infrastructure by providing access only to authorised users. It’s simple to implement and cost-effective at scale.
             extra:
+              documentation_url: https://docs.knocknoc.io
+              summary_use_case: "Allows SSO to open a port - for SSH bastion through to legacy apps, lock them down, let Knocknoc broker access"
+              summary_tags: "ZeroTrust, AttackSurfaceManagement, cybersecurity"
+              summary_integration: "iptables/ipsets, haproxy, AWS, Azure, Palo, Fortigate, many more firewalls, webservers"
+              summary_personas: "Network Engineers, Cybersec Engineers, MSPs, Security Architects"
+              docker_url: https://hub.docker.com/u/knocknoc
               youtube_url: https://www.youtube.com/watch?v=yOK0Ro5kvfc
   - name: Virtualization
     subcategories:
