@@ -7,7 +7,7 @@
 categories:
   - category: "Introduction"
     content: |
-       Welcome to the Network Automation Landscape, a place scared with battles between network engineers and developers, waging war over text files and apis. Join us fellow traveller on the Journey that is Network Automation, and please take care to dodge the land miens.
+       Welcome to the Network Automation Landscape, a place scared with battles between network engineers and developers, waging war over text files and apis. Join us fellow traveler on the Journey that is Network Automation, and please take care to dodge the land mines.
 
     subcategories:
       - subcategory: "What is Network Automation"
@@ -15,8 +15,8 @@ categories:
           The debate rages, so a clear definition evades the community. Perhaps a clearer question to ask yourself is: What is Network Automation for me? You here because you probably meet some of the following criteria:
           * You have some amount of scale/size that justifies the effort required to add tools to avoid manual work
           * You are interested in learning about new tools to get more work done
-          * Softare development for network engineers doesn't scare you
-          * Steinzi harrsed you to visit this website
+          * Software development for network engineers doesn't scare you
+          * Steinzi harassed you to visit this website
 
       - subcategory: "Where do I start?"
         content: |
@@ -24,7 +24,7 @@ categories:
 
   - category: "Source of Truth?"
     content: |
-      One of the first things to grasp with automation is understanding what you have. There are many tools that populate a source of truth, interact with the source of truth and then read for the source of truth to apply your changes. This for many is the journey of getting started with network automation, and once you have finally read from a source of truth and applied the config, you have reached the end of the begining on your journey.
+      One of the first things to grasp with automation is understanding what you have. There are many tools that populate a source of truth, interact with the source of truth and then read for the source of truth to apply your changes. This for many is the journey of getting started with network automation, and once you have finally read from a source of truth and applied the config, you have reached the end of the beginning on your journey.
 
     subcategories:
       - subcategory: "Discovery"
@@ -33,4 +33,4 @@ categories:
 
       - subcategory: "SoT - actually kinda a Datasource"
         content: |
-          Any organisation with a network also has physical locations, or people or names of things, that have outside authoritative sources. For example, sites come from the Faciities Dept, People are in the HR system. This means that inevitabily the core database in network automation needs to be useful for automation, but isn't as Truthy as its title might deserve. This is an integration problem, and the various datasources and databases in this Landscape handle this in a variety of ways. The more mature tools recognise that integration is key, and lower the barrier of entry to input and output of data, at a machine level.
+          Any organization with a network also has physical locations, or people or names of things, that have outside authoritative sources. For example, sites come from the Facilities Dept, People are in the HR system. This means that inevitably the core database in network automation needs to be useful for automation, but isn't as Truthy as its title might deserve. This is an integration problem, and the various datasources and databases in this Landscape handle this in a variety of ways. The more mature tools recognize that integration is key, and lower the barrier of entry to input and output of data, at a machine level.
