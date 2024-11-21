@@ -529,28 +529,6 @@ categories:
               linkedin_url: https://www.linkedin.com/company/netos-networks
               youtube_url: https://www.youtube.com/@netos-networks
               slack_url: https://netdev-community.slack.com/archives/C07RC7E803B
-
-
-          - name: Semaphore UI
-            project: full-open-source
-            description: "Semaphore UI is a powerful and user-friendly interface designed to manage Ansible automation projects efficiently. It provides a graphical user interface to simplify running, scheduling, and managing Ansible playbooks, making automation accessible to teams of all sizes."
-            homepage_url: https://semaphoreui.com
-            logo: semaphore.png
-            repo_url: https://github.com/ansible-semaphore/semaphore
-            extra:
-              summary_use_case: "Managing and scheduling Ansible playbooks through a simple and intuitive interface, helping teams automate infrastructure management and application deployment."
-              summary_business_use_case: "Semaphore UI increases efficiency in automation by providing a centralized tool to control and monitor Ansible playbook executions, reducing human errors and streamlining operational workflows."
-              summary_integration: "Works seamlessly with Ansible playbooks, Git repositories for version control, and supports SSH-based connections to remote systems for task execution."
-              summary_tags: "Ansible, automation, playbook management, orchestration, SSH, infrastructure management"
-              summary_personas: "System Administrators, DevOps Engineers, IT Operations, Network Engineers"
-              summary_features: "Playbook scheduling, role-based access control, multi-user support, real-time playbook execution logs, Git integration, and job templates for reusable automation workflows."
-              summary_release_rate: "Regular updates to improve automation features and enhance user interface capabilities."
-              blog_url: https://semaphoreui.com/blog
-              twitter: https://twitter.com/semaphoreui
-              documentation_url: https://docs.semaphoreui.com
-              github_discussions_url: https://github.com/ansible-semaphore/semaphore/discussions
-              slack_url: https://semaphoreui.slack.com/
-
       - name: Telemetry & Data Collection
         items:
           - name: Telegraf
@@ -771,6 +749,25 @@ categories:
 
       - name: Automation Platforms and Management
         items:
+          - name: Semaphore UI
+            project: full-open-source
+            description: "Semaphore UI is a powerful and user-friendly interface designed to manage Ansible automation projects efficiently. It provides a graphical user interface to simplify running, scheduling, and managing Ansible playbooks, making automation accessible to teams of all sizes."
+            homepage_url: https://semaphoreui.com
+            logo: semaphore.png
+            repo_url: https://github.com/ansible-semaphore/semaphore
+            extra:
+              summary_use_case: "Managing and scheduling Ansible playbooks through a simple and intuitive interface, helping teams automate infrastructure management and application deployment."
+              summary_business_use_case: "Semaphore UI increases efficiency in automation by providing a centralized tool to control and monitor Ansible playbook executions, reducing human errors and streamlining operational workflows."
+              summary_integration: "Works seamlessly with Ansible playbooks, Git repositories for version control, and supports SSH-based connections to remote systems for task execution."
+              summary_tags: "Ansible, automation, playbook management, orchestration, SSH, infrastructure management"
+              summary_personas: "System Administrators, DevOps Engineers, IT Operations, Network Engineers"
+              summary_features: "Playbook scheduling, role-based access control, multi-user support, real-time playbook execution logs, Git integration, and job templates for reusable automation workflows."
+              summary_release_rate: "Regular updates to improve automation features and enhance user interface capabilities."
+              blog_url: https://semaphoreui.com/blog
+              twitter: https://twitter.com/semaphoreui
+              documentation_url: https://docs.semaphoreui.com
+              github_discussions_url: https://github.com/ansible-semaphore/semaphore/discussions
+              slack_url: https://semaphoreui.slack.com/
           - name: AWX
             project: full-open-source
             description: AWX is the open source upstream project for Red Hat Ansible Automation Platform. It provides a web-based user interface, REST API, and task engine for Ansible.
