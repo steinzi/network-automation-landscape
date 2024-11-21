@@ -393,8 +393,9 @@ categories:
               documentation_url: https://icinga.com/docs/
               blog_url: https://icinga.com/blog/
               summary_use_case: "Provides comprehensive monitoring for network resources, services, and applications"
-              summary_tags: "monitoring, alerting, network, infrastructure"
-              summary_business_use_case: "Ensures high availability and performance of IT infrastructure"
+              summary_tags: "monitoring, alerting, network, infrastructure, automation"
+              summary_business_use_case: "Ensures high availability and performance of IT infrastructure, integrates with NetBox"
+              summary_personas: "IT Operations, NOC Operations, Monitoring"
               docker_url: https://hub.docker.com/u/icinga
 
           - name: LibreNMS
