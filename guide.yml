@@ -34,3 +34,18 @@ categories:
       - subcategory: "SoT - actually kinda a Datasource"
         content: |
           Any organization with a network also has physical locations, or people or names of things, that have outside authoritative sources. For example, sites come from the Facilities Dept, People are in the HR system. This means that inevitably the core database in network automation needs to be useful for automation, but isn't as Truthy as its title might deserve. This is an integration problem, and the various datasources and databases in this Landscape handle this in a variety of ways. The more mature tools recognize that integration is key, and lower the barrier of entry to input and output of data, at a machine level.
+
+  - category: "Monitoring and Observability"
+    content: |
+      Networks are connections between computers that deliver (mostly important) data. So we need to care if they are working as designed. Monitoring solutions that can integrate into the Landscape tools are more mature here. This includes mapping configuration to monitoring tools, and feeding back status and metrics to close the loop. Operational teams will need monitoring information, metrics, logs and config snapshots to deliver a gold standard of service delivery.
+
+    subcategories:
+      - subcategory: "Monitoring"
+        content: |
+          The tools that run tests against the network and return, alert, graphs those test can be broadly considered monitoring. This also covers tools that actively ask the network questions like SNMP, Ping, SSH and API requests.
+
+      - subcategory: "Observability"
+        content: |
+           Observability is a slightly different approach where existing or additive metrics are parsed and digested into an easy to understand form. Alerts and graphs can then be applied according to rules that match or collate these metrics.
+
+
