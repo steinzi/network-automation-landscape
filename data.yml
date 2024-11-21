@@ -1282,6 +1282,20 @@ categories:
               summary_personas: "Network Engineers, Nokia Specialists, Automation Engineers"
               summary_features: "NETCONF support, Nokia-specific optimizations, configuration management"
 
+          - name: Hierarchical Configuration
+            project: full-open-source
+            description: Query and compare network device configurations. Build remediation and rollback configs too.
+            homepage_url: https://hier-config.readthedocs.io/en/latest/
+            logo: hier-config.svg
+            repo_url: https://github.com/netdevops/hier_config
+            extra:
+              documentation_url: https://hier-config.readthedocs.io/en/latest/
+              summary_business_use_case: "Build remediation configurations to power network configuration compliance workflows."
+              summary_use_case: "Load network device running and generated configs. Then, build remediation and rollback configs."
+              summary_tags: "config, query, remediation, rollback"
+              summary_personas: "Network Engineers, Automation Engineers"
+              summary_features: "Multi-vendor support, Config query, Build remediation config, Build rollback config"
+
   - name: GoLang Eco-System
     subcategories:
       - name: Network Programmability Frameworks
