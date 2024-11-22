@@ -24,8 +24,10 @@ categories:
           There are also many introductory courses and videos/talks online that you can use.
 
   - category: "Data Sources"
-    content: |
-      > The term "Single Source of Truth" (SSoT) has been so misused by vendors, marketers, and engineers that we should avoid using it, as it leads to confusion.
+    content: |2
+        > The term "Single Source of Truth" (SSoT) has been so misused by vendors, marketers, and engineers that we should avoid using it, as it leads to confusion.
+      
+
       One of the first things to grasp with automation is understanding what you have. Many tools and solutions are helping to discover the network. Before reaching sophisticated automation, most networks need to clean up their services and add a service abstraction layer.
       Starting in a brownfield environment is possible, as is doing simple tasks. At this point, the actual state of the network configuration and operation is in each box. This approach could be called a bottom-up approach. Data and data quality are critical points for a successful automation journey. Therefore, the best practice is to flip the approach and have a single point of source where the desired state is up to date at any time. 
       The actual operational state is on the physical network box in hardware (for example, Forward Information Based (FIB)). The state itself is driven by the control pane (traditionally the routing protocols on the box, Router Information Based (RIB)). Monitoring and Observability platforms collect these data.
