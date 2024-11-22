@@ -20,16 +20,20 @@ categories:
 
       - subcategory: "Where do I start?"
         content: |
-          The Network Automation Landscape is a broad set of tools, and starting out can be daunting. Network Engineers are used to editing config and applying changes, and ultimately you need to start with a technology choice that lets you do just that. Many people start with ansible, if only to demonstrate a layer of abstraction and techniques. There are also many introductory courses and videos/talks online that you can use.
+          The Network Automation Landscape is a broad set of tools, and starting can be daunting. One possible starting point is configuration management. Network Engineers are used to editing config and applying changes, and ultimately you need to start with a technology choice that lets you do just that. Many people begin with Ansible if only to demonstrate a layer of abstraction and techniques. Ansible shines for simple task executions, and when the business logic gets's more complicated, an other tool will be a better fit or an additional tool. Do not be afraid to start with something for your proof of concept and update/change your tech stack if needed and you have a better understanding.
+          There are also many introductory courses and videos/talks online that you can use.
 
-  - category: "Source of Truth?"
+  - category: "Data Sources"
     content: |
-      One of the first things to grasp with automation is understanding what you have. There are many tools that populate a source of truth, interact with the source of truth and then read for the source of truth to apply your changes. This for many is the journey of getting started with network automation, and once you have finally read from a source of truth and applied the config, you have reached the end of the beginning on your journey.
+      > The term "Single Source of Truth" (SSoT) has been so misused by vendors, marketers, and engineers that we should avoid using it, as it leads to confusion.
+      One of the first things to grasp with automation is understanding what you have. Many tools and solutions are helping to discover the network. Before reaching sophisticated automation, most networks need to clean up their services and add a service abstraction layer.
+      Starting in a brownfield environment is possible, as is doing simple tasks. At this point, the actual state of the network configuration and operation is in each box. This approach could be called a bottom-up approach. Data and data quality are critical points for a successful automation journey. Therefore, the best practice is to flip the approach and have a single point of source where the desired state is up to date at any time. 
+      The actual operational state is on the physical network box in hardware (for example, Forward Information Based (FIB)). The state itself is driven by the control pane (traditionally the routing protocols on the box, Router Information Based (RIB)). Monitoring and Observability platforms collect these data.
 
     subcategories:
       - subcategory: "Discovery"
         content: |
-          Discovery is the process of reading data or config from the network, to populate a source of truth. This can be used to reconcile, manage, monitor or boast about network devices. Tools can scan devices, use SNMP, SSH, or APIs to gather data and config. Higher maturity tools will let you stage changes, to avoid polluting your source of truth.
+          Discovery is the process of reading data or config from the network to populate a data source. This can be used to reconcile, manage, monitor or boast about network devices. Tools can scan devices, use SNMP, SSH, Telemetry or other APIs to gather data and config.
 
       - subcategory: "SoT - actually kinda a Datasource"
         content: |
