@@ -12,7 +12,7 @@ categories:
     subcategories:
       - subcategory: "What is Network Automation"
         content: |
-          The debate rages, so a clear definition evades the community. Perhaps a clearer question to ask yourself is: What is Network Automation for me? You here because you probably meet some of the following criteria:
+          The debate rages, so a clear definition evades the community. Perhaps a clearer question to ask yourself is: What is Network Automation for me? You are here because you probably meet some of the following criteria:
           * You have some amount of scale/size that justifies the effort required to add tools to avoid manual work
           * You are interested in learning about new tools to get more work done
           * Software development for network engineers doesn't scare you
@@ -53,5 +53,11 @@ categories:
       - subcategory: "Observability"
         content: |
            Observability is a slightly different approach where existing or additive metrics are parsed and digested into an easy to understand form. Alerts and graphs can then be applied according to rules that match or collate these metrics.
+
+  - category: "Automation Tooling"
+    content: |
+      A fast growing category is special purpose tools to managing automation workflows. At a simple level an Automation tool has the ability to take some script or config, run this on our behalf, and return the result. As you can imagine, this could be as simple as a shell script and a cron job, or as complicated as a full end to end solution. More mature tools integrate with source control systems, the SoT, and provide tests and collaboration tools that resemble software development tools. This is the nexus of where a network engineers meets the software development lifecycle and will need to skill up accordingly.
+
+
 
 
