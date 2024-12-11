@@ -1054,16 +1054,27 @@ categories:
             description: The Workflow Orchestrator is a framework of tools that help the developer create workflow to modify the lifecycle of subscribed products. It is un-opinionated in what it can orchestrate, but very opinionated in how. The Orchestrator is designed to run linear workflows that represent the business process of delivering a product.
             homepage_url: https://workfloworchestrator.org
             logo: workfloworchestrator.svg
-            repo_url: https://github.com/workfloworchestrator
+            repo_url: https://github.com/workfloworchestrator/orchestrator-core
+            additional_repos:
+              - repo_url: https://github.com/workfloworchestrator/example-orchestrator
+                branch: main
+              - repo_url: https://github.com/workfloworchestrator/example-orchestrator-ui
+                branch: main
+              - repo_url: https://github.com/workfloworchestrator/pydantic-forms
+                branch: main
+              - repo_url: https://github.com/workfloworchestrator/orchestrator-ui-library
+                branch: main
+              - repo_url: https://github.com/workfloworchestrator/SuPA
+                branch: master
             extra:
-              documentation_url: https://workfloworchestrator.org/orchestrator-core/reference-docs/tldr/
+              documentation_url: https://workfloworchestrator.org/orchestrator-core/
               summary_use_case: "Production ready Workflow Orchestration Framework to manage product lifecycle and workflows. Easy to use, Built on top of FastAPI"
               summary_business_use_case: "Use a Service Provider Product model to orchestrator automated processes across your organization. Not limited to, but useful for deploying and tracking state of network configuration products, business and security processes."
               summary_features: "FastAPI-based backend, Self-service UI, Product Lifecycle Mananegement, AAA, Scheduling repeated tasks, Concurrent Workflows"
               summary_integration: "Any system which exposes and API and can be reached or integrated via Python code"
               summary_tags: "Multi-domain Orchestration, Intent-based Orchestration, Workflows, Vendor Agnostic, Product Lifecycle"
               summary_personas: "Network Engineers, Network Automation Engineers, Software Developers, IT Operations"
-
+              discord_url: https://discord.gg/fQkQn5ajFR
   - name: Python Eco-System
     subcategories:
       - name: Network Programmability Frameworks
