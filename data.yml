@@ -1308,6 +1308,19 @@ categories:
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, Config query, Build remediation config, Build rollback config"
 
+          - name: AVD
+            project: full-open-source
+            description: AVD (Arista Validated Designs) is an Ansible collection that can be used also as a python standalone library (PyAVD) developed by Arista Networks. It provides a set of roles and modules to automate the deployment and management of Arista EOS-based network infrastructures.
+            homepage_url: https://avd.arista.com
+            logo: avd.png
+            repo_url: https://github.com/aristanetworks/avd
+            extra:
+              documentation_url: https://avd.arista.com
+              summary_use_case: "Network device automation, configuration management, IaC, declarative configuration"
+              summary_tags: "network automation, SSH, gNMI, Python, Ansible"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists, Software Engineers"
+              summary_features: "Structured intended configuration, data models, schema validation, real-time streaming telemetry"
+
   - name: GoLang Eco-System
     subcategories:
       - name: Network Programmability Frameworks
