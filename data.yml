@@ -1272,7 +1272,7 @@ categories:
             project: full-open-source
             description: Transform YANG models into Pydantic datastructures that can be initialized with config values and serialized.
             homepage_url: https://pydantify.github.io/pydantify/
-            logo: pydantify.png
+            logo: pydantify.svg
             repo_url: https://github.com/pydantify/pydantify
             extra:
               documentation_url: https://pydantify.github.io/pydantify/
