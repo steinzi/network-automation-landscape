@@ -30,7 +30,8 @@ categories:
               summary_integration: "IP Fabric, Slurpit"
               youtube_url: https://www.youtube.com/channel/UCs5FgE5p03tP-8InKVIojdw
               documentation_url: https://netboxlabs.com/docs/netbox/en/stable/
-              tag: nsot
+              tag:
+                - nsot
               summary_tags: "ipam, dcim, nsot, database"
               blog_url: https://netboxlabs.com/blog/
               docker_url: https://hub.docker.com/r/netboxcommunity/netbox/
@@ -71,7 +72,8 @@ categories:
             repo_url: https://github.com/peering-manager/peering-manager
             extra:
               documentation_url: https://docs.peering-manager.net/
-              tag: nsot
+              tag:
+                - nsot
               docker_url: https://hub.docker.com/r/peeringmanager/peering-manager
               github_discussions_url: https://github.com/peering-manager/peering-manager/discussions
               summary_use_case: "Provides a source of truth and configuration management for external BGP sessions of all kind (transit, customers, peering, …)"
@@ -1272,7 +1274,7 @@ categories:
             project: full-open-source
             description: Transform YANG models into Pydantic datastructures that can be initialized with config values and serialized.
             homepage_url: https://pydantify.github.io/pydantify/
-            logo: pydantify.png
+            logo: pydantify.svg
             repo_url: https://github.com/pydantify/pydantify
             extra:
               documentation_url: https://pydantify.github.io/pydantify/
