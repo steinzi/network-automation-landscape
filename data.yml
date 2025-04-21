@@ -601,6 +601,20 @@ categories:
               summary_personas: "Network Engineers, SREs, Automation Engineers"
               docker_url: https://hub.docker.com/r/sbezverk/gobmp
 
+          - name: Proxylity UDP Gateway
+            project: saas
+            description: UDP Gateway provides a bridge between UDP traffic and compute, storage and event handling services in AWS with an automation-friendly IaC model that simplifies a wide varietry of observability and telemetric collection and processing models.  
+            homepage_url: https://www.proxylity.com/
+            logo: proxylity.png
+            extra:
+              documentation_url: https://proxylity.com/docs/index.html
+              summary_use_case: "Developing backend processing and archiving of UDP observability and telemetry data at a wide range of scale."
+              summary_integration: "AWS, CloudWatcg Logs, Kinesis Firehose, S3, SNS, SQS, DynamoDB, Lambda, StepFunctions"
+              summary_tags: "event-driven, network automation, telemetry, syslog"
+              summary_personas: "Software Architects, Network Engineers, Software Developers, CTOs"
+              summary_features: "UDP Gateway, AWS integration, multiplexed packet delivery, event based"
+            
+
   - name: Security
     subcategories:
       - name: ZTNA
