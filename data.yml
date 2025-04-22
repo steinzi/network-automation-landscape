@@ -1113,6 +1113,21 @@ categories:
               summary_release_rate: "Yearly releases"
               blog_url: https://nornir.tech/nornir/
 
+          - name: NORFAB (Network Automation Fabric)
+            project: full-open-source
+            description: NORFAB is a framework for extreme network automations.
+            homepage_url: https://docs.norfablabs.com/
+            logo: norfab.png
+            repo_url: https://github.com/norfablabs/NORFAB
+            extra:
+              github_discussions_url: https://github.com/norfablabs/NORFAB/discussions
+              summary_use_case: "Network configuration, network testing, network reporting"
+              summary_business_use_case: ""
+              summary_integration: "Nornir, Netbox, NAPALM, SCRAPLI, ROBOT, Containerlab, Netmiko, FastAPI"
+              summary_tags: "network automation, multi-vendor, configuration management, Python library, unified API"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
+              summary_release_rate: "Major releases approximately every 6 months"
+
       - name: Software Libraries
         items:
           - name: Scrapli
