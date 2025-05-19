@@ -62,6 +62,7 @@
 [peering manager](https://peering-manager.net/) | full-open-source |  |  |  |  |  | 0 |  |
 [pliant](https://pliant.io/) | saas |  |  |  |  |  | 0 |  |
 [prometheus](https://prometheus.io/) | full-open-source |  |  |  |  |  | 0 |  |
+[proxylity udp gateway](https://www.proxylity.com/) | saas |  |  |  |  |  | 0 |  |
 [pulumi](https://www.pulumi.com) | hybrid |  |  |  |  |  | 0 |  |
 [puppet enterprise](https://puppet.com/products/puppet-enterprise/) | enterprise |  |  |  |  |  | 0 |  |
 [pyangbind](https://github.com/robshakir/pyangbind) | full-open-source |  |  |  |  |  | 0 |  |
