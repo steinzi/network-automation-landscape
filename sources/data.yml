@@ -600,6 +600,17 @@ categories:
               summary_integration: "kafka"
               summary_personas: "Network Engineers, SREs, Automation Engineers"
               docker_url: https://hub.docker.com/r/sbezverk/gobmp
+          - name: bbmp2kafka
+            project: full-open-source
+            description: "bbmk2pafka is an Open Source BGP Monitoring Protocol (BMP, RFC7854) receiver based on the Bio-Routing BGP/BMP library, designed to forward all BMP Monitoring messages, so specifically BGP UPDATEs and WITHDRAWs, onto a Kafka stream as protobuf messages."
+            homepage_url: https://github.com/cloudflare/bbmp2kafka
+            logo: bbmp2kafka.png
+            repo_url: https://github.com/cloudflare/bbmp2kafka
+            extra:
+              summary_use_case: "Collecting BGP Monitoring metrics"
+              summary_tags: "BGP, BMP, RFC7854, collector"
+              summary_integration: "kafka"
+              summary_personas: "Network Engineers, SREs, Automation Engineers"
 
           - name: Proxylity UDP Gateway
             project: saas

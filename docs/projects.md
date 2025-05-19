@@ -9,6 +9,7 @@
 [awx](https://github.com/ansible/awx) | full-open-source |  |  |  |  |  | 0 |  |
 [backbox](https://backbox.com/) | enterprise |  |  |  |  |  | 0 |  |
 [batfish](https://www.batfish.org/) | full-open-source |  |  |  |  |  | 0 |  |
+[bbmp2kafka](https://github.com/cloudflare/bbmp2kafka) | full-open-source |  |  |  |  |  | 0 |  |
 [cisco modeling labs](https://www.cisco.com/c/en/us/products/cloud-systems-management/modeling-labs/index.html) | commercial-only |  |  |  |  |  | 0 |  |
 [containerlab](https://containerlab.srlinux.dev) | full-open-source |  |  |  |  |  | 0 |  |
 [crosswork nso](https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html) | commercial-with-trial |  |  |  |  |  | 0 |  |
