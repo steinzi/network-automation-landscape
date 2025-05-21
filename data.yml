@@ -246,7 +246,7 @@ categories:
               summary_release_rate: "Actively maintained and updated"
 
           - name: pyATS
-            project: hybrid
+            project: mixed-source
             description: "Cisco pyATS is a Network Test and Automation Solution with a closed-source core and open-source extensions. The core framework is available in binary format, while related packages like Unicon plugins are fully open source."
             homepage_url: https://developer.cisco.com/pyats/
             logo: pyats.png

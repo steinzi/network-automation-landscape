@@ -110,6 +110,12 @@ featured_items:
         order: 13
         label: Free restrictive Software
 
+      # A model where the core/framework is closed-source or provided in binary form,
+      # but a significant portion (libraries, plugins, extensions) is open-source.
+      - value: mixed-source
+        order: 14
+        label: Mixed Source (Closed Core with Open Extensions)
+
 footer:
   links:
     # facebook: "https://www.facebook.com/CloudNativeComputingFoundation/"
