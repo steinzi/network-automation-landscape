@@ -246,7 +246,7 @@ categories:
               summary_release_rate: "Actively maintained and updated"
 
           - name: pyATS
-            project: mixed-source
+            project: closed-core
             description: "Cisco pyATS is a Network Test and Automation Solution with a closed-source core and open-source extensions. The core framework is available in binary format, while related packages like Unicon plugins are fully open source."
             homepage_url: https://developer.cisco.com/pyats/
             logo: pyats.png
@@ -322,7 +322,7 @@ categories:
               summary_features: "Unified dashboard for metrics, logs, and traces; multi-tenancy support; plugin system for extensibility"
 
           - name: Elastic Stack (ELK)
-            project: hybrid
+            project: open-core
             description: Elastic Stack, formerly known as ELK Stack, is a group of open source products from Elastic designed to help users take data from any type of source and in any format and search, analyze, and visualize it in real time.
             homepage_url: https://www.elastic.co/elastic-stack/
             logo: elastic-stack.png
@@ -365,7 +365,7 @@ categories:
               summary_features: "Real-time dashboards, alerts, APM, log correlation, machine learning-based anomaly detection"
 
           - name: Splunk
-            project: hybrid
+            project: open-core
             description: Splunk [a Cisco company] is a software platform for searching, monitoring, and analyzing machine-generated big data, via a web-style interface. It captures, indexes, and correlates real-time data in a searchable repository, from which it can generate graphs, reports, alerts, dashboards, and visualizations.
             homepage_url: https://www.splunk.com/
             logo: splunk.svg
@@ -435,7 +435,7 @@ categories:
               github_discussions_url: https://github.com/eNMS-automation/eNMS/discussions
 
           - name: Observium
-            project: hybrid
+            project: open-core
             description: "Observium is a network monitoring platform supporting a wide range of device types, platforms and operating systems."
             homepage_url: https://www.observium.org/
             logo: observium.png
@@ -473,7 +473,7 @@ categories:
               dev_stats_url: https://prometheus.devstats.cncf.io/
 
           - name: Grafana
-            project: hybrid
+            project: open-core
             description: The open source graphical analytics & monitoring solution default. Often used in conjunction with Prometheus for network monitoring visualization.
             homepage_url: https://grafana.com/
             logo: grafana.png
@@ -708,7 +708,7 @@ categories:
               blog_url: https://www.ansible.com/blog
 
           - name: Terraform
-            project: hybrid
+            project: open-core
             description: Terraform is an open-source infrastructure as code software tool that provides a consistent CLI workflow to manage hundreds of cloud services. While primarily focused on cloud infrastructure, it's increasingly used for network automation, especially in cloud-native environments.
             homepage_url: https://www.terraform.io
             logo: terraform.png
@@ -740,7 +740,7 @@ categories:
               blog_url: https://opentofu.org/blog/
 
           - name: Pulumi
-            project: hybrid
+            project: open-core
             description: Pulumi is an open-source infrastructure as code tool that allows you to use familiar programming languages like TypeScript, Python, Go, and .NET to define and manage cloud infrastructure across various providers.
             homepage_url: https://www.pulumi.com
             logo: pulumi.svg
@@ -954,7 +954,7 @@ categories:
               twitter: https://twitter.com/spaceliftio
 
           - name: Temporal
-            project: hybrid
+            project: open-core
             description: Temporal is a microservice orchestration platform that enables developers to build scalable and reliable applications using durable execution.
             homepage_url: https://temporal.io/
             logo: temporal.svg
@@ -991,7 +991,7 @@ categories:
               summary_features: "Automated Configuration Backup, Compliance Management, Intelligent Network Automation, Dynamic Network Mapping, Custom Automation Builder"
 
           - name: Rundeck
-            project: hybrid
+            project: open-core
             description: Rundeck is an open source automation service with a web console, command line tools, and API. It lets you easily run automation tasks across a set of nodes.
             homepage_url: https://www.rundeck.com/
             logo: rundeck.svg
@@ -1059,7 +1059,7 @@ categories:
               summary_release_rate: "Minor releases 2-3 times a year"
               youtube_url: https://www.youtube.com/@cisconsodeveloperhub492
           - name: Inmanta
-            project: hybrid
+            project: open-core
             description: Inmanta Service Orchestrator is a carrier-grade service orchestration and network automation platform that enables network engineers and IT teams to automate and manage the full lifecycle of network and IT services across multi-domain and multi-vendor environments. 
             homepage_url: https://inmanta.com
             logo: inmanta.svg
