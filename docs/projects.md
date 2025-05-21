@@ -68,7 +68,7 @@
 [pulumi](https://www.pulumi.com) | hybrid |  |  |  |  |  | 0 |  |
 [puppet enterprise](https://puppet.com/products/puppet-enterprise/) | enterprise |  |  |  |  |  | 0 |  |
 [pyangbind](https://github.com/robshakir/pyangbind) | full-open-source |  |  |  |  |  | 0 |  |
-[pyats](https://developer.cisco.com/pyats/) | full-open-source |  |  |  |  |  | 0 |  |
+[pyats](https://developer.cisco.com/pyats/) | closed-core |  |  |  |  |  | 0 |  |
 [pydantify](https://pydantify.github.io/pydantify/) | full-open-source |  |  |  |  |  | 0 |  |
 [pyeapi](https://pyeapi.readthedocs.io/en/master/index.html) | full-open-source |  |  |  |  |  | 0 |  |
 [pyez](https://www.juniper.net/documentation/product/en_US/junos-pyez) | full-open-source |  |  |  |  |  | 0 |  |
@@ -89,7 +89,7 @@
 [telegraf](https://www.influxdata.com/time-series-platform/telegraf/) | full-open-source |  |  |  |  |  | 0 |  |
 [temporal](https://temporal.io/) | hybrid |  |  |  |  |  | 0 |  |
 [terraform](https://www.terraform.io) | hybrid |  |  |  |  |  | 0 |  |
-[torero.dev](https://torero.dev) | free-restrictive |  |  |  |  |  | 0 |  |
+[torero.dev](https://torero.dev) | closed-core |  |  |  |  |  | 0 |  |
 [ttp](https://github.com/dmulyalin/ttp) | full-open-source |  |  |  |  |  | 0 |  |
 [workflow orchestrator](https://workfloworchestrator.org) | full-open-source |  |  |  |  |  | 0 |  |
 [ygot](https://github.com/openconfig/ygot) | full-open-source |  |  |  |  |  | 0 |  |
