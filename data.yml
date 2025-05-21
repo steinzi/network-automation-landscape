@@ -1023,7 +1023,7 @@ categories:
               twitter: https://twitter.com/puppetize
 
           - name: torero.dev
-            project: free-restrictive
+            project: closed-core
             description: Closed source with restrictive EULA, proprietary network automation tool to launch python and ansible playbooks, I have no idea who would want this.
             homepage_url: https://torero.dev
             logo: torero.png
