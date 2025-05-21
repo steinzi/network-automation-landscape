@@ -246,8 +246,8 @@ categories:
               summary_release_rate: "Actively maintained and updated"
 
           - name: pyATS
-            project: full-open-source
-            description: "Cisco pyATS is a Network Test and Automation Solution that was developed for internal Cisco engineering use, and it is now freely available."
+            project: closed-core
+            description: "Cisco pyATS is a Network Test and Automation Solution with a closed-source core and open-source extensions. The core framework is available in binary format, while related packages like Unicon plugins are fully open source."
             homepage_url: https://developer.cisco.com/pyats/
             logo: pyats.png
             repo_url: https://github.com/CiscoTestAutomation/pyats
@@ -1023,7 +1023,7 @@ categories:
               twitter: https://twitter.com/puppetize
 
           - name: torero.dev
-            project: free-restrictive
+            project: closed-core
             description: Closed source with restrictive EULA, proprietary network automation tool to launch python and ansible playbooks, I have no idea who would want this.
             homepage_url: https://torero.dev
             logo: torero.png
