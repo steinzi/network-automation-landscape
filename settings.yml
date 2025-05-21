@@ -77,9 +77,9 @@ featured_items:
 
       # A model where the core functionality is open-source, but additional features,
       # tools, or services built around the core are proprietary and paid.
-      - value: open-core
+      - value: hybrid
         order: 8
-        label: Open Core (Open Core with Proprietary Extensions)
+        label: Hybrid (Open Core with Proprietary Extensions)
 
       # The project shows no recent development activity and is no longer being actively maintained.
       - value: inactive
