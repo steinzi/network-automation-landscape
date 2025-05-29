@@ -1157,6 +1157,25 @@ categories:
               summary_release_rate: "Regular updates and improvements"
               blog_url: https://blog.gruntwork.io/
               summary_features: "DRY configurations, dependency management, remote state encryption, multi-account deployments, before/after hooks"
+
+          - name: Terramate
+            project: hybrid
+            description: Terramate is an open-source Infrastructure as Code (IaC) orchestration and code generation platform that helps teams simplify, scale, and automate Terraform, OpenTofu, Terragrunt, and other IaC tools. It provides stack-based infrastructure management, GitOps workflows, and seamless integration with existing CI/CD systems.
+            homepage_url: https://terramate.io
+            logo: terramate.svg
+            repo_url: https://github.com/terramate-io/terramate
+            extra:
+              documentation_url: https://terramate.io/docs/
+              github_discussions_url: https://github.com/terramate-io/terramate/discussions
+              summary_use_case: "IaC orchestration, code generation, stack management, GitOps automation, and infrastructure lifecycle management for Terraform and OpenTofu"
+              summary_business_use_case: "Reduces Infrastructure as Code complexity and deployment times by up to 10x, improves DevOps velocity by up to 50%, and enables better collaboration through stack-based management and automated workflows"
+              summary_integration: "Terraform, OpenTofu, Terragrunt, Kubernetes, GitHub Actions, GitLab CI/CD, BitBucket Pipelines, Azure DevOps, Slack, and any CI/CD platform"
+              summary_tags: "infrastructure as code, orchestration, code generation, GitOps, terraform automation, stack management, drift detection"
+              summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers, Cloud Architects"
+              summary_release_rate: "Regular updates with community-driven development"
+              blog_url: https://terramate.io/rethinking-iac/
+              linkedin_url: https://www.linkedin.com/company/terramate-io
+              summary_features: "Stack-based infrastructure management, code generation, graph-based orchestration, change detection, asset management, drift detection, observability"
             
   - name: Python Eco-System
     subcategories:
