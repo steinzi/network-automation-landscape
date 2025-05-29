@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="-173.2667 -309.664 782.0298 775.4503" width="782.03" height="775.45" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="linear-gradient" x1="453.88" y1="645.56" x2="494.68" y2="645.56" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#252364"/>
+      <stop offset="0.11" stop-color="#2a2264"/>
+      <stop offset="0.25" stop-color="#391f64"/>
+      <stop offset="0.4" stop-color="#511b65"/>
+      <stop offset="0.55" stop-color="#741665"/>
+      <stop offset="0.72" stop-color="#a00f66"/>
+      <stop offset="0.88" stop-color="#d50668"/>
+      <stop offset="1" stop-color="#ff0069"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="370.18" y1="709.95" x2="457.58" y2="709.95" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#74226e"/>
+      <stop offset="0" stop-color="#73226d"/>
+      <stop offset="0.28" stop-color="#512269"/>
+      <stop offset="0.55" stop-color="#392266"/>
+      <stop offset="0.8" stop-color="#2a2264"/>
+      <stop offset="1" stop-color="#252364"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="88.53" y1="277.31" x2="88.53" y2="429.7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#ffc90f"/>
+      <stop offset="1" stop-color="#b7005f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="129.99" y1="104.55" x2="184" y2="104.55" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#f9ff00"/>
+      <stop offset="1" stop-color="#ff5700"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="129.63" y1="184.79" x2="129.63" y2="429.7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#c70033"/>
+      <stop offset="0.34" stop-color="#820048"/>
+      <stop offset="1" stop-color="#14004b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="252.73" y1="51.08" x2="446.16" y2="51.08" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-7" x1="219.16" y1="137.02" x2="302.18" y2="137.02" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#b7005f"/>
+      <stop offset="1" stop-color="#ffc90f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="142.86" y1="285.28" x2="142.86" y2="429.7" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#74226e"/>
+      <stop offset="1" stop-color="#252364"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="172.89" y1="179.14" x2="392.84" y2="179.14" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#27004b"/>
+      <stop offset="1" stop-color="#ff002a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" x1="148.08" y1="337.59" x2="186.43" y2="337.59" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-11" x1="179.07" y1="228.72" x2="327.06" y2="228.72" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-12" x1="309.11" y1="146.8" x2="381.41" y2="146.8" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-9"/>
+    <linearGradient id="linear-gradient-13" x1="284.3" y1="186.49" x2="353.92" y2="186.49" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-9"/>
+    <linearGradient id="linear-gradient-14" x1="182.2" y1="286.17" x2="271.6" y2="286.17" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-7"/>
+    <linearGradient id="linear-gradient-15" x1="288.94" y1="186.52" x2="428.34" y2="186.52" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#5c004d"/>
+      <stop offset="1" stop-color="#492163"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-16" x1="469.09" y1="124.31" x2="664.67" y2="124.31" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-17" x1="529.67" y1="127.75" x2="664.67" y2="127.75" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#ffc800"/>
+      <stop offset="1" stop-color="#ff002a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-18" x1="148.08" y1="320.26" x2="251.22" y2="320.26" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#14004b"/>
+      <stop offset="0.66" stop-color="#820048"/>
+      <stop offset="1" stop-color="#c70033"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-19" x1="248.9" y1="236.06" x2="322.56" y2="236.06" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#74226e"/>
+      <stop offset="1" stop-color="#492163"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-20" x1="227.35" y1="251.47" x2="436.64" y2="251.47" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#ff002a"/>
+      <stop offset="1" stop-color="#ffc800"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-21" x1="368.35" y1="198.26" x2="477.82" y2="198.26" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-9"/>
+    <linearGradient id="linear-gradient-22" x1="243.77" y1="262.19" x2="483.42" y2="262.19" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-15"/>
+    <linearGradient id="linear-gradient-23" x1="242.75" y1="292.42" x2="471.85" y2="292.42" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-8"/>
+    <linearGradient id="linear-gradient-24" x1="285.73" y1="346.64" x2="467.04" y2="346.64" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#de006b"/>
+      <stop offset="0.03" stop-color="#d5016a"/>
+      <stop offset="0.21" stop-color="#a00b68"/>
+      <stop offset="0.39" stop-color="#741466"/>
+      <stop offset="0.57" stop-color="#511a65"/>
+      <stop offset="0.73" stop-color="#391f64"/>
+      <stop offset="0.88" stop-color="#2a2264"/>
+      <stop offset="1" stop-color="#252364"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-25" x1="322.56" y1="317.54" x2="483.42" y2="317.54" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-26" x1="421.71" y1="299.71" x2="491.72" y2="299.71" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#252364"/>
+      <stop offset="1" stop-color="#74226e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-27" x1="340.56" y1="397.62" x2="470.13" y2="397.62" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#252364"/>
+      <stop offset="0.2" stop-color="#2a2264"/>
+      <stop offset="0.45" stop-color="#392266"/>
+      <stop offset="0.72" stop-color="#512269"/>
+      <stop offset="1" stop-color="#73226d"/>
+      <stop offset="1" stop-color="#74226e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-28" x1="524.79" y1="189.87" x2="712.24" y2="189.87" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-17"/>
+    <linearGradient id="linear-gradient-29" x1="611.56" y1="225.84" x2="752.5" y2="225.84" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-30" x1="560.71" y1="343.4" x2="782.03" y2="343.4" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-17"/>
+    <linearGradient id="linear-gradient-31" x1="694.63" y1="305.02" x2="777.49" y2="305.02" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-20"/>
+    <linearGradient id="linear-gradient-32" x1="465.78" y1="287.05" x2="579.96" y2="287.05" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-27"/>
+    <linearGradient id="linear-gradient-33" x1="560.71" y1="327.92" x2="706.35" y2="327.92" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-26"/>
+    <linearGradient id="linear-gradient-34" x1="349.83" y1="355.37" x2="467.04" y2="355.37" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-27"/>
+    <linearGradient id="linear-gradient-35" x1="384.11" y1="418.63" x2="606.25" y2="418.63" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-24"/>
+    <linearGradient id="linear-gradient-36" x1="384.11" y1="360.39" x2="567.9" y2="360.39" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-37" x1="477.16" y1="338.95" x2="506.75" y2="338.95" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#ff002a"/>
+      <stop offset="0.82" stop-color="#55216e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-38" x1="468.65" y1="257.13" x2="611.54" y2="400.03" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-39" x1="568.78" y1="472.22" x2="660.84" y2="472.22" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-17"/>
+    <linearGradient id="linear-gradient-40" x1="537.28" y1="487.71" x2="606.25" y2="487.71" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-41" x1="532.79" y1="535.95" x2="532.79" y2="687.71" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-17"/>
+    <linearGradient id="linear-gradient-42" x1="696.07" y1="456.55" x2="768.7" y2="456.55" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#ff0069"/>
+      <stop offset="0.12" stop-color="#d50668"/>
+      <stop offset="0.28" stop-color="#a00f66"/>
+      <stop offset="0.45" stop-color="#741665"/>
+      <stop offset="0.6" stop-color="#511b65"/>
+      <stop offset="0.75" stop-color="#391f64"/>
+      <stop offset="0.89" stop-color="#2a2264"/>
+      <stop offset="1" stop-color="#252364"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-43" x1="470.13" y1="517.46" x2="516.04" y2="517.46" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-17"/>
+    <linearGradient id="linear-gradient-44" x1="533.29" y1="556.06" x2="580.7" y2="556.06" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-45" x1="470.13" y1="470.59" x2="567.9" y2="470.59" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-17"/>
+    <linearGradient id="linear-gradient-46" x1="421.07" y1="409.3" x2="493.09" y2="409.3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#80004a"/>
+      <stop offset="1" stop-color="#c70033"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-47" x1="522.86" y1="681.07" x2="570.34" y2="598.84" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-48" x1="460.84" y1="484.57" x2="533.29" y2="484.57" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-46"/>
+    <linearGradient id="linear-gradient-49" x1="644.87" y1="495.93" x2="687.73" y2="495.93" gradientTransform="matrix(1.00229, 0, 0, 1, -348.40876, -619.328796)" xlink:href="#linear-gradient-46"/>
+    <linearGradient id="linear-gradient-50" x1="660.84" y1="559.58" x2="714.61" y2="559.58" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-42"/>
+    <linearGradient id="linear-gradient-51" x1="421.07" y1="405.95" x2="542.37" y2="405.95" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-52" x1="106.82" y1="213.51" x2="106.82" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-8"/>
+    <linearGradient id="linear-gradient-53" x1="207.15" y1="327.17" x2="322.56" y2="327.17" gradientTransform="matrix(1, 0, 0, 1, -346.535339, -619.328796)" xlink:href="#linear-gradient-18"/>
+    <linearGradient id="linear-gradient-54" x1="321.47" y1="261.32" x2="443.7" y2="261.32" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 1, -173.26767, -309.664398)">
+      <stop offset="0" stop-color="#ffc90f"/>
+      <stop offset="1" stop-color="#da5e00"/>
+    </linearGradient>
+  </defs>
+  <polygon class="cls-81" points="-66.628 -207.494 -35.307 -170.274 -53.828 -34.084 -64.258 -101.474 -66.628 -207.494" style="fill: rgb(255, 217, 153); stroke-width: 0px;"/>
+  <polygon class="cls-87" points="33.882 32.726 -26.118 83.726 104.882 32.726 33.882 32.726" style="fill: rgb(234, 240, 249); stroke-width: 0px;"/>
+  <polygon class="cls-65" points="36.442 86.116 104.882 32.726 -26.118 83.726 36.442 86.116" style="fill: rgb(176, 210, 255); stroke-width: 0px;"/>
+  <polygon class="cls-66" points="104.882 32.726 175.192 47.356 1.652 107.516 104.882 32.726" style="fill: rgb(132, 183, 255); stroke-width: 0px;"/>
+  <polygon class="cls-87" points="-26.118 83.726 -66.628 120.036 -22.578 125.756 36.442 86.116 -26.118 83.726" style="fill: rgb(234, 240, 249); stroke-width: 0px;"/>
+  <polygon class="cls-66" points="-66.628 120.036 -72.788 165.836 -22.578 125.756 -66.628 120.036" style="fill: rgb(132, 183, 255); stroke-width: 0px;"/>
+  <polygon class="cls-65" points="-142.388 196.676 -142.388 219.136 -72.788 165.836 -66.628 120.036 -142.388 196.676" style="fill: rgb(176, 210, 255); stroke-width: 0px;"/>
+  <polygon class="cls-66" points="-142.388 219.136 -160.888 209.006 -142.388 196.676 -142.388 219.136" style="fill: rgb(132, 183, 255); stroke-width: 0px;"/>
+  <polygon class="cls-67" points="-168.378 216.056 -142.388 219.136 -160.888 209.006 -168.378 216.056" style="fill: rgb(102, 113, 130); stroke-width: 0px;"/>
+  <path class="cls-62" d="M -173.218 249.086 L -173.218 238.516 C -173.218 229.226 -168.368 216.056 -168.368 216.056 L -142.378 219.136 L -173.218 249.086 Z" style="fill: rgb(36, 45, 57); stroke-width: 0px;"/>
+  <path class="cls-61" d="M -173.218 249.086 C -171.748 252.836 -168.368 253.046 -168.368 253.046 L -70.138 189.176 L -72.778 165.836 L -142.368 219.136 C -142.368 219.136 -174.688 245.336 -173.218 249.086 Z" style="fill: rgb(8, 43, 94); stroke-width: 0px;"/>
+  <polygon class="cls-62" points="-22.578 125.756 2.532 140.296 -70.148 189.186 -72.788 165.836 -22.578 125.756" style="fill: rgb(36, 45, 57); stroke-width: 0px;"/>
+  <polygon class="cls-95" points="-22.578 125.756 44.862 125.756 2.532 140.296 -22.578 125.756" style="fill: rgb(0, 12, 38); stroke-width: 0px;"/>
+  <polygon class="cls-67" points="123.392 69.056 206.792 93.146 57.542 116.856 123.392 69.056" style="fill: rgb(102, 113, 130); stroke-width: 0px;"/>
+  <polygon class="cls-95" points="175.192 47.356 237.512 109.046 123.392 69.056 175.192 47.356" style="fill: rgb(0, 12, 38); stroke-width: 0px;"/>
+  <polygon class="cls-63" points="57.542 116.856 44.862 125.756 -22.578 125.756 36.442 86.116 170.85 48.899 57.542 116.856" style="fill: rgb(211, 226, 255); stroke-width: 0px;"/>
+  <polygon class="cls-62" points="57.542 116.856 44.862 125.756 237.512 109.046 196.712 94.746 57.542 116.856" style="fill: rgb(36, 45, 57); stroke-width: 0px;"/>
+  <path class="cls-95" d="M -168.378 253.056 C -168.378 253.056 -143.518 259.266 -137.058 255.856 C -130.598 252.446 -112.668 232.576 -112.668 232.576 L -130.598 228.496 L -168.368 253.056 L -168.378 253.056 Z" style="fill: rgb(0, 12, 38); stroke-width: 0px;"/>
+  <polygon class="cls-59" points="-5.858 162.206 44.862 125.756 2.532 140.296 -130.598 228.496 -112.668 232.576 -5.858 162.206" style="fill: rgb(7, 24, 53); stroke-width: 0px;"/>
+  <path class="cls-95" d="M 138.662 117.626 L 221.912 214.076 L 162.412 147.096 L 165.342 194.406 L 150.722 235.656 L 135.262 181.066 C 135.262 181.066 130.562 170.656 118.852 159.356 C 111.362 152.126 92.222 146.706 85.522 145.336 C 78.822 143.966 66.062 143.116 53.382 145.166 C 40.702 147.216 -5.848 162.216 -5.848 162.216 L 44.872 125.766 L 138.662 117.636 L 138.662 117.626 Z" style="fill: rgb(0, 12, 38); stroke-width: 0px;"/>
+  <polygon class="cls-91" points="126.612 242.176 150.712 235.646 135.252 181.056 126.612 242.176" style="fill: rgb(0, 203, 255); stroke-width: 0px;"/>
+  <polygon class="cls-92" points="153.802 278.286 126.612 242.176 150.712 235.646 153.802 278.286" style="fill: rgb(0, 220, 255); stroke-width: 0px;"/>
+  <polygon class="cls-97" points="97.632 330.646 153.802 278.286 126.612 242.176 97.632 330.646" style="fill: rgb(0, 122, 255); stroke-width: 0px;"/>
+  <polygon class="cls-70" points="55.942 322.416 126.612 242.176 97.632 330.646 55.942 322.416" style="fill: rgb(106, 231, 255); stroke-width: 0px;"/>
+  <polygon class="cls-71" points="69.072 356.376 -1.428 337.086 55.942 322.416 97.632 330.646 69.072 356.376" style="fill: rgb(159, 238, 247); stroke-width: 0px;"/>
+  <polygon class="cls-91" points="153.802 278.286 158.862 333.226 69.072 356.376 153.802 278.286" style="fill: rgb(0, 203, 255); stroke-width: 0px;"/>
+  <polygon class="cls-91" points="108.432 380.046 69.072 356.376 158.862 333.226 108.896 380.237" style="fill: rgb(0, 203, 255); stroke-width: 0px;"/>
+  <polygon class="cls-70" points="92.852 395.336 1.652 380.046 69.072 356.376 108.938 380.236 92.852 395.336" style="fill: rgb(106, 231, 255); stroke-width: 0px;"/>
+  <polygon class="cls-97" points="194.882 361.006 158.862 333.226 92.852 395.336 194.882 361.006" style="fill: rgb(0, 122, 255); stroke-width: 0px;"/>
+  <polygon class="cls-70" points="116.922 443.856 57.232 418.126 93.474 395.13 194.882 361.006 116.922 443.856" style="fill: rgb(106, 231, 255); stroke-width: 0px;"/>
+  <polygon class="cls-90" points="230.172 290.316 256.682 173.326 237.512 109.046 215.992 242.176 230.172 290.316" style="fill: rgb(0, 49, 116); stroke-width: 0px;"/>
+  <polygon class="cls-62" points="165.332 194.396 217.362 233.686 221.902 214.076 162.402 147.086 165.332 194.396" style="fill: rgb(36, 45, 57); stroke-width: 0px;"/>
+  <polygon class="cls-60" points="150.712 231.816 217.362 233.686 165.332 194.396 150.712 231.816" style="fill: rgb(10, 24, 37); stroke-width: 0px;"/>
+  <polygon class="cls-90" points="216.882 239.816 216.882 236.616 217.362 233.686 150.712 231.816 153.802 278.286 216.882 239.816" style="fill: rgb(0, 49, 116); stroke-width: 0px;"/>
+  <polygon class="cls-97" points="158.862 333.226 216.882 239.816 153.802 278.286 158.862 333.226" style="fill: rgb(0, 122, 255); stroke-width: 0px;"/>
+  <polygon class="cls-94" points="230.172 290.316 216.882 239.816 158.862 333.226 230.172 290.316" style="fill: rgb(0, 92, 255); stroke-width: 0px;"/>
+  <polygon class="cls-93" points="194.882 361.006 158.862 333.226 230.172 290.316 194.882 361.006" style="fill: rgb(0, 69, 178); stroke-width: 0px;"/>
+  <polygon class="cls-93" points="275.232 224.046 230.172 290.316 256.682 173.326 275.232 224.046" style="fill: rgb(0, 69, 178); stroke-width: 0px;"/>
+  <polygon class="cls-58" points="219.572 415.316 253.582 354.916 116.922 443.856 219.572 415.316" style="fill: rgb(16, 0, 30); stroke-width: 0px;"/>
+  <polygon class="cls-97" points="275.232 224.046 291.672 271.936 194.882 361.006 230.172 290.316 275.232 224.046" style="fill: rgb(0, 122, 255); stroke-width: 0px;"/>
+  <polygon class="cls-1" points="321.412 286.406 280.612 399.386 285.612 272.406 321.412 286.406" style="fill: url('#linear-gradient'); stroke-width: 0px;"/>
+  <polygon class="cls-48" points="196.912 443.856 280.612 399.386 284.312 356.716 219.572 415.316 196.912 443.856" style="fill: url('#linear-gradient-2'); stroke-width: 0px;"/>
+  <path class="cls-58" d="M 183.552 462.956 C 185.252 462.956 240.602 435.706 240.602 435.706 L 280.602 399.386 L 196.902 443.856 L 185.242 461.186 C 185.242 461.186 181.852 462.946 183.542 462.946 L 183.552 462.956 Z" style="fill: rgb(16, 0, 30); stroke-width: 0px;"/>
+  <path class="cls-58" d="M 342.772 226.286 L 340.832 378.046 C 340.832 378.046 278.472 463.956 276.952 464.766 C 275.432 465.576 269.792 466.586 268.052 464.766 C 266.312 462.946 280.602 399.386 280.602 399.386 L 342.772 226.286 Z" style="fill: rgb(16, 0, 30); stroke-width: 0px;"/>
+  <path class="cls-58" d="M 397.362 325.666 C 397.362 325.666 364.042 434.816 360.972 440.386 C 357.902 445.956 348.972 444.076 345.872 440.386 C 342.772 436.696 340.842 378.056 340.842 378.056 L 397.362 325.676 L 397.362 325.666 Z" style="fill: rgb(16, 0, 30); stroke-width: 0px;"/>
+  <path class="cls-58" d="M 407.432 239.816 L 397.362 321.906 C 397.362 321.906 414.382 401.176 417.492 407.076 C 420.602 412.976 426.752 411.666 429.102 407.076 C 431.462 402.486 455.942 302.156 455.942 302.156 L 407.422 239.806 L 407.432 239.816 Z" style="fill: rgb(16, 0, 30); stroke-width: 0px;"/>
+  <path class="cls-58" d="M 432.982 199.686 L 448.852 306.046 C 448.852 306.046 475.722 352.926 479.822 357.906 C 483.922 362.886 490.802 363.396 491.432 356.726 C 492.062 350.046 487.562 241.396 487.562 241.396 L 432.972 199.696 L 432.982 199.686 Z" style="fill: rgb(16, 0, 30); stroke-width: 0px;"/>
+  <path class="cls-58" d="M 522.802 141.116 L 512.732 195.706 C 512.732 195.706 565.382 238.026 570.032 241.386 C 574.682 244.746 574.682 239.816 574.682 239.816 L 571.582 232.086 L 522.802 141.106 L 522.802 141.116 Z" style="fill: rgb(16, 0, 30); stroke-width: 0px;"/>
+  <polygon class="cls-49" points="-66.628 120.036 -102.858 -24.164 -82.278 -32.354 -66.628 120.036" style="fill: url('#linear-gradient-3'); stroke-width: 0px;"/>
+  <polygon class="cls-79" points="-5.858 -174.534 -42.868 -157.204 -66.628 120.036 -47.688 -31.854 -5.858 -174.534" style="fill: rgb(238, 7, 82); stroke-width: 0px;"/>
+  <polygon class="cls-47" points="10.732 -255.404 -6.268 -173.114 -43.278 -154.834 10.732 -255.404" style="fill: url('#linear-gradient-4'); stroke-width: 0px;"/>
+  <polygon class="cls-73" points="126.612 -207.494 29.292 -119.804 79.462 -221.214 126.612 -207.494" style="fill: rgb(255, 111, 40); stroke-width: 0px;"/>
+  <polygon class="cls-84" points="-66.628 -207.494 -102.858 -24.164 -42.868 -157.204 -66.628 -207.494" style="fill: rgb(255, 166, 0); stroke-width: 0px;"/>
+  <polygon class="cls-53" points="-47.688 83.726 -66.628 120.036 -47.688 -32.354 -20.648 -124.874 -47.688 83.726" style="fill: url('#linear-gradient-5'); stroke-width: 0px;"/>
+  <polygon class="cls-81" points="-26.118 -101.754 75.632 -213.474 64.852 -191.684 29.292 -119.804 -40.078 25.036 -26.118 -101.754" style="fill: rgb(255, 217, 153); stroke-width: 0px;"/>
+  <polygon class="cls-72" points="-5.858 -175.494 36.442 -198.884 -0.408 -129.974 -28.018 -99.664 -5.858 -175.494" style="fill: rgb(255, 123, 97); stroke-width: 0px;"/>
+  <polygon class="cls-57" points="-47.688 83.726 49.152 -137.694 29.292 -119.804 -40.078 25.036 -47.688 83.726" style="fill: rgb(112, 28, 99); stroke-width: 0px;"/>
+  <polygon class="cls-81" points="97.632 -289.994 36.442 -198.884 -5.858 -175.494 57.542 -253.444 97.632 -289.994" style="fill: rgb(255, 217, 153); stroke-width: 0px;"/>
+  <polygon class="cls-85" points="79.462 -221.214 97.632 -289.994 36.442 -198.884 79.462 -221.214" style="fill: rgb(255, 0, 83); stroke-width: 0px;"/>
+  <polygon class="cls-82" points="-0.408 -129.974 75.632 -213.474 79.462 -221.214 36.442 -198.884 -0.408 -129.974" style="fill: rgb(250, 240, 202); stroke-width: 0px;"/>
+  <polygon class="cls-81" points="171.492 -309.664 162.402 -250.214 79.462 -221.214 171.492 -309.664" style="fill: rgb(255, 217, 153); stroke-width: 0px;"/>
+  <polygon class="cls-54" points="272.892 -309.664 126.612 -207.494 79.462 -221.214 272.892 -309.664" style="fill: url('#linear-gradient-6'); stroke-width: 0px;"/>
+  <polygon class="cls-52" points="128.912 -209.484 108.522 -176.924 48.787 -137.658 128.912 -209.484" style="fill: url('#linear-gradient-7'); stroke-width: 0px;"/>
+  <polygon class="cls-50" points="-25.188 66.686 5.802 -10.834 0.732 -24.384 -66.628 120.036 -22.578 80.716 -25.188 66.686" style="fill: url('#linear-gradient-8'); stroke-width: 0px;"/>
+  <polyline class="cls-82" points="48.972 -137.996 -15.088 9.546 -22.778 58.226 -5.228 -11.594 113.492 -186.814" style="fill: rgb(250, 240, 202); stroke-width: 0px;"/>
+  <polygon class="cls-75" points="132.162 -207.494 219.572 -250.214 272.892 -309.664 126.612 -207.494 132.162 -207.494" style="fill: rgb(255, 106, 38); stroke-width: 0px;"/>
+  <polygon class="cls-51" points="5.802 -10.834 86.092 -122.104 123.392 -174.534 219.572 -250.214 126.612 -207.494 -0.378 -18.674 5.802 -10.834" style="fill: url('#linear-gradient-9'); stroke-width: 0px;"/>
+  <polygon class="cls-18" points="13.162 -2.424 -25.188 66.686 5.802 -10.834 13.162 -2.424" style="fill: url('#linear-gradient-10'); stroke-width: 0px;"/>
+  <polygon class="cls-15" points="153.792 -159.474 113.492 -83.824 13.162 -2.424 5.802 -10.834 88.458 -127.717 153.792 -159.474" style="fill: url('#linear-gradient-11'); stroke-width: 0px;"/>
+  <polygon class="cls-16" points="180.652 -155.094 135.842 -134.054 151.772 -159.474 208.142 -191.684 180.652 -155.094" style="fill: url('#linear-gradient-12'); stroke-width: 0px;"/>
+  <polygon class="cls-17" points="149.292 -113.134 111.032 -91.244 135.842 -134.054 180.652 -155.094 149.292 -113.134" style="fill: url('#linear-gradient-13'); stroke-width: 0px;"/>
+  <polygon class="cls-89" points="88.302 -127.554 123.392 -174.534 219.572 -250.214 327.392 -287.704 351.522 -289.994 229.182 -218.714 88.302 -127.554" style="fill: rgb(255, 224, 159); stroke-width: 0px;"/>
+  <polygon class="cls-85" points="201.412 -182.184 211.962 -197.084 225.718 -216.454 88.426 -127.743 201.412 -182.184" style="fill: rgb(255, 0, 83); stroke-width: 0px;"/>
+  <polygon class="cls-75" points="306.222 -246.654 211.962 -197.084 225.524 -216.47 345.592 -289.994 351.522 -289.994 306.222 -246.654" style="fill: rgb(255, 106, 38); stroke-width: 0px;"/>
+  <polygon class="cls-26" points="8.932 32.726 75.632 -57.224 98.332 -79.714 75.632 -38.484 8.932 32.726" style="fill: url('#linear-gradient-14'); stroke-width: 0px;"/>
+  <polygon class="cls-22" points="115.672 -71.744 255.072 -174.534 180.652 -155.094 114.211 -70.286" style="fill: url('#linear-gradient-15'); stroke-width: 0px;"/>
+  <polygon class="cls-81" points="211.962 -197.084 180.652 -155.094 346.992 -227.474 415.932 -244.444 419.562 -247.734 374.212 -247.734 211.962 -197.084" style="fill: rgb(255, 217, 153); stroke-width: 0px;"/>
+  <polygon class="cls-86" points="255.072 -174.534 317.962 -190.274 415.932 -244.444 346.992 -227.474 179.002 -154.324 255.072 -174.534" style="fill: rgb(255, 0, 105); stroke-width: 0px;"/>
+  <polygon class="cls-82" points="245.292 -167.334 293.772 -143.094 263.372 -129.444 140.202 -89.834 245.292 -167.334" style="fill: rgb(250, 240, 202); stroke-width: 0px;"/>
+  <polygon class="cls-81" points="255.072 -174.534 245.292 -167.334 293.772 -143.094 356.402 -165.594 295.822 -184.734 255.072 -174.534" style="fill: rgb(255, 217, 153); stroke-width: 0px;"/>
+  <polygon class="cls-20" points="331.882 -194.374 431.402 -205.114 491.402 -198.224 483.492 -194.374 438.492 -188.294 356.402 -165.594 295.822 -184.734 331.882 -194.374" style="fill: url('#linear-gradient-16'); stroke-width: 0px;"/>
+  <polygon class="cls-19" points="432.752 -167.334 356.402 -165.594 438.492 -188.294 491.402 -198.224 432.752 -167.334" style="fill: url('#linear-gradient-17'); stroke-width: 0px;"/>
+  <polygon class="cls-73" points="293.772 -143.094 305.321 -136.8 432.752 -167.334 356.402 -165.594 293.772 -143.094" style="fill: rgb(255, 111, 40); stroke-width: 0px;"/>
+  <polygon class="cls-25" points="13.162 -2.424 -25.188 66.686 -22.578 80.716 8.932 32.726 77.952 -59.524 13.162 -2.424" style="fill: url('#linear-gradient-18'); stroke-width: 0px;"/>
+  <polygon class="cls-59" points="33.882 32.726 -22.578 80.716 8.932 32.726 75.632 -38.484 79.462 -34.084 51.862 17.176 33.882 32.726" style="fill: rgb(7, 24, 53); stroke-width: 0px;"/>
+  <polygon class="cls-21" points="149.292 -113.134 110.462 -65.714 79.462 -34.084 75.632 -38.484 98.332 -79.714 111.032 -91.244 149.292 -113.134" style="fill: url('#linear-gradient-19'); stroke-width: 0px;"/>
+  <polygon class="cls-79" points="54.082 13.046 124.882 -61.424 140.202 -89.834 115.672 -71.744 79.462 -34.084 54.082 13.046" style="fill: rgb(238, 7, 82); stroke-width: 0px;"/>
+  <polygon class="cls-28" points="263.372 -129.444 54.082 13.046 126.415 -64.285 140.202 -89.834 263.372 -129.444" style="fill: url('#linear-gradient-20'); stroke-width: 0px;"/>
+  <polygon class="cls-24" points="293.772 -143.094 305.468 -136.847 261.952 -102.824 195.082 -79.714 195.082 -82.954 263.372 -129.444 293.772 -143.094" style="fill: url('#linear-gradient-21'); stroke-width: 0px;"/>
+  <polygon class="cls-59" points="33.882 32.726 54.082 13.046 195.082 -82.954 195.082 -76.684 70.502 10.596 33.882 32.726" style="fill: rgb(7, 24, 53); stroke-width: 0px;"/>
+  <polygon class="cls-27" points="270.432 -85.854 310.152 -105.534 261.952 -102.824 195.082 -79.714 70.502 10.596 270.432 -85.854" style="fill: url('#linear-gradient-22'); stroke-width: 0px;"/>
+  <polygon class="cls-81" points="69.482 17.506 33.882 32.726 70.502 10.596 270.432 -85.854 310.152 -87.644 411.422 -63.964 334.592 -60.104 244.272 -39.734 69.482 17.506" style="fill: rgb(255, 217, 153); stroke-width: 0px;"/>
+  <polygon class="cls-23" points="265.232 -22.184 298.582 -51.984 244.812 -41.804 69.482 17.506 149.292 0.706 265.232 -22.184" style="fill: url('#linear-gradient-23'); stroke-width: 0px;"/>
+  <polygon class="cls-59" points="266.342 -23.494 248.442 -2.424 145.332 4.316 146.132 1.356 266.342 -23.494" style="fill: rgb(7, 24, 53); stroke-width: 0px;"/>
+  <polygon class="cls-30" points="149.292 0.706 112.462 34.296 247.802 69.056 293.772 73.246 149.292 0.706" style="fill: url('#linear-gradient-24'); stroke-width: 0px;"/>
+  <polygon class="cls-14" points="310.152 18.166 248.442 -2.424 149.292 0.706 176.562 18.166 310.152 18.166" style="fill: url('#linear-gradient-25'); stroke-width: 0px;"/>
+  <polygon class="cls-31" points="318.452 3.586 248.442 -2.424 266.342 -23.494 318.452 3.586" style="fill: url('#linear-gradient-26'); stroke-width: 0px;"/>
+  <polygon class="cls-56" points="333.482 29.156 395.512 83.726 471.602 131.156 414.052 50.266 318.452 3.586 248.442 -2.424 333.482 29.156" style="fill: rgb(113, 82, 152); stroke-width: 0px;"/>
+  <polygon class="cls-29" points="237.512 109.046 296.862 130.206 247.802 69.056 170.234 49.163 237.512 109.046" style="fill: url('#linear-gradient-27'); stroke-width: 0px;"/>
+  <polygon class="cls-69" points="266.342 -23.494 331.932 -51.984 334.592 -60.104 298.582 -51.984 266.342 -23.494" style="fill: rgb(188, 0, 93); stroke-width: 0px;"/>
+  <polygon class="cls-69" points="459.172 -55.194 438.774 -65.435 334.592 -60.104 330.332 -49.304 459.172 -55.194" style="fill: rgb(188, 0, 93); stroke-width: 0px;"/>
+  <polygon class="cls-78" points="300.852 -134.194 261.952 -102.824 341.352 -100.134 438.292 -105.534 300.852 -134.194" style="fill: rgb(255, 201, 141); stroke-width: 0px;"/>
+  <polygon class="cls-82" points="538.972 -134.054 491.402 -148.194 415.932 -157.204 309.152 -138.954 300.852 -134.194 351.522 -123.144 538.972 -134.054" style="fill: rgb(250, 240, 202); stroke-width: 0px;"/>
+  <polygon class="cls-13" points="438.292 -105.534 538.972 -134.054 351.522 -123.144 438.292 -105.534" style="fill: url('#linear-gradient-28'); stroke-width: 0px;"/>
+  <polygon class="cls-82" points="301.942 -101.474 270.432 -85.854 310.152 -87.644 411.422 -63.964 426.782 -64.424 346.342 -101.474 301.942 -101.474" style="fill: rgb(250, 240, 202); stroke-width: 0px;"/>
+  <polygon class="cls-85" points="438.292 -105.534 518.492 -62.104 426.782 -64.424 346.342 -101.474 438.292 -105.534" style="fill: rgb(255, 0, 83); stroke-width: 0px;"/>
+  <path class="cls-4" d="M 579.232 -62.104 L 518.492 -62.104 L 438.292 -105.534 L 454.532 -105.534 C 454.532 -105.534 535.282 -87.054 541.812 -85.434 C 548.342 -83.814 579.222 -62.104 579.222 -62.104 L 579.232 -62.104 Z" style="fill: url('#linear-gradient-29'); stroke-width: 0px;"/>
+  <polygon class="cls-80" points="546.472 -41.804 541.452 -27.464 459.172 -55.194 439.532 -64.424 518.492 -62.104 546.472 -41.804" style="fill: rgb(255, 176, 29); stroke-width: 0px;"/>
+  <path class="cls-6" d="M 387.442 -45.944 L 607.572 113.426 C 607.572 113.426 610.252 109.476 607.572 102.126 C 604.892 94.776 521.362 -5.424 521.362 -5.424 L 387.442 -45.944 Z" style="fill: url('#linear-gradient-30'); stroke-width: 0px;"/>
+  <polygon class="cls-7" points="541.452 -27.464 521.362 -5.424 604.222 18.166 541.452 -27.464" style="fill: url('#linear-gradient-31'); stroke-width: 0px;"/>
+  <polygon class="cls-78" points="331.932 -51.984 266.342 -23.494 292.512 -17.244 416.752 -53.254 331.932 -51.984" style="fill: rgb(255, 201, 141); stroke-width: 0px;"/>
+  <polygon class="cls-78" points="541.452 -27.464 521.362 -5.424 521.362 -5.424 387.442 -45.944 416.752 -53.254 455.622 -56.864 541.452 -27.464" style="fill: rgb(255, 201, 141); stroke-width: 0px;"/>
+  <polygon class="cls-5" points="406.692 0.706 387.442 -45.944 292.512 -17.244 406.692 0.706" style="fill: url('#linear-gradient-32'); stroke-width: 0px;"/>
+  <polygon class="cls-3" points="510.672 43.266 533.082 82.456 406.692 0.706 387.442 -45.944 510.672 43.266" style="fill: url('#linear-gradient-33'); stroke-width: 0px;"/>
+  <polygon class="cls-10" points="176.562 18.166 210.842 18.256 293.772 73.246 176.562 18.166" style="fill: url('#linear-gradient-34'); stroke-width: 0px;"/>
+  <polygon class="cls-12" points="323.422 47.356 210.842 18.256 293.772 73.246 330.332 104.636 432.982 199.686 323.422 47.356" style="fill: url('#linear-gradient-35'); stroke-width: 0px;"/>
+  <polygon class="cls-8" points="303.892 18.166 394.632 83.276 323.422 47.356 210.842 18.256 303.892 18.166" style="fill: url('#linear-gradient-36'); stroke-width: 0px;"/>
+  <polygon class="cls-11" points="333.482 29.156 332.512 40.406 303.892 18.166 333.482 29.156" style="fill: url('#linear-gradient-37'); stroke-width: 0px;"/>
+  <polygon class="cls-59" points="395.512 83.726 371.542 70.726 332.512 40.406 333.482 29.156 395.512 83.726" style="fill: rgb(7, 24, 53); stroke-width: 0px;"/>
+  <polygon class="cls-2" points="266.342 -23.494 406.692 0.706 452.812 75.826 266.342 -23.494" style="fill: url('#linear-gradient-38'); stroke-width: 0px;"/>
+  <polygon class="cls-74" points="323.422 47.356 432.982 199.686 395.512 83.726 323.422 47.356" style="fill: rgb(255, 96, 41); stroke-width: 0px;"/>
+  <polygon class="cls-9" points="487.572 241.386 395.512 83.726 481.582 135.706 487.572 241.386" style="fill: url('#linear-gradient-39'); stroke-width: 0px;"/>
+  <polygon class="cls-40" points="364.012 141.116 407.432 239.816 432.982 199.686 372.982 116.266 364.012 141.116" style="fill: url('#linear-gradient-40'); stroke-width: 0px;"/>
+  <polygon class="cls-41" points="342.772 226.286 378.202 278.286 348.612 370.846 340.842 378.046 342.772 226.286" style="fill: url('#linear-gradient-41'); stroke-width: 0px;"/>
+  <polygon class="cls-68" points="296.232 114.676 321.412 288.126 285.612 274.116 296.232 114.676" style="fill: rgb(51, 40, 116); stroke-width: 0px;"/>
+  <polygon class="cls-93" points="237.512 109.046 266.342 147.086 256.682 173.326 237.512 109.046" style="fill: rgb(0, 69, 178); stroke-width: 0px;"/>
+  <polygon class="cls-55" points="533.082 82.456 522.802 141.116 559.892 116.856 533.082 82.456" style="fill: rgb(250, 0, 97); stroke-width: 0px;"/>
+  <polygon class="cls-83" points="406.692 0.706 452.812 75.826 522.802 141.116 533.082 82.456 406.692 0.706" style="fill: rgb(255, 27, 78); stroke-width: 0px;"/>
+  <polygon class="cls-59" points="419.682 58.176 452.812 75.826 480.192 137.176 471.602 131.156 419.682 58.176" style="fill: rgb(7, 24, 53); stroke-width: 0px;"/>
+  <polygon class="cls-81" points="546.472 -41.804 604.222 18.166 541.452 -27.464 546.472 -41.804" style="fill: rgb(255, 217, 153); stroke-width: 0px;"/>
+  <polygon class="cls-64" points="510.672 43.266 533.082 82.456 607.572 113.426 510.672 43.266" style="fill: rgb(227, 0, 103); stroke-width: 0px;"/>
+  <path class="cls-38" d="M 559.892 116.856 L 570.372 137.176 C 570.372 137.176 596.412 171.906 595.402 176.536 C 594.392 181.166 522.792 141.106 522.792 141.106 L 559.882 116.846 L 559.892 116.856 Z" style="fill: url('#linear-gradient-42'); stroke-width: 0px;"/>
+  <polygon class="cls-78" points="452.812 75.826 480.192 137.176 522.802 141.116 452.812 75.826" style="fill: rgb(255, 201, 141); stroke-width: 0px;"/>
+  <polygon class="cls-64" points="512.732 195.696 471.602 131.156 522.802 141.116 512.732 195.696" style="fill: rgb(227, 0, 103); stroke-width: 0px;"/>
+  <polygon class="cls-59" points="256.682 173.326 285.662 273.006 293.772 195.696 266.342 147.086 256.682 173.326" style="fill: rgb(7, 24, 53); stroke-width: 0px;"/>
+  <polygon class="cls-39" points="296.862 127.466 342.772 226.286 321.412 288.126 296.862 127.466" style="fill: url('#linear-gradient-43'); stroke-width: 0px;"/>
+  <polygon class="cls-34" points="360.022 170.876 378.202 278.286 397.922 324.658 407.432 239.816 357.917 160.228" style="fill: url('#linear-gradient-44'); stroke-width: 0px;"/>
+  <polygon class="cls-32" points="319.822 100.646 296.862 130.206 394.632 221.206 319.822 100.646" style="fill: url('#linear-gradient-45'); stroke-width: 0px;"/>
+  <polygon class="cls-33" points="247.802 69.056 296.862 130.206 319.822 100.646 247.802 69.056" style="fill: url('#linear-gradient-46'); stroke-width: 0px;"/>
+  <polygon class="cls-59" points="407.675 241.309 320.009 101.456 365.885 122.097 407.638 240.991" style="fill: rgb(7, 24, 53); stroke-width: 0px;"/>
+  <polygon class="cls-55" points="432.982 199.686 407.432 239.816 448.852 306.036 432.982 199.686" style="fill: rgb(250, 0, 97); stroke-width: 0px;"/>
+  <path class="cls-37" style="fill: url('#linear-gradient-47'); stroke-width: 0px;" d="M 378.202 278.286 C 378.202 278.286 398.225 325.464 398.155 325.043 L 348.612 370.846 L 378.202 278.286 Z"/>
+  <polygon class="cls-35" points="360.022 170.876 342.772 226.286 295.269 129.059 360.022 170.876" style="fill: url('#linear-gradient-48'); stroke-width: 0px;"/>
+  <polygon class="cls-72" points="378.202 278.286 360.022 170.876 342.772 226.286 378.202 278.286" style="fill: rgb(255, 123, 97); stroke-width: 0px;"/>
+  <polygon class="cls-83" points="395.512 83.726 487.572 241.386 432.982 199.686 395.512 83.726" style="fill: rgb(255, 27, 78); stroke-width: 0px;"/>
+  <polygon class="cls-36" points="471.602 131.156 487.609 241.386 512.711 195.63 471.602 131.156" style="fill: url('#linear-gradient-49'); stroke-width: 0px;"/>
+  <path class="cls-45" d="M 536.542 302.166 C 540.582 306.586 541.342 302.166 541.342 302.166 L 512.811 195.383 L 487.562 241.376 C 487.562 241.376 532.492 297.736 536.532 302.156 L 536.542 302.166 Z" style="fill: url('#linear-gradient-50'); stroke-width: 0px;"/>
+  <polygon class="cls-56" points="237.512 109.046 293.772 195.696 296.862 130.206 237.512 109.046" style="fill: rgb(113, 82, 152); stroke-width: 0px;"/>
+  <polygon class="cls-43" points="296.862 71.186 369.102 123.516 247.802 69.056 296.862 71.186" style="fill: url('#linear-gradient-51'); stroke-width: 0px;"/>
+  <polygon class="cls-60" points="237.512 109.046 221.902 214.076 138.662 117.626 237.512 109.046" style="fill: rgb(10, 24, 37); stroke-width: 0px;"/>
+  <polygon class="cls-44" points="-66.628 120.036 -82.278 -32.354 -61.638 -96.154 -50.628 -8.684 -66.628 120.036" style="fill: url('#linear-gradient-52'); stroke-width: 0px;"/>
+  <polygon class="cls-76" points="-102.858 -24.164 -82.018 -29.844 -42.868 -157.204 -102.858 -24.164" style="fill: rgb(255, 119, 0); stroke-width: 0px;"/>
+  <polygon class="cls-42" points="33.882 32.726 112.462 34.296 149.292 0.706 69.482 17.506 33.882 32.726" style="fill: url('#linear-gradient-53'); stroke-width: 0px;"/>
+  <polygon class="cls-77" points="-6.268 -173.114 27.281 -216.166 10.732 -255.404 -6.268 -173.114" style="fill: rgb(255, 135, 124); stroke-width: 0px;"/>
+  <polygon class="cls-84" points="17.772 -140.174 8.932 -77.284 69.672 -201.414 17.772 -140.174" style="fill: rgb(255, 166, 0); stroke-width: 0px;"/>
+  <polygon class="cls-66" points="36.442 86.116 44.862 125.756 -22.578 125.756 36.442 86.116" style="fill: rgb(132, 183, 255); stroke-width: 0px;"/>
+  <circle class="cls-96" cx="18.012" cy="93.146" r="18.43" style="fill: rgb(0, 28, 74); stroke-width: 0px;"/>
+  <polygon class="cls-90" points="285.612 272.406 194.882 361.006 116.922 443.856 253.072 356.936 285.102 274.426 285.612 272.406" style="fill: rgb(0, 49, 116); stroke-width: 0px;"/>
+  <polygon class="cls-68" points="217.692 416.986 293.772 364.276 285.612 272.406 285.162 274.076 217.692 416.986" style="fill: rgb(51, 40, 116); stroke-width: 0px;"/>
+  <polygon class="cls-72" points="334.592 -60.104 270.432 -85.854 310.152 -87.644 411.422 -63.964 334.592 -60.104" style="fill: rgb(255, 123, 97); stroke-width: 0px;"/>
+  <polygon class="cls-84" points="244.812 -41.804 270.432 -85.854 334.592 -60.104 244.812 -41.804" style="fill: rgb(255, 166, 0); stroke-width: 0px;"/>
+  <polygon class="cls-46" points="148.202 -10.834 171.492 -38.114 270.432 -85.854 244.812 -41.804 148.202 -10.834" style="fill: url('#linear-gradient-54'); stroke-width: 0px;"/>
+  <circle class="cls-88" cx="16.052" cy="83.726" r="3.72" style="fill: rgb(252, 252, 252); stroke-width: 0px;"/>
+</svg>
