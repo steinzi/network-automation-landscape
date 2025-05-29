@@ -144,9 +144,11 @@ groups:
       - Automation Tooling
       - Security
       - Virtualization
+      - Terraform Eco-System
       - Python Eco-System
       - GoLang Eco-System
       - Reporting & Insights
+      
   # TODO: make this happen so we can make some groups and be cool like the CNCF landscape.
   # - name: Open Source only
   #   categories:
