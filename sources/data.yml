@@ -1028,8 +1028,7 @@ categories:
             homepage_url: https://torero.dev
             logo: torero.png
             extra:
-              summary_use_case: "I don't know... Launch python and ansible playbooks.... and have a gun to your head for 'free'?"
-              # Claimed
+              summary_use_case: "Launch python and ansible playbooks"
               summary_release_rate: "Every 3 months"
 
           - name: StackStorm
@@ -1075,6 +1074,24 @@ categories:
               summary_tags: "multi-domain orchestration, intent-based orchestration, configuration management, network automation, infrastructure as code, multi-vendor"
               summary_personas: "Network Engineers, Network Architects, DevOps Engineers, Site Reliability Engineers"
               summary_release_rate: "1 major release and several minor releases per year"
+
+          - name: Nokia Event-Driven Automation (EDA)
+            project: enterprise
+            description: Nokia Event-Driven Automation (EDA) is a cloud-native infrastructure automation platform with one goal of Human Error Zero. EDA creates multi-vendor networks so reliable that you can make changes without fear and move fast with confidence.
+            homepage_url: https://www.nokia.com/data-center-networks/data-center-fabric/event-driven-automation/
+            logo: eda.svg
+            extra:
+              documentation_url: https://documentation.nokia.com/eda/24-12/books/user/introduction.html
+              summary_use_case: "Automates the entire data center network lifecycle from Day 0 design, Day 1 deployment, to Day 2 operations. EDA quickly responds to network conditions and triggers automated actions in response to specific events."
+              summary_business_use_case: "Drive operational cost savings of up to 40 percent over four years, across all tasks associated with the data center fabric lifecycle while achieving human error zero through reliable, predictable network automation."
+              summary_integration: "Integrates with leading cloud and workload management platforms like OpenShift, VMware, and OpenStack, enabling the network to respond to real-time compute demands. Also supports Microsoft Teams, WhatsApp, and Discord for event notifications."
+              summary_tags: "intent-based networking, data center automation, kubernetes, digital twin, git version control, multi-vendor support, cloud-native, EVPN, BGP fabric"
+              summary_personas: "Data Center Engineers, Network Operations Teams, Cloud Architects, DevOps Engineers"
+              summary_release_rate: "Regular platform updates and feature releases"
+              key_features: "Pre- and Post-Checks, Revision Control with Git, Network-Wide Transactions, Digital Twin for testing, Real-time Remediation"
+              blog_url: https://www.nokia.com/blog/
+              linkedin_url: https://www.linkedin.com/company/nokia/
+              twitter: https://twitter.com/nokia
 
           - name: Workflow Orchestrator
             project: full-open-source

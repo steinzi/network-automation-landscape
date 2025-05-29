@@ -53,6 +53,7 @@
 [netpicker](https://netpicker.io) | freemium |  |  |  |  |  | 0 |  |
 [netrasp](https://github.com/networklore/netrasp) | full-open-source |  |  |  |  |  | 0 |  |
 [netutils](https://netutils.readthedocs.io/en/latest/) | full-open-source |  |  |  |  |  | 0 |  |
+[nokia event-driven automation (eda)](https://www.nokia.com/data-center-networks/data-center-fabric/event-driven-automation/) | enterprise |  |  |  |  |  | 0 |  |
 [norfab (network automation fabric)](https://docs.norfablabs.com/) | full-open-source |  |  |  |  |  | 0 |  |
 [nornir](https://nornir.readthedocs.io) | full-open-source |  |  |  |  |  | 0 |  |
 [ntc templates](https://github.com/networktocode/ntc-templates) | full-open-source |  |  |  |  |  | 0 |  |
