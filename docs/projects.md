@@ -91,6 +91,7 @@
 [telegraf](https://www.influxdata.com/time-series-platform/telegraf/) | full-open-source |  |  |  |  |  | 0 |  |
 [temporal](https://temporal.io/) | hybrid |  |  |  |  |  | 0 |  |
 [terraform](https://www.terraform.io) | hybrid |  |  |  |  |  | 0 |  |
+[terragrunt](https://terragrunt.gruntwork.io/) | full-open-source |  |  |  |  |  | 0 |  |
 [torero.dev](https://torero.dev) | closed-core |  |  |  |  |  | 0 |  |
 [ttp](https://github.com/dmulyalin/ttp) | full-open-source |  |  |  |  |  | 0 |  |
 [workflow orchestrator](https://workfloworchestrator.org) | full-open-source |  |  |  |  |  | 0 |  |

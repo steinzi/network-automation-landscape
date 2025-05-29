@@ -1139,6 +1139,25 @@ categories:
               summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers"
               summary_release_rate: "Regular updates and improvements"
               specification: false
+
+          - name: Terragrunt
+            project: full-open-source
+            description: Terragrunt is a thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state.
+            homepage_url: https://terragrunt.gruntwork.io/
+            logo: terragrunt.svg
+            repo_url: https://github.com/gruntwork-io/terragrunt
+            extra:
+              documentation_url: https://terragrunt.gruntwork.io/docs/
+              github_discussions_url: https://github.com/gruntwork-io/terragrunt/discussions
+              summary_use_case: "DRY Terraform configurations, remote state management, multi-module orchestration, dependency management"
+              summary_business_use_case: "Reduces code duplication in Terraform configurations, simplifies multi-environment deployments, and provides better organization for complex infrastructure projects"
+              summary_integration: "Terraform, OpenTofu, AWS, Azure, GCP, various Terraform providers"
+              summary_tags: "terraform, infrastructure as code, DRY, remote state, orchestration, multi-module"
+              summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers"
+              summary_release_rate: "Regular updates and improvements"
+              blog_url: https://blog.gruntwork.io/
+              summary_features: "DRY configurations, dependency management, remote state encryption, multi-account deployments, before/after hooks"
+            
   - name: Python Eco-System
     subcategories:
       - name: Network Programmability Frameworks
