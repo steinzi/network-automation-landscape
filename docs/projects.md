@@ -60,6 +60,7 @@
 [nuts](https://nuts.readthedocs.io/) | full-open-source |  |  |  |  |  | 0 |  |
 [observium](https://www.observium.org/) | hybrid |  |  |  |  |  | 0 |  |
 [ondatra](https://github.com/openconfig/ondatra) | full-open-source |  |  |  |  |  | 0 |  |
+[open terraforming framework (otf)](https://docs.otf.ninja) | full-open-source |  |  |  |  |  | 0 |  |
 [opentofu](https://opentofu.org) | full-open-source |  |  |  |  |  | 0 |  |
 [orb community](https://orb.community/) | full-open-source |  |  |  |  |  | 0 |  |
 [peering manager](https://peering-manager.net/) | full-open-source |  |  |  |  |  | 0 |  |

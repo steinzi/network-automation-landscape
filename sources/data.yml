@@ -1119,6 +1119,26 @@ categories:
               summary_tags: "Multi-domain Orchestration, Intent-based Orchestration, Workflows, Vendor Agnostic, Product Lifecycle"
               summary_personas: "Network Engineers, Network Automation Engineers, Software Developers, IT Operations"
               discord_url: https://discord.gg/fQkQn5ajFR
+  - name: Terraform Eco-System
+    subcategories:
+      - name: TACOS (Terraform Automation and Collaboration tools)
+        items:
+          - name: Open Terraforming Framework (OTF)
+            project: full-open-source
+            description: OTF is an open-source alternative to Terraform Enterprise, sharing many of its features including full Terraform CLI integration, remote execution mode, agent execution mode, remote state backend, SSO, RBAC, VCS integration, and compatibility with much of the Terraform Enterprise/Cloud API.
+            homepage_url: https://docs.otf.ninja
+            logo: otf.png
+            repo_url: https://github.com/leg100/otf
+            extra:
+              documentation_url: https://docs.otf.ninja/
+              github_discussions_url: https://github.com/leg100/otf/discussions
+              summary_use_case: "Self-hosted Terraform Enterprise alternative, team collaboration, workspace management, remote state backend"
+              summary_business_use_case: "Provides enterprise Terraform features including SSO, team management, agents, and no per-resource pricing, enabling organizations to manage infrastructure as code at scale without vendor lock-in"
+              summary_integration: "Terraform, OpenTofu, GitHub, OAuth"
+              summary_tags: "terraform, infrastructure as code, remote state, workspace management, SSO, RBAC, VCS integration"
+              summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers"
+              summary_release_rate: "Regular updates and improvements"
+              specification: false
   - name: Python Eco-System
     subcategories:
       - name: Network Programmability Frameworks
