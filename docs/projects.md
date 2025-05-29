@@ -75,11 +75,13 @@
 [pyeapi](https://pyeapi.readthedocs.io/en/master/index.html) | full-open-source |  |  |  |  |  | 0 |  |
 [pyez](https://www.juniper.net/documentation/product/en_US/junos-pyez) | full-open-source |  |  |  |  |  | 0 |  |
 [pygnmi](https://github.com/akarneliuk/pygnmi/) | full-open-source |  |  |  |  |  | 0 |  |
+[pygohcl](https://github.com/Scalr/pygohcl) | full-open-source |  |  |  |  |  | 0 |  |
 [pysros](https://network.developer.nokia.com/static/sr/learn/pysros/latest/index.html#) | full-open-source |  |  |  |  |  | 0 |  |
 [rconfig](https://www.rconfig.com/) | freemium |  |  |  |  |  | 0 |  |
 [red hat ansible automation platform](https://www.redhat.com/en/technologies/management/ansible) | enterprise |  |  |  |  |  | 0 |  |
 [rundeck](https://www.rundeck.com/) | hybrid |  |  |  |  |  | 0 |  |
 [salt](https://saltproject.io) | full-open-source |  |  |  |  |  | 0 |  |
+[scalr](https://www.scalr.com/) | freemium |  |  |  |  |  | 0 |  |
 [scrapli](https://github.com/carlmontanari/scrapli) | full-open-source |  |  |  |  |  | 0 |  |
 [scrapligo](https://github.com/scrapli/scrapligo) | full-open-source |  |  |  |  |  | 0 |  |
 [semaphore ui](https://semaphoreui.com) | full-open-source |  |  |  |  |  | 0 |  |

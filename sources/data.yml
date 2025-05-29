@@ -1119,6 +1119,7 @@ categories:
               summary_tags: "Multi-domain Orchestration, Intent-based Orchestration, Workflows, Vendor Agnostic, Product Lifecycle"
               summary_personas: "Network Engineers, Network Automation Engineers, Software Developers, IT Operations"
               discord_url: https://discord.gg/fQkQn5ajFR
+  
   - name: Terraform Eco-System
     subcategories:
       - name: TACOS (Terraform Automation and Collaboration tools)
@@ -1176,6 +1177,40 @@ categories:
               blog_url: https://terramate.io/rethinking-iac/
               linkedin_url: https://www.linkedin.com/company/terramate-io
               summary_features: "Stack-based infrastructure management, code generation, graph-based orchestration, change detection, asset management, drift detection, observability"
+
+          - name: pygohcl
+            project: full-open-source
+            description: Python wrapper for hashicorp/hcl (v2). Provides Python bindings to parse HCL (HashiCorp Configuration Language) files, commonly used with Terraform configurations.
+            homepage_url: https://github.com/Scalr/pygohcl
+            logo: pygohcl.png
+            repo_url: https://github.com/Scalr/pygohcl
+            extra:
+              documentation_url: https://pypi.org/project/pygohcl/
+              summary_use_case: "Parse and process HCL/Terraform configuration files from Python applications, enabling integration of Terraform configurations into network automation workflows"
+              summary_tags: "HCL, Terraform, configuration parsing, Python bindings, infrastructure as code"
+              summary_personas: "Network Engineers, DevOps Engineers, Infrastructure Engineers, Automation Engineers"
+              summary_features: "HCL v2 support, Python 3.8-3.13 compatibility, simple JSON-like API"
+              summary_business_use_case: "Enables Python-based automation tools to read and process Terraform configuration files, facilitating integration between infrastructure-as-code workflows and network automation systems"
+              summary_integration: "Terraform, Python automation frameworks, infrastructure-as-code pipelines"
+              summary_release_rate: "Regular updates with Python version support"
+              package_manager_url: https://pypi.org/project/pygohcl/
+          - name: Scalr
+            project: freemium
+            description: Scalr is a Terraform and OpenTofu Automation and Collaboration (TACO) platform that provides a comprehensive remote operations backend with centralized state management, policy enforcement, and enterprise-grade governance features.
+            homepage_url: https://www.scalr.com/
+            logo: scalr.png
+            crunchbase: https://www.crunchbase.com/organization/scalr
+            extra:
+              documentation_url: https://docs.scalr.io/
+              summary_use_case: "Remote operations backend for Terraform and OpenTofu, team collaboration, workspace management, policy enforcement, cost controls"
+              summary_business_use_case: "Enables organizations to scale infrastructure as code with enterprise governance, cost control, and collaborative workflows while maintaining security and compliance"
+              summary_integration: "GitHub, GitLab, Azure DevOps, Bitbucket, Terraform, OpenTofu, AWS EventBridge, Datadog, Slack, Microsoft Teams, OPA, Checkov, Terragrunt"
+              summary_tags: "terraform, opentofu, infrastructure as code, remote state, workspace management, policy as code, RBAC, CI/CD integration"
+              summary_personas: "Platform Engineers, DevOps Engineers, Cloud Architects, Site Reliability Engineers, Infrastructure Teams"
+              summary_release_rate: "Continuous updates (SaaS model)"
+              blog_url: https://www.scalr.com/blog/
+              linkedin_url: https://www.linkedin.com/company/scalr
+              summary_features: "Remote operations backend, hierarchical environment management, policy-as-code enforcement, cost controls, drift detection, module registry, RBAC, audit logging"
             
   - name: Python Eco-System
     subcategories:
