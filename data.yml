@@ -167,7 +167,20 @@ categories:
               youtube_url: https://www.youtube.com/@netos-networks
               slack_url: https://netdev-community.slack.com/archives/C07RC7E803B
 
-
+          - name: narrowin Lightweight Network Explorer
+            project: enterprise (freemium coming soon)
+            description: Highly intuitive graphical multivendor network observability platform for IT and OT/IoT networks.
+            homepage_url: https://demo.narrowin.ch
+            logo: narrowin-logo.png
+            extra:
+              summary_tags: "network topology, network visibility, device and config backup, ipam, network inventory"
+              summary_use_case: "Continuous network documentation and visualization, including inventory, history, config management and analytics (spanning tree, impact analysis, config best practices). One time network assessments possible."
+              summary_integration: "PRTG"
+              summary_business_use_case: "Accelerates network (re-)design projects and troubleshooting. Improves reliability and security of the network. Makes network information more accessible across roles and teams."
+              documentation_url: https://narrowin.ch/en/network_explorer.html
+              summary_release_rate: "Regularly updated"
+              summary_personas: "Network Engineers, Security Analysts, Network Operations Teams"
+ 
       - name: Testing, Compliance & Querying
         items:
           # TODO add the enterprise version
@@ -277,6 +290,20 @@ categories:
               summary_personas: "Network Engineers, DevOps Engineers, QA Engineers"
               summary_release_rate: "Regularly updated"
 
+          - name: narrowin Lightweight Network Explorer
+            project: enterprise (freemium coming soon)
+            description: Highly intuitive graphical multivendor network observability platform for IT and OT/IoT networks.
+            homepage_url: https://demo.narrowin.ch
+            logo: narrowin-logo.png
+            extra:
+              summary_tags: "network topology, network visibility, device and config backup, ipam, network inventory"
+              summary_use_case: "Continuous network documentation and visualization, including inventory, history, config management and analytics (spanning tree, impact analysis, config best practices). One time network assessments possible."
+              summary_integration: "PRTG"
+              summary_business_use_case: "Accelerates network (re-)design projects and troubleshooting. Improves reliability and security of the network. Makes network information more accessible across roles and teams."
+              documentation_url: https://narrowin.ch/en/network_explorer.html
+              summary_release_rate: "Regularly updated"
+              summary_personas: "Network Engineers, Security Analysts, Network Operations Teams"
+ 
   - name: Telemetry and observability
     subcategories:
       # TODO: Figure out better names and layout for this section
