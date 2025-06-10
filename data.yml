@@ -277,6 +277,39 @@ categories:
               summary_personas: "Network Engineers, DevOps Engineers, QA Engineers"
               summary_release_rate: "Regularly updated"
 
+          - name: Robot Framework
+            project: full-open-source
+            description: "Robot Framework is an open-source automation framework for test automation and robotic process automation (RPA). It is supported by the Robot Framework Foundation and widely used in the industry."
+            homepage_url: https://robotframework.org/
+            logo: robotframework.svg
+            repo_url: https://github.com/robotframework/robotframework
+            extra:
+              documentation_url: https://robotframework.org/robotframework/
+              summary_use_case: "Robot Framework® is a generic open source automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). It has simple plain text syntax and it can be extended easily with generic and custom libraries."
+              summary_tags: "testing, vendor-neutral, Python"
+              summary_business_use_case: "Robot Framework is operating system and application independent. It is implemented using Python which is also the primary language to extend it. The framework has a rich ecosystem around it consisting of various generic libraries and tools that are developed as separate projects."
+              summary_integration: "Python"
+              summary_personas: "Network Engineers, DevOps Engineers, QA Engineers, Test Engineers"
+              summary_release_rate: "Actively maintained and updated"
+
+          - name: Junos Snapshot Administrator
+            project: full-open-source
+            description: "Junos Snapshot Administrator enables you to capture and audit runtime environment snapshots of your networked devices running the Junos operating system (Junos OS)."
+            homepage_url: https://github.com/Juniper/jsnapy
+            logo: JSNAPy.png
+            repo_url: https://github.com/Juniper/jsnapy
+            extra:
+              documentation_url: https://www.juniper.net/documentation/product/us/en/junos-snapshot-administrator-in-python/
+              summary_use_case: "JSNAPy is an evolution of the original JSNAP module: the nextgen module for automating network verification. Not only has JSNAPy simplified data collection, it has also reduced the amount of effort needed for verification, and that means your late night cut overs just got a lot shorter, safer, and completely verified."
+              summary_business_use_case: "JSNAPy will help you collect data to check and verify it; Automate the verification of data intelligently and quickly; Simplify the whole process of data collection and verification; Customize and integrate network verification into your existing network systems."
+              summary_tags: "network testing, network validation, configuration validation, Python, Juniper"
+              summary_integration: "Juniper, Python"
+              summary_personas: "Network Engineers, DevOps Engineers, QA Engineers, Test Engineers"
+              summary_release_rate: "Actively maintained and updated"
+              other_links:
+                - name: "Day One Book - JSNAPy"
+                  url: https://www.juniper.net/documentation/en_US/day-one-books/DO_JSNAPy.zip
+
   - name: Telemetry and observability
     subcategories:
       # TODO: Figure out better names and layout for this section
