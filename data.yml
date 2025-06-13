@@ -133,7 +133,7 @@ categories:
               summary_integration: "Netbox"
               summary_use_case: "discovery and inventory with a focus on ease of use and accuracy. No coding required."
               summary_business_use_case: "[10 free licence shenanigans] Provides a network inventory and discovery solution that is easy to use and accurate."
-          
+
           - name: Netdisco
             project: full-open-source
             description: Netdisco is a web-based network management tool suitable for small to very large networks. IP and MAC address data is collected into a PostgreSQL database using SNMP, CLI, or device APIs.
@@ -167,6 +167,21 @@ categories:
               youtube_url: https://www.youtube.com/@netos-networks
               slack_url: https://netdev-community.slack.com/archives/C07RC7E803B
 
+          - name: ServiceRadar
+            project: full-open-source
+            description: "ServiceRadar is an open-source, distributed network monitoring system designed for security and performance in constrained or hard-to-reach environments. It uses a zero-trust architecture with lightweight agents to provide real-time monitoring, alerting, and network discovery."
+            homepage_url: https://serviceradar.cloud
+            logo: serviceradar.svg
+            repo_url: https://github.com/carverauto/serviceradar
+            extra:
+              documentation_url: https://docs.serviceradar.cloud
+              twitter: https://twitter.com/ServiceRadar
+              summary_use_case: "Real-time, secure monitoring of distributed infrastructure, network devices via SNMP, and services, with a focus on edge computing and hard-to-reach environments."
+              summary_business_use_case: "Provides secure, comprehensive visibility into distributed networks without introducing new attack vectors. Reduces downtime and operational costs in environments where traditional monitoring is unfeasible or insecure."
+              summary_integration: "Webhooks, Custom gRPC-based checkers, NetBox, Armis, MCP"
+              summary_tags: "monitoring, alerting, distributed systems, zero-trust, mTLS, edge computing, SNMP, open-source"
+              summary_personas: "Network Engineers, DevOps Engineers, SREs, Security Teams"
+              summary_features: "Zero-trust architecture with mTLS, lightweight Go/Rust agents, distributed pollers, gRPC communication, real-time alerting, dynamic configuration via KV store, network discovery."
 
       - name: Testing, Compliance & Querying
         items:
@@ -300,9 +315,22 @@ categories:
               youtube_url: https://www.youtube.com/channel/UCsTYhGUm81x6m6lQ-QUwfKA
               twitter: https://twitter.com/kentikinc
 
-      - name: Monitoring & Alerting
-        items:
-          # ... (previous items remain unchanged)
+          - name: ServiceRadar
+            project: full-open-source
+            description: "ServiceRadar is an open-source, distributed network monitoring system designed for security and performance in constrained or hard-to-reach environments. It uses a zero-trust architecture with lightweight agents to provide real-time monitoring, alerting, and network discovery."
+            homepage_url: https://serviceradar.cloud
+            logo: serviceradar.svg
+            repo_url: https://github.com/carverauto/serviceradar
+            extra:
+              documentation_url: https://docs.serviceradar.cloud
+              blog_url: https://docs.serviceradar.cloud/blog
+              twitter: https://twitter.com/ServiceRadar
+              summary_use_case: "Real-time, secure monitoring of distributed infrastructure, network devices via SNMP, and services, with a focus on edge computing and hard-to-reach environments."
+              summary_business_use_case: "Provides secure, comprehensive visibility into distributed networks without introducing new attack vectors. Reduces downtime and operational costs in environments where traditional monitoring is unfeasible or insecure."
+              summary_integration: "Webhooks, Custom gRPC-based checkers, NetBox, Armis, MCP"
+              summary_tags: "monitoring, alerting, distributed systems, zero-trust, mTLS, edge computing, SNMP, open-source"
+              summary_personas: "Network Engineers, DevOps Engineers, SREs, Security Teams"
+              summary_features: "Zero-trust architecture with mTLS, lightweight Go/Rust agents, distributed pollers, gRPC communication, real-time alerting, dynamic configuration via KV store, network discovery."
 
           - name: Orb Community
             project: full-open-source
@@ -614,7 +642,7 @@ categories:
 
           - name: Proxylity UDP Gateway
             project: saas
-            description: UDP Gateway provides a bridge between UDP traffic and compute, storage and event handling services in AWS with an automation-friendly IaC model that simplifies a wide varietry of observability and telemetric collection and processing models.  
+            description: UDP Gateway provides a bridge between UDP traffic and compute, storage and event handling services in AWS with an automation-friendly IaC model that simplifies a wide varietry of observability and telemetric collection and processing models.
             homepage_url: https://www.proxylity.com/
             logo: proxylity.png
             extra:
@@ -624,7 +652,6 @@ categories:
               summary_tags: "event-driven, network automation, telemetry, syslog"
               summary_personas: "Software Architects, Network Engineers, Software Developers, CTOs"
               summary_features: "UDP Gateway, AWS integration, multiplexed packet delivery, event based"
-            
 
   - name: Security
     subcategories:
@@ -723,7 +750,7 @@ categories:
               summary_release_rate: "Major releases approximately every 3-4 months, with minor releases more frequently"
               blog_url: https://www.hashicorp.com/blog/products/terraform
               youtube_url: https://www.youtube.com/hashicorp
-              
+
           - name: OpenTofu
             project: full-open-source
             description: OpenTofu is an infrastructure as code tool that lets you define both cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share.
@@ -1043,7 +1070,7 @@ categories:
               integration: "160 integration packs with 6000+ actions (see https://exchange.stackstorm.org), ChatOps"
               community: "Linux Foundation Project"
 
-          - name: Crosswork NSO 
+          - name: Crosswork NSO
             project: commercial-with-trial
             description: Cisco® Network Services Orchestrator (NSO) enabled by Tail-f® is an industry-leading orchestration platform for hybrid networks. It provides comprehensive lifecycle service automation to enable you to design and deliver high-quality services faster and more easily.
             homepage_url: https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html
@@ -1059,7 +1086,7 @@ categories:
               youtube_url: https://www.youtube.com/@cisconsodeveloperhub492
           - name: Inmanta
             project: hybrid
-            description: Inmanta Service Orchestrator is a carrier-grade service orchestration and network automation platform that enables network engineers and IT teams to automate and manage the full lifecycle of network and IT services across multi-domain and multi-vendor environments. 
+            description: Inmanta Service Orchestrator is a carrier-grade service orchestration and network automation platform that enables network engineers and IT teams to automate and manage the full lifecycle of network and IT services across multi-domain and multi-vendor environments.
             homepage_url: https://inmanta.com
             logo: inmanta.svg
             repo_url: https://github.com/inmanta/inmanta-core
@@ -1119,7 +1146,7 @@ categories:
               summary_tags: "Multi-domain Orchestration, Intent-based Orchestration, Workflows, Vendor Agnostic, Product Lifecycle"
               summary_personas: "Network Engineers, Network Automation Engineers, Software Developers, IT Operations"
               discord_url: https://discord.gg/fQkQn5ajFR
-  
+
   - name: Terraform Eco-System
     subcategories:
       - name: TACOS (Terraform Automation and Collaboration tools)
@@ -1211,7 +1238,7 @@ categories:
               blog_url: https://www.scalr.com/blog/
               linkedin_url: https://www.linkedin.com/company/scalr
               summary_features: "Remote operations backend, hierarchical environment management, policy-as-code enforcement, cost controls, drift detection, module registry, RBAC, audit logging"
-            
+
   - name: Python Eco-System
     subcategories:
       - name: Network Programmability Frameworks
@@ -1303,7 +1330,7 @@ categories:
               summary_tags: "Juniper, network automation, NETCONF, Python"
               summary_personas: "Network Engineers, Juniper Specialists, Automation Engineers"
               summary_features: "NETCONF support, Juniper-specific optimizations, configuration management"
-          
+
           - name: pyeapi
             project: full-open-source
             description: The Python Client for eAPI (pyeapi) is a native Python library wrapper around Arista EOS eAPI.
@@ -1315,7 +1342,7 @@ categories:
               summary_use_case: "Arista device automation, configuration management, operational state retrieval"
               summary_tags: "Arista, network automation, eAPI, Python"
               summary_personas: "Network Engineers, Arista Specialists, Automation Engineers"
-          
+
           - name: NTC Templates
             project: full-open-source
             description: Repository of TextFSM Templates for Network Devices, and Python wrapper for TextFSM's CliTable. TextFSM is a tool to help make parsing cli commands more manageable.
@@ -1328,7 +1355,7 @@ categories:
               summary_tags: "TextFSM, multi-vendor, CLI, Python"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, command output parsing"
-          
+
           - name: TTP
             project: full-open-source
             description: Template Text Parser is a Python library for semi-structured text parsing using templates.
@@ -1354,7 +1381,7 @@ categories:
               summary_tags: "python, helper functions, jinja template"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, command output parsing"
-          
+
           - name: ncclient
             project: full-open-source
             description: ncclient is a Python library that facilitates client-side scripting and application development around the NETCONF protocol.
@@ -1393,7 +1420,7 @@ categories:
               summary_tags: "python, diff, netconf"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, YANG diff"
-          
+
           - name: pyGNMI
             project: full-open-source
             description: Python gNMI client
@@ -1406,7 +1433,7 @@ categories:
               summary_personas: "Network Engineers, SREs, Network Automation Specialists"
               summary_features: "gNMI client, telemetry collection, configuration management"
               youtube_url: https://www.youtube.com/watch?v=NooE_uHIgys&list=PLsTgo2tBPnTwmeP9zsd8B_tZR-kbguvla
-          
+
           - name: PyangBind
             project: full-open-source
             description: Pyang plugin to create Python bindings for a YANG model.
@@ -1419,7 +1446,7 @@ categories:
               summary_tags: "python, yang, bindings"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, Python bindings"
-          
+
           - name: pydantify
             project: full-open-source
             description: Transform YANG models into Pydantic datastructures that can be initialized with config values and serialized.
@@ -1532,7 +1559,7 @@ categories:
               summary_tags: "gNMI, network automation, Go, protobuf, yang"
               summary_personas: "Network Engineers, Network Automation Specialists"
               summary_features: "gNMI client, telemetry collection, configuration management"
-          
+
           - name: netrasp
             project: full-open-source
             description: Netrasp is a package that communicates to network devices over SSH. It takes care of handling the pty terminal of network devices giving you an API with common actions such as executing commands and configuring devices.
