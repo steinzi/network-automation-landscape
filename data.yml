@@ -315,6 +315,8 @@ categories:
               youtube_url: https://www.youtube.com/channel/UCsTYhGUm81x6m6lQ-QUwfKA
               twitter: https://twitter.com/kentikinc
 
+      - name: Monitoring & Alerting
+        items:
           - name: ServiceRadar
             project: full-open-source
             description: "ServiceRadar is an open-source, distributed network monitoring system designed for security and performance in constrained or hard-to-reach environments. It uses a zero-trust architecture with lightweight agents to provide real-time monitoring, alerting, and network discovery."
