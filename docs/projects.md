@@ -34,6 +34,7 @@
 [itential](https://www.itential.com/) | enterprise |  |  |  |  |  | 0 |  |
 [jagw](https://jalapeno-api-gateway.github.io/jagw/) | full-open-source |  |  |  |  |  | 0 |  |
 [jalapeno](https://cisco-open.github.io/jalapeno/) | full-open-source |  |  |  |  |  | 0 |  |
+[junos snapshot administrator](https://github.com/Juniper/jsnapy) | full-open-source |  |  |  |  |  | 0 |  |
 [kentik](https://www.kentik.com/) | saas |  |  |  |  |  | 0 |  |
 [knocknoc](https://knocknoc.io) | free-restrictive |  |  |  |  |  | 0 |  |
 [librenms](https://www.librenms.org) | full-open-source |  |  |  |  |  | 0 |  |
@@ -79,6 +80,7 @@
 [pysros](https://network.developer.nokia.com/static/sr/learn/pysros/latest/index.html#) | full-open-source |  |  |  |  |  | 0 |  |
 [rconfig](https://www.rconfig.com/) | freemium |  |  |  |  |  | 0 |  |
 [red hat ansible automation platform](https://www.redhat.com/en/technologies/management/ansible) | enterprise |  |  |  |  |  | 0 |  |
+[robot framework](https://robotframework.org/) | full-open-source |  |  |  |  |  | 0 |  |
 [rundeck](https://www.rundeck.com/) | hybrid |  |  |  |  |  | 0 |  |
 [salt](https://saltproject.io) | full-open-source |  |  |  |  |  | 0 |  |
 [scalr](https://www.scalr.com/) | freemium |  |  |  |  |  | 0 |  |
