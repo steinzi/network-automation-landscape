@@ -85,6 +85,8 @@
 [scrapli](https://github.com/carlmontanari/scrapli) | full-open-source |  |  |  |  |  | 0 |  |
 [scrapligo](https://github.com/scrapli/scrapligo) | full-open-source |  |  |  |  |  | 0 |  |
 [semaphore ui](https://semaphoreui.com) | full-open-source |  |  |  |  |  | 0 |  |
+[serviceradar](https://serviceradar.cloud) | full-open-source |  |  |  |  |  | 0 |  |
+[serviceradar](https://serviceradar.cloud) | full-open-source |  |  |  |  |  | 0 |  |
 [slurpit](https://slurpit.io) | freemium |  |  |  |  |  | 0 |  |
 [spacelift](https://spacelift.io/) | saas |  |  |  |  |  | 0 |  |
 [splunk](https://www.splunk.com/) | hybrid |  |  |  |  |  | 0 |  |
