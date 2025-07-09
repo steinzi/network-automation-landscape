@@ -307,7 +307,7 @@ categories:
               summary_release_rate: "Regularly updated"
 
           - name: narrowin Lightweight Network Explorer
-            project: enterprise (freemium coming soon)
+            project: enterprise
             description: Highly intuitive graphical multivendor network observability platform for IT and OT/IoT networks.
             homepage_url: https://demo.narrowin.ch
             logo: narrowin-logo.png
