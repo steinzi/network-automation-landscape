@@ -171,7 +171,7 @@ categories:
             project: enterprise
             description: Highly intuitive graphical multivendor network observability platform for IT and OT/IoT networks.
             homepage_url: https://demo.narrowin.ch
-            logo: narrowin-logo.png
+            logo: narrowin-logo.svg
             extra:
               summary_tags: "network topology, network visibility, device and config backup, ipam, network inventory"
               summary_use_case: "Continuous network documentation and visualization, including inventory, history, config management and analytics (spanning tree, impact analysis, config best practices). One time network assessments possible."
@@ -310,7 +310,7 @@ categories:
             project: enterprise
             description: Highly intuitive graphical multivendor network observability platform for IT and OT/IoT networks.
             homepage_url: https://demo.narrowin.ch
-            logo: narrowin-logo.png
+            logo: narrowin-logo.svg
             extra:
               summary_tags: "network topology, network visibility, device and config backup, ipam, network inventory"
               summary_use_case: "Continuous network documentation and visualization, including inventory, history, config management and analytics (spanning tree, impact analysis, config best practices). One time network assessments possible."
