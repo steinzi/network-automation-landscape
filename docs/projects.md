@@ -40,7 +40,7 @@
 [librenms](https://www.librenms.org) | full-open-source |  |  |  |  |  | 0 |  |
 [napalm (network automation and programmability abstraction layer with multivendor support)](https://napalm.readthedocs.io) | full-open-source |  |  |  |  |  | 0 |  |
 [narrowin lightweight network explorer](https://demo.narrowin.ch) | enterprise |  |  |  |  |  | 0 |  |
-[narrowin lightweight network explorer](https://demo.narrowin.ch) | enterprise (freemium coming soon) |  |  |  |  |  | 0 |  |
+[narrowin lightweight network explorer](https://demo.narrowin.ch) | enterprise |  |  |  |  |  | 0 |  |
 [nautobot](https://nautobot.com/) | full-open-source |  |  |  |  |  | 0 |  |
 [nautobot golden config](https://docs.nautobot.com/projects/golden-config/en/latest/) | full-open-source |  |  |  |  |  | 0 |  |
 [ncclient](https://ncclient.readthedocs.io/en/latest/) | full-open-source |  |  |  |  |  | 0 |  |
