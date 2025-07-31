@@ -2,6 +2,7 @@ project_name,maturity,tag,accepted_date,sandbox_date,incubating_date,graduated_d
 ansible,full-open-source,,,,,,,0,
 anta,full-open-source,,,,,,,0,
 apache airflow,full-open-source,,,,,,,0,
+atlantis,full-open-source,,,,,,,0,
 avd,full-open-source,,,,,,,0,
 awx,full-open-source,,,,,,,0,
 backbox,enterprise,,,,,,,0,

@@ -5,6 +5,7 @@
 [ansible](https://www.ansible.com) | full-open-source |  |  |  |  |  | 0 |  |
 [anta](https://anta.arista.com/stable/) | full-open-source |  |  |  |  |  | 0 |  |
 [apache airflow](https://airflow.apache.org) | full-open-source |  |  |  |  |  | 0 |  |
+[atlantis](https://www.runatlantis.io) | full-open-source |  |  |  |  |  | 0 |  |
 [avd](https://avd.arista.com) | full-open-source |  |  |  |  |  | 0 |  |
 [awx](https://github.com/ansible/awx) | full-open-source |  |  |  |  |  | 0 |  |
 [backbox](https://backbox.com/) | enterprise |  |  |  |  |  | 0 |  |
