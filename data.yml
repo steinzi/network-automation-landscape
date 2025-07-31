@@ -1302,6 +1302,23 @@ categories:
               linkedin_url: https://www.linkedin.com/company/scalr
               summary_features: "Remote operations backend, hierarchical environment management, policy-as-code enforcement, cost controls, drift detection, module registry, RBAC, audit logging"
 
+          - name: Atlantis
+            project: full-open-source
+            description: Atlantis is a tool for collaborating on Terraform through GitHub, GitLab and Bitbucket. It allows teams to review and approve Terraform changes through pull requests, enabling safe collaborative infrastructure changes.
+            homepage_url: https://www.runatlantis.io
+            logo: atlantis.svg
+            repo_url: https://github.com/runatlantis/atlantis
+            extra:
+              documentation_url: https://www.runatlantis.io/guide/
+              github_discussions_url: https://github.com/runatlantis/atlantis/discussions
+              summary_use_case: "Terraform pull request automation, collaborative infrastructure changes, Terraform plan/apply workflow automation"
+              summary_business_use_case: "Enables safe collaborative Terraform workflows through pull request-based reviews, reducing deployment risks and improving team coordination for infrastructure changes"
+              summary_integration: "GitHub, GitLab, Bitbucket, Terraform, Slack, webhooks, various CI/CD systems"
+              summary_tags: "terraform, pull request automation, collaborative infrastructure, GitOps, infrastructure as code, code review"
+              summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers"
+              summary_release_rate: "Regular updates and improvements"
+              summary_features: "Pull request automation, Terraform plan/apply through PRs, policy enforcement, webhook integration, multi-repo support, custom workflows"
+
   - name: Python Eco-System
     subcategories:
       - name: Network Programmability Frameworks

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="100" fill="#4A90E2"/>
+  <circle cx="100" cy="100" r="80" fill="#87CEEB"/>
+  <polygon points="100,40 130,80 70,80" fill="#228B22"/>
+  <polygon points="100,60 120,90 80,90" fill="#32CD32"/>
+  <polygon points="100,50 110,70 90,70" fill="#8B4513"/>
+  <circle cx="100" cy="120" r="30" fill="#4682B4"/>
+  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Atlantis</text>
+</svg>
