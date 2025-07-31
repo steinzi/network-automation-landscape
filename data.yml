@@ -1317,7 +1317,7 @@ categories:
               summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers"
               summary_release_rate: "Regular updates and improvements"
               summary_features: "Pull request automation, Terraform plan/apply through PRs, policy enforcement, webhook integration, multi-repo support, custom workflows"
-              youtube_url: https://youtu.be/TmIPWda0IKg
+              youtube_url: https://www.youtube.com/@atlantis4914
               clomonitor_name: "atlantis"
 
   - name: Python Eco-System

@@ -1,0 +1,32 @@
+name: Validate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on:
+      labels: ubuntu-latest
+    container:
+      image: public.ecr.aws/g6m3a0y9/landscape2
+      options: --user root
+    steps:
+      - name: Install git
+        run: apk add git
+
+      - name: Checkout this repository
+        uses: actions/checkout@v4
+
+      - name: Validate settings
+        run: landscape2 validate settings --settings-file ./settings.yml
+
+      - name: Validate data
+        run: landscape2 validate data --data-file ./data.yml
+
+      - name: Validate guide
+        run: landscape2 validate guide --guide-file ./guide.yml
+
+      - name: Validate games
+        run: landscape2 validate games --games-file ./games.yml

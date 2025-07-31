@@ -1,4 +1,4 @@
-name: Validate and Build plus publish.
+name: Build and Deploy
 
 on:
   push:
@@ -7,7 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  validate:
+  build-and-deploy:
+    environment: github-pages
     runs-on:
       labels: ubuntu-latest
     container:
@@ -31,21 +32,6 @@ jobs:
 
       - name: Validate games
         run: landscape2 validate games --games-file ./games.yml
-
-  build:
-    environment: github-pages
-    needs: validate
-    runs-on:
-      labels: ubuntu-latest
-    container:
-      image: public.ecr.aws/g6m3a0y9/landscape2
-      options: --user root
-    steps:
-      - name: Install git
-        run: apk add git
-
-      - name: Checkout this repository
-        uses: actions/checkout@v4
 
       - name: Build landscape
         run: |
