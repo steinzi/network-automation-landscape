@@ -1306,7 +1306,7 @@ categories:
             project: full-open-source
             description: Atlantis is a tool for collaborating on Terraform through GitHub, GitLab and Bitbucket. It allows teams to review and approve Terraform changes through pull requests, enabling safe collaborative infrastructure changes.
             homepage_url: https://www.runatlantis.io
-            logo: atlantis.svg
+            logo: atlantis.png
             repo_url: https://github.com/runatlantis/atlantis
             extra:
               documentation_url: https://www.runatlantis.io/guide/
