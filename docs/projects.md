@@ -16,6 +16,7 @@
 [crosswork nso](https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html) | commercial-with-trial |  |  |  |  |  | 0 |  |
 [datadog](https://www.datadoghq.com/) | saas |  |  |  |  |  | 0 |  |
 [diffsync](https://diffsync.readthedocs.io/en/latest/index.html) | full-open-source |  |  |  |  |  | 0 |  |
+[digger](https://docs.digger.dev) | hybrid |  |  |  |  |  | 0 |  |
 [elastic stack (elk)](https://www.elastic.co/elastic-stack/) | hybrid |  |  |  |  |  | 0 |  |
 [enms](https://github.com/eNMS-automation/eNMS) | full-open-source |  |  |  |  |  | 0 |  |
 [eve-ng](https://www.eve-ng.net) | freemium |  |  |  |  |  | 0 |  |
