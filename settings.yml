@@ -143,7 +143,7 @@ groups:
       - Telemetry and observability
       - Automation Tooling
       - Security
-      - Virtualization
+      - Labbing
       - Terraform Eco-System
       - Python Eco-System
       - GoLang Eco-System
