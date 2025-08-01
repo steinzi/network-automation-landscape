@@ -103,6 +103,7 @@
 [terraform](https://www.terraform.io) | hybrid |  |  |  |  |  | 0 |  |
 [terragrunt](https://terragrunt.gruntwork.io/) | full-open-source |  |  |  |  |  | 0 |  |
 [terramate](https://terramate.io) | hybrid |  |  |  |  |  | 0 |  |
+[tofupy](https://github.com/robertmhafner/tofupy) | full-open-source |  |  |  |  |  | 0 |  |
 [torero.dev](https://torero.dev) | closed-core |  |  |  |  |  | 0 |  |
 [ttp](https://github.com/dmulyalin/ttp) | full-open-source |  |  |  |  |  | 0 |  |
 [workflow orchestrator](https://workfloworchestrator.org) | full-open-source |  |  |  |  |  | 0 |  |

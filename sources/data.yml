@@ -733,7 +733,7 @@ categories:
               summary_personas: "Network Engineers, Cybersec Engineers, MSPs, Security Architects"
               docker_url: https://hub.docker.com/u/knocknoc
               youtube_url: https://www.youtube.com/watch?v=yOK0Ro5kvfc
-  - name: Virtualization
+  - name: Labbing
     subcategories:
       - name: Network virtualization platforms
         items:
@@ -776,6 +776,25 @@ categories:
               summary_release_rate: "Regularly updated with new features and device support"
               blog_url: https://blog.ipspace.net/
               twitter: https://twitter.com/ioshints
+
+      - name: Lab tools
+        items:
+          - name: NRX
+            project: full-open-source
+            description: "NRX (netreplica exporter) is a network topology exporter that reads network topology graphs from NetBox DCIM system and exports them to various formats including Containerlab, Cisco Modeling Labs, network visualization formats, and custom formats via Jinja2 templates."  
+            homepage_url: https://github.com/netreplica/nrx
+            logo: nrx.svg
+            repo_url: https://github.com/netreplica/nrx
+            extra:
+              documentation_url: https://github.com/netreplica/nrx/blob/main/README.md
+              summary_use_case: "Export network topologies from NetBox to lab automation tools like Containerlab and CML, create network visualizations, and bridge the gap between network documentation and lab automation"
+              summary_business_use_case: "Accelerates lab creation and testing by automatically generating lab topologies from existing network documentation, reducing manual effort and errors in test environment setup"
+              summary_integration: "NetBox, Containerlab, Cisco Modeling Labs, Nvidia Air, Graphite, D2, Cytoscape"
+              summary_tags: "network topology, NetBox, Containerlab, CML, lab automation, network visualization, topology export"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists, Lab Engineers"
+              summary_release_rate: "Regular releases with new features and format support"
+              summary_features: "NetBox API integration, Multiple export formats, Custom Jinja2 templates, Device configuration export, Interface mapping, Platform mapping support"
+              blog_url: https://github.com/netreplica/nrx/releases
 
   - name: Automation Tooling
     subcategories:
@@ -1210,23 +1229,6 @@ categories:
               summary_personas: "Network Engineers, Network Automation Engineers, Software Developers, IT Operations"
               discord_url: https://discord.gg/fQkQn5ajFR
 
-          - name: NRX
-            project: full-open-source
-            description: "NRX (netreplica exporter) is a network topology exporter that reads network topology graphs from NetBox DCIM system and exports them to various formats including Containerlab, Cisco Modeling Labs, network visualization formats, and custom formats via Jinja2 templates."  
-            homepage_url: https://github.com/netreplica/nrx
-            logo: nrx.svg
-            repo_url: https://github.com/netreplica/nrx
-            extra:
-              documentation_url: https://github.com/netreplica/nrx/blob/main/README.md
-              summary_use_case: "Export network topologies from NetBox to lab automation tools like Containerlab and CML, create network visualizations, and bridge the gap between network documentation and lab automation"
-              summary_business_use_case: "Accelerates lab creation and testing by automatically generating lab topologies from existing network documentation, reducing manual effort and errors in test environment setup"
-              summary_integration: "NetBox, Containerlab, Cisco Modeling Labs, Nvidia Air, Graphite, D2, Cytoscape"
-              summary_tags: "network topology, NetBox, Containerlab, CML, lab automation, network visualization, topology export"
-              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists, Lab Engineers"
-              summary_release_rate: "Regular releases with new features and format support"
-              summary_features: "NetBox API integration, Multiple export formats, Custom Jinja2 templates, Device configuration export, Interface mapping, Platform mapping support"
-              blog_url: https://github.com/netreplica/nrx/releases
-
   - name: Terraform Eco-System
     subcategories:
       - name: TACOS (Terraform Automation and Collaboration tools)
@@ -1336,6 +1338,18 @@ categories:
               summary_features: "Pull request automation, Terraform plan/apply through PRs, policy enforcement, webhook integration, multi-repo support, custom workflows"
               youtube_url: https://www.youtube.com/@atlantis4914
               clomonitor_name: "atlantis"
+          - name: TofuPy
+            project: full-open-source
+            description: TofuPy is a Python wrapper library around OpenTofu and Terraform that provides a high-level interface for Infrastructure as Code operations. It handles JSON output parsing, provides structured data objects, and supports streaming events for plan and apply operations.
+            homepage_url: https://github.com/robertmhafner/tofupy
+            logo: tofupy.svg
+            repo_url: https://github.com/robertmhafner/tofupy
+            extra:
+              documentation_url: https://github.com/robertmhafner/tofupy
+              summary_use_case: "Infrastructure as Code automation, OpenTofu/Terraform wrapper, programmatic infrastructure management, security scanning of infrastructure plans"
+              summary_tags: "Infrastructure as Code, OpenTofu, Terraform, Python wrapper, JSON parsing, streaming events"
+              summary_personas: "DevOps Engineers, Infrastructure Engineers, Platform Engineers, Security Engineers"
+              summary_features: "JSON output parsing, streaming event handlers, structured data objects, plan/apply operations, state management, validation support"
 
   - name: Python Eco-System
     subcategories:
