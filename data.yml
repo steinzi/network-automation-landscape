@@ -1338,6 +1338,24 @@ categories:
               summary_features: "Pull request automation, Terraform plan/apply through PRs, policy enforcement, webhook integration, multi-repo support, custom workflows"
               youtube_url: https://www.youtube.com/@atlantis4914
               clomonitor_name: "atlantis"
+          - name: Digger
+            project: full-open-source
+            description: Digger is an open-source Infrastructure as Code orchestration tool that runs Terraform natively in your existing CI/CD pipeline. Unlike traditional TACOS that require separate infrastructure, Digger leverages your existing CI compute, orchestration, and logging while providing Terraform plan/apply automation through pull request comments, drift detection, and policy enforcement.
+            homepage_url: https://docs.digger.dev
+            logo: digger.png
+            repo_url: https://github.com/diggerhq/digger
+            extra:
+              documentation_url: https://docs.digger.dev/
+              github_discussions_url: https://github.com/diggerhq/digger/discussions
+              summary_use_case: "Terraform CI/CD in existing pipelines, pull request automation, drift detection, policy enforcement without dedicated infrastructure"
+              summary_business_use_case: "Reduces infrastructure costs and complexity by running Terraform in existing CI rather than separate TACOS infrastructure, while maintaining security by keeping cloud secrets within your CI environment"
+              summary_integration: "GitHub Actions, GitLab CI, Bitbucket Pipelines, Azure DevOps, Terraform, OpenTofu, Terragrunt, AWS, GCP, Azure, OPA, Checkov"
+              summary_tags: "terraform, infrastructure as code, CI/CD, pull request automation, drift detection, policy enforcement, GitOps"
+              summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers"
+              summary_release_rate: "Regular updates and improvements"
+              summary_features: "Native CI execution, PR-level locks, drift detection, OPA policy support, plan persistence, multi-cloud support"
+              blog_url: https://blog.digger.dev/
+              slack_url: https://diggertalk.slack.com/join/shared_invite/zt-1tocl4w0x-E3RkpPiK7zQkehl8O78g8Q
           - name: TofuPy
             project: full-open-source
             description: TofuPy is a Python wrapper library around OpenTofu and Terraform that provides a high-level interface for Infrastructure as Code operations. It handles JSON output parsing, provides structured data objects, and supports streaming events for plan and apply operations.
