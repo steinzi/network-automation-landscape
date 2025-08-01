@@ -60,6 +60,7 @@
 [nokia event-driven automation (eda)](https://www.nokia.com/data-center-networks/data-center-fabric/event-driven-automation/) | enterprise |  |  |  |  |  | 0 |  |
 [norfab (network automation fabric)](https://docs.norfablabs.com/) | full-open-source |  |  |  |  |  | 0 |  |
 [nornir](https://nornir.readthedocs.io) | full-open-source |  |  |  |  |  | 0 |  |
+[nrx](https://github.com/netreplica/nrx) | full-open-source |  |  |  |  |  | 0 |  |
 [ntc templates](https://github.com/networktocode/ntc-templates) | full-open-source |  |  |  |  |  | 0 |  |
 [nuts](https://nuts.readthedocs.io/) | full-open-source |  |  |  |  |  | 0 |  |
 [observium](https://www.observium.org/) | hybrid |  |  |  |  |  | 0 |  |

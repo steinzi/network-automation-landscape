@@ -1210,6 +1210,23 @@ categories:
               summary_personas: "Network Engineers, Network Automation Engineers, Software Developers, IT Operations"
               discord_url: https://discord.gg/fQkQn5ajFR
 
+          - name: NRX
+            project: full-open-source
+            description: "NRX (netreplica exporter) is a network topology exporter that reads network topology graphs from NetBox DCIM system and exports them to various formats including Containerlab, Cisco Modeling Labs, network visualization formats, and custom formats via Jinja2 templates."  
+            homepage_url: https://github.com/netreplica/nrx
+            logo: nrx.svg
+            repo_url: https://github.com/netreplica/nrx
+            extra:
+              documentation_url: https://github.com/netreplica/nrx/blob/main/README.md
+              summary_use_case: "Export network topologies from NetBox to lab automation tools like Containerlab and CML, create network visualizations, and bridge the gap between network documentation and lab automation"
+              summary_business_use_case: "Accelerates lab creation and testing by automatically generating lab topologies from existing network documentation, reducing manual effort and errors in test environment setup"
+              summary_integration: "NetBox, Containerlab, Cisco Modeling Labs, Nvidia Air, Graphite, D2, Cytoscape"
+              summary_tags: "network topology, NetBox, Containerlab, CML, lab automation, network visualization, topology export"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists, Lab Engineers"
+              summary_release_rate: "Regular releases with new features and format support"
+              summary_features: "NetBox API integration, Multiple export formats, Custom Jinja2 templates, Device configuration export, Interface mapping, Platform mapping support"
+              blog_url: https://github.com/netreplica/nrx/releases
+
   - name: Terraform Eco-System
     subcategories:
       - name: TACOS (Terraform Automation and Collaboration tools)
