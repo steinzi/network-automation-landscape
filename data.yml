@@ -1339,7 +1339,7 @@ categories:
               youtube_url: https://www.youtube.com/@atlantis4914
               clomonitor_name: "atlantis"
           - name: Digger
-            project: full-open-source
+            project: hybrid
             description: Digger is an open-source Infrastructure as Code orchestration tool that runs Terraform natively in your existing CI/CD pipeline. Unlike traditional TACOS that require separate infrastructure, Digger leverages your existing CI compute, orchestration, and logging while providing Terraform plan/apply automation through pull request comments, drift detection, and policy enforcement.
             homepage_url: https://docs.digger.dev
             logo: digger.png
