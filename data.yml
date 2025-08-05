@@ -1229,6 +1229,40 @@ categories:
               summary_personas: "Network Engineers, Network Automation Engineers, Software Developers, IT Operations"
               discord_url: https://discord.gg/fQkQn5ajFR
 
+      - name: Data Processing Tools
+        items:
+          - name: yq
+            project: full-open-source
+            description: yq is a portable command-line YAML, JSON, XML, CSV and properties processor. It's written in Go and works seamlessly across platforms with consistent, intuitive syntax for data manipulation and transformation.
+            homepage_url: https://github.com/mikefarah/yq
+            logo: yq.svg
+            repo_url: https://github.com/mikefarah/yq
+            extra:
+              documentation_url: https://mikefarah.gitbook.io/yq/
+              summary_use_case: "Process, query, and transform YAML, JSON, XML files in automation scripts and CI/CD pipelines"
+              summary_business_use_case: "Enables efficient configuration management and data transformation in DevOps workflows, reducing manual errors and improving automation reliability"
+              summary_integration: "Command-line tools, shell scripts, CI/CD systems, Docker containers"
+              summary_tags: "YAML, JSON, XML, data processing, configuration management, command-line, automation"
+              summary_personas: "DevOps Engineers, Network Engineers, System Administrators, Automation Engineers"
+              summary_release_rate: "Regular releases with new features and improvements"
+              summary_features: "Multi-format support (YAML/JSON/XML/CSV), in-place editing, complex queries, shell completion, Docker images"
+
+          - name: jq
+            project: full-open-source
+            description: jq is a lightweight and flexible command-line JSON processor. It's like sed for JSON data - you can use it to slice and filter and map and transform structured data with the same ease that sed, awk, grep give you for text.
+            homepage_url: https://jqlang.github.io/jq/
+            logo: jq.svg
+            repo_url: https://github.com/jqlang/jq
+            extra:
+              documentation_url: https://jqlang.github.io/jq/manual/
+              summary_use_case: "Parse, filter, and transform JSON data in scripts, APIs, and automation workflows"
+              summary_business_use_case: "Essential tool for processing API responses, configuration files, and structured data in modern DevOps and automation environments"
+              summary_integration: "REST APIs, shell scripts, CI/CD pipelines, log processing systems"
+              summary_tags: "JSON, data processing, command-line, filtering, transformation, scripting"
+              summary_personas: "DevOps Engineers, Software Developers, System Administrators, API Engineers"
+              summary_release_rate: "Stable releases with periodic updates and bug fixes"
+              summary_features: "Powerful query language, streaming support, module system, extensive built-in operators, cross-platform support"
+
   - name: Terraform Eco-System
     subcategories:
       - name: TACOS (Terraform Automation and Collaboration tools)
