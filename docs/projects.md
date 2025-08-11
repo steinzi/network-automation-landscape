@@ -36,6 +36,7 @@
 [itential](https://www.itential.com/) | enterprise |  |  |  |  |  | 0 |  |
 [jagw](https://jalapeno-api-gateway.github.io/jagw/) | full-open-source |  |  |  |  |  | 0 |  |
 [jalapeno](https://cisco-open.github.io/jalapeno/) | full-open-source |  |  |  |  |  | 0 |  |
+[jq](https://jqlang.github.io/jq/) | full-open-source |  |  |  |  |  | 0 |  |
 [junos snapshot administrator](https://github.com/Juniper/jsnapy) | full-open-source |  |  |  |  |  | 0 |  |
 [kentik](https://www.kentik.com/) | saas |  |  |  |  |  | 0 |  |
 [knocknoc](https://knocknoc.io) | free-restrictive |  |  |  |  |  | 0 |  |
@@ -109,5 +110,6 @@
 [ttp](https://github.com/dmulyalin/ttp) | full-open-source |  |  |  |  |  | 0 |  |
 [workflow orchestrator](https://workfloworchestrator.org) | full-open-source |  |  |  |  |  | 0 |  |
 [ygot](https://github.com/openconfig/ygot) | full-open-source |  |  |  |  |  | 0 |  |
+[yq](https://github.com/mikefarah/yq) | full-open-source |  |  |  |  |  | 0 |  |
 [zabbix](https://www.zabbix.com/) | full-open-source |  |  |  |  |  | 0 |  |
 [zpe systems](https://zpesystems.com/) | enterprise |  |  |  |  |  | 0 |  |
