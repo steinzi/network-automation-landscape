@@ -907,7 +907,7 @@ categories:
             project: hybrid
             description: Prefect is a workflow orchestration framework that makes it easy to build, run, and monitor data pipelines. It provides a Python-native approach to workflow automation with strong observability and error handling.
             homepage_url: https://prefect.io/
-            logo: prefect.png
+            logo: prefect.svg
             repo_url: https://github.com/PrefectHQ/prefect
             extra:
               documentation_url: https://docs.prefect.io/
@@ -924,7 +924,7 @@ categories:
             project: full-open-source
             description: Mage is an open-source data pipeline tool for transforming and integrating data. It provides a modern approach to building and deploying data pipelines with a focus on simplicity and developer experience.
             homepage_url: https://www.mage.ai/
-            logo: mage.png
+            logo: mageai.png
             repo_url: https://github.com/mage-ai/mage-ai
             extra:
               documentation_url: https://docs.mage.ai/
