@@ -1403,6 +1403,27 @@ categories:
               summary_personas: "DevOps Engineers, Infrastructure Engineers, Platform Engineers, Security Engineers"
               summary_features: "JSON output parsing, streaming event handlers, structured data objects, plan/apply operations, state management, validation support"
 
+          - name: Terrateam
+            project: hybrid
+            description: Terrateam is an open-source GitOps infrastructure orchestration platform that automates Terraform, OpenTofu, CDKTF, Terragrunt, and Pulumi workflows through GitHub and GitLab pull requests. Built with OCaml for performance and type safety, it provides enterprise-grade features including OIDC authentication, policy enforcement, and unlimited parallel execution while maintaining GitHub-native simplicity.
+            homepage_url: https://terrateam.io
+            logo: terrateam.svg
+            repo_url: https://github.com/terrateamio/terrateam
+            crunchbase: https://www.crunchbase.com/organization/terrateam
+            extra:
+              documentation_url: https://docs.terrateam.io/
+              github_discussions_url: https://github.com/terrateamio/terrateam/discussions
+              summary_use_case: "GitHub-native Terraform automation, pull request workflows, drift detection, policy enforcement, multi-workspace orchestration"
+              summary_business_use_case: "Enables secure, scalable infrastructure as code workflows with enterprise governance while maintaining operational simplicity and predictable costs through flat-rate pricing instead of resource-based fees"
+              summary_integration: "GitHub, GitLab, Terraform, OpenTofu, CDKTF, Terragrunt, Pulumi, AWS OIDC, GCP Workload Identity, Azure, OPA, Conftest"
+              summary_tags: "terraform, opentofu, infrastructure as code, GitOps, pull request automation, policy enforcement, OIDC authentication, multi-engine"
+              summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers, Development Teams"
+              summary_release_rate: "Daily releases with continuous improvements"
+              summary_features: "Native GitHub App integration, unlimited parallel plans, tag-based configuration, OIDC cloud authentication, stateless architecture, OPA policy support"
+              blog_url: https://terrateam.io/blog/
+              slack_url: https://terrateam.io/slack
+              linkedin_url: https://www.linkedin.com/company/terrateamio
+
   - name: Python Eco-System
     subcategories:
       - name: Network Programmability Frameworks
