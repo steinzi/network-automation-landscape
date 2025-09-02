@@ -1321,6 +1321,31 @@ categories:
               linkedin_url: https://www.linkedin.com/company/terramate-io
               summary_features: "Stack-based infrastructure management, code generation, graph-based orchestration, change detection, asset management, drift detection, observability"
 
+          - name: Terrakube
+            project: full-open-source
+            description: Terrakube is an open-source Infrastructure as Code (IaC) automation and collaboration platform that provides a comprehensive alternative to Terraform Enterprise and Terraform Cloud. Built with Kubernetes-native architecture, it enables teams to manage Terraform and OpenTofu workflows at scale with enterprise-grade features including remote state management, private registries, policy enforcement, and dynamic credential management.
+            homepage_url: https://terrakube.io/
+            logo: terrakube.png
+            repo_url: https://github.com/terrakube-io/terrakube
+            extra:
+              documentation_url: https://docs.terrakube.io/
+              github_discussions_url: https://github.com/terrakube-io/terrakube/discussions
+              summary_use_case: "Self-hosted Terraform/OpenTofu automation platform, team collaboration, workspace management, remote state backend, private module/provider registries"
+              summary_business_use_case: "Provides enterprise Terraform management capabilities without vendor lock-in or licensing costs, enabling organizations to scale infrastructure as code with comprehensive governance, compliance, and collaboration features in a Kubernetes-native architecture"
+              summary_integration: "GitHub, GitLab, Azure DevOps, Bitbucket, Kubernetes, Helm, Azure Entra ID, Google Cloud Identity, Amazon Cognito, SAML/OIDC, OPA, Infracost, Terrascan"
+              summary_tags: "terraform, opentofu, infrastructure as code, kubernetes-native, self-hosted, TACOS, remote state, private registry, policy enforcement, RBAC"
+              summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers, Cloud Architects"
+              summary_release_rate: "Regular releases with active development and community support"
+              blog_url: https://medium.com/terrakube
+              summary_features: "Kubernetes-native architecture, remote state management with visual exploration, private Terraform module and provider registries, dynamic credential management, policy enforcement with OPA, cost analysis with Infracost, security scanning, SSO integration via DEX, comprehensive VCS integration"
+              other_links:
+                - name: "Terraform Provider"
+                  url: https://registry.terraform.io/providers/AzBuilder/terrakube/latest/docs
+                - name: "Helm Charts"
+                  url: https://github.com/terrakube-io/terrakube-helm-chart
+                - name: "Open Collective"
+                  url: https://opencollective.com/terrakube
+
           - name: pygohcl
             project: full-open-source
             description: Python wrapper for hashicorp/hcl (v2). Provides Python bindings to parse HCL (HashiCorp Configuration Language) files, commonly used with Terraform configurations.

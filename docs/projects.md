@@ -104,6 +104,7 @@
 [temporal](https://temporal.io/) | hybrid |  |  |  |  |  | 0 |  |
 [terraform](https://www.terraform.io) | hybrid |  |  |  |  |  | 0 |  |
 [terragrunt](https://terragrunt.gruntwork.io/) | full-open-source |  |  |  |  |  | 0 |  |
+[terrakube](https://terrakube.io/) | full-open-source |  |  |  |  |  | 0 |  |
 [terramate](https://terramate.io) | hybrid |  |  |  |  |  | 0 |  |
 [terrateam](https://terrateam.io) | hybrid |  |  |  |  |  | 0 |  |
 [tofupy](https://github.com/robertmhafner/tofupy) | full-open-source |  |  |  |  |  | 0 |  |
