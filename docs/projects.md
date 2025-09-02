@@ -14,6 +14,7 @@
 [cisco modeling labs](https://www.cisco.com/c/en/us/products/cloud-systems-management/modeling-labs/index.html) | commercial-only |  |  |  |  |  | 0 |  |
 [containerlab](https://containerlab.srlinux.dev) | full-open-source |  |  |  |  |  | 0 |  |
 [crosswork nso](https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html) | commercial-with-trial |  |  |  |  |  | 0 |  |
+[dagster](https://dagster.io/) | full-open-source |  |  |  |  |  | 0 |  |
 [datadog](https://www.datadoghq.com/) | saas |  |  |  |  |  | 0 |  |
 [diffsync](https://diffsync.readthedocs.io/en/latest/index.html) | full-open-source |  |  |  |  |  | 0 |  |
 [digger](https://docs.digger.dev) | hybrid |  |  |  |  |  | 0 |  |
@@ -41,6 +42,7 @@
 [kentik](https://www.kentik.com/) | saas |  |  |  |  |  | 0 |  |
 [knocknoc](https://knocknoc.io) | free-restrictive |  |  |  |  |  | 0 |  |
 [librenms](https://www.librenms.org) | full-open-source |  |  |  |  |  | 0 |  |
+[mage.ai](https://www.mage.ai/) | full-open-source |  |  |  |  |  | 0 |  |
 [napalm (network automation and programmability abstraction layer with multivendor support)](https://napalm.readthedocs.io) | full-open-source |  |  |  |  |  | 0 |  |
 [narrowin lightweight network explorer](https://demo.narrowin.ch) | enterprise |  |  |  |  |  | 0 |  |
 [narrowin lightweight network explorer](https://demo.narrowin.ch) | enterprise |  |  |  |  |  | 0 |  |
@@ -72,6 +74,7 @@
 [orb community](https://orb.community/) | full-open-source |  |  |  |  |  | 0 |  |
 [peering manager](https://peering-manager.net/) | full-open-source |  |  |  |  |  | 0 |  |
 [pliant](https://pliant.io/) | saas |  |  |  |  |  | 0 |  |
+[prefect](https://prefect.io/) | hybrid |  |  |  |  |  | 0 |  |
 [prometheus](https://prometheus.io/) | full-open-source |  |  |  |  |  | 0 |  |
 [proxylity udp gateway](https://www.proxylity.com/) | saas |  |  |  |  |  | 0 |  |
 [pulumi](https://www.pulumi.com) | hybrid |  |  |  |  |  | 0 |  |
