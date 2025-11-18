@@ -358,6 +358,23 @@ categories:
       # TODO: Figure out better names and layout for this section
       - name: Observability
         items:
+          - name: IBM SevOne
+            project: enterprise
+            description: IBM SevOne provides comprehensive visibility into hybrid networks by collecting and analyzing multivendor performance data from physical, virtual, and software-defined infrastructure
+            homepage_url: https://www.ibm.com/products/sevone
+            logo: ibm-sevone.svg
+            extra:
+              summary_use_case: "Network observability and assurance across the worlds largest hybrid, multi-cloud environments"
+              summary_business_use_case: "Transforming network operations with application centric network observability through ML-driven automation, empowering teams to collaboratively spot, address, and prevent performance issues in hybrid cloud environments"
+              summary_integration: "Network devices, firewalls, routers, wireless, SD-WAN, SASE, edge, AWS, Azure, GCP, Streaming Telemetry, SNMP, Netflow, eBPF, Kubernetes"
+              summary_tags: "network analytics, application insights, traffic optimization, cloud networking, eBPF, kubernetes"
+              summary_personas: "Network Engineers, Security Analysts, Cloud Architects, IT Operations, NetDevOps"
+              summary_release_rate: "Major releases approximately every quarter"
+              blog_url: https://community.ibm.com/community/user/groups/community-home/recent-community-blogs?communitykey=fe9d91df-352c-4846-9060-189fd98d00ca
+              documentation_url: https://www.ibm.com/docs/en/sevone-npm
+              linkedin_url: https://www.linkedin.com/company/sevone-inc/
+              youtube_url: https://www.youtube.com/@SevOneNPM/videos
+
           - name: Kentik
             project: saas
             description: Kentik is a network observability platform that uses big data and AI to provide real-time network analytics, DDoS protection, and traffic optimization.
@@ -1079,23 +1096,21 @@ categories:
               linkedin_url: https://www.linkedin.com/company/zpe-systems/
               summary_features: "Nodegrid OS, Zero Touch Provisioning, Serial Console Server, NetOps Automation, Secure Access Service Edge (SASE)"
 
-          - name: Pliant
+          - name: IBM Concert Workflows (previously Pliant)
             project: saas
-            description: Pliant [an IBM company] is a low-code automation platform that enables teams to quickly build, deploy, and scale workflows across IT operations, DevOps, and Site Reliability Engineering (SRE) functions. It provides a unified interface for automating complex processes across diverse technology stacks.
-            homepage_url: https://pliant.io/
-            logo: pliant.png
-            crunchbase: https://www.crunchbase.com/organization/pliant
+            description: IBM Concert Workflows (previously Pliant) is a low-code automation platform that enables teams to quickly build, deploy, and scale workflows across IT operations, DevOps, and Site Reliability Engineering (SRE) functions. It provides a unified interface for automating complex processes across diverse technology stacks.
+            homepage_url: https://www.ibm.com/products/concert/workflows-for-infrastructure-automation
+            logo: ibm-concert-workflows.svg
             extra:
-              twitter: https://twitter.com/pliant_io
               summary_use_case: "Low-code IT automation, workflow orchestration, API integration, and process automation for IT operations, DevOps, and SRE teams"
               summary_business_use_case: "Accelerates digital transformation by enabling rapid automation of complex IT processes, reducing manual errors, and improving operational efficiency"
               summary_integration: "Supports integration with various IT systems, cloud platforms, and DevOps tools through pre-built actions and custom API integrations"
               summary_tags: "low-code automation, IT operations, DevOps, SRE, workflow orchestration, API integration"
               summary_personas: "IT Operations Managers, DevOps Engineers, Site Reliability Engineers, Automation Specialists"
               summary_release_rate: "Continuous updates (SaaS model)"
-              blog_url: https://pliant.io/blog/
-              documentation_url: https://docs.pliant.io/
-              linkedin_url: https://www.linkedin.com/company/pliant-io/
+              blog_url: https://community.ibm.com/community/user/groups/community-home/recent-community-blogs?communitykey=bd8b4503-cdbc-4def-a56e-018f62fc5b2b
+              documentation_url: https://www.ibm.com/docs/en/concert?topic=concert-workflows-add
+              linkedin_url: https://www.linkedin.com/company/ibm/
               summary_features: "Visual Workflow Builder, Pre-built Action Library, Custom API Integration, Role-Based Access Control, Audit Trails and Reporting"
 
           - name: Itential
@@ -1862,7 +1877,7 @@ categories:
             project: full-open-source
             description: "The Golden Config App is a Nautobot App that provides a NetDevOps approach to golden configuration and configuration compliance."
             homepage_url: "https://docs.nautobot.com/projects/golden-config/en/latest/"
-            logo: "https://raw.githubusercontent.com/nautobot/nautobot-app-golden-config/develop/docs/images/icon-NautobotGoldenConfig.png"
+            logo: icon-NautobotGoldenConfig.png
             repo_url: "https://github.com/nautobot/nautobot-app-golden-config"
             extra:
               documentation_url: "https://docs.nautobot.com/projects/golden-config/en/latest/"
