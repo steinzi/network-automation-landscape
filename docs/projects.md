@@ -30,6 +30,8 @@
 [gornir](https://github.com/nornir-automation/gornir) | full-open-source |  |  |  |  |  | 0 |  |
 [grafana](https://grafana.com/) | hybrid |  |  |  |  |  | 0 |  |
 [hierarchical configuration](https://hier-config.readthedocs.io/en/latest/) | full-open-source |  |  |  |  |  | 0 |  |
+[ibm concert workflows (previously pliant)](https://www.ibm.com/products/concert/workflows-for-infrastructure-automation) | saas |  |  |  |  |  | 0 |  |
+[ibm sevone](https://www.ibm.com/products/sevone) | enterprise |  |  |  |  |  | 0 |  |
 [icinga](https://icinga.com) | full-open-source |  |  |  |  |  | 0 |  |
 [infrahub](https://www.opsmill.com) | full-open-source |  |  |  |  |  | 0 |  |
 [inmanta](https://inmanta.com) | hybrid |  |  |  |  |  | 0 |  |
@@ -73,7 +75,6 @@
 [opentofu](https://opentofu.org) | full-open-source |  |  |  |  |  | 0 |  |
 [orb community](https://orb.community/) | full-open-source |  |  |  |  |  | 0 |  |
 [peering manager](https://peering-manager.net/) | full-open-source |  |  |  |  |  | 0 |  |
-[pliant](https://pliant.io/) | saas |  |  |  |  |  | 0 |  |
 [prefect](https://prefect.io/) | hybrid |  |  |  |  |  | 0 |  |
 [prometheus](https://prometheus.io/) | full-open-source |  |  |  |  |  | 0 |  |
 [proxylity udp gateway](https://www.proxylity.com/) | saas |  |  |  |  |  | 0 |  |
