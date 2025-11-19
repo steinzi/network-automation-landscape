@@ -994,6 +994,28 @@ categories:
               youtube_url: https://www.youtube.com/temporalio
               slack_url: https://temporal.io/slack
 
+          - name: Windmill
+            project: hybrid
+            description: Windmill is an open-source workflow engine and developer platform that turns scripts into auto-generated UIs, APIs, and workflows. Supporting 20+ languages including Python, TypeScript, Go, and Bash, it provides a code-first approach to automation with low-code visual workflow builders and comprehensive observability.
+            homepage_url: https://www.windmill.dev
+            logo: windmill.svg
+            repo_url: https://github.com/windmill-labs/windmill
+            crunchbase: https://www.crunchbase.com/organization/windmill-labs
+            extra:
+              documentation_url: https://www.windmill.dev/docs/intro
+              github_discussions_url: https://github.com/windmill-labs/windmill/discussions
+              summary_use_case: "Script-to-workflow automation, internal tool building, API orchestration, scheduled jobs, and data pipeline management with auto-generated UIs and multi-language support"
+              summary_business_use_case: "Accelerates automation development by turning scripts into production-grade workflows and internal tools 10x faster, with high performance orchestration (13x faster than Airflow) and comprehensive observability"
+              summary_integration: "Webhooks, REST APIs, Slack, PostgreSQL, Git, VS Code, CLI tools, AWS, Azure, GCP, and 100+ integrations"
+              summary_tags: "workflow engine, script automation, internal tools, multi-language, low-code, observability, API orchestration, developer platform"
+              summary_personas: "DevOps Engineers, Platform Engineers, Software Developers, Site Reliability Engineers, Data Engineers"
+              summary_release_rate: "Regular updates with community-driven development"
+              blog_url: https://www.windmill.dev/blog
+              discord_url: https://discord.gg/V7PM2YHsPB
+              summary_features: "Multi-language execution (Python, TypeScript, Go, Bash, PHP, Rust, C#, SQL), Auto-generated UIs, Visual flow builder, Webhook triggers, Cron scheduling, Git sync, VS Code extension, Self-hostable, Enterprise features (SAML, audit logs, RBAC)"
+              twitter: https://twitter.com/windmill_dev
+              docker_url: https://hub.docker.com/r/windmilllabs/windmill
+
       - name: Automation Platforms and Management
         items:
           - name: Semaphore UI

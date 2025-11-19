@@ -114,6 +114,7 @@
 [tofupy](https://github.com/robertmhafner/tofupy) | full-open-source |  |  |  |  |  | 0 |  |
 [torero.dev](https://torero.dev) | closed-core |  |  |  |  |  | 0 |  |
 [ttp](https://github.com/dmulyalin/ttp) | full-open-source |  |  |  |  |  | 0 |  |
+[windmill](https://www.windmill.dev) | hybrid |  |  |  |  |  | 0 |  |
 [workflow orchestrator](https://workfloworchestrator.org) | full-open-source |  |  |  |  |  | 0 |  |
 [ygot](https://github.com/openconfig/ygot) | full-open-source |  |  |  |  |  | 0 |  |
 [yq](https://github.com/mikefarah/yq) | full-open-source |  |  |  |  |  | 0 |  |
