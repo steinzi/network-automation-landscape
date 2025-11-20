@@ -30,8 +30,8 @@ categories:
               summary_integration: "IP Fabric, Slurpit"
               youtube_url: https://www.youtube.com/channel/UCs5FgE5p03tP-8InKVIojdw
               documentation_url: https://netboxlabs.com/docs/netbox/en/stable/
-              tag:
-                - nsot
+              tag: 
+                - intent
               summary_tags: "ipam, dcim, nsot, database"
               blog_url: https://netboxlabs.com/blog/
               docker_url: https://hub.docker.com/r/netboxcommunity/netbox/
@@ -44,6 +44,8 @@ categories:
             repo_url: https://github.com/opsmill/infrahub
             extra:
               key_features: "Infrastructure modeling, version control, API-first design"
+              tag: 
+                - intent
               summary_use_case: "Network infrastructure modeling, automation integration"
 
           - name: Nautobot
@@ -56,6 +58,8 @@ categories:
               documentation_url: https://docs.nautobot.com/
               github_discussions_url: https://github.com/nautobot/nautobot/discussions
               summary_use_case: "Provides a centralized network inventory management and automation platform with extensible data models and Git-based version control"
+              tag: 
+                - intent
               summary_tags: "network inventory, configuration management, automation platform, API-first, extensible"
               summary_business_use_case: "Improves network operations efficiency and reduces errors through centralized network management and automation"
               summary_integration: "Integrates with various automation tools and supports custom plugins"
@@ -72,11 +76,11 @@ categories:
             repo_url: https://github.com/peering-manager/peering-manager
             extra:
               documentation_url: https://docs.peering-manager.net/
-              tag:
-                - nsot
               docker_url: https://hub.docker.com/r/peeringmanager/peering-manager
               github_discussions_url: https://github.com/peering-manager/peering-manager/discussions
               summary_use_case: "Provides a source of truth and configuration management for external BGP sessions of all kind (transit, customers, peering, …)"
+              tag: 
+                - intent
               summary_tags: "BGP inventory, configuration management, API-first"
               summary_business_use_case: "Improves BGP peering with other networks and reduces errors through automation"
               summary_personas: "Network Engineers, Network Architects"
@@ -92,6 +96,8 @@ categories:
               summary_use_case: "Network assurance, verification, troubleshooting"
               summary_integration: "Netbox"
               summary_business_use_case: "Network verification and troubleshooting for brownfield networks"
+              tag: 
+                - observability
               summary_tags: "network assurance, network verification, network troubleshooting"
 
           - name: NetBrain
@@ -104,6 +110,8 @@ categories:
               summary_use_case: "Dynamic network mapping, automated network documentation, intelligent troubleshooting, and network automation"
               summary_business_use_case: "Enhances network visibility, accelerates problem resolution, and improves operational efficiency through automation of network documentation and troubleshooting processes"
               summary_integration: "Integrates with various IT service management (ITSM) tools, security information and event management (SIEM) systems, and network monitoring platforms"
+              tag: 
+                - observability
               summary_tags: "network automation, network visibility, dynamic mapping, troubleshooting, intent-based networking"
               summary_personas: "Network Engineers, Network Architects, IT Operations, NOC Teams"
               summary_release_rate: "Regular releases for both on-premises and cloud versions"
@@ -121,6 +129,8 @@ categories:
               summary_use_case: "Discovery and modeling and assurance of network infrastructure with multivendor support allowing you to view the high level network design and drill down to the device or technology level."
               summary_integration: "Ansible, Itential, Nautobot, Netbox, Nornir, Splunk, Zabbix"
               summary_business_use_case: "Visibility for brownfield network assurance by discovering and modeling the network infrastructure by collecting data from the devices using credentials and APIs."
+              tag: 
+                - observability
               summary_tags: "network assurance, network visibility, network analytics, network discovery, network modeling"
 
           - name: Slurpit
@@ -133,6 +143,8 @@ categories:
               summary_integration: "Netbox"
               summary_use_case: "discovery and inventory with a focus on ease of use and accuracy. No coding required."
               summary_business_use_case: "[10 free licence shenanigans] Provides a network inventory and discovery solution that is easy to use and accurate."
+              tag: 
+                - observability
 
           - name: Netdisco
             project: full-open-source
@@ -142,6 +154,8 @@ categories:
             extra:
               summary_use_case: "Discovery and inventory"
               summary_business_use_case: "Network discovery and inventory of networks, with some historical data"
+              tag: 
+                - observability
               summary_tags: "network discovery, network verifcation"
               docker_url: https://hub.docker.com/r/netdisco/netdisco
               documentation_url: https://github.com/netdisco/netdisco/wiki
@@ -156,6 +170,8 @@ categories:
               summary_use_case: "Network discovery and seeding NetBox. Initially developed to source data for Netos reporting plugins in NetBox."
               summary_business_use_case: "Automatically populated Source of Truth, therefore reducing operational risks and compliance risk, and enhancing project modeling accuracy."
               summary_integration: "Integrates with network management systems, APIs, Airflow DAGs, and NoSQL databases to provide a comprehensive view of network data and device status."
+              tag: 
+                - observability
               summary_tags: "network discovery, compliance, orchestration, Airflow, NetBox integration, device polling"
               summary_personas: "Network Engineers, DevOps Engineers, IT Operations"
               summary_features: "Real-time device polling, historical network snapshots, data modelling, and ETL."
@@ -173,6 +189,8 @@ categories:
             homepage_url: https://demo.narrowin.ch
             logo: narrowin-logo.svg
             extra:
+              tag: 
+                - observability
               summary_tags: "network topology, network visibility, device and config backup, ipam, network inventory"
               summary_use_case: "Continuous network documentation and visualization, including inventory, history, config management and analytics (spanning tree, impact analysis, config best practices). One time network assessments possible."
               summary_integration: "PRTG"
@@ -193,6 +211,8 @@ categories:
               summary_use_case: "Real-time, secure monitoring of distributed infrastructure, network devices via SNMP, and services, with a focus on edge computing and hard-to-reach environments."
               summary_business_use_case: "Provides secure, comprehensive visibility into distributed networks without introducing new attack vectors. Reduces downtime and operational costs in environments where traditional monitoring is unfeasible or insecure."
               summary_integration: "Webhooks, Custom gRPC-based checkers, NetBox, Armis, MCP"
+              tag:
+                - observability
               summary_tags: "monitoring, alerting, distributed systems, zero-trust, mTLS, edge computing, SNMP, open-source"
               summary_personas: "Network Engineers, DevOps Engineers, SREs, Security Teams"
               summary_features: "Zero-trust architecture with mTLS, lightweight Go/Rust agents, distributed pollers, gRPC communication, real-time alerting, dynamic configuration via KV store, network discovery."
@@ -209,6 +229,8 @@ categories:
             extra:
               documentation_url: https://suzieq.readthedocs.io/en/latest/
               summary_use_case: "Provides comprehensive network state analysis, troubleshooting, change validation, and intent verification for multivendor networks"
+              tag: 
+                - observability
               summary_tags: "network observability, multivendor, agentless, cloud-first, network state analysis"
               summary_business_use_case: "Improves network reliability and reduces downtime by providing deep insights into network state and behavior"
               summary_integration: "Supports various network operating systems and cloud platforms"
@@ -222,6 +244,8 @@ categories:
             homepage_url: https://netpicker.io
             logo: netpicker.png
             extra:
+              tag: 
+                - observability
               summary_tags: "network testing, device_backup, change-validation, compliance, configuration security"
               summary_use_case: "[free 10 device Shenanigans licence] Network configuration testing, Configuration backups and compliance with a hardening config and security angle. Needs 3rd party discovery tool or manual add devices"
               summary_integration: "Netbox, Slurpit"
@@ -240,6 +264,8 @@ categories:
             extra:
               documentation_url: https://pybatfish.readthedocs.io/en/latest/
               summary_use_case: "Performs network configuration analysis, validation, and troubleshooting without the need for live network access"
+              tag: 
+                - observability
               summary_tags: "network analysis, configuration validation, security policy checking, troubleshooting"
               summary_business_use_case: "Reduces network outages and security vulnerabilities by catching misconfigurations before deployment"
               summary_integration: "Ansible, Terraform, CI/CD pipelines"
@@ -253,6 +279,8 @@ categories:
             extra:
               documentation_url: https://anta.arista.com/stable/
               summary_use_case: "Provides a Python-based framework for automating tests on Arista network devices, enabling efficient validation of network configurations and operations"
+              tag: 
+                - observability
               summary_tags: "network automation, testing, Arista, Python, network validation"
               summary_business_use_case: "Improves network reliability and reduces operational costs by automating the testing and validation of Arista network infrastructures"
               summary_integration: "Integrates with Arista EOS (Extensible Operating System) and supports various testing scenarios"
@@ -268,6 +296,8 @@ categories:
             extra:
               documentation_url: https://pkg.go.dev/github.com/openconfig/ondatra
               summary_use_case: "Enables writing and running automated tests for network devices, supporting both physical and containerized environments"
+              tag: 
+                - observability
               summary_tags: "network testing, automation, GoLang, OpenConfig, containerized testing"
               summary_business_use_case: "Improves network reliability and reduces time-to-market for network changes by facilitating comprehensive automated testing"
               summary_integration: "Compatible with OpenConfig data models and various network device platforms"
@@ -283,6 +313,8 @@ categories:
             extra:
               documentation_url: https://developer.cisco.com/docs/pyats/
               summary_use_case: "Provides a powerful framework for network automation, testing, and validation, originally developed for Cisco's internal use"
+              tag: 
+                - observability
               summary_tags: "network automation, testing, validation, Cisco, Python"
               summary_business_use_case: "Accelerates network testing and validation processes, reducing time-to-market for network changes and improving overall network reliability"
               summary_integration: "Integrates with various Cisco platforms and supports multi-vendor environments"
@@ -300,6 +332,8 @@ categories:
               documentation_url: https://nuts.readthedocs.io/en/latest/
               github_discussions_url: https://github.com/network-unit-testing-system/nuts/discussions
               summary_use_case: "Simplifies network testing by allowing engineers to write tests in YAML format using a PyTest plugin"
+              tag: 
+                - observability
               summary_tags: "network testing, pytest plugin, yaml, vendor-neutral"
               summary_business_use_case: "Improves network reliability and reduces downtime by enabling comprehensive and easy-to-write network tests"
               summary_integration: "PyTest"
@@ -312,6 +346,8 @@ categories:
             homepage_url: https://demo.narrowin.ch
             logo: narrowin-logo.svg
             extra:
+              tag:
+                - observability
               summary_tags: "network topology, network visibility, device and config backup, ipam, network inventory"
               summary_use_case: "Continuous network documentation and visualization, including inventory, history, config management and analytics (spanning tree, impact analysis, config best practices). One time network assessments possible."
               summary_integration: "PRTG"
@@ -329,6 +365,8 @@ categories:
             extra:
               documentation_url: https://robotframework.org/robotframework/
               summary_use_case: "Robot Framework® is a generic open source automation framework for acceptance testing, acceptance test driven development (ATDD), and robotic process automation (RPA). It has simple plain text syntax and it can be extended easily with generic and custom libraries."
+              tag:
+                - observability
               summary_tags: "testing, vendor-neutral, Python"
               summary_business_use_case: "Robot Framework is operating system and application independent. It is implemented using Python which is also the primary language to extend it. The framework has a rich ecosystem around it consisting of various generic libraries and tools that are developed as separate projects."
               summary_integration: "Python"
@@ -345,6 +383,8 @@ categories:
               documentation_url: https://www.juniper.net/documentation/product/us/en/junos-snapshot-administrator-in-python/
               summary_use_case: "JSNAPy is an evolution of the original JSNAP module: the nextgen module for automating network verification. Not only has JSNAPy simplified data collection, it has also reduced the amount of effort needed for verification, and that means your late night cut overs just got a lot shorter, safer, and completely verified."
               summary_business_use_case: "JSNAPy will help you collect data to check and verify it; Automate the verification of data intelligently and quickly; Simplify the whole process of data collection and verification; Customize and integrate network verification into your existing network systems."
+              tag:
+                - collector
               summary_tags: "network testing, network validation, configuration validation, Python, Juniper"
               summary_integration: "Juniper, Python"
               summary_personas: "Network Engineers, DevOps Engineers, QA Engineers, Test Engineers"
@@ -367,6 +407,8 @@ categories:
               summary_use_case: "Network observability and assurance across the worlds largest hybrid, multi-cloud environments"
               summary_business_use_case: "Transforming network operations with application centric network observability through ML-driven automation, empowering teams to collaboratively spot, address, and prevent performance issues in hybrid cloud environments"
               summary_integration: "Network devices, firewalls, routers, wireless, SD-WAN, SASE, edge, AWS, Azure, GCP, Streaming Telemetry, SNMP, Netflow, eBPF, Kubernetes"
+              tag:
+                - observability
               summary_tags: "network analytics, application insights, traffic optimization, cloud networking, eBPF, kubernetes"
               summary_personas: "Network Engineers, Security Analysts, Cloud Architects, IT Operations, NetDevOps"
               summary_release_rate: "Major releases approximately every quarter"
@@ -384,6 +426,8 @@ categories:
               summary_use_case: "Network traffic analysis, DDoS detection and mitigation, capacity planning, and performance optimization"
               summary_business_use_case: "Enhances network visibility, improves security posture, and optimizes network performance for better user experience and reduced operational costs"
               summary_integration: "Cloud platforms (AWS, Azure, GCP), network devices, firewalls, and CDNs"
+              tag: 
+                - observability
               summary_tags: "network analytics, DDoS protection, traffic optimization, cloud networking, AI-driven insights"
               summary_personas: "Network Engineers, Security Analysts, Cloud Architects, IT Operations"
               summary_release_rate: "Continuous updates (SaaS model)"
@@ -408,6 +452,8 @@ categories:
               summary_use_case: "Real-time, secure monitoring of distributed infrastructure, network devices via SNMP, and services, with a focus on edge computing and hard-to-reach environments."
               summary_business_use_case: "Provides secure, comprehensive visibility into distributed networks without introducing new attack vectors. Reduces downtime and operational costs in environments where traditional monitoring is unfeasible or insecure."
               summary_integration: "Webhooks, Custom gRPC-based checkers, NetBox, Armis, MCP"
+              tag:
+                - observability
               summary_tags: "monitoring, alerting, distributed systems, zero-trust, mTLS, edge computing, SNMP, open-source"
               summary_personas: "Network Engineers, DevOps Engineers, SREs, Security Teams"
               summary_features: "Zero-trust architecture with mTLS, lightweight Go/Rust agents, distributed pollers, gRPC communication, real-time alerting, dynamic configuration via KV store, network discovery."
@@ -422,6 +468,8 @@ categories:
               summary_use_case: "Unified observability platform for metrics, logs, and traces in distributed systems"
               summary_business_use_case: "Enables organizations to gain comprehensive insights into their systems' performance and behavior, reducing mean time to detection and resolution of issues"
               summary_integration: "Supports various data sources and protocols including Prometheus, OpenTelemetry, and InfluxDB"
+              tag: 
+                - observability
               summary_tags: "observability, open-source, metrics, logs, traces, distributed systems"
               summary_personas: "DevOps Engineers, Site Reliability Engineers, Software Developers, IT Operations"
               summary_release_rate: "Ongoing development with community-driven updates"
@@ -440,6 +488,8 @@ categories:
               summary_use_case: "Log analysis, application performance monitoring, security information and event management (SIEM)"
               summary_business_use_case: "Provides comprehensive data analysis and visualization capabilities, enabling organizations to gain insights from their data, improve operational efficiency, and enhance security posture"
               summary_integration: "Various data sources, Logstash plugins, Beats data shippers, cloud platforms"
+              tag: 
+                - observability
               summary_tags: "log analysis, data visualization, full-text search, real-time analytics, observability"
               summary_personas: "DevOps Engineers, Data Analysts, Security Analysts, IT Operations"
               summary_release_rate: "Major releases approximately every quarter"
@@ -461,6 +511,8 @@ categories:
               summary_use_case: "Infrastructure monitoring, application performance monitoring, log management, user experience monitoring, and security monitoring"
               summary_business_use_case: "Provides end-to-end observability for cloud environments, helping organizations troubleshoot issues faster, optimize application performance, and make data-driven decisions"
               summary_integration: "400+ built-in integrations including AWS, Azure, GCP, Kubernetes, databases, and various DevOps tools"
+              tag: 
+                - observability
               summary_tags: "cloud monitoring, APM, log management, real-time analytics, distributed tracing"
               summary_personas: "DevOps Engineers, Site Reliability Engineers, Software Developers, IT Operations, Security Analysts"
               summary_release_rate: "Continuous updates (SaaS model)"
@@ -483,6 +535,8 @@ categories:
               summary_use_case: "Log management, security information and event management (SIEM), application performance monitoring, IT operations management, business analytics"
               summary_business_use_case: "Enables organizations to search, monitor, analyze and visualize machine-generated big data, providing operational intelligence, proactive monitoring, and comprehensive security analytics"
               summary_integration: "Extensive app ecosystem, cloud platforms (AWS, Azure, GCP), networking equipment, security tools, and custom data sources"
+              tag: 
+                - observability
               summary_tags: "log analysis, SIEM, real-time analytics, machine learning, predictive analytics, IT operations"
               summary_personas: "IT Operations, Security Analysts, DevOps Engineers, Business Analysts, Data Scientists"
               summary_release_rate: "Major releases typically twice a year, with frequent updates for cloud offerings"
@@ -503,6 +557,8 @@ categories:
               documentation_url: https://icinga.com/docs/
               blog_url: https://icinga.com/blog/
               summary_use_case: "Provides comprehensive monitoring for network resources, services, and applications"
+              tag: 
+                - observability
               summary_tags: "monitoring, alerting, network, infrastructure, automation"
               summary_business_use_case: "Ensures high availability and performance of IT infrastructure, integrates with NetBox"
               summary_personas: "IT Operations, NOC Operations, Monitoring"
@@ -519,6 +575,8 @@ categories:
               summary_use_case: "Network device monitoring, performance tracking, alerting, and reporting"
               summary_business_use_case: "Provides comprehensive network visibility and monitoring, enabling organizations to proactively manage their network infrastructure and quickly identify and resolve issues"
               summary_integration: "Oxidized, Smokeping, NFSen, Weathermap"
+              tag: 
+                - observability
               summary_tags: "network monitoring, SNMP, syslog, autodiscovery, alerting, reporting"
               summary_personas: "Network Engineers, System Administrators, IT Operations Teams"
               summary_release_rate: "Monthly releases with frequent updates"
@@ -537,6 +595,8 @@ categories:
               summary_use_case: "Network automation, workflow management, network visualization, and inventory management"
               summary_business_use_case: "Streamlines network operations by providing a centralized platform for network automation, visualization, and management, improving efficiency and reducing manual errors"
               summary_integration: "Supports integration with various network devices and protocols, as well as external services like Ansible, Netmiko, and NAPALM"
+              tag: 
+                - observability
               summary_tags: "network automation, workflow management, inventory management, visualization, open-source"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
               summary_release_rate: "Regular updates with new features and improvements"
@@ -551,6 +611,8 @@ categories:
             extra:
               documentation_url: https://docs.observium.org/
               summary_use_case: "Provides comprehensive network monitoring and management with auto-discovery capabilities, supporting a wide range of devices and platforms"
+              tag: 
+                - observability
               summary_tags: "network monitoring, auto-discovery, multi-vendor, SNMP, Syslog, alerting"
               summary_business_use_case: "Enhances network visibility and reduces downtime by providing real-time monitoring, alerting, and historical data analysis for network infrastructure"
               summary_integration: "Supports various network devices, servers, and applications through SNMP, Syslog, and other protocols"
@@ -570,6 +632,8 @@ categories:
               summary_use_case: "Network performance monitoring, alerting, service level indicator (SLI) tracking"
               summary_business_use_case: "Enables organizations to gain real-time insights into system performance, detect anomalies quickly, and maintain high service reliability"
               summary_integration: "Grafana, Alertmanager, various exporters for different systems and services"
+              tag: 
+                - collector
               summary_tags: "monitoring, metrics, alerting, time series database, cloud-native"
               summary_personas: "Site Reliability Engineers, DevOps Engineers, System Administrators, Network Engineers"
               summary_release_rate: "Major releases approximately every 6-8 weeks"
@@ -591,6 +655,8 @@ categories:
               summary_use_case: "Network performance visualization, capacity planning, troubleshooting"
               summary_business_use_case: "Provides intuitive, customizable dashboards for real-time data visualization, enabling better decision-making and faster problem resolution across various IT domains"
               summary_integration: "Prometheus, InfluxDB, Loki, Elasticsearch, MySQL, PostgreSQL"
+              tag: 
+                - presentation
               summary_tags: "data visualization, monitoring, analytics, dashboards, observability"
               summary_personas: "DevOps Engineers, Site Reliability Engineers, Network Engineers, Data Analysts"
               summary_release_rate: "Major releases approximately every 2-3 months, with minor releases more frequently"
@@ -609,6 +675,8 @@ categories:
               summary_use_case: "Network device monitoring, performance tracking, capacity planning"
               summary_business_use_case: "Provides comprehensive infrastructure monitoring, helping organizations detect and resolve IT issues quickly, optimize performance, and plan for future growth"
               summary_integration: "SNMP, IPMI, JMX, VMware monitoring"
+              tag: 
+                - observability
               summary_tags: "monitoring, alerting, trending, network monitoring, application monitoring, open-source"
               summary_personas: "System Administrators, Network Engineers, DevOps Engineers, IT Operations"
               summary_release_rate: "Major releases annually, with minor releases more frequently"
@@ -629,6 +697,8 @@ categories:
               summary_use_case: "A framework that makes it simple and fast to deploy and manage open-source enterprise networking applications and tools."
               summary_business_use_case: "Deliver consistent development, test, and production network automation tooling, through automation."
               summary_integration: "Deploy Ansible, Python, and bash scripts to integrate with any computer system."
+              tag: 
+                - orchestration
               summary_tags: "platform engineering, infrastructure-as-code, DevOps, NetDevOps"
               summary_personas: "Network Engineers, DevOps Engineers, IT Operations"
               summary_features: "Deploy, upgrade, backup, restore, and manage NetBox and other networking tools."
@@ -651,6 +721,8 @@ categories:
               documentation_url: https://docs.influxdata.com/telegraf/
               github_discussions_url: https://github.com/influxdata/telegraf/discussions
               summary_use_case: "Collects metrics from a wide variety of sources and writes them to various destinations, enabling comprehensive monitoring and observability of systems and applications"
+              tag: 
+                - collector
               summary_tags: "metrics collection, monitoring, time series data, plugin-driven, multi-platform"
               summary_business_use_case: "Enhances system and application observability by providing a flexible, extensible solution for collecting and forwarding metrics, enabling better decision-making and faster problem resolution"
               summary_integration: "Integrates with numerous input sources (e.g., systems, containers, APIs) and output destinations (e.g., InfluxDB, Prometheus, Kafka)"
@@ -668,6 +740,8 @@ categories:
             extra:
               documentation_url: https://gnmic.openconfig.net/
               summary_use_case: "gNMI-based network device management, telemetry collection"
+              tag: 
+                - collector
               summary_tags: "gNMI, network automation, telemetry, Go"
               summary_personas: "Network Engineers, SREs, Network Automation Specialists"
               summary_features: "gNMI client, telemetry collection, configuration management"
@@ -680,6 +754,8 @@ categories:
             extra:
               documentation_url: https://cisco-open.github.io/jalapeno/
               summary_use_case: "Developing Cloud Native Network Services (CNNS) on top of common data collection and warehousing infrastructure."
+              tag: 
+                - collector
               summary_tags: "telemetry, bmp, GoBMP, k8s, graph"
               summary_personas: "Network Engineers, SREs, Network Automation Specialists"
               summary_features: "telemetry collection, graph database, warehousing, data aggregation, topology"
@@ -692,6 +768,8 @@ categories:
             extra:
               documentation_url: https://jalapeno-api-gateway.github.io/jagw/
               summary_use_case: "Developing Cloud Native Network Services (CNNS) to collect or subscribe Jalapeno data/events"
+              tag: 
+                - presentation
               summary_tags: "jalapeno, api-gateway, gRPC, event-driven, network automation, telemetry"
               summary_personas: "Network Engineers, SREs, Network Automation Specialists, Software Developers"
               summary_features: "API Gateway, subscribe collections, subscribe counters, event based"
@@ -704,6 +782,8 @@ categories:
             extra:
               documentation_url: https://netutils.readthedocs.io/en/latest/
               summary_use_case: "Collecting BGP Monitoring metrics"
+              tag: 
+                - collector
               summary_tags: "BGP, BMP, RFC7854, collector"
               summary_integration: "kafka"
               summary_personas: "Network Engineers, SREs, Automation Engineers"
@@ -716,6 +796,8 @@ categories:
             repo_url: https://github.com/cloudflare/bbmp2kafka
             extra:
               summary_use_case: "Collecting BGP Monitoring metrics"
+              tag:
+                - collector
               summary_tags: "BGP, BMP, RFC7854, collector"
               summary_integration: "kafka"
               summary_personas: "Network Engineers, SREs, Automation Engineers"
@@ -729,6 +811,8 @@ categories:
               documentation_url: https://proxylity.com/docs/index.html
               summary_use_case: "Developing backend processing and archiving of UDP observability and telemetry data at a wide range of scale."
               summary_integration: "AWS, CloudWatcg Logs, Kinesis Firehose, S3, SNS, SQS, DynamoDB, Lambda, StepFunctions"
+              tag:
+                - collector
               summary_tags: "event-driven, network automation, telemetry, syslog"
               summary_personas: "Software Architects, Network Engineers, Software Developers, CTOs"
               summary_features: "UDP Gateway, AWS integration, multiplexed packet delivery, event based"
@@ -745,6 +829,8 @@ categories:
             extra:
               documentation_url: https://docs.knocknoc.io
               summary_use_case: "Allows SSO to open a port - for SSH bastion through to legacy apps, lock them down, let Knocknoc broker access"
+              tag: 
+                - orchestration
               summary_tags: "ZeroTrust, AttackSurfaceManagement, cybersecurity"
               summary_integration: "iptables/ipsets, haproxy, AWS, Azure, Palo, Fortigate, many more firewalls, webservers"
               summary_personas: "Network Engineers, Cybersec Engineers, MSPs, Security Architects"
@@ -759,23 +845,35 @@ categories:
             description: EVE-NG is a network emulator that supports virtualized network environments.
             homepage_url: https://www.eve-ng.net
             logo: eve-ng.png
+            extra:
+              tag: 
+                - lab
           - name: GNS3
             project: full-open-source
             description: GNS3 is a network software emulator that allows the combination of virtual and real devices.
             homepage_url: https://www.gns3.com
             repo_url: https://github.com/GNS3/gns3-gui
             logo: gns3.png
+            extra:
+              tag: 
+                - lab
           - name: Containerlab
             project: full-open-source
             description: Nokia Containerlab is a container-based network emulation tool that allows you to define and deploy complex network topologies.
             homepage_url: https://containerlab.srlinux.dev
             repo_url: https://github.com/srl-labs/containerlab
             logo: containerlab.png
+            extra:
+              tag: 
+                - lab
           - name: Cisco Modeling Labs
             project: commercial-only
             description: Cisco Modeling Labs is a network simulation platform that allows you to design, build, and test network topologies.
             homepage_url: https://www.cisco.com/c/en/us/products/cloud-systems-management/modeling-labs/index.html
             logo: cisco-modeling-labs.png
+            extra:
+              tag: 
+                - lab
           - name: netlab
             project: full-open-source
             description: "netlab is a network lab builder and CLI tool that creates virtual network labs using libvirt, Docker, or Podman containers. It supports multiple virtualization providers and network operating systems."
@@ -786,6 +884,8 @@ categories:
               documentation_url: https://netlab.tools/docs/
               github_discussions_url: https://github.com/ipspace/netlab/discussions
               summary_use_case: "Enables network engineers and developers to quickly create and manage virtual network topologies for testing, development, and learning purposes"
+              tag: 
+                - lab
               summary_tags: "network virtualization, lab automation, multi-vendor, containerization, network simulation"
               summary_business_use_case: "Accelerates network testing and development processes by providing an easy-to-use platform for creating realistic network environments without the need for physical hardware"
               summary_integration: "Supports various virtualization providers (libvirt, Docker, Podman) and multiple network operating systems"
@@ -807,6 +907,8 @@ categories:
               summary_use_case: "Export network topologies from NetBox to lab automation tools like Containerlab and CML, create network visualizations, and bridge the gap between network documentation and lab automation"
               summary_business_use_case: "Accelerates lab creation and testing by automatically generating lab topologies from existing network documentation, reducing manual effort and errors in test environment setup"
               summary_integration: "NetBox, Containerlab, Cisco Modeling Labs, Nvidia Air, Graphite, D2, Cytoscape"
+              tag:
+                - lab
               summary_tags: "network topology, NetBox, Containerlab, CML, lab automation, network visualization, topology export"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists, Lab Engineers"
               summary_release_rate: "Regular releases with new features and format support"
@@ -828,6 +930,8 @@ categories:
               summary_use_case: "Network configuration management, compliance automation, bulk changes"
               summary_business_use_case: "Simplifies complex IT workflows, reduces manual errors, and improves operational efficiency across diverse IT environments"
               summary_integration: "AWS, Azure, Google Cloud, VMware, Cisco, Juniper, F5, Arista"
+              tag: 
+                - executor
               summary_tags: "automation, configuration management, orchestration, agentless, YAML-based"
               summary_personas: "System Administrators, Network Engineers, DevOps Engineers, Cloud Architects"
               summary_release_rate: "Major releases approximately every 6 months, with minor releases more frequently"
@@ -844,6 +948,8 @@ categories:
               summary_use_case: "Cloud network provisioning, multi-cloud networking, SDN configuration"
               summary_business_use_case: "Enables infrastructure as code, improving consistency, reducing errors, and speeding up deployment across multiple cloud providers and on-premises infrastructure"
               summary_integration: "AWS, Azure, Google Cloud, VMware, Cisco ACI, F5, Palo Alto Networks"
+              tag: 
+                - executor
               summary_tags: "infrastructure as code, cloud provisioning, network automation, multi-cloud, state management"
               summary_personas: "DevOps Engineers, Cloud Architects, Network Engineers, Site Reliability Engineers"
               summary_release_rate: "Major releases approximately every 3-4 months, with minor releases more frequently"
@@ -861,6 +967,8 @@ categories:
               summary_use_case: "Cloud network provisioning, multi-cloud networking, SDN configuration"
               summary_business_use_case: "Enables infrastructure as code, improving consistency, reducing errors, and speeding up deployment across multiple cloud providers and on-premises infrastructure"
               summary_integration: "AWS, Azure, Google Cloud, VMware, Cisco ACI, F5, Palo Alto Networks"
+              tag: 
+                - executor
               summary_tags: "infrastructure as code, cloud provisioning, network automation, multi-cloud, state management"
               summary_personas: "DevOps Engineers, Cloud Architects, Network Engineers, Site Reliability Engineers"
               blog_url: https://opentofu.org/blog/
@@ -876,6 +984,8 @@ categories:
               summary_use_case: "Cloud infrastructure provisioning, multi-cloud resource management, serverless deployments"
               summary_business_use_case: "Enables developers to use familiar programming languages for infrastructure as code, improving productivity and reducing the learning curve for infrastructure management"
               summary_integration: "AWS, Azure, Google Cloud, Kubernetes, Docker, and 60+ cloud and SaaS providers"
+              tag: 
+                - executor
               summary_tags: "infrastructure as code, cloud provisioning, multi-cloud, programmable infrastructure, serverless"
               summary_personas: "Software Developers, DevOps Engineers, Cloud Architects, Site Reliability Engineers"
               summary_release_rate: "Major releases approximately every 3-4 months, with minor releases more frequently"
@@ -896,6 +1006,8 @@ categories:
               blog_url: https://saltproject.io/blog/
               summary_business_use_case: "Provides scalable infrastructure automation and configuration management for large-scale network environments"
               summary_use_case: "Large-scale network configuration management, real-time system monitoring, and infrastructure orchestration"
+              tag: 
+                - executor
               summary_tags: "configuration management, remote execution, infrastructure automation, network automation"
               summary_release_rate: "Major releases approximately every 6 months"
               summary_integration: "Ansible, Puppet, Docker, Kubernetes"
@@ -914,6 +1026,8 @@ categories:
               summary_use_case: "Data pipeline orchestration, ETL/ELT workflows, machine learning pipelines, network automation data processing"
               summary_business_use_case: "Enables reliable and maintainable data pipelines with built-in testing, monitoring, and operational features for data-driven network automation"
               summary_integration: "dbt, Apache Spark, Kubernetes, Docker, various databases and cloud services"
+              tag: 
+                - orchestration
               summary_tags: "data orchestration, ETL, data pipelines, workflow automation, Python-based"
               summary_personas: "Data Engineers, DevOps Engineers, Network Automation Engineers, Data Scientists"
               summary_release_rate: "Regular releases with continuous improvements"
@@ -931,6 +1045,8 @@ categories:
               summary_use_case: "Workflow orchestration, data pipeline automation, network automation tasks, distributed computing"
               summary_business_use_case: "Simplifies complex workflow management with robust error handling, retries, and monitoring for network automation and data processing"
               summary_integration: "Kubernetes, Docker, AWS, Azure, GCP, dbt, various databases and APIs"
+              tag: 
+                - orchestration
               summary_tags: "workflow orchestration, Python, data pipelines, distributed computing, observability"
               summary_personas: "Data Engineers, DevOps Engineers, Network Automation Engineers, Software Developers"
               summary_release_rate: "Regular releases with active development"
@@ -948,6 +1064,8 @@ categories:
               summary_use_case: "Data pipeline development, ETL/ELT workflows, data transformation, network telemetry processing"
               summary_business_use_case: "Accelerates data pipeline development with a visual interface and code-first approach for network data processing and automation"
               summary_integration: "Various databases, cloud services, APIs, and data sources"
+              tag: 
+                - orchestration
               summary_tags: "data pipelines, ETL, open-source, visual interface, Python"
               summary_personas: "Data Engineers, Data Analysts, Network Engineers, DevOps Engineers"
               summary_release_rate: "Active development with regular updates"
@@ -964,6 +1082,8 @@ categories:
               summary_use_case: "Orchestrating and scheduling data pipelines, managing ETL processes, and automating complex workflows across diverse environments."
               summary_business_use_case: "Airflow improves operational efficiency by automating tasks and ensuring seamless integration of data sources, enabling faster and more reliable delivery of insights."
               summary_integration: "Supports integration with databases, APIs, cloud services, and external systems to create a unified workflow environment."
+              tag: 
+                - orchestration
               summary_tags: "workflow orchestration, data pipelines, automation, ETL, cloud integration, task scheduling"
               summary_personas: "Data Engineers, Data Scientists, DevOps Engineers, IT Operations, Business Analysts"
               summary_features: "Dynamic pipeline creation, real-time monitoring, DAG scheduling, task retries, scalability across cloud and on-premise infrastructure."
@@ -986,6 +1106,8 @@ categories:
               summary_use_case: "Microservice orchestration, workflow automation, distributed systems coordination"
               summary_business_use_case: "Simplifies building reliable distributed systems and applications, reducing development time and improving system resilience"
               summary_integration: "Supports various programming languages (Go, Java, PHP, TypeScript)"
+              tag: 
+                - orchestration
               summary_tags: "workflow engine, microservices, distributed systems, durable execution, open-source"
               summary_personas: "Software Developers, System Architects, DevOps Engineers"
               summary_release_rate: "Regular releases with new features and improvements"
@@ -1007,6 +1129,8 @@ categories:
               summary_use_case: "Script-to-workflow automation, internal tool building, API orchestration, scheduled jobs, and data pipeline management with auto-generated UIs and multi-language support"
               summary_business_use_case: "Accelerates automation development by turning scripts into production-grade workflows and internal tools 10x faster, with high performance orchestration (13x faster than Airflow) and comprehensive observability"
               summary_integration: "Webhooks, REST APIs, Slack, PostgreSQL, Git, VS Code, CLI tools, AWS, Azure, GCP, and 100+ integrations"
+              tag: 
+                - orchestration
               summary_tags: "workflow engine, script automation, internal tools, multi-language, low-code, observability, API orchestration, developer platform"
               summary_personas: "DevOps Engineers, Platform Engineers, Software Developers, Site Reliability Engineers, Data Engineers"
               summary_release_rate: "Regular updates with community-driven development"
@@ -1028,6 +1152,8 @@ categories:
               summary_use_case: "Managing and scheduling Ansible playbooks through a simple and intuitive interface, helping teams automate infrastructure management and application deployment."
               summary_business_use_case: "Semaphore UI increases efficiency in automation by providing a centralized tool to control and monitor Ansible playbook executions, reducing human errors and streamlining operational workflows."
               summary_integration: "Works seamlessly with Ansible playbooks, Git repositories for version control, and supports SSH-based connections to remote systems for task execution."
+              tag: 
+                - orchestration
               summary_tags: "Ansible, automation, playbook management, orchestration, SSH, infrastructure management"
               summary_personas: "System Administrators, DevOps Engineers, IT Operations, Network Engineers"
               summary_features: "Playbook scheduling, role-based access control, multi-user support, real-time playbook execution logs, Git integration, and job templates for reusable automation workflows."
@@ -1048,6 +1174,8 @@ categories:
               summary_use_case: "Centralized automation management, team collaboration, audit trails"
               summary_business_use_case: "Provides a user-friendly interface for managing Ansible automation, enabling easier adoption and management of automation across organizations"
               summary_integration: "Ansible, Git, various cloud platforms"
+              tag: 
+                - orchestration
               summary_tags: "automation, orchestration, open-source, web UI, REST API"
               summary_personas: "DevOps Engineers, System Administrators, IT Operations Teams"
               summary_release_rate: "Regular releases, typically every month"
@@ -1064,6 +1192,8 @@ categories:
               summary_use_case: "Enterprise-wide automation, compliance and governance, self-service IT"
               summary_business_use_case: "Streamlines IT operations, reduces manual errors, and improves efficiency across complex environments"
               summary_integration: "Red Hat OpenShift, VMware, AWS, Azure, Google Cloud"
+              tag: 
+                - orchestration
               summary_tags: "automation, orchestration, configuration management, enterprise, hybrid cloud"
               summary_personas: "System Administrators, DevOps Engineers, Cloud Architects, Security Teams"
               summary_release_rate: "Quarterly updates with long-term support versions"
@@ -1080,6 +1210,8 @@ categories:
               summary_use_case: "Network device configuration backup, compliance monitoring, and change management"
               summary_business_use_case: "Improves network reliability and reduces downtime by providing comprehensive configuration management and change tracking for network devices"
               summary_integration: "Supports various network vendors including Cisco, Juniper, HP, and more"
+              tag: 
+                - collector
               summary_tags: "network configuration management, device backup, compliance, change tracking"
               summary_personas: "Network Engineers, System Administrators, IT Operations Teams"
               summary_release_rate: "Regular updates with both community and commercial editions"
@@ -1094,6 +1226,8 @@ categories:
               summary_use_case: "Network automation, intent-based networking, configuration management, network discovery and inventory, and API-driven integrations"
               summary_business_use_case: "Reduces network complexity, improves agility, enhances security posture, and accelerates digital transformation through intelligent network automation"
               summary_integration: "Supports multi-vendor environments and integrates with various IT service management and security tools"
+              tag: 
+                - orchestration
               summary_tags: "network automation, intent-based networking, configuration management, multi-vendor, orchestration"
               summary_personas: "Network Engineers, Network Architects, IT Operations, CIOs"
               summary_release_rate: "Regular releases for both on-premises and cloud versions"
@@ -1110,6 +1244,8 @@ categories:
               summary_use_case: "Out-of-band management, NetOps automation, edge computing, network infrastructure automation and orchestration"
               summary_business_use_case: "Enhances network resilience, improves operational efficiency, and enables secure remote management of distributed network infrastructure"
               summary_integration: "Supports various network devices, cloud platforms, and IT management tools"
+              tag: 
+                - orchestration
               summary_tags: "out-of-band management, NetOps, edge computing, network automation, infrastructure orchestration"
               summary_personas: "Network Engineers, IT Operations, Data Center Managers, DevOps Engineers"
               summary_release_rate: "Regular releases for hardware and software components"
@@ -1123,10 +1259,13 @@ categories:
             description: IBM Concert Workflows (previously Pliant) is a low-code automation platform that enables teams to quickly build, deploy, and scale workflows across IT operations, DevOps, and Site Reliability Engineering (SRE) functions. It provides a unified interface for automating complex processes across diverse technology stacks.
             homepage_url: https://www.ibm.com/products/concert/workflows-for-infrastructure-automation
             logo: ibm-concert-workflows.svg
+            crunchbase: https://www.crunchbase.com/organization/pliant
             extra:
               summary_use_case: "Low-code IT automation, workflow orchestration, API integration, and process automation for IT operations, DevOps, and SRE teams"
               summary_business_use_case: "Accelerates digital transformation by enabling rapid automation of complex IT processes, reducing manual errors, and improving operational efficiency"
               summary_integration: "Supports integration with various IT systems, cloud platforms, and DevOps tools through pre-built actions and custom API integrations"
+              tag: 
+                - orchestration
               summary_tags: "low-code automation, IT operations, DevOps, SRE, workflow orchestration, API integration"
               summary_personas: "IT Operations Managers, DevOps Engineers, Site Reliability Engineers, Automation Specialists"
               summary_release_rate: "Continuous updates (SaaS model)"
@@ -1146,6 +1285,8 @@ categories:
               summary_use_case: "Network automation, configuration management, network orchestration, and lifecycle management across multi-domain and multi-vendor environments"
               summary_business_use_case: "Accelerates network automation initiatives, reduces operational complexity, and improves network agility and reliability through low-code automation and pre-built network automations"
               summary_integration: "Integrates with various network controllers, orchestrators, SDN platforms, cloud services, and IT service management tools"
+              tag: 
+                - orchestration
               summary_tags: "network automation, low-code, multi-domain, multi-vendor, network orchestration, configuration management"
               summary_personas: "Network Engineers, NetOps Teams, DevOps Engineers, Network Architects"
               summary_release_rate: "Regular releases with enterprise support"
@@ -1166,6 +1307,8 @@ categories:
               summary_use_case: "GitOps workflows, collaborative infrastructure management, compliance enforcement"
               summary_business_use_case: "Streamlines infrastructure provisioning, enhances collaboration, and ensures compliance in cloud environments"
               summary_integration: "Terraform, CloudFormation, Pulumi, Ansible"
+              tag: 
+                - orchestration
               summary_tags: "infrastructure-as-code, CI/CD, GitOps, policy-as-code, compliance"
               summary_personas: "DevOps Engineers, Cloud Architects, Site Reliability Engineers"
               linkedin_url: https://www.linkedin.com/company/spacelift-io/
@@ -1181,6 +1324,8 @@ categories:
               summary_use_case: "Network configuration backup, compliance and vulnerability management, inventory management, and network automation"
               summary_business_use_case: "Improves network reliability, enhances security posture, and increases operational efficiency through automated network management and security tasks"
               summary_integration: "Supports over 180 vendors and integrates with various security and network management tools"
+              tag: 
+                - orchestration
               summary_tags: "network automation, configuration management, compliance, security, multi-vendor"
               summary_personas: "Network Engineers, Security Analysts, IT Operations, Compliance Officers"
               summary_release_rate: "Regular releases for both on-premises and cloud versions"
@@ -1201,6 +1346,8 @@ categories:
               summary_use_case: "Self-service operations, incident management automation, routine task automation"
               summary_business_use_case: "Simplifies and automates routine IT tasks, reduces manual errors, and improves operational efficiency"
               summary_integration: "Ansible, Terraform"
+              tag: 
+                - orchestration
               summary_tags: "automation, orchestration, job scheduling, workflow management"
 
           - name: Puppet Enterprise
@@ -1213,6 +1360,8 @@ categories:
               blog_url: https://puppet.com/blog/
               summary_business_use_case: "Provides scalable, automated infrastructure management and compliance for enterprise environments"
               summary_use_case: "Infrastructure as code, compliance automation, patch management, and configuration management across diverse IT environments"
+              tag: 
+                - executor
               summary_tags: "configuration management, infrastructure as code, compliance automation, enterprise IT"
               summary_release_rate: "Major releases approximately every 6 months"
               summary_integration: "Git, Jenkins, Docker, AWS, Azure, Google Cloud"
@@ -1229,6 +1378,8 @@ categories:
             extra:
               summary_use_case: "Launch python and ansible playbooks"
               summary_release_rate: "Every 3 months"
+              tag: 
+                - executor
 
           - name: StackStorm
             project: full-open-source
@@ -1241,6 +1392,8 @@ categories:
               use_cases: "Self-hosted workflow engine, event-driven automation"
               integration: "160 integration packs with 6000+ actions (see https://exchange.stackstorm.org), ChatOps"
               community: "Linux Foundation Project"
+              tag: 
+                - orchestration
 
           - name: Crosswork NSO
             project: commercial-with-trial
@@ -1252,6 +1405,8 @@ categories:
               summary_use_case: "Cisco NSO automates network services, streamlines configuration, ensures compliance, and enhances multi-vendor operations, enabling rapid and efficient service delivery across hybrid networks."
               summary_business_use_case: "Cisco NSO accelerates service delivery, enhances customer satisfaction, reduces operational costs, and increases scalability, driving business growth in dynamic and competitive markets."
               summary_integration: "Cisco, Juniper, Nokia, F5, Arista, Huawei, Ansible, VMware, Checkpoint, Fortinet, Palo Alto and more"
+              tag: 
+                - orchestration
               summary_tags: "orchestration, automation, configuration management, service abstraction, service management, infrastructure orchestration"
               summary_personas: "Network Engineers, DevOps Engineers, Site Reliability Engineers"
               summary_release_rate: "Minor releases 2-3 times a year"
@@ -1270,6 +1425,8 @@ categories:
               summary_use_case: "Network automation, configuration management, network service orchestration, and lifecycle management across multi-domain and multi-vendor environments"
               summary_business_use_case: "Scale network and service operations, accelerate service delivery, increase agility and productivity, improve compliance and resilience"
               summary_integration: "Checkpoint, Cisco, FNT Software, Fortinet, Juniper, Kubernetes, NetBox, Nokia, VMware and more https://docs.inmanta.com/inmanta-service-orchestrator/7/reference/modules.html"
+              tag: 
+                - orchestration
               summary_tags: "multi-domain orchestration, intent-based orchestration, configuration management, network automation, infrastructure as code, multi-vendor"
               summary_personas: "Network Engineers, Network Architects, DevOps Engineers, Site Reliability Engineers"
               summary_release_rate: "1 major release and several minor releases per year"
@@ -1284,6 +1441,8 @@ categories:
               summary_use_case: "Automates the entire data center network lifecycle from Day 0 design, Day 1 deployment, to Day 2 operations. EDA quickly responds to network conditions and triggers automated actions in response to specific events."
               summary_business_use_case: "Drive operational cost savings of up to 40 percent over four years, across all tasks associated with the data center fabric lifecycle while achieving human error zero through reliable, predictable network automation."
               summary_integration: "Integrates with leading cloud and workload management platforms like OpenShift, VMware, and OpenStack, enabling the network to respond to real-time compute demands. Also supports Microsoft Teams, WhatsApp, and Discord for event notifications."
+              tag:
+                - orchestration
               summary_tags: "intent-based networking, data center automation, kubernetes, digital twin, git version control, multi-vendor support, cloud-native, EVPN, BGP fabric"
               summary_personas: "Data Center Engineers, Network Operations Teams, Cloud Architects, DevOps Engineers"
               summary_release_rate: "Regular platform updates and feature releases"
@@ -1315,6 +1474,8 @@ categories:
               summary_business_use_case: "Use a Service Provider Product model to orchestrator automated processes across your organization. Not limited to, but useful for deploying and tracking state of network configuration products, business and security processes."
               summary_features: "FastAPI-based backend, Self-service UI, Product Lifecycle Mananegement, AAA, Scheduling repeated tasks, Concurrent Workflows"
               summary_integration: "Any system which exposes and API and can be reached or integrated via Python code"
+              tag: 
+                - orchestration
               summary_tags: "Multi-domain Orchestration, Intent-based Orchestration, Workflows, Vendor Agnostic, Product Lifecycle"
               summary_personas: "Network Engineers, Network Automation Engineers, Software Developers, IT Operations"
               discord_url: https://discord.gg/fQkQn5ajFR
@@ -1332,6 +1493,8 @@ categories:
               summary_use_case: "Process, query, and transform YAML, JSON, XML files in automation scripts and CI/CD pipelines"
               summary_business_use_case: "Enables efficient configuration management and data transformation in DevOps workflows, reducing manual errors and improving automation reliability"
               summary_integration: "Command-line tools, shell scripts, CI/CD systems, Docker containers"
+              tag:
+                - tool
               summary_tags: "YAML, JSON, XML, data processing, configuration management, command-line, automation"
               summary_personas: "DevOps Engineers, Network Engineers, System Administrators, Automation Engineers"
               summary_release_rate: "Regular releases with new features and improvements"
@@ -1348,6 +1511,8 @@ categories:
               summary_use_case: "Parse, filter, and transform JSON data in scripts, APIs, and automation workflows"
               summary_business_use_case: "Essential tool for processing API responses, configuration files, and structured data in modern DevOps and automation environments"
               summary_integration: "REST APIs, shell scripts, CI/CD pipelines, log processing systems"
+              tag:
+                - tool
               summary_tags: "JSON, data processing, command-line, filtering, transformation, scripting"
               summary_personas: "DevOps Engineers, Software Developers, System Administrators, API Engineers"
               summary_release_rate: "Stable releases with periodic updates and bug fixes"
@@ -1369,6 +1534,8 @@ categories:
               summary_use_case: "Self-hosted Terraform Enterprise alternative, team collaboration, workspace management, remote state backend"
               summary_business_use_case: "Provides enterprise Terraform features including SSO, team management, agents, and no per-resource pricing, enabling organizations to manage infrastructure as code at scale without vendor lock-in"
               summary_integration: "Terraform, OpenTofu, GitHub, OAuth"
+              tag:
+                - orchestration
               summary_tags: "terraform, infrastructure as code, remote state, workspace management, SSO, RBAC, VCS integration"
               summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers"
               summary_release_rate: "Regular updates and improvements"
@@ -1386,6 +1553,8 @@ categories:
               summary_use_case: "DRY Terraform configurations, remote state management, multi-module orchestration, dependency management"
               summary_business_use_case: "Reduces code duplication in Terraform configurations, simplifies multi-environment deployments, and provides better organization for complex infrastructure projects"
               summary_integration: "Terraform, OpenTofu, AWS, Azure, GCP, various Terraform providers"
+              tag:
+                - orchestration
               summary_tags: "terraform, infrastructure as code, DRY, remote state, orchestration, multi-module"
               summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers"
               summary_release_rate: "Regular updates and improvements"
@@ -1404,6 +1573,8 @@ categories:
               summary_use_case: "IaC orchestration, code generation, stack management, GitOps automation, and infrastructure lifecycle management for Terraform and OpenTofu"
               summary_business_use_case: "Reduces Infrastructure as Code complexity and deployment times by up to 10x, improves DevOps velocity by up to 50%, and enables better collaboration through stack-based management and automated workflows"
               summary_integration: "Terraform, OpenTofu, Terragrunt, Kubernetes, GitHub Actions, GitLab CI/CD, BitBucket Pipelines, Azure DevOps, Slack, and any CI/CD platform"
+              tag:
+                - orchestration
               summary_tags: "infrastructure as code, orchestration, code generation, GitOps, terraform automation, stack management, drift detection"
               summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers, Cloud Architects"
               summary_release_rate: "Regular updates with community-driven development"
@@ -1423,6 +1594,8 @@ categories:
               summary_use_case: "Self-hosted Terraform/OpenTofu automation platform, team collaboration, workspace management, remote state backend, private module/provider registries"
               summary_business_use_case: "Provides enterprise Terraform management capabilities without vendor lock-in or licensing costs, enabling organizations to scale infrastructure as code with comprehensive governance, compliance, and collaboration features in a Kubernetes-native architecture"
               summary_integration: "GitHub, GitLab, Azure DevOps, Bitbucket, Kubernetes, Helm, Azure Entra ID, Google Cloud Identity, Amazon Cognito, SAML/OIDC, OPA, Infracost, Terrascan"
+              tag:
+                - orchestration
               summary_tags: "terraform, opentofu, infrastructure as code, kubernetes-native, self-hosted, TACOS, remote state, private registry, policy enforcement, RBAC"
               summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers, Cloud Architects"
               summary_release_rate: "Regular releases with active development and community support"
@@ -1445,6 +1618,8 @@ categories:
             extra:
               documentation_url: https://pypi.org/project/pygohcl/
               summary_use_case: "Parse and process HCL/Terraform configuration files from Python applications, enabling integration of Terraform configurations into network automation workflows"
+              tag:
+                - sdk
               summary_tags: "HCL, Terraform, configuration parsing, Python bindings, infrastructure as code"
               summary_personas: "Network Engineers, DevOps Engineers, Infrastructure Engineers, Automation Engineers"
               summary_features: "HCL v2 support, Python 3.8-3.13 compatibility, simple JSON-like API"
@@ -1463,6 +1638,8 @@ categories:
               summary_use_case: "Remote operations backend for Terraform and OpenTofu, team collaboration, workspace management, policy enforcement, cost controls"
               summary_business_use_case: "Enables organizations to scale infrastructure as code with enterprise governance, cost control, and collaborative workflows while maintaining security and compliance"
               summary_integration: "GitHub, GitLab, Azure DevOps, Bitbucket, Terraform, OpenTofu, AWS EventBridge, Datadog, Slack, Microsoft Teams, OPA, Checkov, Terragrunt"
+              tag:
+                - orchestration
               summary_tags: "terraform, opentofu, infrastructure as code, remote state, workspace management, policy as code, RBAC, CI/CD integration"
               summary_personas: "Platform Engineers, DevOps Engineers, Cloud Architects, Site Reliability Engineers, Infrastructure Teams"
               summary_release_rate: "Continuous updates (SaaS model)"
@@ -1481,6 +1658,8 @@ categories:
               summary_use_case: "Terraform pull request automation, collaborative infrastructure changes, Terraform plan/apply workflow automation for small to medium teams"
               summary_business_use_case: "Enables safe collaborative Terraform workflows through pull request-based reviews, reducing deployment risks and improving team coordination for infrastructure changes. However, scaling limitations and operational overhead make it less suitable for enterprise environments."
               summary_integration: "GitHub, GitLab, Bitbucket, Terraform, Slack, webhooks, various CI/CD systems"
+              tag:
+                - orchestration
               summary_tags: "terraform, pull request automation, collaborative infrastructure, GitOps, infrastructure as code, code review"
               summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers"
               summary_release_rate: "Regular updates and improvements"
@@ -1499,6 +1678,8 @@ categories:
               summary_use_case: "Terraform CI/CD in existing pipelines, pull request automation, drift detection, policy enforcement without dedicated infrastructure"
               summary_business_use_case: "Reduces infrastructure costs and complexity by running Terraform in existing CI rather than separate TACOS infrastructure, while maintaining security by keeping cloud secrets within your CI environment"
               summary_integration: "GitHub Actions, GitLab CI, Bitbucket Pipelines, Azure DevOps, Terraform, OpenTofu, Terragrunt, AWS, GCP, Azure, OPA, Checkov"
+              tag:
+                - orchestration
               summary_tags: "terraform, infrastructure as code, CI/CD, pull request automation, drift detection, policy enforcement, GitOps"
               summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers"
               summary_release_rate: "Regular updates and improvements"
@@ -1514,6 +1695,8 @@ categories:
             extra:
               documentation_url: https://github.com/robertmhafner/tofupy
               summary_use_case: "Infrastructure as Code automation, OpenTofu/Terraform wrapper, programmatic infrastructure management, security scanning of infrastructure plans"
+              tag:
+                - sdk
               summary_tags: "Infrastructure as Code, OpenTofu, Terraform, Python wrapper, JSON parsing, streaming events"
               summary_personas: "DevOps Engineers, Infrastructure Engineers, Platform Engineers, Security Engineers"
               summary_features: "JSON output parsing, streaming event handlers, structured data objects, plan/apply operations, state management, validation support"
@@ -1531,6 +1714,8 @@ categories:
               summary_use_case: "GitHub-native Terraform automation, pull request workflows, drift detection, policy enforcement, multi-workspace orchestration"
               summary_business_use_case: "Enables secure, scalable infrastructure as code workflows with enterprise governance while maintaining operational simplicity and predictable costs through flat-rate pricing instead of resource-based fees"
               summary_integration: "GitHub, GitLab, Terraform, OpenTofu, CDKTF, Terragrunt, Pulumi, AWS OIDC, GCP Workload Identity, Azure, OPA, Conftest"
+              tag:
+                - orchestration
               summary_tags: "terraform, opentofu, infrastructure as code, GitOps, pull request automation, policy enforcement, OIDC authentication, multi-engine"
               summary_personas: "DevOps Engineers, Platform Engineers, Infrastructure Teams, Site Reliability Engineers, Development Teams"
               summary_release_rate: "Daily releases with continuous improvements"
@@ -1554,6 +1739,8 @@ categories:
               summary_use_case: "Network device configuration, state retrieval, configuration compliance"
               summary_business_use_case: "Simplifies multi-vendor network management, reduces complexity in network automation, and improves operational efficiency"
               summary_integration: "Ansible, Salt, Nornir, Netbox"
+              tag: 
+                - sdk
               summary_tags: "network automation, multi-vendor, configuration management, Python library, unified API"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
               summary_release_rate: "Yearly releases"
@@ -1570,6 +1757,8 @@ categories:
               summary_use_case: "Rapid network data collection, configuration deployment, custom automation workflows"
               summary_business_use_case: "Enables efficient and scalable network automation, reducing manual tasks and improving network management productivity"
               summary_integration: "NAPALM, Netmiko, Scrapli, Paramiko"
+              tag: 
+                - sdk
               summary_tags: "network automation, Python, multi-threading, inventory management, plugin system"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
               summary_release_rate: "Yearly releases"
@@ -1586,6 +1775,8 @@ categories:
               summary_use_case: "Network configuration, network testing, network reporting"
               summary_business_use_case: "Simplify and enhance network automation, empower engineers, address mundane tasks"
               summary_integration: "Nornir, Netbox, NAPALM, SCRAPLI, ROBOT, Containerlab, Netmiko, FastAPI etc."
+              tag:
+                - orchestration
               summary_tags: "network automation, multi-vendor, configuration management, Python library, unified API"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
               summary_release_rate: "Major releases approximately every 6 months"
@@ -1601,6 +1792,8 @@ categories:
             extra:
               documentation_url: https://carlmontanari.github.io/scrapli/
               summary_use_case: "Network device automation, configuration management, data retrieval from network devices"
+              tag: 
+                - sdk
               summary_tags: "network automation, SSH, Telnet, async, Python"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
               summary_features: "Sync and async support, structured data parsing, multiple transport options"
@@ -1614,6 +1807,8 @@ categories:
             extra:
               documentation_url: https://ktbyers.github.io/netmiko/
               summary_use_case: "Network device connection and configuration, multi-vendor support"
+              tag: 
+                - sdk
               summary_tags: "network automation, SSH, multi-vendor, Python"
               summary_personas: "Network Engineers, Network Automation Engineers"
               summary_features: "Multi-vendor support, simplified SSH connections, configuration management"
@@ -1627,6 +1822,8 @@ categories:
             extra:
               documentation_url: https://www.juniper.net/documentation/product/en_US/junos-pyez
               summary_use_case: "Juniper device automation, configuration management, operational state retrieval"
+              tag: 
+                - sdk
               summary_tags: "Juniper, network automation, NETCONF, Python"
               summary_personas: "Network Engineers, Juniper Specialists, Automation Engineers"
               summary_features: "NETCONF support, Juniper-specific optimizations, configuration management"
@@ -1640,6 +1837,8 @@ categories:
             extra:
               documentation_url: https://pyeapi.readthedocs.io/en/master/index.html
               summary_use_case: "Arista device automation, configuration management, operational state retrieval"
+              tag: 
+                - sdk
               summary_tags: "Arista, network automation, eAPI, Python"
               summary_personas: "Network Engineers, Arista Specialists, Automation Engineers"
 
@@ -1652,6 +1851,8 @@ categories:
             extra:
               documentation_url: https://ntc-templates.readthedocs.io/en/latest/
               summary_use_case: "Parsing outputs from network devices"
+              tag: 
+                - sdk
               summary_tags: "TextFSM, multi-vendor, CLI, Python"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, command output parsing"
@@ -1665,6 +1866,8 @@ categories:
             extra:
               documentation_url: https://ttp.readthedocs.io/en/latest/
               summary_use_case: "Parsing outputs from semi-structured text"
+              tag: 
+                - sdk
               summary_tags: "screen-scraping, parsing, Python, template"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, command output parsing"
@@ -1678,6 +1881,8 @@ categories:
             extra:
               documentation_url: https://netutils.readthedocs.io/en/latest/
               summary_use_case: "Tasks such as converting a BGP ASN to and from dotted format, normalizing an interface name, or 'type 5' encrypting a password."
+              tag: 
+                - sdk
               summary_tags: "python, helper functions, jinja template"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, command output parsing"
@@ -1691,6 +1896,8 @@ categories:
             extra:
               documentation_url: https://ncclient.readthedocs.io/en/latest/
               summary_use_case: "NETCONF client to interact with network devices with NETCONF RPCs"
+              tag: 
+                - sdk
               summary_tags: "python, netconf"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, command output parsing"
@@ -1704,6 +1911,8 @@ categories:
             extra:
               documentation_url: https://diffsync.readthedocs.io/en/latest/index.html
               summary_use_case: "DiffSync is at its most useful when you have multiple sources or sets of data to compare and/or synchronize"
+              tag: 
+                - sdk
               summary_tags: "python, datasets, diff, ssot"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, command output parsing"
@@ -1717,6 +1926,8 @@ categories:
             extra:
               documentation_url: https://ncdiff.readthedocs.io/en/latest/
               summary_use_case: "Send and get NETCONF RPCs and diff, combine or pedict configurations"
+              tag: 
+                - sdk
               summary_tags: "python, diff, netconf"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, YANG diff"
@@ -1729,6 +1940,8 @@ categories:
             repo_url: https://github.com/akarneliuk/pygnmi
             extra:
               summary_use_case: "gNMI-based network device management, telemetry collection"
+              tag: 
+                - sdk
               summary_tags: "gNMI, network automation, telemetry, Python"
               summary_personas: "Network Engineers, SREs, Network Automation Specialists"
               summary_features: "gNMI client, telemetry collection, configuration management"
@@ -1743,6 +1956,8 @@ categories:
             extra:
               documentation_url: https://github.com/robshakir/pyangbind/blob/master/docs/README.md
               summary_use_case: "PyangBind converts YANG models into Python classes, enabling easy programmatic interaction with network configurations for automation and management."
+              tag: 
+                - sdk
               summary_tags: "python, yang, bindings"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, Python bindings"
@@ -1756,6 +1971,8 @@ categories:
             extra:
               documentation_url: https://pydantify.github.io/pydantify/
               summary_use_case: "Pydantify enables seamless conversion of YANG models into Pydantic data structures, allowing for easy initialization, validation, and serialization of network configuration data in a Pythonic way."
+              tag: 
+                - sdk
               summary_tags: "python, yang, bindings, netconf, restconf, pydantic, model"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, Python bindings, Pydantic"
@@ -1769,6 +1986,8 @@ categories:
             extra:
               documentation_url: https://network.developer.nokia.com/static/sr/learn/pysros/latest/index.html#
               summary_use_case: "Nokia device automation, configuration management, operational state retrieval"
+              tag: 
+                - sdk
               summary_tags: "Nokia, network automation, NETCONF, Python"
               summary_personas: "Network Engineers, Nokia Specialists, Automation Engineers"
               summary_features: "NETCONF support, Nokia-specific optimizations, configuration management"
@@ -1783,6 +2002,8 @@ categories:
               documentation_url: https://hier-config.readthedocs.io/en/latest/
               summary_business_use_case: "Build remediation configurations to power network configuration compliance workflows."
               summary_use_case: "Load network device running and generated configs. Then, build remediation and rollback configs."
+              tag: 
+                - sdk
               summary_tags: "config, query, remediation, rollback"
               summary_personas: "Network Engineers, Automation Engineers"
               summary_features: "Multi-vendor support, Config query, Build remediation config, Build rollback config"
@@ -1796,6 +2017,8 @@ categories:
             extra:
               documentation_url: https://avd.arista.com
               summary_use_case: "Network device automation, configuration management, IaC, declarative configuration"
+              tag:
+                - execution
               summary_tags: "network automation, SSH, gNMI, Python, Ansible"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists, Software Engineers"
               summary_features: "Structured intended configuration, data models, schema validation, real-time streaming telemetry"
@@ -1815,6 +2038,8 @@ categories:
               github_discussions_url: https://github.com/nornir-automation/gornir/discussions
               summary_use_case: "Rapid network data collection, configuration deployment, custom automation workflows"
               summary_business_use_case: "Enables efficient and scalable network automation, reducing manual tasks and improving network management productivity"
+              tag: 
+                - sdk
               summary_tags: "network automation, GoLang, multi-threading, inventory management, plugin system"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
               summary_release_rate: "Yearly releases"
@@ -1831,6 +2056,8 @@ categories:
             extra:
               documentation_url: https://pkg.go.dev/github.com/scrapli/scrapligo
               summary_use_case: "Network device automation, configuration management, data retrieval from network devices"
+              tag: 
+                - sdk
               summary_tags: "network automation, SSH, NETCONF"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists"
 
@@ -1843,6 +2070,8 @@ categories:
             extra:
               documentation_url: https://gnmic.openconfig.net/
               summary_use_case: "gNMI-based network device management, telemetry collection"
+              tag: 
+                - sdk
               summary_tags: "gNMI, network automation, telemetry, Go"
               summary_personas: "Network Engineers, SREs, Network Automation Specialists"
               summary_features: "gNMI client, telemetry collection, configuration management"
@@ -1856,6 +2085,8 @@ categories:
             extra:
               documentation_url: https://gnmic.openconfig.net/
               summary_use_case: "Conversion of YANG models into Go and Protobuf code, enabling efficient network configuration management, validation, and telemetry collection in Go-based environments."
+              tag: 
+                - sdk
               summary_tags: "gNMI, network automation, Go, protobuf, yang"
               summary_personas: "Network Engineers, Network Automation Specialists"
               summary_features: "gNMI client, telemetry collection, configuration management"
@@ -1869,6 +2100,8 @@ categories:
             extra:
               documentation_url: https://networklore.com/hello-netrasp/
               summary_use_case: "Network device connection and configuration, multi-vendor support"
+              tag: 
+                - sdk
               summary_tags: "network automation, SSH, multi-vendor, Go"
               summary_personas: "Network Engineers, Network Automation Engineers"
               summary_features: "Multi-vendor support, simplified SSH connections, configuration management"
@@ -1886,6 +2119,8 @@ categories:
               summary_use_case: "Lifecycle (EoX) reporting, capacity planning, financial modeling, forward planning, and project forecasting."
               summary_business_use_case: "Helps organizations reduce costs, extend asset life, and align IT projects with business objectives by providing accurate financial and operational insights."
               summary_integration: "Seamless integration with existing network inventory, business and financial data, and external pricing and data feeds. Supports TBM for business categorization and alignment, and API integrations."
+              tag: 
+                - presentation
               summary_tags: "financial modeling, TBM integration, project planning, budget forecasting, EoX reporting, capacity analysis"
               summary_personas: "IT Architects, Financial Analyst, Project Manager, IT Director, CIO, CTO, CFO"
               summary_release_rate: "Quarterly updates to support evolving business and IT requirements."
@@ -1905,6 +2140,8 @@ categories:
               documentation_url: "https://docs.nautobot.com/projects/golden-config/en/latest/"
               github_discussions_url: "https://github.com/nautobot/nautobot-app-golden-config/discussions"
               summary_use_case: "Provides a NetDevOps approach to Golden Configuration and Configuration Compliance with generation/deployment capabilities to remediate config drift."
+              tag: 
+                - executor
               summary_tags: "network compliance, vendor-neutral, nautobot, config management, reporting"
               summary_business_use_case: "Provides complete configuration management of network devices and more."
               summary_integration: "Nautobot"
