@@ -1140,6 +1140,25 @@ categories:
               twitter: https://twitter.com/windmill_dev
               docker_url: https://hub.docker.com/r/windmilllabs/windmill
 
+          - name: xyOps
+            project: full-open-source
+            description: xyOps is a next-generation system for job scheduling, workflow automation, server monitoring, alerting, and incident response -- all combined into a single, cohesive platform. It's built for developers and operations teams who want to control their automation stack without surrendering data, freedom, or visibility.
+            homepage_url: https://xyops.io
+            logo: xyops.png
+            repo_url: https://github.com/pixlcore/xyops
+            extra:
+              documentation_url: https://docs.xyops.io
+              github_discussions_url: https://github.com/pixlcore/xyops/discussions
+              summary_use_case: "Job scheduling, workflow automation, server monitoring, alerting, and incident response with integrated feedback loops"
+              summary_business_use_case: "Provides a unified platform for automation and monitoring that connects workflows to real-time monitoring, alerts, server snapshots, and ticketing, creating an integrated feedback loop from detection to resolution"
+              summary_integration: "Docker, server monitoring, ticketing systems, alerting systems"
+              tag: 
+                - orchestration
+              summary_tags: "workflow automation, job scheduling, server monitoring, alerting, incident response, visual workflow editor, BSD license"
+              summary_personas: "DevOps Engineers, Operations Teams, Site Reliability Engineers, System Administrators, Developers"
+              summary_release_rate: "Active development with regular updates"
+              docker_url: https://ghcr.io/pixlcore/xyops
+
       - name: Automation Platforms and Management
         items:
           - name: Semaphore UI
