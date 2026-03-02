@@ -2166,3 +2166,39 @@ categories:
               summary_integration: "Nautobot"
               summary_personas: "Network Engineers, DevOps Engineers, IT Leadership, CIO, CISO, CFO, CTO"
               summary_release_rate: "Regularly updated"
+
+  - name: AI/LLM/MCP
+    subcategories:
+      - name: MCP Gateways
+        items:
+          - name: agentgateway
+            project: full-open-source
+            description: agentgateway is a next-generation agentic proxy for AI agents and MCP (Model Context Protocol) servers. It provides secure, observable, and governed communication between AI agents and tools, supporting A2A and MCP protocols with advanced RBAC, multi-tenancy, and dynamic configuration.
+            homepage_url: https://agentgateway.dev
+            logo: agentgateway.svg
+            repo_url: https://github.com/agentgateway/agentgateway
+            extra:
+              documentation_url: https://agentgateway.dev/docs
+              summary_use_case: "Secure and observable proxy for AI agents and MCP servers, enabling governed tool access and multi-tenant deployments"
+              summary_business_use_case: "Provides a secure gateway for AI agent interactions with network tools and APIs, with full auditability and access control"
+              summary_integration: "MCP servers, Kubernetes, OpenAPI, A2A protocol"
+              tag:
+                - executor
+              summary_tags: "AI, LLM, MCP, agent gateway, proxy, RBAC, multi-tenant"
+              summary_personas: "Network Engineers, DevOps Engineers, Platform Engineers, AI/ML Engineers"
+
+          - name: Obot
+            project: full-open-source
+            description: Obot is a complete open-source MCP Platform for hosting, registry, and gateway of MCP servers. It provides centralized control for managing, securing, and scaling AI integrations with enterprise systems through the Model Context Protocol.
+            homepage_url: https://obot.ai
+            logo: obot.svg
+            repo_url: https://github.com/obot-platform/obot
+            extra:
+              documentation_url: https://docs.obot.ai
+              summary_use_case: "Centralized MCP server hosting, registry, and gateway with policy-driven access control for AI agents and automation tools"
+              summary_business_use_case: "Helps enterprises manage, secure, and scale AI integrations by providing a centralized MCP gateway with audit logging and access governance"
+              summary_integration: "MCP servers, GitHub, Jira, Office 365, PostgreSQL, Redis, and more"
+              tag:
+                - executor
+              summary_tags: "AI, LLM, MCP, gateway, registry, AI automation, enterprise"
+              summary_personas: "Network Engineers, DevOps Engineers, Platform Engineers, AI/ML Engineers, IT Administrators"
