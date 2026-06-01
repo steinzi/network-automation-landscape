@@ -2310,3 +2310,36 @@ categories:
               summary_integration: "Nautobot"
               summary_personas: "Network Engineers, DevOps Engineers, IT Leadership, CIO, CISO, CFO, CTO"
               summary_release_rate: "Regularly updated"
+
+  - name: AI Ecosystem
+    subcategories:
+      - name: MCP Servers
+        items:
+          - name: netbox-mcp-server
+            project: full-open-source
+            description: "netbox-mcp-server is a read-only Model Context Protocol (MCP) server for NetBox published by NetBoxLabs, enabling LLM clients to query NetBox network data through natural language."
+            homepage_url: https://github.com/netboxlabs/netbox-mcp-server
+            logo: netbox-mcp-server.png
+            repo_url: https://github.com/netboxlabs/netbox-mcp-server
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://github.com/netboxlabs/netbox-mcp-server
+              summary_use_case: "Connect LLM-powered AI agents to NetBox network data via the Model Context Protocol for natural language network queries and automation"
+              tag:
+                - tool
+              summary_tags: "mcp, llm, ai, netbox, network source of truth, natural language, model context protocol, claude"
+              summary_personas: "Network Engineers, DevOps Engineers, AI/ML Engineers"
+          - name: MCPyATS
+            project: full-open-source
+            description: "MCPyATS is a Python framework combining the Model Context Protocol (MCP), LangGraph, and Cisco pyATS for natural-language driven network task automation using an agentic AI architecture."
+            homepage_url: https://github.com/automateyournetwork/MCPyATS
+            logo: mcpyats.png
+            repo_url: https://github.com/automateyournetwork/MCPyATS
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://github.com/automateyournetwork/MCPyATS
+              summary_use_case: "Natural-language driven network automation combining LangGraph AI agents with Cisco pyATS network testing and MCP tool servers"
+              tag:
+                - tool
+              summary_tags: "mcp, llm, ai, pyats, cisco, natural language, agentic, langgraph, network automation"
+              summary_personas: "Network Engineers, AI/ML Engineers, Network Automation Specialists"
