@@ -19,7 +19,7 @@ jobs:
         run: apk add git
 
       - name: Checkout this repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Validate settings
         run: landscape2 validate settings --settings-file ./settings.yml
