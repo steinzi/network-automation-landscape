@@ -84,6 +84,20 @@ categories:
               summary_tags: "BGP inventory, configuration management, API-first"
               summary_business_use_case: "Improves BGP peering with other networks and reduces errors through automation"
               summary_personas: "Network Engineers, Network Architects"
+          - name: phpIPAM
+            project: full-open-source
+            description: "phpIPAM is an open-source web-based IP address management (IPAM) application providing IPv4/IPv6 subnet management, VLAN and VRF tracking, DNS integration, and a REST API."
+            homepage_url: https://phpipam.net/
+            logo: phpipam.png
+            repo_url: https://github.com/phpipam/phpipam
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://phpipam.net/documents/
+              summary_use_case: "IP address management with subnet tracking, VLAN/VRF management, DNS integration, and a REST API for network documentation and automation"
+              tag:
+                - tool
+              summary_tags: "ipam, ip address management, ipv4, ipv6, vlan, vrf, rest api, open-source, network documentation"
+              summary_personas: "Network Engineers, Network Administrators, IT Operations Teams"
 
       - name: Network Discovery/Assurance
         items:
@@ -408,22 +422,6 @@ categories:
                 - collector
               summary_tags: "config backup, network devices, git, multi-vendor, rancid-replacement, versioning"
               summary_personas: "Network Engineers, Network Operations Teams, DevOps Engineers"
-      - name: IPAM
-        items:
-          - name: phpIPAM
-            project: full-open-source
-            description: "phpIPAM is an open-source web-based IP address management (IPAM) application providing IPv4/IPv6 subnet management, VLAN and VRF tracking, DNS integration, and a REST API."
-            homepage_url: https://phpipam.net/
-            logo: phpipam.png
-            repo_url: https://github.com/phpipam/phpipam
-            extra:
-              accepted: "2026-06-01"
-              documentation_url: https://phpipam.net/documents/
-              summary_use_case: "IP address management with subnet tracking, VLAN/VRF management, DNS integration, and a REST API for network documentation and automation"
-              tag:
-                - tool
-              summary_tags: "ipam, ip address management, ipv4, ipv6, vlan, vrf, rest api, open-source, network documentation"
-              summary_personas: "Network Engineers, Network Administrators, IT Operations Teams"
 
   - name: Telemetry and observability
     subcategories:
@@ -946,6 +944,20 @@ categories:
               summary_release_rate: "Regular releases with new features and format support"
               summary_features: "NetBox API integration, Multiple export formats, Custom Jinja2 templates, Device configuration export, Interface mapping, Platform mapping support"
               blog_url: https://github.com/netreplica/nrx/releases
+          - name: sshx
+            project: full-open-source
+            description: "sshx is a fast, collaborative live terminal sharing tool over the web, written in Rust, that lets multiple users join a real-time terminal session with end-to-end encryption and multiplayer cursors through a single shareable link."
+            homepage_url: https://sshx.io
+            logo: sshx.svg
+            repo_url: https://github.com/ekzhang/sshx
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://github.com/ekzhang/sshx
+              summary_use_case: "Collaborative live terminal sharing for remote pair-troubleshooting and shared CLI access to network devices and lab environments"
+              tag:
+                - lab
+              summary_tags: "terminal, collaborative, ssh, rust, web, terminal sharing, remote access, multiplayer"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists, Lab Engineers"
 
   - name: Automation Tooling
     subcategories:

@@ -113,6 +113,7 @@
 [slurpit](https://slurpit.io) | freemium |  |  |  |  |  | 0 |  |
 [spacelift](https://spacelift.io/) | saas |  |  |  |  |  | 0 |  |
 [splunk](https://www.splunk.com/) | hybrid |  |  |  |  |  | 0 |  |
+[sshx](https://sshx.io) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [stackstorm](https://stackstorm.com/) | full-open-source |  |  |  |  |  | 0 |  |
 [suzieq](https://www.suzieq.io/) | freemium |  |  |  |  |  | 0 |  |
 [telegraf](https://www.influxdata.com/time-series-platform/telegraf/) | full-open-source |  |  |  |  |  | 0 |  |
