@@ -2117,7 +2117,7 @@ categories:
               summary_personas: "Network Engineers, Automation Engineers, YANG Developers"
           - name: libyang
             project: full-open-source
-            description: "libyang is a C library for YANG data model parsing and validation developed by CESNET, bundled with yanglint — a CLI for validating and converting YANG schemas and instance data in XML and JSON."
+            description: "libyang is a C library for YANG data model parsing and validation (CESNET), bundled with yanglint — a CLI for validating YANG schemas and instance data in XML/JSON. Python bindings are available via libyang-python."
             homepage_url: https://github.com/CESNET/libyang
             logo: libyang.png
             repo_url: https://github.com/CESNET/libyang
@@ -2137,7 +2137,7 @@ categories:
             repo_url: https://github.com/mpenning/ciscoconfparse2
             extra:
               accepted: "2026-06-01"
-              documentation_url: https://github.com/mpenning/ciscoconfparse2
+              documentation_url: https://ciscoconfparse2.readthedocs.io/
               summary_use_case: "Parse and query multi-vendor network device configurations for compliance checking, diff analysis, and remediation automation"
               tag:
                 - sdk
@@ -2327,7 +2327,7 @@ categories:
               summary_use_case: "Connect LLM-powered AI agents to NetBox network data via the Model Context Protocol for natural language network queries and automation"
               tag:
                 - tool
-              summary_tags: "mcp, llm, ai, netbox, network source of truth, natural language, model context protocol, claude"
+              summary_tags: "mcp, llm, ai, netbox, network source of truth, natural language, model context protocol"
               summary_personas: "Network Engineers, DevOps Engineers, AI/ML Engineers"
           - name: MCPyATS
             project: full-open-source
