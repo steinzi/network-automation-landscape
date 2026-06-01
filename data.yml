@@ -2101,6 +2101,62 @@ categories:
               summary_tags: "network automation, SSH, gNMI, Python, Ansible"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists, Software Engineers"
               summary_features: "Structured intended configuration, data models, schema validation, real-time streaming telemetry"
+          - name: pyang
+            project: full-open-source
+            description: "pyang is a Python-based YANG validator, transformer, and code generator that validates YANG models for correctness, transforms them between YANG/YIN/XSD formats, and supports plugin-based code generation."
+            homepage_url: https://github.com/mbj4668/pyang
+            logo: pyang.png
+            repo_url: https://github.com/mbj4668/pyang
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://github.com/mbj4668/pyang
+              summary_use_case: "Validate YANG data models, transform between YANG/YIN/XSD formats, and generate code from YANG schemas for network automation"
+              tag:
+                - sdk
+              summary_tags: "yang, python, validation, code generation, netconf, schema, ietf, transformation"
+              summary_personas: "Network Engineers, Automation Engineers, YANG Developers"
+          - name: libyang
+            project: full-open-source
+            description: "libyang is a C library for YANG data model parsing and validation developed by CESNET, bundled with yanglint — a CLI for validating and converting YANG schemas and instance data in XML and JSON."
+            homepage_url: https://github.com/CESNET/libyang
+            logo: libyang.png
+            repo_url: https://github.com/CESNET/libyang
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://netopeer.libnetconf.org/doc/libyang/
+              summary_use_case: "Parse and validate YANG schemas and instance data; core dependency in sysrepo, netopeer2, and NETCONF/RESTCONF toolchains"
+              tag:
+                - sdk
+              summary_tags: "yang, c library, validation, netconf, restconf, xml, json, cesnet, yanglint"
+              summary_personas: "Network Engineers, Automation Engineers, NETCONF Developers"
+          - name: ciscoconfparse2
+            project: full-open-source
+            description: "ciscoconfparse2 is a Python library for parsing, auditing, querying, and building multi-vendor network device configurations from Arista, Cisco, Juniper, Palo Alto, and F5 devices."
+            homepage_url: https://github.com/mpenning/ciscoconfparse2
+            logo: ciscoconfparse2.png
+            repo_url: https://github.com/mpenning/ciscoconfparse2
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://github.com/mpenning/ciscoconfparse2
+              summary_use_case: "Parse and query multi-vendor network device configurations for compliance checking, diff analysis, and remediation automation"
+              tag:
+                - sdk
+              summary_tags: "config parsing, cisco, arista, juniper, palo alto, f5, multi-vendor, python, auditing, diff"
+              summary_personas: "Network Engineers, Automation Engineers, Security Analysts"
+          - name: Gufo SNMP
+            project: full-open-source
+            description: "Gufo SNMP is a Python SNMP client library with its BER parser and socket I/O implemented in Rust for performance, supporting SNMPv1/v2c/v3 in both asynchronous and synchronous modes."
+            homepage_url: https://docs.gufo.rs/products/gufo-snmp/
+            logo: gufo-snmp.png
+            repo_url: https://github.com/gufolabs/gufo_snmp
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://docs.gufo.rs/products/gufo-snmp/
+              summary_use_case: "High-performance SNMP polling for network monitoring and automation with Python, using async or sync operation modes"
+              tag:
+                - sdk
+              summary_tags: "snmp, python, async, rust, performance, v1, v2c, v3, network monitoring, polling"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Monitoring Specialists"
 
   - name: GoLang Eco-System
     subcategories:
