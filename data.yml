@@ -1568,6 +1568,34 @@ categories:
               summary_personas: "DevOps Engineers, Software Developers, System Administrators, API Engineers"
               summary_release_rate: "Stable releases with periodic updates and bug fixes"
               summary_features: "Powerful query language, streaming support, module system, extensive built-in operators, cross-platform support"
+          - name: ansible-lint
+            project: full-open-source
+            description: "ansible-lint checks Ansible playbooks, roles, and collections for practices and behaviors that could potentially be improved, with auto-fix support and a GitHub Action for CI/CD integration."
+            homepage_url: https://ansible.readthedocs.io/projects/lint/
+            logo: ansible-lint.png
+            repo_url: https://github.com/ansible/ansible-lint
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://ansible.readthedocs.io/projects/lint/
+              summary_use_case: "Static analysis and linting of Ansible playbooks and roles for CI/CD pipelines with auto-fix capabilities and pre-commit hook support"
+              tag:
+                - tool
+              summary_tags: "ansible, linting, ci/cd, playbooks, validation, automation, pre-commit, static analysis"
+              summary_personas: "Network Engineers, DevOps Engineers, Automation Engineers"
+          - name: yamllint
+            project: full-open-source
+            description: "yamllint is a YAML file linter that checks for syntax errors, key repetitions, line length violations, trailing spaces, and indentation issues."
+            homepage_url: https://yamllint.readthedocs.io/
+            logo: yamllint.png
+            repo_url: https://github.com/adrienverge/yamllint
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://yamllint.readthedocs.io/
+              summary_use_case: "Validate and lint YAML configuration files in CI/CD pipelines and automation workflows to catch syntax and style errors early"
+              tag:
+                - tool
+              summary_tags: "yaml, linting, validation, ci/cd, syntax checking, automation, configuration"
+              summary_personas: "DevOps Engineers, Network Engineers, Automation Engineers"
 
   - name: Terraform Eco-System
     subcategories:
