@@ -392,6 +392,38 @@ categories:
               other_links:
                 - name: "Day One Book - JSNAPy"
                   url: https://www.juniper.net/documentation/en_US/day-one-books/DO_JSNAPy.zip
+      - name: Config Backup
+        items:
+          - name: Oxidized
+            project: full-open-source
+            description: "Oxidized is a network device configuration backup tool supporting 90+ network operating systems, storing configurations in a Git backend with automated change notifications."
+            homepage_url: https://github.com/ytti/oxidized
+            logo: oxidized.png
+            repo_url: https://github.com/ytti/oxidized
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://github.com/ytti/oxidized/blob/master/README.md
+              summary_use_case: "Automated backup and version control of network device configurations across 90+ NOS types with Git-based change tracking and notifications"
+              tag:
+                - collector
+              summary_tags: "config backup, network devices, git, multi-vendor, rancid-replacement, versioning"
+              summary_personas: "Network Engineers, Network Operations Teams, DevOps Engineers"
+      - name: IPAM
+        items:
+          - name: phpIPAM
+            project: full-open-source
+            description: "phpIPAM is an open-source web-based IP address management (IPAM) application providing IPv4/IPv6 subnet management, VLAN and VRF tracking, DNS integration, and a REST API."
+            homepage_url: https://phpipam.net/
+            logo: phpipam.png
+            repo_url: https://github.com/phpipam/phpipam
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://phpipam.net/documents/
+              summary_use_case: "IP address management with subnet tracking, VLAN/VRF management, DNS integration, and a REST API for network documentation and automation"
+              tag:
+                - tool
+              summary_tags: "ipam, ip address management, ipv4, ipv6, vlan, vrf, rest api, open-source, network documentation"
+              summary_personas: "Network Engineers, Network Administrators, IT Operations Teams"
 
   - name: Telemetry and observability
     subcategories:
@@ -1536,6 +1568,34 @@ categories:
               summary_personas: "DevOps Engineers, Software Developers, System Administrators, API Engineers"
               summary_release_rate: "Stable releases with periodic updates and bug fixes"
               summary_features: "Powerful query language, streaming support, module system, extensive built-in operators, cross-platform support"
+          - name: ansible-lint
+            project: full-open-source
+            description: "ansible-lint checks Ansible playbooks, roles, and collections for practices and behaviors that could potentially be improved, with auto-fix support and a GitHub Action for CI/CD integration."
+            homepage_url: https://ansible.readthedocs.io/projects/lint/
+            logo: ansible-lint.png
+            repo_url: https://github.com/ansible/ansible-lint
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://ansible.readthedocs.io/projects/lint/
+              summary_use_case: "Static analysis and linting of Ansible playbooks and roles for CI/CD pipelines with auto-fix capabilities and pre-commit hook support"
+              tag:
+                - tool
+              summary_tags: "ansible, linting, ci/cd, playbooks, validation, automation, pre-commit, static analysis"
+              summary_personas: "Network Engineers, DevOps Engineers, Automation Engineers"
+          - name: yamllint
+            project: full-open-source
+            description: "yamllint is a YAML file linter that checks for syntax errors, key repetitions, line length violations, trailing spaces, and indentation issues."
+            homepage_url: https://yamllint.readthedocs.io/
+            logo: yamllint.png
+            repo_url: https://github.com/adrienverge/yamllint
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://yamllint.readthedocs.io/
+              summary_use_case: "Validate and lint YAML configuration files in CI/CD pipelines and automation workflows to catch syntax and style errors early"
+              tag:
+                - tool
+              summary_tags: "yaml, linting, validation, ci/cd, syntax checking, automation, configuration"
+              summary_personas: "DevOps Engineers, Network Engineers, Automation Engineers"
 
   - name: Terraform Eco-System
     subcategories:
@@ -2041,6 +2101,62 @@ categories:
               summary_tags: "network automation, SSH, gNMI, Python, Ansible"
               summary_personas: "Network Engineers, DevOps Engineers, Network Automation Specialists, Software Engineers"
               summary_features: "Structured intended configuration, data models, schema validation, real-time streaming telemetry"
+          - name: pyang
+            project: full-open-source
+            description: "pyang is a Python-based YANG validator, transformer, and code generator that validates YANG models for correctness, transforms them between YANG/YIN/XSD formats, and supports plugin-based code generation."
+            homepage_url: https://github.com/mbj4668/pyang
+            logo: pyang.png
+            repo_url: https://github.com/mbj4668/pyang
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://github.com/mbj4668/pyang
+              summary_use_case: "Validate YANG data models, transform between YANG/YIN/XSD formats, and generate code from YANG schemas for network automation"
+              tag:
+                - sdk
+              summary_tags: "yang, python, validation, code generation, netconf, schema, ietf, transformation"
+              summary_personas: "Network Engineers, Automation Engineers, YANG Developers"
+          - name: libyang
+            project: full-open-source
+            description: "libyang is a C library for YANG data model parsing and validation (CESNET), bundled with yanglint — a CLI for validating YANG schemas and instance data in XML/JSON. Python bindings are available via libyang-python."
+            homepage_url: https://github.com/CESNET/libyang
+            logo: libyang.png
+            repo_url: https://github.com/CESNET/libyang
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://netopeer.libnetconf.org/doc/libyang/
+              summary_use_case: "Parse and validate YANG schemas and instance data; core dependency in sysrepo, netopeer2, and NETCONF/RESTCONF toolchains"
+              tag:
+                - sdk
+              summary_tags: "yang, c library, validation, netconf, restconf, xml, json, cesnet, yanglint"
+              summary_personas: "Network Engineers, Automation Engineers, NETCONF Developers"
+          - name: ciscoconfparse2
+            project: full-open-source
+            description: "ciscoconfparse2 is a Python library for parsing, auditing, querying, and building multi-vendor network device configurations from Arista, Cisco, Juniper, Palo Alto, and F5 devices."
+            homepage_url: https://github.com/mpenning/ciscoconfparse2
+            logo: ciscoconfparse2.png
+            repo_url: https://github.com/mpenning/ciscoconfparse2
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://ciscoconfparse2.readthedocs.io/
+              summary_use_case: "Parse and query multi-vendor network device configurations for compliance checking, diff analysis, and remediation automation"
+              tag:
+                - sdk
+              summary_tags: "config parsing, cisco, arista, juniper, palo alto, f5, multi-vendor, python, auditing, diff"
+              summary_personas: "Network Engineers, Automation Engineers, Security Analysts"
+          - name: Gufo SNMP
+            project: full-open-source
+            description: "Gufo SNMP is a Python SNMP client library with its BER parser and socket I/O implemented in Rust for performance, supporting SNMPv1/v2c/v3 in both asynchronous and synchronous modes."
+            homepage_url: https://docs.gufo.rs/products/gufo-snmp/
+            logo: gufo-snmp.png
+            repo_url: https://github.com/gufolabs/gufo_snmp
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://docs.gufo.rs/products/gufo-snmp/
+              summary_use_case: "High-performance SNMP polling for network monitoring and automation with Python, using async or sync operation modes"
+              tag:
+                - sdk
+              summary_tags: "snmp, python, async, rust, performance, v1, v2c, v3, network monitoring, polling"
+              summary_personas: "Network Engineers, DevOps Engineers, Network Monitoring Specialists"
 
   - name: GoLang Eco-System
     subcategories:
@@ -2124,6 +2240,34 @@ categories:
               summary_tags: "network automation, SSH, multi-vendor, Go"
               summary_personas: "Network Engineers, Network Automation Engineers"
               summary_features: "Multi-vendor support, simplified SSH connections, configuration management"
+          - name: gosnmp
+            project: full-open-source
+            description: "gosnmp is a pure-Go SNMP client library supporting SNMPv1/v2c/v3 operations including Get, GetBulk, Walk, Set, trap handling, and listening over IPv4 and IPv6."
+            homepage_url: https://github.com/gosnmp/gosnmp
+            logo: gosnmp.png
+            repo_url: https://github.com/gosnmp/gosnmp
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://pkg.go.dev/github.com/gosnmp/gosnmp
+              summary_use_case: "SNMP data collection and device management in Go-based network automation and monitoring tools"
+              tag:
+                - sdk
+              summary_tags: "snmp, go, golang, v1, v2c, v3, network monitoring, snmpwalk, traps, ipv6"
+              summary_personas: "Network Engineers, Go Developers, Network Monitoring Specialists"
+          - name: gnmi (OpenConfig)
+            project: full-open-source
+            description: "openconfig/gnmi is the official Go reference implementation of the gNMI protocol, providing a client library, CLI tool (gnmi_cli), and caching telemetry collector maintained by the OpenConfig working group."
+            homepage_url: https://github.com/openconfig/gnmi
+            logo: openconfig-gnmi.png
+            repo_url: https://github.com/openconfig/gnmi
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://pkg.go.dev/github.com/openconfig/gnmi
+              summary_use_case: "Reference gNMI client library and CLI for network telemetry collection and device configuration in Go-based automation"
+              tag:
+                - sdk
+              summary_tags: "gnmi, grpc, go, golang, network telemetry, openconfig, streaming, reference implementation"
+              summary_personas: "Network Engineers, Go Developers, Network Automation Specialists"
 
   - name: Reporting & Insights
     subcategories:
@@ -2166,3 +2310,36 @@ categories:
               summary_integration: "Nautobot"
               summary_personas: "Network Engineers, DevOps Engineers, IT Leadership, CIO, CISO, CFO, CTO"
               summary_release_rate: "Regularly updated"
+
+  - name: AI Ecosystem
+    subcategories:
+      - name: MCP Servers
+        items:
+          - name: netbox-mcp-server
+            project: full-open-source
+            description: "netbox-mcp-server is a read-only Model Context Protocol (MCP) server for NetBox published by NetBoxLabs, enabling LLM clients to query NetBox network data through natural language."
+            homepage_url: https://github.com/netboxlabs/netbox-mcp-server
+            logo: netbox-mcp-server.png
+            repo_url: https://github.com/netboxlabs/netbox-mcp-server
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://github.com/netboxlabs/netbox-mcp-server
+              summary_use_case: "Connect LLM-powered AI agents to NetBox network data via the Model Context Protocol for natural language network queries and automation"
+              tag:
+                - tool
+              summary_tags: "mcp, llm, ai, netbox, network source of truth, natural language, model context protocol"
+              summary_personas: "Network Engineers, DevOps Engineers, AI/ML Engineers"
+          - name: MCPyATS
+            project: full-open-source
+            description: "MCPyATS is a Python framework combining the Model Context Protocol (MCP), LangGraph, and Cisco pyATS for natural-language driven network task automation using an agentic AI architecture."
+            homepage_url: https://github.com/automateyournetwork/MCPyATS
+            logo: mcpyats.png
+            repo_url: https://github.com/automateyournetwork/MCPyATS
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://github.com/automateyournetwork/MCPyATS
+              summary_use_case: "Natural-language driven network automation combining LangGraph AI agents with Cisco pyATS network testing and MCP tool servers"
+              tag:
+                - tool
+              summary_tags: "mcp, llm, ai, pyats, cisco, natural language, agentic, langgraph, network automation"
+              summary_personas: "Network Engineers, AI/ML Engineers, Network Automation Specialists"

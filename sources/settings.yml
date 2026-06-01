@@ -148,6 +148,7 @@ groups:
       - Python Eco-System
       - GoLang Eco-System
       - Reporting & Insights
+      - AI Ecosystem
       
   # TODO: make this happen so we can make some groups and be cool like the CNCF landscape.
   # - name: Open Source only

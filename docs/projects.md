@@ -3,6 +3,7 @@
 | **project_name** | **maturity** | **accepted_date** | **sandbox_date** | **incubating_date** | **graduated_date** | **archived_date** | **num_security_audits** | **last_security_audit_date** |
 | :--------------- | :----------: | :---------------: | :--------------: | :-----------------: | :----------------: | :---------------: | :---------------------: | :--------------------------: |
 [ansible](https://www.ansible.com) | full-open-source |  |  |  |  |  | 0 |  |
+[ansible-lint](https://ansible.readthedocs.io/projects/lint/) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [anta](https://anta.arista.com/stable/) | full-open-source |  |  |  |  |  | 0 |  |
 [apache airflow](https://airflow.apache.org) | full-open-source |  |  |  |  |  | 0 |  |
 [atlantis](https://www.runatlantis.io) | full-open-source |  |  |  |  |  | 0 |  |
@@ -12,6 +13,7 @@
 [batfish](https://www.batfish.org/) | full-open-source |  |  |  |  |  | 0 |  |
 [bbmp2kafka](https://github.com/cloudflare/bbmp2kafka) | full-open-source |  |  |  |  |  | 0 |  |
 [cisco modeling labs](https://www.cisco.com/c/en/us/products/cloud-systems-management/modeling-labs/index.html) | commercial-only |  |  |  |  |  | 0 |  |
+[ciscoconfparse2](https://github.com/mpenning/ciscoconfparse2) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [containerlab](https://containerlab.srlinux.dev) | full-open-source |  |  |  |  |  | 0 |  |
 [crosswork nso](https://www.cisco.com/c/en/us/products/cloud-systems-management/network-services-orchestrator/index.html) | commercial-with-trial |  |  |  |  |  | 0 |  |
 [dagster](https://dagster.io/) | full-open-source |  |  |  |  |  | 0 |  |
@@ -23,12 +25,15 @@
 [eve-ng](https://www.eve-ng.net) | freemium |  |  |  |  |  | 0 |  |
 [forward networks](https://forwardnetworks.com) | enterprise |  |  |  |  |  | 0 |  |
 [gluware](https://www.gluware.com/) | enterprise |  |  |  |  |  | 0 |  |
+[gnmi (openconfig)](https://github.com/openconfig/gnmi) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [gnmic](https://gnmic.openconfig.net/) | full-open-source |  |  |  |  |  | 0 |  |
 [gnmic](https://gnmic.openconfig.net/) | full-open-source |  |  |  |  |  | 0 |  |
 [gns3](https://www.gns3.com) | full-open-source |  |  |  |  |  | 0 |  |
 [gobmp](https://github.com/sbezverk/gobmp) | full-open-source |  |  |  |  |  | 0 |  |
 [gornir](https://github.com/nornir-automation/gornir) | full-open-source |  |  |  |  |  | 0 |  |
+[gosnmp](https://github.com/gosnmp/gosnmp) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [grafana](https://grafana.com/) | hybrid |  |  |  |  |  | 0 |  |
+[gufo snmp](https://docs.gufo.rs/products/gufo-snmp/) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [hierarchical configuration](https://hier-config.readthedocs.io/en/latest/) | full-open-source |  |  |  |  |  | 0 |  |
 [ibm concert workflows (previously pliant)](https://www.ibm.com/products/concert/workflows-for-infrastructure-automation) | saas |  |  |  |  |  | 0 |  |
 [ibm sevone](https://www.ibm.com/products/sevone) | enterprise |  |  |  |  |  | 0 |  |
@@ -44,7 +49,9 @@
 [kentik](https://www.kentik.com/) | saas |  |  |  |  |  | 0 |  |
 [knocknoc](https://knocknoc.io) | free-restrictive |  |  |  |  |  | 0 |  |
 [librenms](https://www.librenms.org) | full-open-source |  |  |  |  |  | 0 |  |
+[libyang](https://github.com/CESNET/libyang) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [mage.ai](https://www.mage.ai/) | full-open-source |  |  |  |  |  | 0 |  |
+[mcpyats](https://github.com/automateyournetwork/MCPyATS) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [napalm (network automation and programmability abstraction layer with multivendor support)](https://napalm.readthedocs.io) | full-open-source |  |  |  |  |  | 0 |  |
 [narrowin lightweight network explorer](https://demo.narrowin.ch) | enterprise |  |  |  |  |  | 0 |  |
 [narrowin lightweight network explorer](https://demo.narrowin.ch) | enterprise |  |  |  |  |  | 0 |  |
@@ -53,6 +60,7 @@
 [ncclient](https://ncclient.readthedocs.io/en/latest/) | full-open-source |  |  |  |  |  | 0 |  |
 [ncdiff](https://diffsync.readthedocs.io/en/latest/index.html) | full-open-source |  |  |  |  |  | 0 |  |
 [netbox community](https://netboxlabs.com) | full-open-source | 2024-05-14 | 2024-05-14 |  |  |  | 0 |  |
+[netbox-mcp-server](https://github.com/netboxlabs/netbox-mcp-server) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [netbrain](https://www.netbraintech.com/) | enterprise |  |  |  |  |  | 0 |  |
 [netdisco](http://netdisco.org) | full-open-source |  |  |  |  |  | 0 |  |
 [netlab](https://netlab.tools/) | full-open-source |  |  |  |  |  | 0 |  |
@@ -74,12 +82,15 @@
 [open terraforming framework (otf)](https://docs.otf.ninja) | full-open-source |  |  |  |  |  | 0 |  |
 [opentofu](https://opentofu.org) | full-open-source |  |  |  |  |  | 0 |  |
 [orb community](https://orb.community/) | full-open-source |  |  |  |  |  | 0 |  |
+[oxidized](https://github.com/ytti/oxidized) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [peering manager](https://peering-manager.net/) | full-open-source |  |  |  |  |  | 0 |  |
+[phpipam](https://phpipam.net/) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [prefect](https://prefect.io/) | hybrid |  |  |  |  |  | 0 |  |
 [prometheus](https://prometheus.io/) | full-open-source |  |  |  |  |  | 0 |  |
 [proxylity udp gateway](https://www.proxylity.com/) | saas |  |  |  |  |  | 0 |  |
 [pulumi](https://www.pulumi.com) | hybrid |  |  |  |  |  | 0 |  |
 [puppet enterprise](https://puppet.com/products/puppet-enterprise/) | enterprise |  |  |  |  |  | 0 |  |
+[pyang](https://github.com/mbj4668/pyang) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [pyangbind](https://github.com/robshakir/pyangbind) | full-open-source |  |  |  |  |  | 0 |  |
 [pyats](https://developer.cisco.com/pyats/) | closed-core |  |  |  |  |  | 0 |  |
 [pydantify](https://pydantify.github.io/pydantify/) | full-open-source |  |  |  |  |  | 0 |  |
@@ -117,6 +128,7 @@
 [windmill](https://www.windmill.dev) | hybrid |  |  |  |  |  | 0 |  |
 [workflow orchestrator](https://workfloworchestrator.org) | full-open-source |  |  |  |  |  | 0 |  |
 [xyops](https://xyops.io) | full-open-source |  |  |  |  |  | 0 |  |
+[yamllint](https://yamllint.readthedocs.io/) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [ygot](https://github.com/openconfig/ygot) | full-open-source |  |  |  |  |  | 0 |  |
 [yq](https://github.com/mikefarah/yq) | full-open-source |  |  |  |  |  | 0 |  |
 [zabbix](https://www.zabbix.com/) | full-open-source |  |  |  |  |  | 0 |  |
