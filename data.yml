@@ -2240,6 +2240,34 @@ categories:
               summary_tags: "network automation, SSH, multi-vendor, Go"
               summary_personas: "Network Engineers, Network Automation Engineers"
               summary_features: "Multi-vendor support, simplified SSH connections, configuration management"
+          - name: gosnmp
+            project: full-open-source
+            description: "gosnmp is a pure-Go SNMP client library supporting SNMPv1/v2c/v3 operations including Get, GetBulk, Walk, Set, trap handling, and listening over IPv4 and IPv6."
+            homepage_url: https://github.com/gosnmp/gosnmp
+            logo: gosnmp.png
+            repo_url: https://github.com/gosnmp/gosnmp
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://pkg.go.dev/github.com/gosnmp/gosnmp
+              summary_use_case: "SNMP data collection and device management in Go-based network automation and monitoring tools"
+              tag:
+                - sdk
+              summary_tags: "snmp, go, golang, v1, v2c, v3, network monitoring, snmpwalk, traps, ipv6"
+              summary_personas: "Network Engineers, Go Developers, Network Monitoring Specialists"
+          - name: gnmi (OpenConfig)
+            project: full-open-source
+            description: "openconfig/gnmi is the official Go reference implementation of the gNMI protocol, providing a client library, CLI tool (gnmi_cli), and caching telemetry collector maintained by the OpenConfig working group."
+            homepage_url: https://github.com/openconfig/gnmi
+            logo: openconfig-gnmi.png
+            repo_url: https://github.com/openconfig/gnmi
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://pkg.go.dev/github.com/openconfig/gnmi
+              summary_use_case: "Reference gNMI client library and CLI for network telemetry collection and device configuration in Go-based automation"
+              tag:
+                - sdk
+              summary_tags: "gnmi, grpc, go, golang, network telemetry, openconfig, streaming, reference implementation"
+              summary_personas: "Network Engineers, Go Developers, Network Automation Specialists"
 
   - name: Reporting & Insights
     subcategories:
