@@ -392,6 +392,38 @@ categories:
               other_links:
                 - name: "Day One Book - JSNAPy"
                   url: https://www.juniper.net/documentation/en_US/day-one-books/DO_JSNAPy.zip
+      - name: Config Backup
+        items:
+          - name: Oxidized
+            project: full-open-source
+            description: "Oxidized is a network device configuration backup tool supporting 90+ network operating systems, storing configurations in a Git backend with automated change notifications."
+            homepage_url: https://github.com/ytti/oxidized
+            logo: oxidized.png
+            repo_url: https://github.com/ytti/oxidized
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://github.com/ytti/oxidized/blob/master/README.md
+              summary_use_case: "Automated backup and version control of network device configurations across 90+ NOS types with Git-based change tracking and notifications"
+              tag:
+                - collector
+              summary_tags: "config backup, network devices, git, multi-vendor, rancid-replacement, versioning"
+              summary_personas: "Network Engineers, Network Operations Teams, DevOps Engineers"
+      - name: IPAM
+        items:
+          - name: phpIPAM
+            project: full-open-source
+            description: "phpIPAM is an open-source web-based IP address management (IPAM) application providing IPv4/IPv6 subnet management, VLAN and VRF tracking, DNS integration, and a REST API."
+            homepage_url: https://phpipam.net/
+            logo: phpipam.png
+            repo_url: https://github.com/phpipam/phpipam
+            extra:
+              accepted: "2026-06-01"
+              documentation_url: https://phpipam.net/documents/
+              summary_use_case: "IP address management with subnet tracking, VLAN/VRF management, DNS integration, and a REST API for network documentation and automation"
+              tag:
+                - tool
+              summary_tags: "ipam, ip address management, ipv4, ipv6, vlan, vrf, rest api, open-source, network documentation"
+              summary_personas: "Network Engineers, Network Administrators, IT Operations Teams"
 
   - name: Telemetry and observability
     subcategories:
