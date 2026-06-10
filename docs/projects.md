@@ -55,6 +55,7 @@
 [napalm (network automation and programmability abstraction layer with multivendor support)](https://napalm.readthedocs.io) | full-open-source |  |  |  |  |  | 0 |  |
 [narrowin lightweight network explorer](https://demo.narrowin.ch) | enterprise |  |  |  |  |  | 0 |  |
 [narrowin lightweight network explorer](https://demo.narrowin.ch) | enterprise |  |  |  |  |  | 0 |  |
+[nats](https://nats.io) | full-open-source | 2026-06-10 | 2026-06-10 |  |  |  | 0 |  |
 [nautobot](https://nautobot.com/) | full-open-source |  |  |  |  |  | 0 |  |
 [nautobot golden config](https://docs.nautobot.com/projects/golden-config/en/latest/) | full-open-source |  |  |  |  |  | 0 |  |
 [ncclient](https://ncclient.readthedocs.io/en/latest/) | full-open-source |  |  |  |  |  | 0 |  |
