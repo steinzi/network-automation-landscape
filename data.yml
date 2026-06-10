@@ -1608,6 +1608,20 @@ categories:
                 - tool
               summary_tags: "yaml, linting, validation, ci/cd, syntax checking, automation, configuration"
               summary_personas: "DevOps Engineers, Network Engineers, Automation Engineers"
+          - name: NATS
+            project: full-open-source
+            description: "NATS is a high-performance, open-source messaging system and connective technology for cloud, on-premise, edge, and IoT systems, supporting publish/subscribe, request/reply, and persistent streaming (JetStream). It is a CNCF graduated project."
+            homepage_url: https://nats.io
+            logo: nats.svg
+            repo_url: https://github.com/nats-io/nats-server
+            extra:
+              accepted: "2026-06-10"
+              documentation_url: https://docs.nats.io
+              summary_use_case: "Message bus and event streaming backbone for event-driven network automation, distributing telemetry, events, and inter-service messages across automation pipelines"
+              tag:
+                - tool
+              summary_tags: "messaging, pub/sub, streaming, jetstream, event-driven, message broker, cncf, go, distributed systems"
+              summary_personas: "Network Engineers, DevOps Engineers, Automation Engineers, Platform Engineers"
 
   - name: Terraform Eco-System
     subcategories:
