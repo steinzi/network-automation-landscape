@@ -2170,6 +2170,21 @@ categories:
               summary_tags: "snmp, python, async, rust, performance, v1, v2c, v3, network monitoring, polling"
               summary_personas: "Network Engineers, DevOps Engineers, Network Monitoring Specialists"
 
+          - name: wingpy
+            project: full-open-source
+            description: Wingpy is a Python library that unifies and simplifies REST access to Cisco network platforms and sources of truth.
+            homepage_url: https://wingpy.net
+            logo: wingpy.svg
+            repo_url: https://github.com/wingmendk/wingpy
+            extra:
+              documentation_url: https://wingpy.net
+              summary_use_case: "Network controller and management platform API operations, multi-platform support"
+              tag: 
+                - sdk
+              summary_tags: "network automation, API, REST, Cisco, Python"
+              summary_personas: "Network Engineers, Network Automation Engineers"
+              summary_features: "Multi-platforms support, simplified API operations, configuration management"
+
   - name: GoLang Eco-System
     subcategories:
       - name: Network Programmability Frameworks
