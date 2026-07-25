@@ -1622,6 +1622,18 @@ categories:
                 - tool
               summary_tags: "messaging, pub/sub, streaming, jetstream, event-driven, message broker, cncf, go, distributed systems"
               summary_personas: "Network Engineers, DevOps Engineers, Automation Engineers, Platform Engineers"
+          - name: netconan
+            project: full-open-source
+            description: "Netconan (network configuration anonymizer) anonymizes text files that contain sensitive network information."
+            homepage_url: https://github.com/intentionet/netconan
+            logo: netconan.svg
+            repo_url: https://github.com/intentionet/netconan
+            extra:
+              documentation_url: https://github.com/intentionet/netconan#netconan
+              summary_use_case: "Anonymize sensitive network text configuration"
+              tag:
+                - tool
+              summary_tags: "security, confidentiality"
 
   - name: Terraform Eco-System
     subcategories:
