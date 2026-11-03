@@ -129,6 +129,7 @@
 [torero.dev](https://torero.dev) | closed-core |  |  |  |  |  | 0 |  |
 [ttp](https://github.com/dmulyalin/ttp) | full-open-source |  |  |  |  |  | 0 |  |
 [windmill](https://www.windmill.dev) | hybrid |  |  |  |  |  | 0 |  |
+[wingpy](https://wingpy.net) | full-open-source |  |  |  |  |  | 0 |  |
 [workflow orchestrator](https://workfloworchestrator.org) | full-open-source |  |  |  |  |  | 0 |  |
 [xyops](https://xyops.io) | full-open-source |  |  |  |  |  | 0 |  |
 [yamllint](https://yamllint.readthedocs.io/) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
