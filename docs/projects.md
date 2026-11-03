@@ -63,6 +63,7 @@
 [netbox community](https://netboxlabs.com) | full-open-source | 2024-05-14 | 2024-05-14 |  |  |  | 0 |  |
 [netbox-mcp-server](https://github.com/netboxlabs/netbox-mcp-server) | full-open-source | 2026-06-01 | 2026-06-01 |  |  |  | 0 |  |
 [netbrain](https://www.netbraintech.com/) | enterprise |  |  |  |  |  | 0 |  |
+[netconan](https://github.com/intentionet/netconan) | full-open-source |  |  |  |  |  | 0 |  |
 [netdisco](http://netdisco.org) | full-open-source |  |  |  |  |  | 0 |  |
 [netlab](https://netlab.tools/) | full-open-source |  |  |  |  |  | 0 |  |
 [netmiko](https://github.com/ktbyers/netmiko) | full-open-source |  |  |  |  |  | 0 |  |
